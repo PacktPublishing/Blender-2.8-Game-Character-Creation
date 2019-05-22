@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.770 --> 00:07.760
+Before we create the arm bones I think I'd like to take these arms and rotate them up so they're in
+
+00:07.760 --> 00:09.010
+a t pose.
+
+00:09.140 --> 00:15.110
+When we take the character into unity it's going to look for a t pose for the character and I think
+
+00:15.110 --> 00:18.030
+we need to do that now before we go any further.
+
+00:18.110 --> 00:26.600
+So I'm going to select the character and I will tab and edit mode and I think what I need to do is select
+
+00:26.660 --> 00:33.950
+just this edge right here I'll ult click it right there and I want to put the cursor at this point so
+
+00:33.950 --> 00:40.610
+that I can rotate the arms up around that point right there and I think that will also be where we put
+
+00:40.610 --> 00:47.510
+the upper arm joint as well so let's go ahead and press shift s and put the cursor to the selected then
+
+00:47.510 --> 00:57.140
+what I'll do is change my pivot point to the 3d cursor and then I want to select this whole arm and
+
+00:57.140 --> 01:04.670
+the hand go back to that front view and let's rotate this up and what I want to do is hit the R key
+
+01:04.670 --> 01:06.830
+and hold down the control button.
+
+01:06.830 --> 01:14.270
+And if you look in the upper left hand corner of the 3D view you can see I'm rotating this snapping
+
+01:14.270 --> 01:19.820
+it in increments of 5 degrees and that's just so I can do the other one in the exact same way and I
+
+01:19.820 --> 01:25.060
+think if I get the arm about right here looks like that's 70 degrees.
+
+01:25.130 --> 01:28.950
+So if I click there and I've got the arm or I want it here.
+
+01:29.060 --> 01:38.050
+So all we have to do now is come over to this one do the same thing and rotate it up 70 degrees as well.
+
+01:38.170 --> 01:40.630
+Let's go back to that front view.
+
+01:40.630 --> 01:42.540
+It's like the arm in the hand.
+
+01:42.690 --> 01:50.060
+And now let's hit R and control and let's rotate this one up 70 degrees as well.
+
+01:50.080 --> 01:50.560
+There we go.
+
+01:51.130 --> 01:55.110
+So now we've got our character in a kind of a tee pose.
+
+01:55.390 --> 02:02.720
+Now going to use that same process here to bring the cursor back over to this side cursor to selected
+
+02:02.720 --> 02:08.320
+there and I'll change the pivot point back to medium point.
+
+02:08.330 --> 02:13.440
+You can also press the period key and get this same menu as well.
+
+02:13.520 --> 02:24.300
+So I think what I'll do now is go back to the armature select it and go to edit mode and now when I
+
+02:24.300 --> 02:29.190
+create a new bone here it'll pop into the 3d cursor right there.
+
+02:29.190 --> 02:33.120
+So let's give it a trial press shift a and there it is.
+
+02:33.210 --> 02:37.240
+Now we can take this point and bring it down to the elbow.
+
+02:37.260 --> 02:41.920
+So I'll just hit G and bring it down about like this.
+
+02:41.940 --> 02:48.200
+Let's zoom in with the period key here and maybe I'll bring it about like this.
+
+02:48.200 --> 02:50.130
+So it's more horizontal.
+
+02:50.150 --> 02:55.890
+Now let's go back to the top view with the seven key and let's see where we can place this.
+
+02:55.910 --> 03:03.080
+Now we have those three edges on this character or on the arm here and that should help us place this
+
+03:03.080 --> 03:06.730
+joint but we can't see the edges currently.
+
+03:06.770 --> 03:11.300
+So what we need to do is tap back into object mode and select the character.
+
+03:11.450 --> 03:18.860
+And if we go over here to viewport display under our object tab we can come down here and check wireframe
+
+03:19.010 --> 03:22.030
+and I'll also choose all edges here.
+
+03:22.040 --> 03:28.790
+So now when we go back to the armature tab back into edit mode we can see these edges and we can place
+
+03:28.820 --> 03:35.810
+our joints more precisely right on this edge right on that edge that will be that elbow.
+
+03:35.810 --> 03:36.050
+All right.
+
+03:36.050 --> 03:44.350
+So now that I've got this I'm going to hit e and we'll extend this on down to here and then we can hit
+
+03:44.680 --> 03:53.380
+B and extend this out for the hand and we go and then we also need to create the bones for the hand
+
+03:53.380 --> 03:54.310
+here.
+
+03:54.310 --> 03:56.410
+And this is kind of a strange hand.
+
+03:56.410 --> 03:59.200
+It's really not much like anything else we might create.
+
+03:59.200 --> 04:03.190
+So we're gonna have to kind of wing it here as to how we should do this.
+
+04:03.210 --> 04:11.290
+I think what I'm to do is just take this point here and extrude it up maybe one two three times so let's
+
+04:11.290 --> 04:20.160
+try that I'll hit e up to hear it again to here and again to here and let's see how that works.
+
+04:20.170 --> 04:23.460
+Well it's way off axis on our hand and that's fine.
+
+04:23.470 --> 04:25.860
+We need to do some work here.
+
+04:26.020 --> 04:28.780
+So let me grab this one and move it.
+
+04:28.810 --> 04:35.970
+I'm going to try and move them along this edge here move it like this this like that.
+
+04:35.990 --> 04:36.520
+Here we go.
+
+04:36.550 --> 04:39.740
+That's a little bit more in line with the hand.
+
+04:39.820 --> 04:41.590
+Let's do that again.
+
+04:41.590 --> 04:48.760
+I'll select that tip and kind of arrange the view so it's kind of at the side of the hand here.
+
+04:48.760 --> 04:56.860
+Again it e there and I'm just trying to place them on these edges here like that.
+
+04:56.890 --> 05:04.770
+And then let's go down on the bottom here try and line up the view and we'll try and place these along
+
+05:04.770 --> 05:08.930
+that edge as well and we go.
+
+05:08.930 --> 05:09.290
+All right.
+
+05:09.320 --> 05:14.330
+So we have those before we mirror these over to the other side.
+
+05:14.360 --> 05:17.040
+We should do the legs as well.
+
+05:17.090 --> 05:25.010
+So for these I think we also want to place that route joint or that upper leg joint right in the center
+
+05:25.010 --> 05:26.410
+of this cylinder.
+
+05:26.450 --> 05:32.870
+So what we need to do once again is tab back into object mode and select the character tab into edit
+
+05:32.870 --> 05:33.320
+mode.
+
+05:33.350 --> 05:43.220
+Let's go to wireframe and let's see if we can just select these two points right here in here.
+
+05:43.250 --> 05:44.260
+Let's try this.
+
+05:44.270 --> 05:48.290
+And I think if we place the cursor right here we'll be pretty good.
+
+05:48.470 --> 05:52.600
+So let's press shift s and cursor to selected.
+
+05:52.700 --> 05:53.930
+All right.
+
+05:53.930 --> 06:02.230
+Now let's go back here select that armature if the tab key to go back into edit mode.
+
+06:02.240 --> 06:07.710
+And now here in the front view again I'm going to create the bone at that cursor.
+
+06:07.730 --> 06:09.390
+So shift a.
+
+06:09.650 --> 06:14.090
+And now let's take this guy and just move it down to the knee.
+
+06:14.150 --> 06:20.630
+I think what I'll do is I'll try and hit G and press control and it will kind of snap down here and
+
+06:20.630 --> 06:22.700
+hopefully it'll be straight up and down.
+
+06:22.700 --> 06:22.950
+Yeah.
+
+06:22.970 --> 06:25.220
+That looks pretty vertical there.
+
+06:25.220 --> 06:30.680
+So I'll bring that up to the knee joint and then let's go to the side view.
+
+06:30.860 --> 06:37.370
+And up here with the arm joint we kind of automatically created a bend here because the arm was already
+
+06:37.370 --> 06:46.400
+bent down here at the leg the leg is just purely straight but we're gonna need a bend here in this one
+
+06:46.760 --> 06:52.790
+especially because I'm going to put inverse Kana Maddox or an i k chain on the leg.
+
+06:52.790 --> 06:58.310
+I won't do it on the arms because I think it'll be better to use forward Kenny Maddox but I want to
+
+06:58.310 --> 07:07.160
+use Ike here on the legs so I need a slight bend in the leg so blender knows in its calculations which
+
+07:07.160 --> 07:11.710
+way the leg is supposed to bend so I'll pull this forward just a bit.
+
+07:11.720 --> 07:18.170
+Kind of like this and then I'll hit e and let's bring this joint down to where the ankle might be right
+
+07:18.170 --> 07:26.690
+here and then I'll hit you again bring that down to where the toe might bend and then I'll hit e and
+
+07:26.690 --> 07:29.560
+drag this straight out like that.
+
+07:29.630 --> 07:31.070
+There we go.
+
+07:31.070 --> 07:34.180
+So now we need to go through and name all of these.
+
+07:34.250 --> 07:36.860
+So let's begin up here.
+
+07:36.860 --> 07:45.510
+This one I'll call up arm dot L and this one will be low arm.
+
+07:45.560 --> 07:50.180
+El this one could be just hand.
+
+07:50.320 --> 07:59.600
+EL and these I believe what I'm going to do is call these fingers on the top and thumb on the bottom.
+
+07:59.600 --> 08:05.890
+Just a way to differentiate them so I'm going to call this finger one dot.
+
+08:05.900 --> 08:13.130
+El bat and this one we can call finger to dial
+
+08:16.490 --> 08:18.020
+and fingers three dot l
+
+08:21.080 --> 08:22.030
+down here.
+
+08:22.100 --> 08:25.680
+We're gonna call this thumb one detail
+
+08:29.020 --> 08:31.480
+thumb to dot L
+
+08:34.110 --> 08:38.790
+and thumb three and we go all right.
+
+08:38.810 --> 08:43.660
+So we have those done down here with the leg.
+
+08:43.970 --> 09:00.730
+Let's call this up leg dot l this one would be low leg l this one would be foot dot L and then toe dot
+
+09:00.790 --> 09:04.650
+L right here and we go.
+
+09:04.650 --> 09:12.150
+Okay so now we have these pretty much set up that is really all of the bones that we're gonna need for
+
+09:12.150 --> 09:14.280
+this very simple character.
+
+09:14.280 --> 09:21.240
+So in the next video what let's do is let's mirror these over to the other side and let's parent the
+
+09:21.240 --> 09:23.700
+arm and the legs to the main torso.

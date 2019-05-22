@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.570 --> 00:06.960
+Before I begin the run animation I'd like to get rid of all these key frames and the reason why is I
+
+00:06.960 --> 00:12.350
+like to work between one and whatever I like to have the beginning of my animation or my animation that
+
+00:12.380 --> 00:14.510
+cycle begin at frame one.
+
+00:14.570 --> 00:16.590
+It's just easier for me to think about.
+
+00:16.710 --> 00:21.390
+So I want to preserve this so I can export this out to unity.
+
+00:21.390 --> 00:29.160
+I've been saving versions as we go we're here on version 42 now but I also want to be able to come back
+
+00:29.160 --> 00:30.840
+to it easily and find it.
+
+00:30.840 --> 00:32.020
+So what am I to do.
+
+00:32.100 --> 00:33.790
+So I'm going to make a copy of this.
+
+00:33.780 --> 00:40.770
+I'm gonna go to a file save copy and then I'm going to go to my exports folder here and I'll we'll call
+
+00:40.770 --> 00:50.060
+this player underscore or idle we'll just call it that so I know that when I'm ready to export the FBI
+
+00:50.060 --> 00:56.650
+works for the idle animation out to unity I can come back to this blend file and get it done.
+
+00:56.700 --> 01:04.740
+So I'm just going to choose save me and since I've chosen to make a copy I'm still here in my original
+
+01:04.800 --> 01:06.960
+number 42 blend file here.
+
+01:06.960 --> 01:13.240
+So if I would have chosen save as I would have reverted to that new file.
+
+01:13.390 --> 01:18.000
+But as it is I'm still here in the same file now that we've done that.
+
+01:18.210 --> 01:22.300
+I think what I want to do is pretty much delete all of this.
+
+01:22.740 --> 01:26.120
+So once again be sure you're saving inversions.
+
+01:26.130 --> 01:32.280
+And be sure you save a copy of what you've just done here because we're going to need that to export
+
+01:32.280 --> 01:33.430
+to unity.
+
+01:33.450 --> 01:33.780
+All right.
+
+01:33.810 --> 01:41.730
+So what I'm to do down here is I'm just gonna hit the a key and I'll hit delete and delete key frames.
+
+01:41.760 --> 01:43.860
+Now if you want to keep anything from this.
+
+01:43.860 --> 01:50.910
+Like if you want to keep say the eye blinks or something like that be sure and do that.
+
+01:50.910 --> 01:53.510
+Go ahead and only select the other key frames.
+
+01:53.520 --> 01:59.840
+But for me I'm not going to need an eye blink for the run we're gonna do a six frame run.
+
+01:59.910 --> 02:02.580
+If he blinks it's kind of look very strange.
+
+02:02.580 --> 02:09.090
+So I don't need a blink for the run animation so I'm just going to select everything it delete and delete
+
+02:09.120 --> 02:09.900
+key frames.
+
+02:10.050 --> 02:15.050
+And then we go up here in the grease pencil.
+
+02:15.120 --> 02:18.060
+I think I'm going to keep all of these for now.
+
+02:18.060 --> 02:20.940
+So let's come up here and select the rig.
+
+02:20.940 --> 02:24.320
+Let's go to pose mode.
+
+02:24.420 --> 02:26.980
+I'm going to go ahead and hit the A key just like everything.
+
+02:27.030 --> 02:35.640
+And then I want to press Alt are all G and that will get him back to his original pose there.
+
+02:35.640 --> 02:41.280
+So as I said the run cycle is only going to be about six or seven frames so we could probably change
+
+02:41.310 --> 02:46.230
+our playback range from hundred and forty three frames.
+
+02:46.230 --> 02:49.700
+Let's just choose 13 frames.
+
+02:49.770 --> 02:59.610
+Let's do that and let's go ahead and get him blocked out in 3D before we begin changing the 2D face.
+
+02:59.610 --> 03:05.850
+I think for the 2D face I'm going to turn the eyebrows down and have them be kind of angry and determined
+
+03:06.120 --> 03:06.980
+while he runs.
+
+03:07.230 --> 03:10.400
+But for now this is fine.
+
+03:10.470 --> 03:18.630
+So I think what I'll do is begin say on the right side here and what I'm gonna do is pose him for that
+
+03:18.810 --> 03:27.120
+first frame of the run cycle and to do that I think first of all this leg here should probably come
+
+03:27.180 --> 03:28.550
+out a bit.
+
+03:28.980 --> 03:36.840
+Maybe I'll even bring this down some let me bring this down like this kind of a squat there and then
+
+03:36.930 --> 03:46.310
+this leg the left leg should probably come out and I'll turn it up like this it kind of stretches out
+
+03:46.310 --> 03:57.400
+like that something like that and the other leg or the right leg should probably rotate like this and
+
+03:57.400 --> 04:03.800
+I'll bring it up and back kind of like this again.
+
+04:03.840 --> 04:05.680
+Let's see how that's working.
+
+04:05.710 --> 04:16.890
+Okay I'll take this hips or root bone and turn it forward a bit we could turn any one of these forward
+
+04:16.890 --> 04:17.180
+a bit.
+
+04:17.190 --> 04:20.190
+I'll hit arm and turn that over to bet.
+
+04:20.490 --> 04:24.010
+The head should probably look up like that.
+
+04:24.090 --> 04:29.810
+So you can see where he's going and then we will adjust the arms.
+
+04:29.810 --> 04:37.640
+Now the arms are always going to be the opposite of the legs so if we're dealing with this arm it's
+
+04:37.640 --> 04:40.430
+gonna be the opposite of the same leg.
+
+04:40.430 --> 04:49.020
+So I'll bring that down and since this leg is forward then that means this arm should be back right.
+
+04:49.120 --> 04:57.730
+Press Control three to spin around to the other side and let's select the upper arm.
+
+04:57.730 --> 05:06.210
+Oh let me go to the front view here instead and bring this down and then maybe I'll bring it forward
+
+05:06.210 --> 05:07.220
+like this.
+
+05:07.230 --> 05:10.030
+There we go let's try this
+
+05:17.870 --> 05:18.440
+okay.
+
+05:18.460 --> 05:22.320
+So we've got him kind of in that beginning pose.
+
+05:22.330 --> 05:23.410
+That's good.
+
+05:23.410 --> 05:29.950
+Now just like we did before that beginning pose is gonna have to be at the very end as well.
+
+05:29.950 --> 05:36.310
+So with all of these selected I'll go ahead and hit a and I'll press shift D and let's bring this all
+
+05:36.310 --> 05:37.600
+the way down to twelve here.
+
+05:37.630 --> 05:38.700
+Let's do that.
+
+05:38.700 --> 05:41.820
+Let me change that endpoint to twelve.
+
+05:42.020 --> 05:43.390
+There we go.
+
+05:43.390 --> 05:51.300
+Now we need to go to frame seven and we basically need to do the opposite of what we have here.
+
+05:51.340 --> 05:57.570
+So if this leg is out here then this leg needs to be out there.
+
+05:57.760 --> 06:05.050
+Now we can try to use the paste and flip feature of blender but with a character like this it might
+
+06:05.050 --> 06:07.520
+not work real well but we can try it.
+
+06:07.930 --> 06:17.740
+Let me select this and this and we moved this and this let's give this a try and see.
+
+06:17.820 --> 06:26.210
+So if we copy these if we went to key copy key frames back flip back on frame one.
+
+06:26.220 --> 06:27.810
+Let's let's do that.
+
+06:27.810 --> 06:29.660
+Let's go to Key.
+
+06:29.670 --> 06:30.050
+Copy.
+
+06:30.050 --> 06:38.870
+Key frames then if we go to frame 7 we could say key paste flipped key frames.
+
+06:38.910 --> 06:46.960
+And my guess is this isn't going to work for this character and my guess is correct.
+
+06:47.540 --> 06:50.680
+So yeah that's not going to work here.
+
+06:50.690 --> 06:53.420
+So we need to do that manually.
+
+06:53.420 --> 06:55.590
+So let's go ahead and give it a try.
+
+06:55.610 --> 06:56.800
+It isn't that hard.
+
+06:56.840 --> 07:05.900
+I'm going to take this but here and move it forward rotate it and kind of get it up where this foot
+
+07:05.900 --> 07:07.190
+is like this.
+
+07:12.170 --> 07:20.460
+And then I'm going to take this foot and move it back rotate it and put it back about where that one
+
+07:20.460 --> 07:23.740
+was as well about like that.
+
+07:23.880 --> 07:24.390
+Let's see.
+
+07:24.410 --> 07:25.980
+I'm going to click over here.
+
+07:26.920 --> 07:28.700
+And then click back.
+
+07:28.780 --> 07:33.300
+Yeah you can see a little bit of movement there but not bad.
+
+07:33.300 --> 07:35.670
+So maybe this could come up a bit.
+
+07:37.790 --> 07:41.870
+And maybe this could come down a bit like this.
+
+07:41.870 --> 07:49.190
+So I'm just clicking on frame one with the right mouse button and then on frame 7 just to see how they
+
+07:49.190 --> 07:50.280
+match up.
+
+07:50.450 --> 07:52.450
+All right that looks pretty good.
+
+07:52.460 --> 07:59.450
+Let's take on frame 7 let's take the right arm and I'm going to hit the arc key and spin it up like
+
+07:59.450 --> 08:00.160
+this.
+
+08:01.330 --> 08:04.190
+And we go and then I want to take this one
+
+08:07.100 --> 08:11.750
+and spin it back like this and let's see how we did.
+
+08:11.860 --> 08:15.390
+One frame seven.
+
+08:15.450 --> 08:16.140
+Not bad.
+
+08:16.140 --> 08:19.340
+Let me rotate this down just a hair like this.
+
+08:19.340 --> 08:20.020
+Yeah.
+
+08:20.160 --> 08:28.430
+So as I click between 1 and 7 you can see there's minimal movement here yeah.
+
+08:28.580 --> 08:29.440
+That's good.
+
+08:29.450 --> 08:36.750
+And then on frame twelve we have that original key frame original key set.
+
+08:36.830 --> 08:41.200
+OK so now if we hit play this is what we get.
+
+08:41.540 --> 08:41.810
+Right.
+
+08:41.810 --> 08:48.230
+A very basic run but I think we can do a little bit more than this so let's give it a try.
+
+08:48.230 --> 08:55.260
+Let's go back to frame two here and on frame two he kind of needs to come down on the ground.
+
+08:55.260 --> 08:58.570
+He needs to kind of hit the ground flat footed.
+
+08:58.710 --> 09:01.860
+The weight of the character needs to come down.
+
+09:02.010 --> 09:04.680
+Go to the side view.
+
+09:04.680 --> 09:11.720
+And so as I said the weight of the character should come down the foot here.
+
+09:11.740 --> 09:18.420
+Let's press Alt are and then let's press all G and get that back on the ground and then let's slide
+
+09:18.420 --> 09:19.670
+that forward right there.
+
+09:19.670 --> 09:28.440
+So you see how he's kind of bringing that foot down flat on the ground if we go back to frame one.
+
+09:28.560 --> 09:33.160
+This is kind of what we get here all right.
+
+09:33.250 --> 09:40.780
+And then this foot here isn't too bad but I think it should come forward maybe even.
+
+09:40.790 --> 09:44.990
+Uh we could kind of go like that.
+
+09:44.990 --> 09:45.680
+Let's try that.
+
+09:45.680 --> 09:47.710
+Let's go back to frame one.
+
+09:47.840 --> 09:54.950
+So you see how they're kind of moving closer together the two feet or moving closer together as he comes
+
+09:55.340 --> 09:59.430
+down and puts the weight of the body on the foot here.
+
+09:59.450 --> 10:06.580
+That now the arms should probably swing in just a bit.
+
+10:06.610 --> 10:11.560
+So from here we should probably have him bring the arm down like this.
+
+10:11.680 --> 10:17.590
+And on the other side control three maybe he should bring the arms in just a bit like this.
+
+10:17.590 --> 10:17.850
+All right.
+
+10:17.860 --> 10:22.420
+So let's see how that works like that.
+
+10:22.440 --> 10:22.730
+Yeah.
+
+10:22.740 --> 10:29.070
+He kind of hits the ground now he might be able to come down a little bit more probably not too much
+
+10:32.950 --> 10:36.420
+but this is really what they call the down position.
+
+10:36.430 --> 10:43.510
+He should be at his lowest point here on frame to go.
+
+10:43.760 --> 10:48.170
+All right let's go quickly do that over here on frame eight.
+
+10:48.290 --> 10:51.110
+We need to do the same thing.
+
+10:51.110 --> 10:55.540
+So here we have him with that foot here.
+
+10:55.550 --> 10:56.390
+All right.
+
+10:56.390 --> 11:01.630
+We need to hear we need to take that same foot and put it flat on the ground.
+
+11:01.640 --> 11:03.580
+All are all G.
+
+11:03.800 --> 11:09.920
+Slide it forward a bit and then we'll take this foot and move it forward just a little bit like that
+
+11:11.340 --> 11:14.070
+we'll do the same things with the arms.
+
+11:14.130 --> 11:21.670
+Them down a bit control our control three excuse me and move this in a bit.
+
+11:21.670 --> 11:23.100
+Let's see how that works.
+
+11:24.280 --> 11:24.750
+OK.
+
+11:24.770 --> 11:30.910
+Yeah so we've got frame to frame eight.
+
+11:30.930 --> 11:33.160
+Oh we need to bring this down.
+
+11:34.010 --> 11:35.430
+You're like this.
+
+11:35.430 --> 11:40.670
+Bring that down frame eight frame to eight.
+
+11:40.680 --> 11:43.210
+That's a little bit too far.
+
+11:43.430 --> 11:43.850
+All right.
+
+11:43.860 --> 11:53.660
+It looks like what I did is the the down position of the hips was Kerry carried over into my frame seven
+
+11:53.670 --> 11:54.240
+key frame.
+
+11:54.240 --> 12:01.590
+So what we need to do is we need to take the key frames I me press Alt A Down here we need to select
+
+12:01.590 --> 12:10.070
+the key frame for the hips here for the route right here and duplicate that over to here.
+
+12:10.080 --> 12:14.810
+So you can see here it is up in here he's down.
+
+12:14.810 --> 12:17.810
+He needs to be the he needs to be at the same place here.
+
+12:17.810 --> 12:23.860
+So let's take that one key frame and flip and press shift D and move that over to here.
+
+12:23.870 --> 12:24.410
+There we go.
+
+12:24.440 --> 12:29.980
+So now 1 and 7 is the same only opposite.
+
+12:30.060 --> 12:31.160
+Right.
+
+12:31.190 --> 12:32.570
+Like that.
+
+12:32.570 --> 12:40.020
+And so now two and eight should be the same only opposite as well.
+
+12:40.040 --> 12:40.400
+All right.
+
+12:40.430 --> 12:44.670
+So if we hit the spacebar that's what we have so far.
+
+12:44.790 --> 12:51.360
+He's pretty good and bad but we can do a little bit more so in the next video we will continue working
+
+12:51.360 --> 12:52.650
+on the run animation.

@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.570 --> 00:07.380
+Well now that we have the character modeled we can turn our attention to UV mapping now and UV mapping
+
+00:07.380 --> 00:14.460
+is just the process of creating a two dimensional representation of your 3D objects.
+
+00:14.460 --> 00:20.150
+This is needed especially if you're going to be taking your objects your character into a game engine.
+
+00:20.160 --> 00:27.540
+Because at this point in time the predominant way to apply textures and materials to game objects is
+
+00:27.690 --> 00:30.300
+with 2D images with textures.
+
+00:30.300 --> 00:34.400
+And to apply those textures we're going to have to create a uv map.
+
+00:34.410 --> 00:39.960
+So what I'm going to do is go through each of the objects and create a u v map for each one and then
+
+00:39.990 --> 00:46.800
+ultimately we're going to combine all the objects together and pack all the movie islands into one movie
+
+00:46.800 --> 00:47.920
+map.
+
+00:47.940 --> 00:54.270
+Now there's a couple of things I want to clean up first here it looks like I have the hair still over
+
+00:54.270 --> 00:56.470
+here as a cube.
+
+00:56.580 --> 00:59.310
+So what I want to do is click on that.
+
+00:59.310 --> 01:05.670
+Call it hair and I'll just take this and drag it up into the character scene collection or the character
+
+01:05.670 --> 01:06.990
+collection.
+
+01:06.990 --> 01:12.300
+We can probably turn off the reference image here we don't need to see that I don't think.
+
+01:12.300 --> 01:19.980
+And also I'll right click on this border and choose join areas and let's click here and join that back
+
+01:19.980 --> 01:20.460
+together.
+
+01:20.460 --> 01:23.650
+I don't think we need that right there anymore either.
+
+01:23.730 --> 01:30.720
+Now one thing I realized is when we were creating the hips or the belt here one thing I didn't do is
+
+01:30.990 --> 01:37.050
+make sure I had all quads or all four sided polygons over the entire object.
+
+01:37.140 --> 01:41.100
+I'm going to hit the division key here and isolate this.
+
+01:41.250 --> 01:48.390
+So if we tap into edit mode and go to face mode we can see we've got faces of four sides here.
+
+01:48.390 --> 01:51.120
+So if I select this you can see way down here.
+
+01:51.120 --> 02:00.770
+It says edges for so I've got four edges selected here but if I select this face here you can see down
+
+02:00.770 --> 02:06.380
+here edges 11 I've got 11 edges on this one face.
+
+02:06.380 --> 02:10.550
+And that's probably not a good idea especially as we're going to use a map this.
+
+02:10.610 --> 02:16.370
+So what I'm going to do is add a little bit of geometry to this to make sure that all of the polygons
+
+02:16.400 --> 02:19.260
+all of the faces are four sided.
+
+02:19.370 --> 02:29.840
+So it looks like what I've got here is one two three four five six seven edges along here and I just
+
+02:29.840 --> 02:37.140
+need to extend those edges all the way across the object to connect to the other side.
+
+02:37.220 --> 02:45.260
+So what I'll do is press control are and let's add a few edges up here on top and I'll just scroll the
+
+02:45.260 --> 02:54.510
+mouse wheel and until I get about seven cut and you can see way down here it says number of cuts seven
+
+02:54.530 --> 02:59.940
+so if I put that here and then click and click again.
+
+02:59.960 --> 03:02.720
+Now we've added seven edges.
+
+03:02.720 --> 03:03.000
+All right.
+
+03:03.020 --> 03:09.380
+So what we need to do now is connect these up to the existing edges on the bottom.
+
+03:09.380 --> 03:14.490
+To do that I'll switch to face mode and I just want to select this one.
+
+03:14.540 --> 03:22.330
+Face this in gone multi sided face and I'm going to delete it X faces.
+
+03:22.520 --> 03:28.940
+Now what I gonna do is allow blender to recreate that face while connecting up the new edges.
+
+03:28.940 --> 03:33.090
+So if I all click this edge here let me switch to edge mode.
+
+03:33.170 --> 03:37.480
+I'll click this edge here that selects that edge all the way around.
+
+03:37.490 --> 03:42.290
+Now there are a couple of options to fill this with faces.
+
+03:42.290 --> 03:48.560
+One thing I can do is just hit the FCC and that will fill it with one big face but that's what we already
+
+03:48.560 --> 03:49.220
+had.
+
+03:49.250 --> 03:54.730
+So I don't want that or press controls Z to undo that.
+
+03:54.770 --> 04:05.390
+Now if we come up here to the face menu I can come down here and choose Phil or alt F and that fills
+
+04:05.390 --> 04:12.440
+it with triangles it does the best it can by just filling it with triangles and that's not what I want
+
+04:12.440 --> 04:12.800
+either.
+
+04:12.800 --> 04:20.130
+So I'll press control Z or lastly we can come over here to the face menu and we can grid fill.
+
+04:20.390 --> 04:27.360
+And if we choose this it will grid fill that and attempt to make it all quads.
+
+04:27.460 --> 04:34.440
+And since I have the same number of edges on the top as on the bottom it does a pretty good job.
+
+04:34.990 --> 04:37.660
+So I'll come over here and do the same thing.
+
+04:37.660 --> 04:47.750
+Let's select that base delete it select this edge with alt click and then I'll come back up to face
+
+04:47.870 --> 04:49.200
+and grid fill.
+
+04:49.290 --> 04:50.670
+And there we go.
+
+04:50.780 --> 04:52.120
+So that's not too bad.
+
+04:52.130 --> 04:55.150
+That'll that'll probably work pretty well.
+
+04:55.190 --> 04:59.600
+And now that we're here dealing with this let's go ahead and movie map it.
+
+04:59.750 --> 05:03.910
+So I'll go over to the UVA editing tab right here.
+
+05:04.070 --> 05:07.430
+I'll hit the A key to select everything and hit the period key.
+
+05:07.540 --> 05:09.040
+And here we have it here.
+
+05:09.080 --> 05:15.470
+I need to isolate it in this view as well so I'll tab into object mode and then press that division
+
+05:15.470 --> 05:17.140
+key on the number pad.
+
+05:17.340 --> 05:19.140
+Again it didn't do it.
+
+05:19.130 --> 05:20.600
+Let me hit it.
+
+05:20.600 --> 05:21.800
+There we go.
+
+05:21.800 --> 05:27.260
+They still need to work on that but let's tab back into edit mode.
+
+05:27.260 --> 05:36.050
+And now what let's do is select edges to create the seams that will be cut so that we can split all
+
+05:36.050 --> 05:41.600
+these different faces apart and lay them flat here in the movie editor.
+
+05:41.600 --> 05:49.700
+So this right here is where we want to lay our two dimensional representation of our object flat here
+
+05:49.700 --> 05:51.470
+in this space.
+
+05:51.530 --> 05:59.120
+So I'm going to go to edge mode and I'll also click this edge and shift all click these edges and I'm
+
+05:59.120 --> 06:03.240
+just going to select these edges all the way around here.
+
+06:03.410 --> 06:10.070
+And if we press control e to bring up the edges menu then we can also do that up here as well.
+
+06:10.190 --> 06:18.620
+But I'm going to press control e and choose Mark scene and you can see that gives us a red seam here
+
+06:18.800 --> 06:20.010
+on the object.
+
+06:20.030 --> 06:26.870
+I'll go ahead and do that over here I'll press Alt and click alt shift click as well to select everything
+
+06:26.900 --> 06:34.230
+all around there and then I'll press shift and click these edges right along here as well.
+
+06:34.250 --> 06:40.330
+So this is just where we're going to cut the object so that we can lay it down flat.
+
+06:40.430 --> 06:44.220
+I'll press control e and Mark seam and there we go.
+
+06:44.240 --> 06:48.770
+There we have our seams marked and ready for UV mapping.
+
+06:48.770 --> 06:57.620
+So let's select everything with the achy oppressed you to bring up the UVA mapping menu here and let's
+
+06:57.620 --> 07:06.900
+just click unwrap look down here it says object has non uniform scale and we've seen that before we
+
+07:06.900 --> 07:08.130
+know what that means.
+
+07:08.130 --> 07:17.190
+That means if we hit the inky over here and go back to object mode this right here we have non uniform
+
+07:17.250 --> 07:18.330
+values.
+
+07:18.330 --> 07:26.510
+So once again even with UV mapping that can be a problem to solve that let's press control a and apply
+
+07:26.510 --> 07:27.930
+the scale.
+
+07:27.930 --> 07:36.630
+Now if we go back into edit mode and press you and click unwrap here let's watch what happens over here
+
+07:36.630 --> 07:43.920
+in the movie Ed. notice all the pieces are just square instead of being elongated as they are in the
+
+07:43.920 --> 07:44.710
+3D object.
+
+07:45.060 --> 07:51.110
+So let's hit you and click unwrap and yeah that looks quite a bit better.
+
+07:51.120 --> 07:56.780
+So now we've got all of these objects a little bit more the proper scale and size.
+
+07:57.030 --> 08:00.600
+We can also come over here to this unwrap panel right here.
+
+08:00.620 --> 08:09.360
+Open that up and we can switch the method of unwrapping from Angle based to conform all and see if that
+
+08:09.360 --> 08:10.920
+helps at all.
+
+08:10.920 --> 08:14.060
+But there really isn't too much of a difference here.
+
+08:14.130 --> 08:21.810
+We can also take the margin and we can change this Let's say instead of point 0 0 1 we want point 0
+
+08:21.810 --> 08:28.770
+1 right here and that moves these away from each other just a little bit.
+
+08:28.890 --> 08:35.910
+So we could do that again or we could change it to point one right here and it expands that out even
+
+08:35.910 --> 08:36.670
+further.
+
+08:36.810 --> 08:42.540
+So it doesn't really matter at this point in time because ultimately we're going to combine all of them
+
+08:42.540 --> 08:45.570
+together all of the pieces together.
+
+08:45.570 --> 08:45.840
+All right.
+
+08:45.870 --> 08:47.490
+So we have this.
+
+08:47.510 --> 08:48.330
+You've mapped.
+
+08:48.330 --> 08:55.060
+Now let's hit the division key and think about what we want to do next.
+
+08:55.230 --> 09:02.940
+Let's maybe just do this cylinder here so I'll select it hit the division key I'll tap into edit mode
+
+09:03.030 --> 09:10.440
+and this looks pretty good the way it is I'll get the key to select everything but this is still the
+
+09:10.440 --> 09:13.340
+original u v map of the cylinder.
+
+09:13.350 --> 09:15.170
+When we first created it.
+
+09:15.390 --> 09:21.450
+If we hit the end key we can see in object mode that once again the scale is non uniform.
+
+09:21.480 --> 09:23.620
+So we need to fix this.
+
+09:23.760 --> 09:32.700
+Let's press control a and let's apply the scale and then let's tab back into edit mode and then we can
+
+09:32.700 --> 09:34.830
+go about marking our seams.
+
+09:34.830 --> 09:39.860
+So let's press Alt and click this edge all shift and click.
+
+09:39.860 --> 09:45.500
+This edge and now it's press control e and Mark seem all right.
+
+09:45.500 --> 09:52.470
+So now that we have those there and let's go ahead and select everything let's press you and unwrap.
+
+09:52.690 --> 09:59.740
+There we go now we're seeing it a little bit differently however this should probably be laid out flat
+
+09:59.800 --> 10:02.260
+instead of being here in a circle.
+
+10:02.260 --> 10:08.630
+So let's maybe select an edge up in the up in the character where we can't see it.
+
+10:08.650 --> 10:16.510
+Let's select this edge let's say in press control e and Marcus seen there and what this will do is split
+
+10:16.510 --> 10:21.040
+it there so it will lay it out flat instead of in a circle.
+
+10:21.070 --> 10:27.790
+All right let's select it all again it you and unwrap and there we go you can see how it's just laid
+
+10:27.790 --> 10:32.040
+out flat now because we cut it at this edge.
+
+10:32.500 --> 10:32.890
+All right.
+
+10:32.890 --> 10:35.070
+So that looks pretty good.
+
+10:35.090 --> 10:37.310
+Let's go ahead and tap back into object mode.
+
+10:37.310 --> 10:42.740
+Hit the division key and in the next video will continue you'll be mapping the character.

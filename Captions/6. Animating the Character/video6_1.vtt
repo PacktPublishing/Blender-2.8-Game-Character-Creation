@@ -1,0 +1,481 @@
+WEBVTT
+
+00:00.680 --> 00:06.860
+There aren't too many programs that has the ability to do this but what I'd like to do is actually setup
+
+00:06.920 --> 00:14.450
+my screen here set up my interface so that I can animate the 3D body and the 2D face all in the same
+
+00:14.450 --> 00:16.630
+view all in the same interface.
+
+00:16.670 --> 00:22.670
+So since I'll be creating a 2D face I kind of want that 2D animation screen layout.
+
+00:22.700 --> 00:24.490
+Now we don't see it here.
+
+00:24.560 --> 00:31.300
+When you create a new scene you have the option of choosing to the animation here but it isn't.
+
+00:31.300 --> 00:34.720
+Up here in the tabs at least currently in this version.
+
+00:34.730 --> 00:43.560
+So what we can do is click on the plus here and change to 2D animation 2D animation right here so there
+
+00:43.560 --> 00:43.850
+we go.
+
+00:43.860 --> 00:46.230
+Then we've got our 2D animation interface.
+
+00:46.230 --> 00:52.350
+Now for me the first thing I'd like to do is get rid of this white background that to me is just too
+
+00:52.350 --> 00:53.310
+bright.
+
+00:53.310 --> 00:55.620
+So I'm going to choose theme here.
+
+00:55.740 --> 01:00.270
+So that helps that I'm also going to turn my looked back on.
+
+01:00.270 --> 01:01.380
+There we go.
+
+01:01.380 --> 01:09.330
+So this is our 2D animation screen layout and this is going to help us with some panels over here.
+
+01:09.510 --> 01:15.170
+But there's quite a bit of customization I want to do here before we actually get started.
+
+01:15.180 --> 01:20.260
+So the first thing I'd like to do is just come up here and grab this corner right here and drag over.
+
+01:20.460 --> 01:27.810
+So we get two windows here and in addition I'd like to grab this and move it up and then I want two
+
+01:27.810 --> 01:28.500
+windows here.
+
+01:28.500 --> 01:35.040
+So I want to grab this corner here and move it down like that to create a new window.
+
+01:35.100 --> 01:35.350
+All right.
+
+01:35.370 --> 01:43.590
+So this over here I'm just gonna tumble around here is going to be my 3D view where I can see the character
+
+01:43.590 --> 01:44.220
+in 3D.
+
+01:44.220 --> 01:49.050
+Now over here I want this to be my 2D view where I'm going to work on the face.
+
+01:49.290 --> 01:54.480
+But the problem is in the 2D view we usually do it through the camera.
+
+01:54.480 --> 02:01.440
+We usually have a camera that we're looking through and I had deleted the camera a long time ago.
+
+02:01.440 --> 02:03.340
+So let's create one here.
+
+02:03.510 --> 02:06.480
+The first thing I need to do is switch out of pose mode.
+
+02:06.480 --> 02:08.840
+So go from pose to object mode.
+
+02:08.850 --> 02:14.140
+And now that we're in object mode here I will go ahead and press shift a.
+
+02:14.430 --> 02:17.480
+And then bring in a camera.
+
+02:17.490 --> 02:19.580
+Now when I did that look at where it went.
+
+02:19.620 --> 02:27.510
+It went over here into the control objects collection right here and therefore we can't see it because
+
+02:27.510 --> 02:29.630
+that entire collection is hidden.
+
+02:29.700 --> 02:35.190
+So I'm just going to take that camera and drag it up into the main scene collection here and then we
+
+02:35.190 --> 02:35.410
+go.
+
+02:35.410 --> 02:42.660
+So now you can see we are actually looking through the camera over here and you can see that our camera
+
+02:42.660 --> 02:45.450
+is right here as well.
+
+02:45.450 --> 02:51.960
+Now if we tumble out of here and we want to get back to our camera view we can always just hit the zero
+
+02:51.960 --> 02:56.820
+key on the number pad and that will bring us back to our camera view.
+
+02:56.850 --> 02:57.050
+All right.
+
+02:57.060 --> 03:04.870
+So we need to move the camera around a bit hard so let's select a camera and let's open up this sidebar
+
+03:05.010 --> 03:10.220
+here and in here what let's do is just clear the rotations here.
+
+03:10.230 --> 03:15.690
+I'm just going to click and drag and all of those fields and type in zero and enter and that will just
+
+03:16.080 --> 03:18.520
+turn the camera straight down.
+
+03:18.540 --> 03:24.160
+Now we can turn it in the X a 90 degrees and that'll pop it back up there.
+
+03:24.180 --> 03:35.190
+Now if we grab it and move it back and I want to just aim it right at the face right in here so since
+
+03:35.190 --> 03:41.160
+the face is going to be a two dimensional image is going to be a sequence of images actually we're going
+
+03:41.160 --> 03:47.900
+to render out a sequence of images and apply it to an object on the face for it to animate there.
+
+03:48.000 --> 03:53.160
+And when we apply our texture we're gonna want it to be a power of two in other words Square.
+
+03:53.250 --> 03:58.980
+We're gonna want to use textures like 10 24 or 2048 or 256.
+
+03:58.980 --> 04:01.000
+And I think that's what we want here.
+
+04:01.140 --> 04:09.310
+We're gonna want this 2D face image to be two hundred and fifty six by two fifty six.
+
+04:09.480 --> 04:12.780
+So let's come over and change that for the camera here.
+
+04:12.780 --> 04:20.130
+If we come over to the output right here we want to change this 1920 by 10 80 which is just standard
+
+04:20.160 --> 04:22.180
+HD resolution.
+
+04:22.230 --> 04:27.060
+I'm going to change this to two 56 by 256.
+
+04:27.060 --> 04:33.450
+And that is how big the texture is going to be for our our face images.
+
+04:33.450 --> 04:39.330
+Now we can scale the camera down here it's pretty big in the sea and I'll just hit s and scale down
+
+04:39.330 --> 04:39.870
+like this.
+
+04:39.870 --> 04:45.720
+Just for our view here in the 3D view it doesn't change anything it just makes the representation of
+
+04:45.720 --> 04:47.940
+it in the 3D view a little smaller.
+
+04:48.090 --> 04:56.640
+And I'll just grab this and move it so it's about I don't know it's about like this.
+
+04:56.670 --> 04:58.950
+Let's give this a try.
+
+04:59.130 --> 05:02.470
+I kind of want to get it pretty close there like that.
+
+05:02.480 --> 05:02.850
+There we go.
+
+05:02.850 --> 05:09.420
+So we're gonna work on the 2D face here in this view and as we do this we're gonna want this camera
+
+05:09.420 --> 05:13.620
+to stay put no matter how we move the character around.
+
+05:13.620 --> 05:21.060
+So if we grab say the head control up here maybe I'll go to pose mode and select that if we just move
+
+05:21.060 --> 05:21.370
+this.
+
+05:21.390 --> 05:24.590
+Currently the camera stays where it is.
+
+05:24.600 --> 05:27.090
+We want it to move with the head.
+
+05:27.090 --> 05:32.690
+So I want to parent this camera to the head bone of the character to do that.
+
+05:32.700 --> 05:35.780
+We need to enable this second layer again.
+
+05:35.790 --> 05:38.290
+So I'll just press shift and click here.
+
+05:38.490 --> 05:46.160
+And then if I come down here to this panel the object data and viewport we can choose in front again.
+
+05:46.260 --> 05:51.270
+We had turned it off previously but for now we want to enable it so we can see in here.
+
+05:51.390 --> 05:54.650
+And this is the bone we want to parent the camera to.
+
+05:55.260 --> 05:56.160
+So let's do that.
+
+05:56.160 --> 06:04.320
+Let's select the camera right here and then I'm gonna shift select this bone right here so I clicked
+
+06:04.320 --> 06:09.810
+once I shift clicked once and now I'm going to shift click again right here.
+
+06:09.810 --> 06:17.090
+Now we're going to parent the camera to the bone with control P and I'm going to choose bone.
+
+06:17.110 --> 06:18.300
+And then we go.
+
+06:18.300 --> 06:25.260
+So now if we turn this layer off right here and then select that head bone we can hit are two times
+
+06:25.260 --> 06:26.550
+again.
+
+06:26.550 --> 06:33.330
+And now you can see the camera just rolls with the head so no matter where that character goes that
+
+06:33.330 --> 06:36.420
+camera's always going to be there and that's what we want.
+
+06:36.510 --> 06:44.760
+Now we'll be able to draw and animate the 2D face here while the character is moving around in the 3D
+
+06:44.760 --> 06:45.720
+view.
+
+06:45.720 --> 06:45.960
+All right.
+
+06:45.960 --> 06:48.390
+So let's go ahead and hide that camera away now.
+
+06:48.390 --> 06:50.890
+I'll just click here to hide that.
+
+06:51.000 --> 06:51.770
+All right.
+
+06:51.810 --> 06:57.840
+Now the next thing we need to do is create an object that we're going to apply those textures to once
+
+06:57.840 --> 07:04.130
+we get into unity we're going to need an object to apply our image sequences too.
+
+07:04.200 --> 07:10.070
+So what we need to do now is come back into object mode here select our character and then we're going
+
+07:10.070 --> 07:12.050
+to tab into edit mode.
+
+07:12.180 --> 07:19.320
+And here we're going to maybe go to face select and we need to select the faces that are going to be
+
+07:20.010 --> 07:20.550
+the face.
+
+07:20.550 --> 07:25.170
+So I think all we're gonna need is just these bases here.
+
+07:25.170 --> 07:31.350
+I don't think we're gonna have the eyes spin around to the side of the head or the mouth go down below
+
+07:31.350 --> 07:32.310
+the chin or anything.
+
+07:32.310 --> 07:37.500
+So I think this is pretty much the bounds of the 2D face.
+
+07:37.530 --> 07:40.050
+So with these selected what let's do.
+
+07:40.050 --> 07:44.260
+I'm going to select the character scene collection right over here.
+
+07:44.310 --> 07:51.210
+So with these selected let's go ahead and duplicate these with shift D and enter and then I just want
+
+07:51.210 --> 07:56.490
+to pull them out just a little bit so I'll go to the my move tool here and hit the period key to zoom
+
+07:56.490 --> 08:01.410
+in and let's just pull this out just a tiny little bit.
+
+08:01.410 --> 08:05.600
+I'm just going to pull it out in the y just a smidge like that.
+
+08:05.800 --> 08:08.120
+So it's out from the mass.
+
+08:08.120 --> 08:09.720
+Just a tiny bit.
+
+08:10.010 --> 08:15.290
+And then once I've done that I want to split it out as its own object to do that.
+
+08:15.380 --> 08:21.680
+I'm going to press the p key and that will bring up the separate menu and we can choose selection.
+
+08:22.040 --> 08:24.950
+And then we go by tab back into object mode.
+
+08:24.950 --> 08:27.920
+I can select just that piece and there it is.
+
+08:27.920 --> 08:32.280
+We've got it called character 0 0 1 but that's not what we want.
+
+08:32.330 --> 08:37.910
+Let's call this something that will really help us once for in unity know what is what I think what
+
+08:37.910 --> 08:45.030
+we need to do is let's call this geometry let's call this geo base idol.
+
+08:45.740 --> 08:47.270
+Let's do that.
+
+08:47.450 --> 08:53.540
+So we know what it is and we know it's geometry as opposed to a material and that that's going to be
+
+08:53.750 --> 08:57.760
+or that can get confusing here as we go into the future.
+
+08:57.770 --> 08:58.010
+All right.
+
+08:58.010 --> 09:04.730
+So now we've got this as its own object what we should do is take away any of the modifiers that the
+
+09:05.030 --> 09:06.540
+original object had on it.
+
+09:06.570 --> 09:12.440
+If we go over to the modifiers panel here you can see we've still got that armature modifier on that
+
+09:12.440 --> 09:13.850
+face and we don't want that.
+
+09:13.880 --> 09:21.710
+So let's just delete this armature modifier from this new object we still have it here with our character
+
+09:21.710 --> 09:23.170
+we need it here.
+
+09:23.300 --> 09:25.920
+But for this we don't need it.
+
+09:25.970 --> 09:30.220
+Now what let's do is go ahead and do the same thing we did with the camera parent.
+
+09:30.230 --> 09:35.720
+This object to the headphone because we want this to move with the headphone before we do that let's
+
+09:35.720 --> 09:39.620
+make sure the origin of the object is where we want it to be.
+
+09:39.620 --> 09:45.290
+I think where I'd like it to be is right in the center of the face right here so if I go to edge mode
+
+09:45.290 --> 09:48.620
+and select that edge maybe right there would be good.
+
+09:48.650 --> 09:57.700
+Let me move the cursor with shift s cursor to selected and it looks like I may have turned off the cursor.
+
+09:57.700 --> 09:59.770
+Let me come over here to overlays.
+
+09:59.770 --> 10:00.290
+Sure enough.
+
+10:00.310 --> 10:02.770
+Let me turn on cursor there.
+
+10:02.770 --> 10:03.440
+There we go.
+
+10:03.730 --> 10:06.430
+So we can see the 3D cursor there.
+
+10:06.460 --> 10:13.660
+Now let's tap back into object mode and go to object set Origin and Origin to 3d cursor.
+
+10:13.660 --> 10:16.210
+And that will bring the origin of this object right there.
+
+10:16.210 --> 10:17.530
+That's good.
+
+10:17.530 --> 10:18.520
+Now let's parent it.
+
+10:18.520 --> 10:24.130
+Let's go back to our rig turn on that layer too.
+
+10:24.190 --> 10:26.940
+We'll go to post mode.
+
+10:26.980 --> 10:28.470
+Meet drag this over.
+
+10:28.470 --> 10:30.650
+We'll go to post mode here.
+
+10:30.850 --> 10:36.820
+Then we'll select that new object shift click the bone and once again.
+
+10:36.880 --> 10:37.600
+And there we go.
+
+10:37.600 --> 10:41.250
+Control P and parent to bone.
+
+10:41.260 --> 10:48.880
+Now if we select that object right there or that control now we can see that that object is parents
+
+10:48.910 --> 10:50.690
+to the head bone as well.
+
+10:50.870 --> 10:51.480
+And that's good.
+
+10:51.490 --> 10:55.950
+That's the object that we're going to apply the 2D images to.
+
+10:55.990 --> 10:56.290
+All right.
+
+10:56.290 --> 10:57.480
+We're making progress here.
+
+10:57.490 --> 11:01.840
+But in the next video we will continue with setting up the interface.
+
+11:01.990 --> 11:04.900
+And we need to work on these timelines down here.

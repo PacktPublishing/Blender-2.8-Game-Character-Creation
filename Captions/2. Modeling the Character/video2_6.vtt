@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.660 --> 00:06.750
+To create the risks coming out of the hand we're going to need to have a round object coming out of
+
+00:07.110 --> 00:10.090
+what will essentially be square polygons.
+
+00:10.110 --> 00:13.240
+So we need to think about how we're gonna do that.
+
+00:13.260 --> 00:20.280
+I think probably the best way to do that will be to attach a cylinder to a hole in the top here that
+
+00:20.280 --> 00:22.370
+has the same number of sides.
+
+00:22.440 --> 00:29.940
+So let's go ahead and press control ah and scroll the mouse wheel and let's add three cuts on the hand
+
+00:29.940 --> 00:33.090
+here or click and then click again and there we go.
+
+00:33.090 --> 00:43.190
+So now if we select four faces here at the top what that will be is eight sides.
+
+00:43.190 --> 00:48.040
+So two or six eight eight edges all the way around.
+
+00:48.140 --> 00:53.210
+So let's delete this with X and delete bases.
+
+00:53.210 --> 01:00.500
+And now this hole here has the same number of sides as say an eight sided cylinder.
+
+01:00.500 --> 01:01.670
+So that's what we need to do.
+
+01:01.670 --> 01:06.720
+We need to bring in an eight sided cylinder and attach it to this hole.
+
+01:06.770 --> 01:14.480
+So let me grab these points here and I'm just going to scale them out in the y s y just scale them out
+
+01:14.480 --> 01:16.340
+a bit like this.
+
+01:16.340 --> 01:16.730
+All right.
+
+01:16.730 --> 01:24.200
+So now let's all click an edge here and select that whole edge loop around the hole there.
+
+01:24.200 --> 01:25.960
+And let's move the cursor to that.
+
+01:25.970 --> 01:33.560
+So I'll press shift s and cursor to selected and that's where the new object will be created.
+
+01:33.560 --> 01:41.900
+So if we stay in edit mode now the new object that we create will also be an edit mode and we'll be
+
+01:41.900 --> 01:47.130
+a part of this object will be just another piece of this same object.
+
+01:47.180 --> 01:48.290
+So let's try that.
+
+01:48.290 --> 01:50.840
+We've been creating objects in object mode.
+
+01:50.840 --> 01:52.530
+Let's try it in edit mode here now.
+
+01:52.730 --> 02:00.980
+So let's press shift a and I'll create a cylinder and here it is kind of big.
+
+02:00.980 --> 02:05.660
+It's got 16 sides we want eight right.
+
+02:05.670 --> 02:13.790
+And in addition we could reduce the radius here by clicking and dragging and we could also reduce the
+
+02:13.790 --> 02:21.300
+height or the depth right here we can just kind of bring that in something like this.
+
+02:21.330 --> 02:25.580
+Now we can of course just hit the esky and scale it in as well.
+
+02:25.740 --> 02:29.750
+So let's do that let's hit s and scale that in a bit.
+
+02:29.820 --> 02:30.360
+That's it.
+
+02:30.400 --> 02:37.060
+S and z and scale it in a bit here and then just bring it up and kind of line it up with that right
+
+02:37.060 --> 02:38.010
+there.
+
+02:38.020 --> 02:39.080
+All right.
+
+02:39.160 --> 02:48.070
+So now what we can do is in Edge mode we can all click this edge and shift all click that edge.
+
+02:48.070 --> 02:52.870
+And now with these two edges selected we could bridge those edge loops.
+
+02:52.870 --> 02:55.720
+I think actually let me bring this up a little bit higher.
+
+02:55.720 --> 02:58.530
+I'm going to go to the side view and I think I need to bring it up.
+
+02:58.540 --> 03:02.920
+So it is in alignment with this top edge here.
+
+03:02.980 --> 03:09.730
+So I'm just going to hover over this cylinder and press the L key and that will select all the linked
+
+03:09.730 --> 03:12.090
+components of that edge.
+
+03:12.100 --> 03:18.090
+Now I can just click and drag up and let's kind of get it in line with that top edge there.
+
+03:18.190 --> 03:18.590
+OK.
+
+03:18.640 --> 03:24.570
+So now by all click this edge and shift all click this edge.
+
+03:24.610 --> 03:26.430
+Now let's bridge them together.
+
+03:26.430 --> 03:26.890
+I'll press.
+
+03:26.880 --> 03:32.310
+Control e and let's use bridge edge loops in the edges.
+
+03:32.340 --> 03:34.420
+Menu click that.
+
+03:34.510 --> 03:35.470
+And there we go.
+
+03:35.470 --> 03:38.410
+OK so now how do we do.
+
+03:38.410 --> 03:44.800
+Well not too bad but now we have a problem where the polygon ends up here are very visible and faceted
+
+03:45.190 --> 03:46.800
+whereas these are more smooth.
+
+03:46.810 --> 03:55.830
+So we can take this down here and slide this and drag these all we want but it isn't changing those.
+
+03:55.930 --> 04:04.570
+What we have to do is re apply that smooth shade so let's right click and choose shade flat and then
+
+04:04.570 --> 04:08.410
+will right click again and choose shade smooth.
+
+04:08.410 --> 04:14.530
+Now that's helped quite a bit there and I can drag this up and let's see if we can get it to a point
+
+04:14.530 --> 04:17.950
+where it looks pretty good for us here.
+
+04:18.070 --> 04:19.300
+Let's see how that looks.
+
+04:19.300 --> 04:21.800
+I mean tumble around.
+
+04:21.970 --> 04:27.960
+That's not too bad actually maybe right about there.
+
+04:28.000 --> 04:29.170
+Let's give that a try.
+
+04:29.920 --> 04:36.400
+So now to put it into the arm let's tab back into edit mode and select this edge and let's move the
+
+04:36.400 --> 04:47.050
+cursor shift s and cursor to selected right here now what we can do is tab back and object mode and
+
+04:47.050 --> 04:52.030
+move this origin to the 3d cursor so now it's right click set.
+
+04:52.030 --> 04:55.310
+Origin origin to 3d cursor.
+
+04:55.540 --> 05:00.670
+Now that Origin is right there and we can move and rotate this.
+
+05:00.880 --> 05:02.710
+At that point all right.
+
+05:02.740 --> 05:04.420
+So let's bring everything back.
+
+05:04.420 --> 05:09.760
+I'll come up here to the characters scene collection and enable it with the icon here.
+
+05:10.800 --> 05:19.330
+Now let's try and move this into place so I'll move it forward with the G key it are rotated up some
+
+05:20.120 --> 05:21.880
+right and put it right in here.
+
+05:22.690 --> 05:28.120
+Then let's come up here and turn it like this
+
+05:31.980 --> 05:32.250
+now.
+
+05:32.250 --> 05:38.830
+Also we can change our axes here our transform axes from global to local.
+
+05:38.880 --> 05:40.540
+So if we do that.
+
+05:40.560 --> 05:46.370
+Watch what happens to our transformation gizmo here I'll change it to local.
+
+05:46.380 --> 05:49.550
+And you can see now it's in line with the object itself.
+
+05:50.010 --> 05:55.540
+So we can move the object in or out in line with its angle here.
+
+05:55.620 --> 05:58.990
+So maybe I'll bring it in like that.
+
+05:59.940 --> 06:01.590
+Maybe shrink it just a bit.
+
+06:01.590 --> 06:06.440
+It's kind of hard to tell what we need to do with that.
+
+06:06.470 --> 06:08.020
+But I think that's looking pretty good.
+
+06:08.020 --> 06:13.650
+I'm gonna press shift C and bring that cursor back to the center of the grid.
+
+06:13.650 --> 06:21.000
+What we need to do now is to move the arm and the hand and the leg over to the other side to mirror
+
+06:21.000 --> 06:23.620
+them over to the other side.
+
+06:23.640 --> 06:30.810
+But first what let's do is take this hand and then shift select this arm and let's join these two objects
+
+06:30.900 --> 06:31.740
+together.
+
+06:31.740 --> 06:39.420
+So they're all one piece to do that I'll press control Jay and that'll join those and then we want to
+
+06:39.420 --> 06:41.690
+mirror this over to the other side.
+
+06:41.730 --> 06:44.590
+However take a look at what happened here.
+
+06:44.670 --> 06:52.100
+We zoom in here you can see the wrist went back to being that blocky shading.
+
+06:52.170 --> 06:59.610
+So we kind of need to come down here again now that we've combined these two and re adjust the angle
+
+07:00.120 --> 07:04.500
+maybe something like this and we go that smooth it up a bit.
+
+07:04.650 --> 07:05.100
+Yeah.
+
+07:05.130 --> 07:13.950
+And in addition maybe we need a bevel on the sleeve here look how curved that edge is maybe we need
+
+07:14.010 --> 07:14.790
+a bevel there.
+
+07:14.790 --> 07:20.990
+Let's tab into edit mode and select the two key for Edge mode and alt click.
+
+07:21.000 --> 07:29.930
+This all edge loop right there and before we do that let's take a look at our rotation and scale and
+
+07:30.440 --> 07:35.590
+our values are kind of non uniform especially in the rotation here.
+
+07:35.970 --> 07:43.900
+Let's come over and press control a and click rotation and scale and that resets all of those there.
+
+07:43.910 --> 07:52.180
+Now if we tap into edit mode and press control B we can add a little Bevel to that there.
+
+07:52.200 --> 07:54.620
+Yeah that's that's kind of nice.
+
+07:54.720 --> 07:55.920
+Let's do that.
+
+07:56.880 --> 07:57.180
+All right.
+
+07:57.210 --> 08:06.630
+So now we could mirror this over before I do though I see that this is a little bit out of alignment
+
+08:06.630 --> 08:14.250
+I'm going to move it over just a bit like this and we go now Let's mirror this over to do that I need
+
+08:14.250 --> 08:20.880
+to move this origin into the center of the grid because the object is going to mirror around wherever
+
+08:20.880 --> 08:21.840
+that origin is.
+
+08:21.840 --> 08:30.690
+So let me show you what I mean if I go over to the modifiers panel and go add a modifier mirror look
+
+08:30.690 --> 08:33.300
+at where it's measuring from right there.
+
+08:33.420 --> 08:36.180
+We need to move that origin into the center of the grid.
+
+08:36.180 --> 08:43.200
+So it'll mirror over to the other side to do that let's just right click choose set Origin and Origin
+
+08:43.200 --> 08:45.540
+to 3d cursor and there it is.
+
+08:45.540 --> 08:50.510
+Now it pops over to the other side because the origin is in the center.
+
+08:50.520 --> 08:54.640
+Let's do the same thing for the leg here.
+
+08:54.670 --> 09:02.320
+I'm going to apply the rotation in scale again with control a right here and then I'm going to move
+
+09:02.320 --> 09:08.770
+that origin right click to the 3d cursor right there.
+
+09:08.770 --> 09:16.660
+And now let's add a mirror modifier here add modifier mirror and you can see it's mirroring in the x
+
+09:16.660 --> 09:17.660
+axis.
+
+09:17.660 --> 09:19.080
+And there we go.
+
+09:19.090 --> 09:24.330
+So there's our character at least the beginnings of it right where we're getting there.
+
+09:24.400 --> 09:27.760
+I think we could go ahead and smooth the legs here.
+
+09:27.760 --> 09:37.390
+Let's do that shade smooth and then come over here to Object data turn on auto smooth and see what we
+
+09:37.390 --> 09:39.580
+can get with this.
+
+09:39.740 --> 09:41.360
+That looks pretty good there.
+
+09:41.510 --> 09:49.220
+Also with this cylinder all it's applied shade smooth here turn on auto smooth.
+
+09:50.060 --> 09:55.810
+And same thing that looks pretty good like that well we've got the basic character setup.
+
+09:55.810 --> 10:01.210
+Now what let's do in the next video is work on the hair.
+
+10:01.210 --> 10:08.620
+We'll need to bring in some geometry and begin molding the hair to the head.

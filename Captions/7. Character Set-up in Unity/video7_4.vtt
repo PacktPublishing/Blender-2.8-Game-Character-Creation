@@ -1,0 +1,331 @@
+WEBVTT
+
+00:00.500 --> 00:06.290
+To test the retargeting on our character let's bring in a character from the asset store.
+
+00:06.290 --> 00:09.680
+So I'll come over here to the asset store in unity.
+
+00:09.680 --> 00:13.550
+And we're just going to bring in the standard assets.
+
+00:13.650 --> 00:20.520
+These are free assets that come with unity that you can use for testing or or games or for anything
+
+00:20.520 --> 00:21.450
+you want.
+
+00:21.450 --> 00:29.100
+I'm going to type in standard assets here in the search field and then here we are standard assets unity
+
+00:29.120 --> 00:29.810
+technology.
+
+00:29.820 --> 00:34.940
+So I'll click that and I've already downloaded this.
+
+00:34.960 --> 00:40.210
+If you haven't you may get a download button here and then you'll have to click import.
+
+00:40.210 --> 00:48.500
+But for me I'm just gonna click import here and this will import all of these downloaded assets into
+
+00:48.500 --> 00:53.340
+our unity project here.
+
+00:53.350 --> 00:58.390
+Now there's a lot here and we're certainly not going to use everything but instead of going through
+
+00:58.390 --> 01:02.320
+and trying to figure out only the things that we want I'm just going to import all of it here.
+
+01:02.420 --> 01:06.560
+I'll just click import.
+
+01:06.660 --> 01:07.050
+All right.
+
+01:07.050 --> 01:13.470
+So now that has been imported let's go back to our same view here and under our assets Boulder we've
+
+01:13.470 --> 01:16.870
+got this new folder called standard assets.
+
+01:17.100 --> 01:25.550
+And in here we've got a folder called characters and in here we've got a third person character.
+
+01:25.680 --> 01:29.070
+Let me open that up and under prefabs.
+
+01:29.070 --> 01:30.280
+This is what we want.
+
+01:30.300 --> 01:32.280
+Third Person controller.
+
+01:32.280 --> 01:39.390
+Now what I first need to do is create a ground plane a floor for these guys to move around on.
+
+01:39.450 --> 01:47.460
+So let's come over here and go to game object and 3D object and plane and we go let's take this down
+
+01:47.460 --> 01:54.460
+to 0 0 0 0 tabs 0 tab 0 and we go.
+
+01:54.450 --> 01:57.180
+And I want to make it a little bit bigger.
+
+01:57.180 --> 02:05.010
+This isn't quite big enough to run around on I don't think let's take the scale of this up to 5 in the
+
+02:05.010 --> 02:15.110
+x and 5 in the z that just gives us more room to play with their and then what let's do is take this
+
+02:15.140 --> 02:21.980
+third person control or prefab and drag it up here into the hierarchy and there we go.
+
+02:21.980 --> 02:29.270
+Now when I hit the f key and zoom in now there is the character that we brought in from our standard
+
+02:29.270 --> 02:30.110
+assets.
+
+02:30.320 --> 02:33.350
+If we click play I'm just gonna come up here and hit the play button
+
+02:37.780 --> 02:39.580
+and use the arrow keys.
+
+02:39.580 --> 02:43.180
+We can run this guy around.
+
+02:43.370 --> 02:43.760
+Where do you go.
+
+02:43.760 --> 02:45.110
+There he is.
+
+02:45.560 --> 02:54.330
+So we can run him around with the arrow keys and we can hit the spacebar and jump and hit the C key
+
+02:55.020 --> 03:01.440
+and duck so we've got some pretty good animations here with the idol the run the jump.
+
+03:01.600 --> 03:06.800
+So let's see if we can get these animations going on our character.
+
+03:06.850 --> 03:09.520
+I'll hit the play button here and turn that off.
+
+03:10.690 --> 03:16.510
+Now keep in mind that when when you're animating a character you're really animating for that particular
+
+03:16.720 --> 03:17.650
+body type.
+
+03:17.650 --> 03:25.480
+Those proportions so not all animations are going to work on all characters and that's sometimes what
+
+03:25.480 --> 03:31.270
+you need to test before you decide on what kind of animations you want to use or if you want to use
+
+03:31.270 --> 03:34.950
+your own animations will like we're going to do here in a bit too.
+
+03:34.960 --> 03:42.040
+In addition if we go back to our assets window and choose to player idle you can see here that we've
+
+03:42.040 --> 03:49.990
+got warnings and if we scroll down under this import messages you can see here that what it's saying
+
+03:49.990 --> 03:56.710
+is that this particular problem might lower the retargeting quality that it's having a problem with
+
+03:56.710 --> 04:04.600
+spine to to recall that that's the chest bone and it's having trouble figuring out the rotation of that
+
+04:04.600 --> 04:04.990
+bone.
+
+04:04.990 --> 04:08.900
+So that could be a problem when we do the retargeting here.
+
+04:09.040 --> 04:12.100
+That might not work but it's a good test.
+
+04:12.190 --> 04:15.820
+It's a good process to go through and a good thing to know.
+
+04:15.850 --> 04:22.830
+So you know you can find animation say on the asset store and try them out on your character.
+
+04:22.840 --> 04:23.050
+All right.
+
+04:23.080 --> 04:24.040
+So how do you do that.
+
+04:24.040 --> 04:28.420
+How do you retarget an animation from one character to another.
+
+04:29.170 --> 04:34.510
+Well the first thing you need to do is I'm going to take our character this player Idol and I'm going
+
+04:34.510 --> 04:42.070
+to drag it right on top of this third person controller and that basically parents it or creates a parent
+
+04:42.070 --> 04:50.200
+child relationship with this third person controller and it's got a lot of components here that's helping
+
+04:50.200 --> 04:52.510
+it move around in the scene.
+
+04:52.540 --> 04:59.320
+So by parenting this to this third person controller we're going to allow our character to use all of
+
+04:59.320 --> 05:03.990
+this information to use the animations the scripts et cetera.
+
+05:04.090 --> 05:10.480
+And the main thing that's driving the character the animations is this animator and you can see here
+
+05:10.480 --> 05:17.780
+that the animator has a third person animator controller and it's got an avatar the Ethan avatar.
+
+05:17.790 --> 05:25.230
+Now if we come over here to our character and scroll this one down we see we've got an armature this
+
+05:25.230 --> 05:27.150
+one up here has a skeleton.
+
+05:27.240 --> 05:28.920
+We've got our character.
+
+05:28.920 --> 05:30.390
+They've got the body here.
+
+05:30.390 --> 05:37.320
+So it's a similar setup but if I choose the player idol you can see we have an animator here as well.
+
+05:37.470 --> 05:40.140
+But we do not have an animator controller.
+
+05:40.140 --> 05:42.650
+We've got our player idle avatar.
+
+05:42.720 --> 05:43.230
+That's good.
+
+05:43.230 --> 05:46.410
+That was created when we imported it in.
+
+05:46.800 --> 05:53.940
+But we don't have a controller and in fact what we want to do is remove this animator completely so
+
+05:53.970 --> 05:57.780
+it defaults to the animator up in the third person controller.
+
+05:57.870 --> 06:03.400
+So let's click on the little gear here and choose remove component.
+
+06:03.420 --> 06:06.810
+Now this is going to default up to the top.
+
+06:06.830 --> 06:12.240
+And what we need to do in this third person controller we need to change the Avatar.
+
+06:12.510 --> 06:21.020
+We want to click on this little circle and come over here and choose our player idle Avatar right there.
+
+06:21.030 --> 06:23.260
+Now let's close this.
+
+06:23.280 --> 06:28.250
+Now we need to take away the body and the glasses of the Ethan character.
+
+06:28.320 --> 06:32.970
+We could just delete these but I think what I'm going to do is just come over here and uncheck them
+
+06:32.970 --> 06:38.380
+right here and I'm going to select the glasses and uncheck those here.
+
+06:38.400 --> 06:42.600
+So those are hidden away or disabled in the scene view.
+
+06:42.600 --> 06:43.800
+All right.
+
+06:43.800 --> 06:45.760
+So let's give this a try now.
+
+06:45.840 --> 06:52.310
+If I click the play button let's see what happens well look at that.
+
+06:52.320 --> 06:56.780
+Now can you see him he's actually going through the idle animation if I hit the arrow keys.
+
+06:56.790 --> 06:58.560
+I'll hit the down key.
+
+06:58.590 --> 07:01.240
+Here he comes so there we go.
+
+07:01.240 --> 07:05.130
+We have read targeted the animation to our character.
+
+07:05.140 --> 07:07.780
+But take a look at how he's standing.
+
+07:07.780 --> 07:14.470
+The knees are pulled in the arms are straight down the animations don't always work from one character
+
+07:14.470 --> 07:20.740
+to another so it isn't a strict one to one thing you can just create any old character and grab any
+
+07:20.740 --> 07:23.820
+old animation and it will work perfectly.
+
+07:23.860 --> 07:25.840
+It isn't quite like that.
+
+07:25.840 --> 07:32.550
+We can turn him around here areas and I can hit the spacebar.
+
+07:32.580 --> 07:35.110
+There's our jump.
+
+07:35.330 --> 07:37.480
+I can hit the C key.
+
+07:37.490 --> 07:38.660
+There's our duck.
+
+07:38.660 --> 07:41.100
+You can see it's really pulling away here.
+
+07:41.150 --> 07:48.620
+So this is kind of an extreme example of how not all animations are going to work with all animated
+
+07:48.620 --> 07:52.250
+characters but I wanted you to see how it works.
+
+07:52.310 --> 07:57.980
+Just so you can test it out and there are other animations on the asset store that you can use and give
+
+07:57.980 --> 07:58.780
+this a try.
+
+07:58.790 --> 08:00.560
+It's it's kind of fun.
+
+08:00.710 --> 08:03.650
+So I'll go ahead and hit the play button to stop that.
+
+08:03.800 --> 08:11.330
+And now what we should do is work on bringing our own animations in and setting up our animations for
+
+08:11.330 --> 08:13.070
+our character here.
+
+08:13.070 --> 08:15.020
+So that's coming up in the next video.

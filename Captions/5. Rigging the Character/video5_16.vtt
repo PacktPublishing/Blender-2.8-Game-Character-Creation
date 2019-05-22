@@ -1,0 +1,337 @@
+WEBVTT
+
+00:00.710 --> 00:01.000
+All right.
+
+00:01.010 --> 00:06.500
+Let's begin with the actual foot control bone this main foot control.
+
+00:06.610 --> 00:13.140
+I'll select that and let's use a circle for this a select circle.
+
+00:13.310 --> 00:22.550
+And remember we want to use that foot control SEO dot L right here and that spins it around like that
+
+00:23.120 --> 00:24.620
+and that's kind of nice.
+
+00:24.620 --> 00:28.250
+We could probably reduce the size just a little bit.
+
+00:28.250 --> 00:28.730
+Let me try.
+
+00:28.730 --> 00:30.820
+Point nine here.
+
+00:30.830 --> 00:34.320
+Just so it sticks out a little bit there.
+
+00:35.030 --> 00:39.230
+Like that but isn't going over the center of the grid.
+
+00:39.250 --> 00:39.760
+Let me try.
+
+00:39.760 --> 00:40.840
+Point nine five.
+
+00:41.920 --> 00:42.320
+Yeah.
+
+00:42.340 --> 00:44.350
+I think that worked pretty well.
+
+00:44.470 --> 00:44.860
+All right.
+
+00:44.860 --> 00:48.130
+So now let's take this bone here and hide it away
+
+00:51.300 --> 00:53.520
+onto layer two.
+
+00:53.550 --> 00:55.900
+Now let's work on this one here.
+
+00:55.980 --> 01:01.940
+This bone and this bone and the need I think I may use a sphere for all of those.
+
+01:01.980 --> 01:05.640
+So let's select that foot roll bone.
+
+01:05.760 --> 01:15.170
+Let's choose a sphere and let's also then bind that foot roll control object here on the left.
+
+01:15.270 --> 01:15.570
+Nope.
+
+01:15.570 --> 01:20.740
+That's the foot control I need the foot roll and that.
+
+01:20.820 --> 01:21.480
+Here it is.
+
+01:21.480 --> 01:24.460
+Foot roll underscore CEO dot l.
+
+01:24.630 --> 01:32.670
+Let's move that they're and let's scale this down on click and drag and let's see that's not bad let's
+
+01:32.670 --> 01:41.540
+go with Point two there and let's take this bone then and move it away to the other layer.
+
+01:41.730 --> 01:52.230
+Okay there we have that let's work on the toe let's select the toe bone let's choose a sphere for this
+
+01:53.160 --> 01:58.660
+let's find that toe bone or that toe control object.
+
+01:58.660 --> 02:02.080
+Here it is toe control object dot l.
+
+02:02.240 --> 02:05.340
+Here it is and let's shrink this down quite a bit.
+
+02:05.990 --> 02:13.850
+Let's go with point three on that and once again your scale numbers will probably be different sense
+
+02:13.850 --> 02:18.470
+the size of your control object bones will probably be a little different.
+
+02:18.470 --> 02:26.910
+All right so let's now select the knee and this as well we're gonna want a sphere and we want a knee
+
+02:28.460 --> 02:39.200
+control object need control object dot l we go and we'll shrink this down like that I'll put that at
+
+02:39.200 --> 02:49.860
+point three Okay so let's select this bone and this bone move those two layer to right there so we don't
+
+02:49.860 --> 02:54.450
+see them and then let's come over and do the same thing over here.
+
+02:54.710 --> 03:03.760
+So this foot control bone right here we're gonna want a circle and we want it to match the transform
+
+03:03.820 --> 03:13.440
+of that foot control here it is but control object dot Ah there we go and what I do.
+
+03:13.440 --> 03:16.530
+Point nine five I think so.
+
+03:16.650 --> 03:27.210
+Yep there we go And now let's take this bone and hide it away in Layer two we go and this bone here
+
+03:27.270 --> 03:37.930
+we want a sphere and we want that to be at the same location as that but roll control objects.
+
+03:37.950 --> 03:41.980
+So right here and what did we do.
+
+03:41.980 --> 03:53.990
+Point two over here so it's like that point to where we go now let's do the toe that'll be a sphere
+
+03:53.990 --> 04:00.030
+as well we want to control object are
+
+04:03.020 --> 04:07.530
+right here and I recall it was point three.
+
+04:07.580 --> 04:12.690
+That looks about right now the NE sphere
+
+04:15.290 --> 04:17.270
+ne control object
+
+04:19.930 --> 04:21.510
+ne control object.
+
+04:21.640 --> 04:23.600
+Ah there we go.
+
+04:23.740 --> 04:28.820
+And what's this point three as well yep it looks like it.
+
+04:28.830 --> 04:39.390
+Okay so now we take this bone this bone and this bone and hide them away in Layer two and then we go.
+
+04:39.390 --> 04:42.090
+So now we've got all of those.
+
+04:42.090 --> 04:46.240
+Now we just really need to take these bones and hide them away as well.
+
+04:46.260 --> 04:55.620
+So if we take this and this and this and this and this hide these away layer to well there is one
+
+04:59.080 --> 05:10.430
+guy and then these know me go in and get these like this and we'll probably have that one more we've
+
+05:10.430 --> 05:11.150
+got to deal with.
+
+05:11.620 --> 05:12.550
+Yeah there it is
+
+05:16.760 --> 05:17.920
+and there we go.
+
+05:17.920 --> 05:19.130
+OK.
+
+05:19.330 --> 05:25.030
+So now we have all of our bones over here.
+
+05:25.030 --> 05:31.840
+All of those control object bones et cetera and our control objects over here.
+
+05:31.850 --> 05:39.530
+So now we can just select our control objects and move the character around and this is how we'll animate
+
+05:39.530 --> 05:39.710
+them.
+
+05:39.740 --> 05:45.320
+So we can select this let's say and hit R and roll it up on the toe and back on the heel.
+
+05:45.320 --> 05:45.670
+All right.
+
+05:45.680 --> 05:50.360
+We can select this foot control object and move it around.
+
+05:50.900 --> 05:58.370
+So this is how we'll actually animate the character but in doing so it might be helpful to kind of color
+
+05:58.370 --> 06:04.880
+code these control objects so we can see very easily which ones are on the right side which ones are
+
+06:04.880 --> 06:08.240
+on the left side and which ones are in the center.
+
+06:08.330 --> 06:09.440
+So let's work on that.
+
+06:09.470 --> 06:15.230
+I think what let's do is come over here to our bone groups panel right here.
+
+06:15.230 --> 06:21.500
+And what we can do is select say some of these let's select everything going down the center of the
+
+06:21.500 --> 06:26.060
+character the torso the hips the head anything in the center.
+
+06:26.180 --> 06:31.550
+And let's create a new group and we'll call this center.
+
+06:31.670 --> 06:38.390
+We'll just call this our center bones and we'll click a sign and then we go.
+
+06:38.390 --> 06:44.660
+Now what we can do is we can come up here and click on this default color pull down and I think for
+
+06:44.660 --> 06:48.520
+the center everything in the center I'm going to make yellow.
+
+06:48.700 --> 06:49.280
+And there we go.
+
+06:49.280 --> 06:52.880
+So anything in the middle is going to be yellow.
+
+06:52.880 --> 07:00.830
+We'll be able to see that very easily as we're animating now everything on the right hand side let's
+
+07:00.830 --> 07:13.490
+make all of this red red for the right side let's create a new group here we'll call this right side
+
+07:15.450 --> 07:20.730
+click a sign and let's make this red right here.
+
+07:20.730 --> 07:20.990
+Yeah.
+
+07:21.000 --> 07:21.860
+There we go.
+
+07:22.050 --> 07:24.990
+Oh we need to add these down here so let's grab this.
+
+07:24.990 --> 07:29.820
+This this and the knee on the right hand side as well.
+
+07:30.120 --> 07:34.890
+And let's click a sign and here we go OK.
+
+07:34.900 --> 07:39.130
+So now on this other side let's make this other side.
+
+07:39.130 --> 07:43.320
+Green or blue whichever you want.
+
+07:43.580 --> 07:45.670
+I think I'll make mine green.
+
+07:45.690 --> 07:48.470
+I'll call this left side
+
+07:51.300 --> 07:52.480
+I'll sign.
+
+07:52.480 --> 07:54.120
+And then let's find a nice green.
+
+07:54.130 --> 07:55.480
+Here's a nice bright green.
+
+07:55.480 --> 08:07.030
+Let's do that and we go and these down here and let's select this and these and let's sign those.
+
+08:07.030 --> 08:08.310
+There we go.
+
+08:08.320 --> 08:15.540
+So now everything on the right side is red on the left is green down the center is yellow.
+
+08:15.540 --> 08:21.070
+So that's just going to help us quickly identify what we need as we're animating.
+
+08:21.160 --> 08:24.050
+In addition what I'd like to do is turn off in front here.
+
+08:24.110 --> 08:31.690
+You can turn this off so we don't see the back side of the control objects through the character.
+
+08:31.700 --> 08:31.980
+All right.
+
+08:31.990 --> 08:38.570
+So if we're looking at this side we only see the control objects for the arm on this side.
+
+08:38.620 --> 08:45.880
+We don't see the other ones over there that'll just once again make things a little easier to select.
+
+08:45.890 --> 08:46.430
+All right.
+
+08:46.430 --> 08:54.870
+And then well we could just close that and go over to our look Dev here and there we go there is how
+
+08:54.870 --> 08:57.100
+we'll animate our character.
+
+08:57.270 --> 08:59.540
+I think we're ready to go.
+
+08:59.640 --> 09:07.770
+So in the next section we're going to try and animate this character both the 3D body and a 2D face
+
+09:07.860 --> 09:08.840
+at the same time.
+
+09:09.240 --> 09:15.900
+But first we need to do a little setup so that we can draw the face on the head and we'll begin that
+
+09:15.900 --> 09:16.680
+coming up next.

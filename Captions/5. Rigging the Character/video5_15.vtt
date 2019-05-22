@@ -1,0 +1,433 @@
+WEBVTT
+
+00:00.420 --> 00:03.000
+Now for the hips here let's use a different shape.
+
+00:03.000 --> 00:04.830
+Let's select that.
+
+00:04.830 --> 00:07.720
+Let's come over here and under our custom object.
+
+00:07.740 --> 00:14.130
+Let's choose the box right there now because it has three dimensions it's a solid figure.
+
+00:14.130 --> 00:17.990
+Here we can choose wireframe and clean that up.
+
+00:18.000 --> 00:21.930
+Now let's come over here and choose our custom shape transform.
+
+00:21.930 --> 00:24.520
+And that was root I believe.
+
+00:24.540 --> 00:30.460
+Let's scroll down here it is root underscore SEO and that spins that around.
+
+00:30.480 --> 00:37.640
+Now it's a little too small I think it needs to be wider and it's not quite in the right place.
+
+00:37.680 --> 00:39.480
+So how do we fix that.
+
+00:39.480 --> 00:46.080
+Well what we can do is actually go back to that original shape go into edit mode and scale and move
+
+00:46.080 --> 00:46.440
+it.
+
+00:46.440 --> 00:51.190
+So let's go back to object mode over here.
+
+00:51.240 --> 00:59.910
+Let's then open up our control objects and I'll unharmed the collection and then I'll also on hide the
+
+00:59.910 --> 01:01.330
+box here.
+
+01:01.350 --> 01:03.050
+So here it is.
+
+01:03.060 --> 01:08.400
+So keep an eye on the control object as we change the box here.
+
+01:08.470 --> 01:18.290
+I'll tab into edit mode and let's do is let's scale out in the X S and X you can see it moving there.
+
+01:18.720 --> 01:26.950
+The control object and then let's also raise it up you can see it moving up in there as well.
+
+01:27.900 --> 01:32.160
+So maybe about like this.
+
+01:32.270 --> 01:33.790
+That's looking pretty good.
+
+01:36.310 --> 01:37.230
+I think that'll work.
+
+01:37.240 --> 01:39.310
+There may be a little bit farther down.
+
+01:39.310 --> 01:41.870
+Let's try this yeah.
+
+01:41.900 --> 01:43.480
+I think I like that.
+
+01:43.610 --> 01:48.320
+So now that we've got that let's tab back into object mode.
+
+01:48.320 --> 01:57.020
+We can hide this away again and then this now is our new control object for the hips.
+
+01:57.020 --> 01:59.490
+Let's go back to post mode.
+
+01:59.620 --> 02:00.640
+There we go.
+
+02:00.760 --> 02:09.800
+And let's now choose this bone here and let's hide this away pose change bone layer layer two and then
+
+02:09.800 --> 02:11.150
+it goes.
+
+02:11.340 --> 02:12.190
+All right.
+
+02:12.390 --> 02:12.810
+That's good.
+
+02:12.810 --> 02:21.510
+So if we grab this object and hit the G key you can see we can move everything around and we go OK how
+
+02:21.510 --> 02:22.420
+about the arms.
+
+02:22.470 --> 02:23.700
+Let's take a look at this.
+
+02:23.700 --> 02:25.920
+Let's choose this arm here.
+
+02:26.060 --> 02:29.830
+Go grab our Custom Object circle.
+
+02:29.830 --> 02:37.630
+And there it is there let's choose our bone which is going to be up arm.
+
+02:37.770 --> 02:43.810
+Else so here it is up arm control object Elle.
+
+02:43.840 --> 02:44.350
+OK.
+
+02:44.380 --> 02:45.370
+And we've got that.
+
+02:45.490 --> 02:48.010
+But it's turned the wrong way.
+
+02:48.010 --> 02:50.110
+So what do we do with this.
+
+02:50.110 --> 02:57.430
+Well just like changing the role of any other bone we can select it go into edit mode at the end key
+
+02:57.460 --> 03:07.050
+and click and drag on the roll here and let's just turn it 90 degrees like this let's try that and then
+
+03:07.050 --> 03:09.950
+go back to pose mode.
+
+03:10.290 --> 03:11.240
+And there it is.
+
+03:11.840 --> 03:12.660
+Yeah that's not bad.
+
+03:12.660 --> 03:15.170
+Let's let's go with that.
+
+03:15.240 --> 03:17.030
+Let's shrink it down a bit.
+
+03:17.810 --> 03:19.900
+Something like this.
+
+03:20.240 --> 03:21.460
+I'll just type in.
+
+03:21.480 --> 03:23.420
+Uh point seven.
+
+03:23.420 --> 03:24.950
+Let's go with that.
+
+03:24.950 --> 03:26.190
+There we go.
+
+03:26.330 --> 03:28.290
+And then let's select this.
+
+03:28.430 --> 03:30.420
+Move it to our layer two.
+
+03:30.720 --> 03:31.400
+And there we go.
+
+03:31.400 --> 03:36.090
+So now if we take this we can move that around.
+
+03:36.090 --> 03:39.780
+I'll hit R and like this.
+
+03:39.780 --> 03:40.230
+There we go.
+
+03:40.440 --> 03:40.990
+OK.
+
+03:41.010 --> 03:42.570
+That works.
+
+03:42.570 --> 03:54.940
+Let's try this one now let's create a circle control object will call this lower arm low arm underscore
+
+03:54.940 --> 03:56.550
+SEO dot l.
+
+03:56.980 --> 04:04.840
+This too can be turned a bit Let's select that bone go into edit mode and let's roll this about like
+
+04:04.870 --> 04:12.170
+this I'm just gonna turn it about forty five degrees let's try this back pose mode.
+
+04:12.550 --> 04:21.430
+Not too bad I think I want to turn it a little bit more let's try like this maybe sixty five let's try
+
+04:21.430 --> 04:24.500
+that pose mode.
+
+04:24.510 --> 04:25.160
+Here we go.
+
+04:26.000 --> 04:37.110
+Select it let's shrink it down a bit maybe let's uh we can maybe go point six on that as well and let's
+
+04:37.110 --> 04:37.820
+work on the hand.
+
+04:37.820 --> 04:49.430
+Now take this one custom object circle custom shape transform is gonna be the hand hand underscore SEO
+
+04:49.430 --> 04:54.080
+dot L and we go and this needs to be turned a bit as well.
+
+04:58.180 --> 05:02.470
+Let's turn it like this pose.
+
+05:02.950 --> 05:04.930
+Yeah that's pretty good.
+
+05:04.930 --> 05:13.600
+Let's select this let's increase the size of this maybe we'll call this one point five yeah that'll
+
+05:13.600 --> 05:14.230
+work.
+
+05:16.140 --> 05:24.450
+And then let's go ahead and hide this bone and this bone or move them over to that other layer.
+
+05:24.460 --> 05:27.810
+All right here we go.
+
+05:27.830 --> 05:32.870
+Now if we take this and turn it you can see they all come along.
+
+05:32.990 --> 05:37.220
+We can take this one and bend it like this.
+
+05:37.400 --> 05:39.910
+All right I'll select everything.
+
+05:39.980 --> 05:46.190
+Press alt are an all g to get us back to our original positions.
+
+05:46.260 --> 05:50.690
+And this one here I feel like it's maybe a little bit too big I'll take that down to point five.
+
+05:50.700 --> 05:52.020
+There we go.
+
+05:52.630 --> 05:55.690
+OK now let's work on the fingers.
+
+05:55.880 --> 06:02.660
+Let's select this bone here let's give it a sphere.
+
+06:02.660 --> 06:05.330
+This time we've used a circle and the box.
+
+06:05.330 --> 06:06.470
+Let's use a sphere.
+
+06:06.470 --> 06:12.520
+Now let's choose that finger one control object.
+
+06:12.640 --> 06:20.020
+El let's do that and let's shrink it down maybe two point two.
+
+06:20.020 --> 06:32.010
+Let's try that let's do it again sphere finger to control object El point two.
+
+06:32.060 --> 06:33.870
+Yeah that works pretty well.
+
+06:34.020 --> 06:47.250
+This one sphere finger 3 CEO El let's take it down to point two as well and then let's select all of
+
+06:47.250 --> 07:00.050
+these and move them over to the other layer and we go okay these let's once again use a sphere and this
+
+07:00.050 --> 07:05.930
+is gonna be the thumb one isn't it thumb one control object.
+
+07:05.930 --> 07:08.370
+There we go point two
+
+07:12.560 --> 07:14.480
+sphere.
+
+07:14.590 --> 07:16.010
+This will be thumb to
+
+07:18.930 --> 07:30.450
+here point to and this one we want to sphere and this will be thumb 3 on the left side.
+
+07:30.450 --> 07:31.720
+There we go.
+
+07:31.820 --> 07:39.980
+In point two now we take all of these moving to the other layer.
+
+07:40.000 --> 07:41.260
+There we go.
+
+07:41.260 --> 07:46.280
+All right we're getting there so you can begin to see what we're doing here.
+
+07:46.300 --> 07:47.840
+We're cleaning all this up.
+
+07:47.980 --> 07:54.640
+So as we animate the control objects we'll be present and visible but not so much in the way we'll be
+
+07:54.640 --> 07:57.610
+able to see more of our character than the rig.
+
+07:57.610 --> 08:02.220
+All right let's work on this side now doing the same thing.
+
+08:02.350 --> 08:05.260
+We're going to choose a circle.
+
+08:05.260 --> 08:09.030
+We're going to choose the up arm on the right.
+
+08:09.140 --> 08:17.980
+Right here up arms SEO are and we're going to take this guy and we're gonna turn it 90 degrees over
+
+08:17.980 --> 08:23.800
+in the role field like this something like that.
+
+08:23.860 --> 08:26.300
+Let's go back to pose mode.
+
+08:26.300 --> 08:28.400
+There we go that looks pretty good.
+
+08:28.750 --> 08:36.190
+And let's shrink this down like about like this will type in point seven.
+
+08:36.190 --> 08:37.840
+Let's do that.
+
+08:37.840 --> 08:38.480
+All right.
+
+08:38.500 --> 08:42.790
+Now let's work on the upper excuse me the lower arm.
+
+08:42.790 --> 08:50.320
+We'll make that a circle again lower arm control object on the right.
+
+08:50.580 --> 08:58.600
+We'll select that and let's go into edit mode and let's roll this around like this.
+
+08:58.600 --> 08:59.370
+Is that enough.
+
+08:59.380 --> 09:00.910
+Let's try that.
+
+09:00.910 --> 09:01.290
+Oh no.
+
+09:01.290 --> 09:03.060
+That's not even close.
+
+09:03.700 --> 09:07.490
+Let's roll that this way.
+
+09:07.490 --> 09:15.490
+Like that let's try that maybe negative sixty five back to pose mode.
+
+09:15.490 --> 09:15.850
+Yeah.
+
+09:15.850 --> 09:17.630
+That's a little better.
+
+09:17.710 --> 09:19.940
+What we have over here point five OK.
+
+09:19.960 --> 09:32.840
+Let's type in point five here here's the hand let's choose the circle again we'll need the hand control
+
+09:32.840 --> 09:47.290
+object and control on the right we will turn this quite a bit edit mode let's turn it this way like
+
+09:47.290 --> 09:47.830
+that
+
+09:50.900 --> 09:54.540
+back to pose mode what did I put it over here.
+
+09:54.550 --> 09:57.070
+This hand is one point five.
+
+09:57.070 --> 10:00.220
+So let's do the same thing let's try that.
+
+10:00.350 --> 10:01.830
+Okay.
+
+10:02.020 --> 10:13.090
+Now select all of these and take them over to that other layer right here pose change bone layers we
+
+10:13.090 --> 10:15.360
+go all right.
+
+10:15.360 --> 10:17.630
+So I'm going to leave this hand to you.
+
+10:17.640 --> 10:23.490
+I'm going to go ahead and work on this before the next video and in the next video will come down here
+
+10:23.880 --> 10:29.920
+and work on creating the custom objects for the feet the toes in the knees.
+
+10:30.030 --> 10:30.870
+So that's coming up.

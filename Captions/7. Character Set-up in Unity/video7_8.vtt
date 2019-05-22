@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.810 --> 00:04.050
+The first thing we're going to need is a few more variables.
+
+00:04.080 --> 00:07.830
+You know what let me come down here and I'll just change this.
+
+00:07.830 --> 00:12.090
+Maybe I could just type in 125 and let's zoom in a bit.
+
+00:12.090 --> 00:13.110
+There we go.
+
+00:13.110 --> 00:16.300
+Just makes it a little bigger in the screen here.
+
+00:16.500 --> 00:22.410
+So let's create a few public variables that will house our face objects.
+
+00:22.410 --> 00:33.370
+So let's create a public game object and let's call one of them run face variable.
+
+00:33.570 --> 00:34.220
+How's that.
+
+00:34.720 --> 00:37.600
+And let's do the same thing.
+
+00:37.650 --> 00:46.020
+Let's just select this and copy this and paste it and we'll call this chump base.
+
+00:46.140 --> 00:55.330
+Variable we'll do that again paste and this one can be idle base variable.
+
+00:55.530 --> 00:56.780
+There we go.
+
+00:56.780 --> 01:04.250
+Now when we first start the game we want to fill those variables with the actual game objects in the
+
+01:04.250 --> 01:05.000
+scene.
+
+01:05.060 --> 01:09.530
+These geo face objects I mean move this over so these things here.
+
+01:09.740 --> 01:18.740
+If I search for these again type in face here and select one we can actually see the path of where they
+
+01:18.740 --> 01:26.770
+are they're in the player idle object and they're down in the armature root spine one two neck head.
+
+01:26.960 --> 01:28.510
+And finally the face.
+
+01:28.520 --> 01:34.580
+Idle object and what we're gonna need to do is put in the script that path so we can tell unity where
+
+01:34.580 --> 01:36.590
+to find this object.
+
+01:36.650 --> 01:46.610
+So if we come back over to the script here what we want to do is say the run base variable can be found
+
+01:47.300 --> 01:58.420
+as a game object game object find in let me put quotes in that because that's gonna be a string we're
+
+01:58.420 --> 02:01.480
+gonna need to type in all of this.
+
+02:01.480 --> 02:11.740
+So I'll put in a forward slash and we'll call this player underscore idle forward slash armature forward
+
+02:11.740 --> 02:17.680
+slash root and on through all of this here.
+
+02:17.730 --> 02:39.820
+So we've got a spine one spine to neck add and finally geo face idle so it has to all be just the same
+
+02:39.820 --> 02:43.590
+with the same capitals the same spelling and everything.
+
+02:43.660 --> 02:51.600
+And then of course a semicolon at the end to end the line we need two more for the jump and the idol.
+
+02:51.670 --> 03:01.180
+So I'm just going to grab all of this and press control see control V and let's change this to jump
+
+03:03.230 --> 03:06.440
+and we'll change this to jump back here
+
+03:11.770 --> 03:18.830
+then let's paste again control V and let's change this one to idle
+
+03:22.650 --> 03:30.600
+analysts put Oh we've already got idle here so Oh I see what I did wrong I need to change this to a
+
+03:30.690 --> 03:31.260
+run.
+
+03:31.260 --> 03:32.080
+There we go.
+
+03:32.130 --> 03:41.190
+So we have the run face variable being filled by the GEO face run jump into the jump variable and the
+
+03:41.200 --> 03:43.440
+idol into the idol variable.
+
+03:43.470 --> 03:50.310
+All right I mean go ahead and click save up here and now we need to tell it what to do when we hit a
+
+03:50.310 --> 03:51.190
+particular key.
+
+03:51.180 --> 04:00.720
+So if we hit the up arrow key and just as an f y if you want to use the w a and d keys instead of the
+
+04:00.720 --> 04:09.360
+arrow keys you can just change this to a W and that will automatically be seen as the w key and the
+
+04:09.360 --> 04:11.430
+Andes key will work as well.
+
+04:11.790 --> 04:19.020
+So just an aside there just wanted to let you know that now down here in the update what we can do is
+
+04:19.470 --> 04:27.810
+say if we press the up arrow we turn on the geo face run object and we turn off the other two.
+
+04:27.810 --> 04:36.780
+So to do that we can say run face variable dot set active is true
+
+04:40.380 --> 04:43.200
+and then we want to be sure the others are turned off.
+
+04:43.200 --> 04:55.230
+So if I copy this and paste it I can say maybe Idol based variable is going to be false
+
+04:58.200 --> 05:12.680
+and also I can copy and paste this and this one can be the jump jump bass variable can be false.
+
+05:12.680 --> 05:17.470
+So we're turning on the run object and turning off the other two.
+
+05:17.480 --> 05:26.240
+All right so let's just copy all of these now control C and if we are grounded what's going to happen.
+
+05:26.240 --> 05:37.450
+Well we can paste these and we know that for the idol or 0 here we want the idol to be true.
+
+05:37.550 --> 05:44.070
+We want the other two to be false and we go.
+
+05:44.270 --> 05:48.980
+Now what happens in the jump well for the jump.
+
+05:49.000 --> 06:00.220
+We can paste these and we want the jump to be true and the other two to be false.
+
+06:00.280 --> 06:03.000
+We go so let's see what happens.
+
+06:03.000 --> 06:05.620
+I'm going to save the script here.
+
+06:05.670 --> 06:07.590
+Let's go back to unity.
+
+06:07.620 --> 06:09.560
+I'm going to hit that X here.
+
+06:09.570 --> 06:11.160
+Turn that off.
+
+06:11.250 --> 06:12.890
+I'm going to save.
+
+06:13.080 --> 06:18.380
+And then let's hit the play button.
+
+06:18.390 --> 06:18.780
+All right.
+
+06:18.810 --> 06:27.240
+So we see the idol He's blinking he's idling and looking around now let's hit the run.
+
+06:27.340 --> 06:33.960
+I'll hit the up arrow and now he's determined angry or whatever he's supposed to be.
+
+06:34.150 --> 06:37.890
+And we go in back to the idol when when I released that.
+
+06:38.050 --> 06:43.240
+Now let's hit the jump.
+
+06:43.590 --> 06:44.970
+Now why doesn't that work.
+
+06:44.970 --> 06:46.200
+Well I have a theory.
+
+06:46.200 --> 06:49.300
+Let me hit the play button to turn that off.
+
+06:49.620 --> 06:55.330
+And I think it's because if we go back into the player script we scroll down here.
+
+06:55.500 --> 07:03.270
+What we have is when the spacebar is pushed and it's grounded we want to begin or enable this jump face
+
+07:03.270 --> 07:07.410
+object and as soon as we enable it the animation is going to begin.
+
+07:08.010 --> 07:11.610
+Well the problem is is it never comes off the ground.
+
+07:11.700 --> 07:15.960
+So as long as it's staying on the ground it's continuing to be renamed.
+
+07:16.320 --> 07:19.140
+And every time it's enabled it only plays that first frame.
+
+07:19.140 --> 07:24.900
+So it's just being enabled again and again and again and again at every frame.
+
+07:24.900 --> 07:28.140
+And that's why it isn't playing the animation to fix that.
+
+07:28.140 --> 07:33.210
+What we need to do is get them up off the ground we need to go ahead and create the part of the script
+
+07:33.270 --> 07:36.790
+that will push them up for the jump to do that.
+
+07:36.790 --> 07:41.910
+Let's come up to the top and let's create a new variable up here.
+
+07:41.910 --> 07:44.690
+So we have gravity.
+
+07:44.940 --> 07:54.210
+But let's also create a public float for our jump force let's call it Jump force and let's say that
+
+07:54.210 --> 08:02.870
+this force is equal to what gravity is 20 let's say the jump force will be 10 so ten point oh f four
+
+08:02.880 --> 08:06.220
+float and a semicolon there.
+
+08:06.240 --> 08:15.960
+So let's do that and then down in our jump section here we need to push him up in the Y when we hit
+
+08:15.990 --> 08:16.770
+the spacebar.
+
+08:16.770 --> 08:28.240
+So let's say move direction dot why instead of pulling down like we did down here let's just push up
+
+08:28.390 --> 08:32.100
+with jump force.
+
+08:32.140 --> 08:33.410
+Here we go.
+
+08:33.410 --> 08:33.670
+All right.
+
+08:33.680 --> 08:40.950
+So let's save this man I'll go back to unity and if we hit the play button
+
+08:44.480 --> 08:50.840
+and hit the spacebar he just jumps right out of frame and we can't see if the animation for the face
+
+08:50.840 --> 08:51.650
+turns on.
+
+08:52.040 --> 08:54.400
+So what let's do is take this camera.
+
+08:54.500 --> 08:59.270
+Let's take the camera and let's just parent it to that object just temporarily.
+
+08:59.300 --> 09:03.320
+So when he jumps up the camera will go up as well.
+
+09:03.560 --> 09:08.530
+So let's hit play and we hit the spacebar.
+
+09:08.550 --> 09:09.290
+There he goes.
+
+09:09.290 --> 09:12.150
+You see that.
+
+09:12.310 --> 09:16.170
+Now it's continuing on through the animation.
+
+09:16.270 --> 09:21.160
+So the problem was he was grounded and all the while he was grounded.
+
+09:21.370 --> 09:28.510
+That face object continually became active and therefore continually only began say it frame one.
+
+09:28.540 --> 09:33.390
+So it never was able to complete the animation all the way through.
+
+09:33.400 --> 09:34.660
+All right.
+
+09:34.660 --> 09:40.780
+Well now that we have everything set up we have the run and the jump.
+
+09:40.850 --> 09:43.770
+Now what we need to do is get him moving around the scene.
+
+09:43.940 --> 09:45.130
+So that's coming up next.

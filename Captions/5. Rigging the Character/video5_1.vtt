@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.660 --> 00:03.320
+Well ultimately I'm going to want to animate this guy.
+
+00:03.330 --> 00:10.540
+So we're going to need to create the underlying skeleton or armature that we'll use to animate him.
+
+00:10.560 --> 00:15.330
+But first of all I need to figure out how big this character should be.
+
+00:15.330 --> 00:23.100
+So should he be real life size like six feet tall or a metre and a half or more or should he be the
+
+00:23.100 --> 00:26.750
+actual size of a tiny little Lego piece.
+
+00:26.760 --> 00:27.780
+I don't really know.
+
+00:27.780 --> 00:28.730
+That's the problem.
+
+00:28.980 --> 00:35.280
+But I think what I'm going to do is just kind of make a compromise and just say he's going to be one
+
+00:35.280 --> 00:42.560
+metre tall not quite as big as a normal human being but certainly not as small as one of the toys.
+
+00:42.570 --> 00:45.620
+So what I'm going to do is create a reference object.
+
+00:45.630 --> 00:50.770
+I am just going to press shift a and I'm going to create a cube mesh cube here.
+
+00:50.970 --> 00:58.530
+And if I hit the in key you can see over here in the sidebar that the dimensions of this cube is two
+
+00:58.530 --> 01:00.340
+meters by two meters.
+
+01:00.390 --> 01:09.570
+What I think I'll do is maybe change the z axis to one meter and then change the x and the Y to maybe
+
+01:09.570 --> 01:12.120
+point two try that.
+
+01:12.150 --> 01:17.070
+So maybe this is how big my characters should be.
+
+01:17.070 --> 01:22.740
+If I hit the three key and go to the side view maybe I can bring this up and kind of put it right on
+
+01:22.740 --> 01:28.410
+the grid and just generally speaking this is how big my character should be.
+
+01:28.410 --> 01:30.570
+So as we can see he's a little too big.
+
+01:30.570 --> 01:37.230
+So I'll go to wireframe and I'll just hit the B key and border select.
+
+01:37.230 --> 01:44.080
+This whole thing here I'll go ahead and change to global transformation as well.
+
+01:44.310 --> 01:52.980
+And now I'd like to scale it down at this point here at the grid and our origin point is is up here
+
+01:52.980 --> 01:57.490
+we should probably move that Origin down to the center of the grid as well.
+
+01:57.570 --> 02:05.760
+So let's go ahead and come over here to object set Origin and Origin to 3d cursor and that'll move that
+
+02:05.760 --> 02:07.520
+down to there.
+
+02:07.530 --> 02:10.250
+Now we can just hit s and scale it down.
+
+02:10.260 --> 02:16.920
+So let me go to the front view and I'll hit s and scale it down so.
+
+02:17.170 --> 02:19.530
+So maybe he's about this big.
+
+02:19.530 --> 02:21.690
+Let's see how this works will hit the period.
+
+02:21.690 --> 02:24.300
+Key So yeah let's.
+
+02:24.610 --> 02:26.030
+Let's see how this works.
+
+02:26.030 --> 02:29.060
+I'll hit the Z key and go back to look Dev.
+
+02:29.080 --> 02:29.510
+Here
+
+02:32.140 --> 02:35.350
+and that probably is pretty good.
+
+02:35.350 --> 02:37.450
+I think that's what we'll go with.
+
+02:37.930 --> 02:44.740
+So with the character selected here you can see he's about one point O five meters tall and that's fine
+
+02:44.740 --> 02:48.530
+that 0 5 there is is tall hair.
+
+02:48.650 --> 02:51.250
+Oh I think that'll be fine.
+
+02:51.250 --> 02:59.020
+I'll select that cube and hit the delete key and I'll hit in too close that panel.
+
+02:59.470 --> 03:07.630
+Now oh actually let me open that panel up again and let's select the character and we need to deal with
+
+03:07.630 --> 03:13.420
+our scale our rotation and location are all zeros and that's good.
+
+03:13.420 --> 03:20.650
+But the scale here we should take back to 1 so I'll press control a and if you want you can just apply
+
+03:20.680 --> 03:24.090
+all transforms here at this point in time that's fine.
+
+03:24.100 --> 03:25.150
+So there we go.
+
+03:25.150 --> 03:27.830
+We're all back to zeros and ones.
+
+03:27.850 --> 03:35.800
+OK now to actually create the armature for the character let's go to the front view and let's press
+
+03:35.860 --> 03:40.920
+shift a again and come down here and choose armature.
+
+03:40.990 --> 03:44.750
+And when we do that it creates a single bone.
+
+03:44.860 --> 03:49.610
+And from this one bone we're going to create the entire armature.
+
+03:49.840 --> 03:56.110
+Now as it is currently if we hit the inky we can see we've got zeros and ones in the rotation and scale
+
+03:56.110 --> 03:56.920
+and that's good.
+
+03:57.070 --> 04:01.900
+We want to keep it that way to change the size and move it.
+
+04:01.900 --> 04:07.440
+We should tab into edit mode so I'll hit tab to go into edit mode.
+
+04:07.450 --> 04:14.890
+I'll hit Z to go to wireframe and I just want to select this tip of the bone right here and I'll grab
+
+04:14.890 --> 04:21.850
+my move tool and I just want to move it straight down in the z axis till it's quite a bit smaller about
+
+04:21.850 --> 04:29.740
+like that and then I'm going to select the entire bone by clicking here and bringing it back up in the
+
+04:29.740 --> 04:30.460
+z axis.
+
+04:30.460 --> 04:37.060
+So it's about like this and I want the tip of this bone to be just at the top of the hips something
+
+04:37.060 --> 04:40.620
+like this like that.
+
+04:40.630 --> 04:47.810
+All right let's go back to our solid view and we can't see it inside the character the way it is now.
+
+04:47.860 --> 04:57.010
+So let's come over here to our object data panel viewport display and let's click on in front right
+
+04:57.010 --> 04:57.280
+there.
+
+04:57.280 --> 05:05.050
+So now we can see it inside the character even when we go to object mode we can still see it there and
+
+05:05.050 --> 05:12.700
+notice that since I moved this in edit mode the actual origin of the object is still remaining here
+
+05:12.700 --> 05:13.630
+in the center of the grid.
+
+05:13.630 --> 05:15.060
+And that's good.
+
+05:15.070 --> 05:15.310
+All right.
+
+05:15.340 --> 05:23.110
+So with this selected maybe I'll go to the side view with the three key and let's select this top tip
+
+05:23.170 --> 05:28.660
+of the bone right there and let's hit e to extrude it.
+
+05:28.910 --> 05:37.550
+So we'll hit E and then I'll hit Z and drag straight up to about oh midpoint on the torso there and
+
+05:37.550 --> 05:47.930
+then I'll hit e and Zee and drag straight up to the base of the neck and then E and Z here's the neck
+
+05:49.030 --> 05:55.090
+and Ian Z and here's the bone for the head there we go.
+
+05:55.090 --> 06:01.000
+So now we have the hip the torso the neck and the head.
+
+06:01.000 --> 06:02.590
+Now we need to rename these.
+
+06:02.620 --> 06:08.220
+Let's select this bone and let's come over to the bone panel right here.
+
+06:08.230 --> 06:10.630
+And here we can see the name of the bones.
+
+06:10.630 --> 06:17.080
+So you've got bone bone one two three et cetera.
+
+06:17.110 --> 06:24.820
+So let's just grab this one here and let's call this the root bone and we go.
+
+06:24.820 --> 06:30.250
+And then the next one let's just call this spine.
+
+06:30.460 --> 06:34.690
+One and this one we're gonna call spine to
+
+06:37.830 --> 06:48.570
+this one we can call neck and the one up here we'll call head and we go.
+
+06:48.770 --> 06:49.000
+All right.
+
+06:49.010 --> 06:52.910
+Well that's a good beginning but there's a problem here I think.
+
+06:52.910 --> 06:56.720
+And I think we're going to need to address this pretty quick.
+
+06:56.720 --> 07:02.420
+Let's tap back into object mode and I'll select the character and let me go to the front view and if
+
+07:02.420 --> 07:10.440
+I tap into edit mode where we can see all the edges I've got a joint here but no edge.
+
+07:10.490 --> 07:16.850
+Remember I said how at every joint or every bend you should probably have three edges the edge that
+
+07:16.850 --> 07:22.040
+it bends on and then edges on either side of that to maintain the shape.
+
+07:22.550 --> 07:24.500
+Well here we don't have anything.
+
+07:24.710 --> 07:29.870
+And that's going to be a problem if we ever try and bend the torso at this point.
+
+07:29.870 --> 07:36.710
+So let's press control are and I'm going to insert an edge loop right here at that joint and then I'm
+
+07:36.710 --> 07:46.050
+going to put edge loops on either side here and here and that will allow us to bend the character at
+
+07:46.050 --> 07:51.180
+that point at that joint All right so that's going to help there.
+
+07:51.370 --> 07:57.880
+The next thing we ought to do is now that I'm thinking about it we should do that on the legs as well
+
+07:57.880 --> 07:58.790
+too.
+
+07:58.840 --> 08:00.820
+So let's go ahead and do that.
+
+08:00.820 --> 08:01.530
+Let's.
+
+08:02.020 --> 08:10.020
+Let's hit the three key here and let's create some edges here for a bend at the knee.
+
+08:10.090 --> 08:13.870
+We're not going to have the character bend the knees a whole lot but I think it'd be helpful just to
+
+08:13.870 --> 08:16.390
+have it be able to bend just a bit.
+
+08:16.390 --> 08:25.210
+So let's press control ah and click here and remember we can flip between the two edges here so if I
+
+08:25.210 --> 08:28.710
+hit the E key we've got this edge.
+
+08:28.750 --> 08:35.680
+And if I hit the f key we can flip back and forth between the edge down here and the shape of the edge
+
+08:35.740 --> 08:36.490
+up at the top.
+
+08:36.490 --> 08:40.350
+So I just want it right here OK.
+
+08:40.360 --> 08:42.550
+So let's also do that on the other side.
+
+08:42.560 --> 08:52.110
+I'll press control are click and I'll hit e and hit the f key and we go so that flattens it out.
+
+08:52.110 --> 08:55.940
+I just wanted about the same place as the other one right there.
+
+08:56.180 --> 08:56.440
+Yeah.
+
+08:57.180 --> 09:05.550
+OK so now let's create an edge down here and an edge up here.
+
+09:05.570 --> 09:10.240
+Once again I'll hit E and then F and then we go.
+
+09:10.270 --> 09:13.080
+So we need to do the same thing down here.
+
+09:13.090 --> 09:17.030
+I'll hit control are here.
+
+09:17.260 --> 09:22.760
+Control R and click E and F and that should go there.
+
+09:22.760 --> 09:29.140
+So now what let's do is press control three to go to the left or the graphic view.
+
+09:29.330 --> 09:36.500
+And if I press all Z I get this kind of transparent view I'll hit G two times and that will take me
+
+09:36.500 --> 09:44.610
+into slide mode and I'll just slide that edge right there and then let's all click this one control
+
+09:44.610 --> 09:50.310
+three and let's hit G twice and I'll slide that edge to there.
+
+09:50.310 --> 09:55.430
+So it's about the same place as the other side alt Z.
+
+09:55.860 --> 09:57.190
+And then we go.
+
+09:57.270 --> 10:05.430
+Now let's tab back into object mode and for the next video we're going to begin adding the bones for
+
+10:05.430 --> 10:06.630
+the legs and the arms.

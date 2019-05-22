@@ -1,0 +1,58 @@
+WEBVTT
+
+00:00.740 --> 00:02.980
+Hi welcome to blender 2.8.
+
+00:02.990 --> 00:04.690
+Game character creation.
+
+00:04.820 --> 00:10.160
+I'm Darren Lyle a Blender Foundation certified trainer and in this course we're going to create this
+
+00:10.160 --> 00:16.940
+character and one of the cool things about it is that we're going to incorporate both blenders 3D tools
+
+00:16.940 --> 00:25.340
+here and the new 2D grease pencil animation as well so that in one interface we can animate both the
+
+00:25.340 --> 00:29.700
+3D body and the 2D face.
+
+00:29.720 --> 00:32.600
+It's a lot of fun and it's worth checking out.
+
+00:32.630 --> 00:39.260
+In addition we'll take this character into unity and set him up as a game character so that when we
+
+00:39.260 --> 00:48.050
+run the game right here we'll be able to run the character around the environment jump and just have
+
+00:48.050 --> 00:49.690
+some fun with him.
+
+00:49.820 --> 00:53.260
+Now all the resource files are included with this course.
+
+00:53.270 --> 01:00.440
+So the Unity project the blender scene files are all included as well as the textures and the sprite
+
+01:00.440 --> 01:07.040
+sheets that we create for the 2D base animations we go through a lot of material in this course from
+
+01:07.190 --> 01:16.160
+modeling and texturing rigging animation and even writing a C sharp script in unity so the Course does
+
+01:16.160 --> 01:23.300
+assume at least some experience with Blender and unity but we'll go through every part of the process
+
+01:23.570 --> 01:24.630
+step by step.
+
+01:24.800 --> 01:30.230
+So hopefully it's a smooth learning curve right through the end of the process creating a character
+
+01:30.230 --> 01:31.990
+like this is always a lot of fun.
+
+01:32.000 --> 01:34.940
+So if you're ready let's get started.

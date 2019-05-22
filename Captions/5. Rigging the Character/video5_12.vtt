@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.690 --> 00:01.170
+All right.
+
+00:01.200 --> 00:07.350
+Our next order of business is to create all the control objects that we'll use to animate the character.
+
+00:07.350 --> 00:13.620
+We won't actually see any of these bones while we're animating we'll only see the control objects.
+
+00:13.620 --> 00:19.740
+And as I said that's just to be sure and keep the rig safe so we don't accidentally select the wrong
+
+00:19.800 --> 00:21.290
+bone and destroy the rig.
+
+00:21.780 --> 00:25.950
+So the first thing we should do is create the control objects themselves.
+
+00:25.950 --> 00:30.510
+I'm going to press shift s and move the cursor to the world origin here.
+
+00:30.630 --> 00:36.030
+Then I will press shift a and let's create a mesh circle.
+
+00:36.030 --> 00:37.220
+There we go.
+
+00:37.380 --> 00:40.110
+Let's call this control object.
+
+00:40.110 --> 00:42.750
+How about c o underscore.
+
+00:42.750 --> 00:44.350
+Circle.
+
+00:44.370 --> 00:45.390
+There we go.
+
+00:45.390 --> 00:52.560
+I will hide that from view and from the render and then let's create a cube.
+
+00:52.590 --> 00:58.550
+Let's create a box per say let's press shift a mesh cube.
+
+00:58.920 --> 01:07.070
+And for this let's go ahead and call it c o for control object.
+
+01:07.230 --> 01:18.710
+Box we go and for this let's go to our object data or object panel here and let's choose wireframe here
+
+01:18.710 --> 01:19.970
+or wire.
+
+01:19.970 --> 01:29.050
+So we only see it as a wireframe I think I'm going to tab into edit mode and with everything selected
+
+01:29.080 --> 01:34.130
+I'm just going to press s and z and scale in the z just a bit like this.
+
+01:34.430 --> 01:38.310
+But I think that's how I'm going to need it ultimately.
+
+01:38.350 --> 01:46.780
+So now we have our control object box and I'll hide that away from the view and the render and then
+
+01:46.780 --> 01:47.830
+we need one more.
+
+01:47.950 --> 01:53.810
+I'm going to create a sphere and I'm going to do that out of circles so it's.
+
+01:53.950 --> 02:02.650
+So it's a wireframe I'll press shift a mesh circle and let's then tab into edit mode I'll hit the one
+
+02:02.650 --> 02:10.330
+key to go to vertex mode and with all of this selected I'm going to press shift D and enter and then
+
+02:10.360 --> 02:20.980
+I'm going to press r y 9 0 and then we go now and it duplicate this again shift Didi and enter and then
+
+02:20.980 --> 02:25.210
+I'm going to press our Z 9 0 and we go.
+
+02:25.210 --> 02:34.750
+So now we have this kind of sphere shape and for this let's call this control object or c o underscore
+
+02:34.990 --> 02:43.900
+sphere and we go and we'll hide this in the view and hide it in the render now let's clean this up some
+
+02:44.410 --> 02:47.110
+it's beginning to get kind of a mess in here.
+
+02:47.110 --> 02:56.410
+Let's create a new collection and we'll call these control objects and I'll just select these three
+
+02:56.410 --> 03:03.730
+objects in here and click and drag them right into that collection they're and we can also go ahead
+
+03:03.730 --> 03:06.430
+and hide this away as well.
+
+03:06.430 --> 03:12.310
+In addition I'm not going to need my hair sculpt or the reference objects anymore in fact those are
+
+03:12.310 --> 03:18.340
+probably going to get in the way as we do this so I'm just gonna go ahead and right click and delete
+
+03:19.300 --> 03:23.910
+and right click and delete the reference object as well.
+
+03:24.020 --> 03:30.970
+And we go oh I didn't delete the hierarchy so the reference object stayed here even though the collection
+
+03:30.970 --> 03:34.870
+went away I need to right click and delete here as well.
+
+03:34.870 --> 03:43.480
+So instead of just deleting what I should have done is right click and select hierarchy and then delete
+
+03:43.480 --> 03:44.080
+hierarchy.
+
+03:44.110 --> 03:44.680
+That's what I.
+
+03:44.770 --> 03:45.710
+I should have done there.
+
+03:46.400 --> 03:55.570
+OK so now what let's do is begin creating all the bones that will tell the custom control objects where
+
+03:55.570 --> 03:59.410
+to go and in what orientation they need to be.
+
+03:59.950 --> 04:06.550
+So for every control object we're going to need a bone and we can do that by selecting the rig going
+
+04:06.550 --> 04:14.110
+into edit mode and here's where we'll create all the bones just like we did before but these bones won't
+
+04:14.110 --> 04:21.580
+be deforming or controlling the character per say they will just be a placement object for the control
+
+04:21.580 --> 04:22.420
+object.
+
+04:22.630 --> 04:25.630
+Hopefully it'll make sense as we go along here.
+
+04:25.720 --> 04:31.480
+So let's begin with the top bone here to control the head.
+
+04:31.510 --> 04:37.720
+We're going to place that circle shape up on top of the head kind of like a halo to control the whole
+
+04:37.720 --> 04:38.370
+head.
+
+04:38.500 --> 04:42.990
+But we need to place a bone there to tell that circle where to be placed.
+
+04:43.180 --> 04:52.930
+So up here I'm going to move the cursor to here and then what I'll do is press shift a let's bring this
+
+04:52.930 --> 04:55.810
+bone down like this.
+
+04:55.810 --> 05:03.970
+And what I'm going to do now is go to the side view and then what I'm gonna do is select this bone and
+
+05:03.970 --> 05:11.560
+then change to active element and that will move its pivot point down to the base of the bone then what
+
+05:11.560 --> 05:19.840
+I can do is rotate that bone back 90 degrees so I'll click the x axis hold the control and you can see
+
+05:19.840 --> 05:26.070
+in the upper left hand corner I can rotate this down 90 degrees and then we go.
+
+05:26.260 --> 05:26.620
+All right.
+
+05:26.640 --> 05:29.470
+So that will be the head control.
+
+05:29.470 --> 05:38.230
+So if I come over here to the bone panel this will be head control so I will call this head underscore
+
+05:38.230 --> 05:41.160
+see for control object.
+
+05:41.200 --> 05:45.270
+Now let's do that again for spine to here.
+
+05:45.280 --> 05:57.130
+The control for the top of the torso if I select spine to let's then go to shift X and cursor to selected
+
+05:58.100 --> 06:04.790
+now notice I've got the cursor here I need to move it back to individual origins and select this point
+
+06:04.790 --> 06:06.320
+right there.
+
+06:06.320 --> 06:10.560
+Now shift X and cursor to selected and we go.
+
+06:10.760 --> 06:21.150
+I'm going to create a bone here shift a and let's bring that straight down like this go to the side
+
+06:21.150 --> 06:31.870
+view let's give this one a name I click and click again and I get it here let's change the name to spine
+
+06:32.950 --> 06:41.240
+to underscore control object and we go this time once again I'll move the pivot point to the active
+
+06:41.270 --> 06:42.040
+element.
+
+06:42.170 --> 06:45.690
+I'll go to the rotate tool click.
+
+06:45.730 --> 06:47.540
+Control.
+
+06:47.790 --> 06:49.200
+Move it 90 degrees.
+
+06:49.200 --> 06:50.280
+There we go.
+
+06:50.280 --> 06:52.380
+So we've got two of them so far.
+
+06:52.440 --> 06:57.370
+Let's go down to this one down here right here.
+
+06:57.400 --> 07:04.990
+Let's move the cursor to this and then let's create another bone here.
+
+07:04.990 --> 07:07.680
+Shift day lets select it.
+
+07:07.900 --> 07:13.420
+And with that pivot point at the active element I should be able to hit s and then just scale it and
+
+07:13.420 --> 07:25.160
+bring it down like this and then let's turn it control like this and we go let's do that once again
+
+07:25.190 --> 07:35.780
+let's select this point shift s cursor to selected shift a to create the bone we'll select it it s move
+
+07:35.780 --> 07:44.600
+it down turn it to the side and then hold control as we turn it back 90 degrees and we go.
+
+07:44.600 --> 07:52.310
+So now we need to go through and name these we've done this one and this one this one we need to call
+
+07:52.310 --> 07:59.740
+spine one underscore C0 and this one we can call
+
+08:02.860 --> 08:11.650
+underscore CEO We go all right in the next video we'll go ahead and create the bones for the arms and
+
+08:11.650 --> 08:12.160
+the legs.

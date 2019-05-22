@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.710 --> 00:01.070
+All right.
+
+00:01.070 --> 00:02.150
+Now comes the fun part.
+
+00:02.150 --> 00:07.170
+We're going to take all of this and make one u v map out of all these u v islands.
+
+00:07.220 --> 00:13.280
+So to do that we need to combine all these objects together so I'm just going to begin selecting all
+
+00:13.280 --> 00:20.890
+of these the head the hair the torso the arms the leg everything.
+
+00:20.890 --> 00:27.080
+And I'm going to press control J to join these all into one object so control J.
+
+00:27.290 --> 00:28.410
+And there we go.
+
+00:28.430 --> 00:30.590
+PENN It turns out it's all called hair.
+
+00:30.650 --> 00:34.010
+Let's let's just call this character for now.
+
+00:34.090 --> 00:39.940
+Here in the outlier it looks like we've got a couple of issues with our smoothing.
+
+00:39.940 --> 00:47.440
+Once we did that and that's fine we can come over here and go to Object data normals turn on auto smooth
+
+00:48.040 --> 00:50.410
+and that cleans it up quite a bit.
+
+00:50.410 --> 01:00.110
+We can drag this up maybe I'll drag it up almost to 90 not quite 90 because the next year I wanted to
+
+01:00.110 --> 01:03.290
+keep that hard edge there.
+
+01:03.290 --> 01:08.940
+So just under 80 it looks like and that looks pretty good all the way around.
+
+01:09.010 --> 01:09.340
+OK.
+
+01:09.370 --> 01:17.200
+So now that we've done that if we tap into edit mode look at what we have a total mess.
+
+01:17.200 --> 01:25.630
+So what we need to do is combine all of these UVA islands together so that they all fit here into the
+
+01:25.630 --> 01:29.460
+zero to one space and there is no overlap.
+
+01:29.470 --> 01:35.620
+Now the reason why I call this the zero to one the space you can see if we take the 2D cursor and we
+
+01:35.620 --> 01:38.890
+place it currently you can see it's at 0 0.
+
+01:38.890 --> 01:45.550
+If I then come over here and choose 3d cursor or scuse me cursor it's now the 2D cursor here.
+
+01:45.700 --> 01:48.370
+I can move it to right here.
+
+01:48.370 --> 01:54.040
+You can see now that's 1 0 whereas x is 1 and Y is zero.
+
+01:54.040 --> 01:59.170
+We can take it and type in 1 and 0 and it's right here.
+
+01:59.200 --> 02:08.770
+Now we can enter one in here and it moves up to this corner and then we can enter zero here and it moves
+
+02:08.770 --> 02:09.370
+over here.
+
+02:09.370 --> 02:14.740
+So in terms of a graph this is 0 0.
+
+02:14.740 --> 02:16.790
+And this is one and one.
+
+02:16.810 --> 02:20.060
+So this is called the zero to one space.
+
+02:20.110 --> 02:20.310
+All right.
+
+02:20.320 --> 02:23.880
+I want to put the cursor back at 0 0.
+
+02:23.900 --> 02:25.240
+There we go.
+
+02:25.240 --> 02:30.790
+And now what I'll do is come over here and select everything here in the 3D view.
+
+02:30.820 --> 02:34.600
+So we have all of our U vs visible over here.
+
+02:34.810 --> 02:40.040
+Well then select the a key over here to select all of those you Vs.
+
+02:40.180 --> 02:44.880
+And then we can come up here to the U V menu and there are two things we want to do.
+
+02:44.890 --> 02:51.760
+We want to average the scale so that the scale of each of the V islands is the same as the relative
+
+02:51.760 --> 02:54.760
+scale of our 3D objects.
+
+02:54.760 --> 02:56.050
+And then we want to pack.
+
+02:56.050 --> 03:01.020
+Islands we want to take all those islands and pack them in to this zero to one space.
+
+03:01.030 --> 03:06.100
+So first of all I'm gonna click average island scale and there they are.
+
+03:06.100 --> 03:11.010
+And now I want to click pack island and there they are.
+
+03:11.110 --> 03:13.530
+Now they're all very tiny.
+
+03:13.530 --> 03:18.820
+Remember we changed the margin here so we need to adjust this again.
+
+03:18.840 --> 03:23.390
+I'm going to type in point 0 0 1 and let's see how that works.
+
+03:24.330 --> 03:27.240
+And that brings them quite a bit closer together.
+
+03:27.420 --> 03:29.190
+That may be a little bit too close.
+
+03:29.220 --> 03:30.810
+Let me try.
+
+03:31.050 --> 03:33.820
+Point 0 1.
+
+03:33.840 --> 03:34.310
+There we go.
+
+03:34.310 --> 03:38.690
+So that moves them apart from each other just a little bit.
+
+03:38.700 --> 03:39.480
+So there we go.
+
+03:39.480 --> 03:46.760
+There is our combined or unified UV map that the inky to close this panel.
+
+03:46.770 --> 03:52.290
+Now what we can do is mirror the arms and the legs over again but this is going to take a little bit
+
+03:52.290 --> 03:53.750
+of finagling.
+
+03:53.850 --> 04:01.110
+We're gonna have to split these out into their own objects again mirror it over and then combine them
+
+04:01.110 --> 04:05.450
+back and what that'll do is allow say the arm.
+
+04:05.460 --> 04:15.030
+Let me select the arm here that will allow the U V islands of this arm to be in the exact same position
+
+04:15.090 --> 04:18.090
+as the U V islands for the arm on the right.
+
+04:18.090 --> 04:23.140
+So each of these u v islands will be one right on top of the other.
+
+04:23.280 --> 04:24.860
+And that's what we want.
+
+04:24.870 --> 04:32.430
+So what we need to do is select both the arm and the hand right here and we need to split this object
+
+04:32.550 --> 04:35.490
+out from the rest of the object.
+
+04:35.640 --> 04:42.340
+So to do that we just need to press the p key and then we need to separate by selection.
+
+04:42.780 --> 04:43.870
+And there we go.
+
+04:43.950 --> 04:47.150
+Now a tab back into object mode and vice like this.
+
+04:47.310 --> 04:48.800
+That is its own object.
+
+04:48.810 --> 04:51.690
+You can see the new object out here.
+
+04:51.810 --> 04:58.680
+Now we need to once again move this origin to the 3d cursor here in the center of the grid.
+
+04:58.710 --> 05:07.560
+We can of course snap the cursor by pressing shift s and saying cursor to world origin then we can move
+
+05:07.560 --> 05:10.530
+the origin by coming up here to object set.
+
+05:10.560 --> 05:19.020
+Origin origin to 3d cursor and then we can mirror this over so I'll come over here to the modifiers
+
+05:19.020 --> 05:23.250
+panel add modifier mirror.
+
+05:23.360 --> 05:24.930
+And there it is right there.
+
+05:25.780 --> 05:27.980
+I'll then apply it.
+
+05:28.040 --> 05:31.580
+Now it's included in this object here.
+
+05:31.640 --> 05:36.340
+Then what we need to do is join it back to the rest of the objects.
+
+05:36.350 --> 05:43.270
+So with these selected I'll shift select the character and then I'll press control J.
+
+05:43.280 --> 05:47.030
+And that moves it back into that object.
+
+05:47.030 --> 05:48.480
+Now watch this.
+
+05:48.530 --> 05:56.870
+We tap back into edit mode if the a key you can see that the U the islands of the arms and the hands
+
+05:56.870 --> 06:01.520
+are in the exact same place both the left and the right.
+
+06:01.520 --> 06:09.650
+So if I say select this right here and if I select this right here with the L key there in the same
+
+06:09.650 --> 06:10.590
+place.
+
+06:10.790 --> 06:15.950
+Also the hands will hit the L key and the L key here.
+
+06:15.950 --> 06:17.060
+So that's what we wanted.
+
+06:17.060 --> 06:26.310
+We wanted these two symmetrical parts of the model to have u v islands one right on top of the other.
+
+06:26.480 --> 06:26.800
+All right.
+
+06:26.830 --> 06:30.340
+So let's do that again now with the legs.
+
+06:30.500 --> 06:37.090
+So I come down here and I'll hover over the leg and I'll press the L key then I'll split it out into
+
+06:37.090 --> 06:44.230
+its own object with the p key separate by selection now I'll tab into object mode and select that one
+
+06:44.230 --> 06:46.070
+object all right.
+
+06:46.100 --> 06:50.150
+So now let's move the origin to the 3d cursor set.
+
+06:50.180 --> 06:53.820
+Origin origin the 3d cursor.
+
+06:53.880 --> 07:03.600
+Now let's add a mirror modifier let's now apply it and then with the legs selected I'll press shift
+
+07:03.630 --> 07:06.000
+and click the rest the character.
+
+07:06.000 --> 07:13.400
+Press Control J and we'll add this back into the main character here control J.
+
+07:13.440 --> 07:14.730
+There we go.
+
+07:14.730 --> 07:18.430
+Now if we tap into edit mode if the key.
+
+07:18.660 --> 07:19.730
+There we go.
+
+07:20.190 --> 07:24.540
+Now we've got the legs in the exact same place as well.
+
+07:24.540 --> 07:31.840
+So once again if I select this leg and this leg you can see there in the exact same place.
+
+07:31.860 --> 07:32.580
+So there you go.
+
+07:32.580 --> 07:41.310
+That is one way to optimize your u v map by placing the maps or the islands of symmetrical parts one
+
+07:41.610 --> 07:43.730
+right on top of the other.
+
+07:43.750 --> 07:44.200
+All right.
+
+07:44.200 --> 07:50.860
+Well now that we have the U V map taken care of we can now begin thinking about texture painting our
+
+07:50.860 --> 07:51.340
+character.

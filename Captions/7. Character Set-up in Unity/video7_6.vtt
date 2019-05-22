@@ -1,0 +1,553 @@
+WEBVTT
+
+00:00.540 --> 00:04.800
+To transition from one animation to another we're going to need to create a script.
+
+00:04.810 --> 00:06.880
+So let's begin doing that.
+
+00:07.060 --> 00:13.870
+I'll switch back over here to the scene view and we're kind of getting a little disorganized here so
+
+00:14.170 --> 00:17.350
+let's go ahead and create a few folders and organize things a bit.
+
+00:17.350 --> 00:26.530
+I'm going to right click Create a folder and let's call this materials and I'll just grab these materials
+
+00:26.530 --> 00:32.280
+here like this and I'll drag those into my materials folder.
+
+00:32.560 --> 00:42.260
+Let's create one for our textures textures and I'll just take the basic color the hair.
+
+00:42.260 --> 00:44.780
+Let's go ahead and take the sprite sheets as well.
+
+00:44.780 --> 00:47.350
+Those are textures basically.
+
+00:47.480 --> 00:54.860
+Let's put those in there and all of this even though we use the idol for the character model we're using
+
+00:54.860 --> 01:02.900
+these for animation so I'm just gonna create a folder and call it animations and let's just take all
+
+01:02.900 --> 01:10.330
+of these and drop them in there and also let's create a scripts folder to WE'RE GONNA NEED THAT.
+
+01:10.340 --> 01:12.950
+SO THERE WE GO.
+
+01:12.950 --> 01:19.730
+NOW IN THIS scripts folder I'll go ahead and right click and choose create and let's create a C sharp
+
+01:19.730 --> 01:25.380
+script let's call it player and there we go.
+
+01:25.380 --> 01:31.020
+Now we can take our player Idol we can select that over here in the hierarchy and we can grab this player
+
+01:31.020 --> 01:36.240
+script and we can drag it over here and drop it onto our character.
+
+01:36.270 --> 01:39.340
+Now in addition we're going to need a character controller.
+
+01:39.360 --> 01:44.840
+So we're going to need a component in here that we can actually use to control the character.
+
+01:44.940 --> 01:46.860
+So let's click on Add component.
+
+01:47.580 --> 01:53.210
+Let's come down here to physics and let's choose character controller.
+
+01:53.220 --> 01:54.150
+There we go.
+
+01:54.150 --> 01:57.320
+Now we've got this capsule around him.
+
+01:57.360 --> 02:00.130
+So we're gonna need to adjust that a bit.
+
+02:00.130 --> 02:04.280
+I'll click on the z axis here to spin around to.
+
+02:04.290 --> 02:11.940
+Well we better choose the x axis to spin around to his left side and then I'll click this to switch
+
+02:11.940 --> 02:15.750
+from perspective to author graphic view.
+
+02:15.780 --> 02:21.750
+Now we need to configure this so the height of the capsule is currently two meters.
+
+02:21.750 --> 02:22.970
+Our character is 1 meters.
+
+02:22.980 --> 02:25.170
+Let's just type in 1 and hit enter.
+
+02:25.170 --> 02:28.470
+We need to move it up in the Y so let's move it up.
+
+02:28.660 --> 02:35.970
+Point 5.5 meters in the Y and then we need to change the radius.
+
+02:36.360 --> 02:40.020
+So maybe the radius instead of point five is let's try.
+
+02:40.020 --> 02:41.090
+Point 2 5.
+
+02:41.970 --> 02:42.220
+Yeah.
+
+02:42.240 --> 02:43.440
+That looks pretty good.
+
+02:43.530 --> 02:46.920
+Tumble back around and that looks pretty good.
+
+02:46.920 --> 02:53.050
+Click here to change from author graphic or isometric to perspective.
+
+02:53.190 --> 02:57.330
+Now that we've got that setup we need to configure it in our script as well.
+
+02:57.330 --> 03:05.790
+So I'm gonna double click on our player script and that will bring up visual studio here on my system.
+
+03:05.790 --> 03:08.360
+And here is our script template.
+
+03:08.520 --> 03:14.310
+So as I said the first thing we need to do is set up that character controller and also set up that
+
+03:14.340 --> 03:15.390
+animator.
+
+03:15.390 --> 03:20.820
+Those are two things that we've created that this script needs to be able to communicate with.
+
+03:20.880 --> 03:29.460
+So let's click here and I'm gonna hit enter to go to the next line and I want to create a private variable
+
+03:29.730 --> 03:31.050
+for the character controller.
+
+03:31.050 --> 03:40.740
+So I'm gonna type in private character controller and I'll just call it controller semicolon.
+
+03:40.750 --> 03:41.750
+There we go.
+
+03:42.990 --> 03:45.630
+Now we also need to create a variable for the animator.
+
+03:45.810 --> 03:48.390
+So let's call this private.
+
+03:48.390 --> 03:55.340
+It's gonna be of type animator and we'll just call it Adam and we go.
+
+03:55.940 --> 03:59.300
+So now we've got the variables for the controller and the animator.
+
+03:59.300 --> 04:04.170
+I'm going to go ahead and save it here just to make sure I don't lose anything.
+
+04:04.340 --> 04:09.700
+So as soon as we start the game we need to take that variable and put it into memory.
+
+04:09.860 --> 04:14.050
+So let's go ahead and in the start function here.
+
+04:14.150 --> 04:17.410
+As you can see it's called before the first frame.
+
+04:17.450 --> 04:26.200
+As soon as the game begins let's take that controller and let's put in that controller the character
+
+04:26.200 --> 04:28.650
+controller that we just created.
+
+04:28.720 --> 04:36.370
+So I'll say get component we go and that's what we want and I'll create these little guys the little
+
+04:36.370 --> 04:39.760
+arrows and we'll grab that character controller
+
+04:42.370 --> 04:48.210
+and then two parentheses and a semicolon there and we'll do the same thing for the animator.
+
+04:48.220 --> 04:54.010
+We'll take that anim variable and we'll fill it with the game object
+
+04:57.500 --> 05:05.540
+component in children we want this game component in children there and we'll give it the animator
+
+05:08.930 --> 05:14.730
+we go to parentheses and a semicolon.
+
+05:14.730 --> 05:16.030
+Then we go.
+
+05:16.080 --> 05:21.840
+So we're creating the variable and then we're grabbing the components from the scene from the objects
+
+05:21.840 --> 05:25.440
+in the scene and we're putting those in those variables.
+
+05:25.440 --> 05:26.610
+Now what do we do with those.
+
+05:26.610 --> 05:29.230
+So what let's say is under here.
+
+05:29.250 --> 05:36.900
+In the update function what we need to do is say if the up arrow is pushed then we need to kick off
+
+05:36.900 --> 05:41.540
+the run animation we need to change the animation parameter to 1.
+
+05:41.610 --> 05:42.310
+Right.
+
+05:42.330 --> 05:53.120
+So let's say if our controller is is on the ground we need to make sure it's on the ground.
+
+05:53.120 --> 06:04.650
+So we say is grounded and we find that there is input from the key the up arrow.
+
+06:04.650 --> 06:11.210
+So in this parentheses here I'll type it up if that's the case.
+
+06:11.230 --> 06:19.230
+If the controller is grounded I need to add an R here don't I comptroller.
+
+06:19.620 --> 06:27.290
+There we go if the controller is grounded and we see there's input coming from the up key from the up
+
+06:27.290 --> 06:28.260
+arrow key.
+
+06:28.490 --> 06:32.830
+Then what let's do is let's change that animation parameter to 1.
+
+06:32.840 --> 06:41.690
+So let's create our brackets here and let's say the anim variable we want to set that integer.
+
+06:41.690 --> 06:43.590
+Remember we used integer.
+
+06:43.750 --> 06:45.470
+I'll double click this.
+
+06:45.620 --> 06:56.470
+We want to set that integer of the enum parameter to 1 and we go.
+
+06:56.470 --> 07:02.480
+So what we're doing is we're setting the integer for the animation parameter to 1.
+
+07:02.510 --> 07:08.690
+Now if you don't have anything coming in if there isn't any input coming in from that up arrow What
+
+07:08.690 --> 07:09.200
+are you gonna do.
+
+07:09.230 --> 07:11.770
+Well what you can do is a.
+
+07:11.870 --> 07:22.260
+Else if the controller is just grounded but there isn't anything else happening
+
+07:25.340 --> 07:26.900
+then what we should do.
+
+07:28.470 --> 07:32.960
+Is make sure that animation parameter that integer
+
+07:35.810 --> 07:36.920
+is set
+
+07:40.610 --> 07:49.730
+and parameter is set to 0 and we go.
+
+07:49.730 --> 07:55.430
+So once again this is what we're saying we're saying that if the controller is grounded that animation
+
+07:55.850 --> 08:02.810
+or that character control or that that capsule that we just created if it's touching the ground and
+
+08:03.230 --> 08:09.420
+the up arrow is pushed then we're gonna change the animation parameter to 1.
+
+08:09.500 --> 08:15.950
+Otherwise if the controller is grounded and nothing is happening then we're going to leave the animation
+
+08:15.950 --> 08:18.170
+parameter at zero.
+
+08:18.170 --> 08:18.340
+All right.
+
+08:18.350 --> 08:21.620
+Now what happens if we hit the spacebar.
+
+08:21.620 --> 08:23.180
+If we want him to jump.
+
+08:23.180 --> 08:25.090
+Well let's take a look at that.
+
+08:25.250 --> 08:31.610
+We can come down here and say if we've got input
+
+08:34.380 --> 08:45.790
+coming in or the spacebar or the jump key because the space bar in unity is just automatically setup
+
+08:45.850 --> 08:48.010
+as the jump key.
+
+08:48.190 --> 08:57.260
+So we'll just type in jump and the controller is grounded
+
+09:00.970 --> 09:02.980
+then what are we going to do.
+
+09:03.100 --> 09:05.500
+I have a comma here instead of a period.
+
+09:05.500 --> 09:06.610
+Let's put that back.
+
+09:06.610 --> 09:08.050
+There we go.
+
+09:08.050 --> 09:11.440
+Then let's add our brackets.
+
+09:12.280 --> 09:13.540
+So what are we gonna do here.
+
+09:13.570 --> 09:20.590
+If we get input from the spacebar and the controller is grounded then we need to set that animation
+
+09:20.590 --> 09:22.830
+parameter right.
+
+09:22.830 --> 09:23.580
+Same thing
+
+09:27.550 --> 09:35.380
+and I'm PA to to semicolon.
+
+09:35.440 --> 09:36.300
+There we go.
+
+09:36.370 --> 09:39.470
+So that's how we kick off the animations.
+
+09:39.490 --> 09:41.740
+We're not moving the character at all yet.
+
+09:41.740 --> 09:46.090
+We're not moving them around the ground plane or pushing them up when he jumps.
+
+09:46.090 --> 09:47.590
+We're not doing any of that.
+
+09:47.620 --> 09:49.870
+We're just kicking off the animations.
+
+09:50.290 --> 09:56.740
+Now the last thing I want to do is add a little gravity so that we push down on that controller to make
+
+09:56.740 --> 10:00.370
+sure that it's grounded when he isn't doing anything.
+
+10:00.390 --> 10:06.930
+So what we need to do is we need to create a new variable up here at the top and it's going to be a
+
+10:06.930 --> 10:08.160
+vector 3.
+
+10:08.220 --> 10:13.290
+It's a move variable that encompasses X Y and Z all in one.
+
+10:13.290 --> 10:21.630
+So let's just come up here and let's create another private variable and let's call it a vector 3 so
+
+10:21.630 --> 10:31.400
+that encompasses all three axes and let's just call it move direction and let's make sure that everything
+
+10:31.430 --> 10:33.290
+is set to zero
+
+10:35.880 --> 10:38.630
+all the axes are set to zero.
+
+10:38.640 --> 10:39.590
+There we go.
+
+10:39.630 --> 10:42.280
+So we've got this vector 3.
+
+10:42.330 --> 10:49.410
+Now we can use it down here let's just go down a couple of lines here and now we can create our gravity
+
+10:50.160 --> 10:50.710
+list.
+
+10:50.760 --> 10:59.910
+So let's take that controller and let's use that move direction move direction here.
+
+11:01.400 --> 11:13.800
+And we're going to multiply it by what's called Time dot delta time and what that does is it makes the
+
+11:13.800 --> 11:15.280
+movement constant.
+
+11:15.300 --> 11:21.750
+If we didn't do that it would pull down based on the frame rate of the game and the frame rate of the
+
+11:21.750 --> 11:28.950
+game can fluctuate depending on the power of the console or the computer or the mobile device.
+
+11:28.950 --> 11:33.510
+So to keep the force constant we need to fix it to time.
+
+11:33.540 --> 11:37.620
+And that's what that time dot delta time will do.
+
+11:37.620 --> 11:42.350
+It will make sure the force is based on a constant time.
+
+11:42.360 --> 11:50.840
+So let's now take that move direction and in the y axis that up down axis here in unity.
+
+11:51.070 --> 11:57.270
+Let's subtract a gravity times time dot delta time.
+
+11:57.280 --> 12:07.170
+Know we go so we're taking the amount of gravity and subtracting it every second pulling down in the
+
+12:07.170 --> 12:08.670
+y axis.
+
+12:08.700 --> 12:16.440
+Now we've got a red squiggly line here and if we hover over it it says the name gravity does not exist.
+
+12:16.440 --> 12:20.330
+Well that's because we haven't created it as a variable yet.
+
+12:20.340 --> 12:21.660
+So let's do that.
+
+12:21.660 --> 12:29.470
+Let's now come up here and I'm going to move down to here and now we'll begin creating our public variables.
+
+12:29.580 --> 12:37.380
+So let's create a public float a float is just a number with a decimal point as opposed to an integer
+
+12:37.770 --> 12:43.590
+and let's call this gravity and we can set it to anything at this point in time.
+
+12:44.160 --> 12:46.650
+Let's just set it to 20 and we'll do.
+
+12:46.650 --> 12:53.050
+Point zero f or float and semicolon.
+
+12:53.050 --> 12:53.610
+And there we go.
+
+12:53.610 --> 12:58.910
+So let's press control s to save that script and now let's give it a test.
+
+12:58.920 --> 12:59.730
+Let's give it a try.
+
+13:00.180 --> 13:07.950
+Let's go back to unity and with our player script here in the inspector for our player idol.
+
+13:08.100 --> 13:14.090
+Let's go ahead and hit play so there he is idling.
+
+13:14.110 --> 13:22.970
+Let's now hit the up arrow and he runs and let's hit the jump and he goes through the jump animation.
+
+13:23.050 --> 13:24.100
+So there we go.
+
+13:24.100 --> 13:27.790
+Now I see he's hovering above the ground playing just a bit.
+
+13:27.790 --> 13:29.940
+Let's take a look at that.
+
+13:29.950 --> 13:36.220
+I'll hit the play button and let's go over here and let's see what's up with this.
+
+13:36.580 --> 13:36.850
+Yeah.
+
+13:36.880 --> 13:41.140
+Let's see if we can take that skin width down.
+
+13:41.140 --> 13:42.030
+Let's.
+
+13:42.460 --> 13:45.670
+We've got skin width here to point at point zero eight.
+
+13:45.670 --> 13:49.660
+Let's take that down to just zero and what that would do if I hit enter.
+
+13:49.720 --> 13:53.420
+It'll then take it down to the lowest possible number.
+
+13:53.540 --> 13:54.820
+So let's see if that helped.
+
+13:54.820 --> 13:57.770
+I'll hit play again and yeah.
+
+13:57.800 --> 14:00.720
+So now he's firmly on the ground.
+
+14:00.740 --> 14:03.020
+All right I'll hit that up arrow again.
+
+14:03.020 --> 14:09.920
+And he runs and I'll hit the jump and he goes through his jump animation if we come over here to the
+
+14:09.920 --> 14:17.660
+animator we can see the idol cycling through the animation we come back here to the game.
+
+14:17.680 --> 14:18.870
+There he is.
+
+14:18.880 --> 14:19.210
+All right.
+
+14:19.240 --> 14:23.290
+So we have our animations set up in our script.
+
+14:23.290 --> 14:25.420
+I'll go ahead and stop this.
+
+14:25.420 --> 14:31.520
+So in the next video what we need to do I'll go back to perspective here.
+
+14:31.850 --> 14:35.980
+What we need to do is work on setting up the 2D animation.
+
+14:36.380 --> 14:44.780
+What I'd like to do is see those 2D face animations play at the same time that the 3D animations do.
+
+14:44.780 --> 14:46.670
+So in the next video we'll work on that.

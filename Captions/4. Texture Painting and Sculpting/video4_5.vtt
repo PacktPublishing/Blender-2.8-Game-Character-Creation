@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.760 --> 00:06.370
+To get some of this sculpting detail on the hair we can use blenders sculpting tools of course.
+
+00:06.520 --> 00:13.090
+And also I think there's a little bit of fine detail micro detail on here too that maybe we could add
+
+00:13.090 --> 00:14.520
+that as well.
+
+00:14.560 --> 00:19.570
+So first of all I think what we're gonna need to do is split the hair out as its own object because
+
+00:19.570 --> 00:22.030
+I don't want to sculpt on this model here.
+
+00:22.030 --> 00:29.710
+This is my final one so I'm going to duplicate the hair do the sculpting on the duplicate then bake
+
+00:29.800 --> 00:30.910
+a normal map.
+
+00:31.030 --> 00:35.800
+Then we can apply that normal map back to our main character here.
+
+00:35.830 --> 00:43.810
+So let's go over to the layout tab and for this I think we just need to select the hair so I'll tab
+
+00:43.810 --> 00:49.180
+into edit mode and then let's press the L key to select just the hair.
+
+00:49.180 --> 00:55.870
+Now what let's do is let's duplicate this with shift D and I'll hit enter and then we want to split
+
+00:55.900 --> 00:58.960
+this duplicate mesh out from this object.
+
+00:58.990 --> 01:04.980
+So it's its own object so we'll press the p key and then we can separate by selection.
+
+01:05.170 --> 01:05.680
+There we go.
+
+01:05.680 --> 01:07.540
+So now it's its own object.
+
+01:07.540 --> 01:09.210
+Let's come over here and give it a name.
+
+01:09.220 --> 01:12.490
+Let's call it Hair sculpt.
+
+01:12.490 --> 01:20.020
+Let's do that and now if I take this object and drag it into that main scene collection we can pull
+
+01:20.020 --> 01:23.120
+it out of the character scene collection.
+
+01:23.290 --> 01:29.080
+And that allows me to hide the character and just have the hair sculpt object here.
+
+01:29.080 --> 01:29.380
+All right.
+
+01:29.410 --> 01:34.600
+So now that we've got this this is what we're actually going to do the sculpting on let's go over to
+
+01:34.600 --> 01:38.430
+the sculpting tab and let's begin working on this.
+
+01:38.470 --> 01:44.800
+Now once again I'm going to switch over to my graphics tablet and here in sculpting mode if you want
+
+01:44.800 --> 01:52.120
+to zoom in and frame up a particular object you can hover over it and then press the period key on the
+
+01:52.120 --> 01:55.380
+NUM pad and that will frame it up.
+
+01:55.390 --> 01:59.440
+So the tumble is centered at that point.
+
+01:59.440 --> 02:03.730
+So for this particular object I'm going to use the multi resolution modifier.
+
+02:03.730 --> 02:10.840
+I think it's really easy to generate pretty good looking scope detail and then bake a normal map out
+
+02:10.840 --> 02:12.790
+without having to read it apologize.
+
+02:13.060 --> 02:14.050
+It's pretty handy.
+
+02:14.080 --> 02:22.270
+So I'm going to come over here to the modifiers panel and click Add modifier and choose multi resolution
+
+02:23.320 --> 02:31.660
+I will hit the subdivide button several times maybe may be up to sculpt four and then I'll also increase
+
+02:31.660 --> 02:34.300
+the preview up to four as well.
+
+02:34.300 --> 02:40.090
+Now that we've done that we can do a few tests here to see how our sculpt tools work.
+
+02:40.090 --> 02:46.510
+If I click and drag here you can see I've added a sculpt stroke but it's also on the other side and
+
+02:46.510 --> 02:47.560
+I don't think I want that.
+
+02:47.560 --> 02:53.620
+This particular sculpt detail isn't going to be symmetrical so I'm going to come over here and turn
+
+02:53.620 --> 03:01.270
+off symmetry that first let me press control Z and I'll bring down the symmetry menu and turn off the
+
+03:01.270 --> 03:02.440
+X mirror there.
+
+03:02.440 --> 03:05.970
+Okay so now if I click and drag that's what we get.
+
+03:05.980 --> 03:06.330
+Okay.
+
+03:06.340 --> 03:07.660
+That's good.
+
+03:07.660 --> 03:13.410
+Just like in the texturing view we can hit the f key and reduce the size of the brush.
+
+03:13.420 --> 03:18.490
+Also we have a lot more tools over here and it's sometimes kind of hard to know what they are.
+
+03:18.490 --> 03:25.390
+So I'm going to hover over here and click and drag and pull this out so we can actually see the names
+
+03:25.570 --> 03:27.120
+of the tools here.
+
+03:27.190 --> 03:31.120
+Mainly we're just going to be using the draw and the smooth tool.
+
+03:31.120 --> 03:34.350
+Also I think I need that reference image over here again.
+
+03:34.360 --> 03:43.670
+So I'll just create a new window here and let's bring in an image editor and let's find that image.
+
+03:43.670 --> 03:44.150
+There it is.
+
+03:44.180 --> 03:46.490
+So this is kind of what I want to do.
+
+03:47.330 --> 03:55.370
+So let's do a few more test scopes here I think I want to cut in right like that for the part in the
+
+03:55.370 --> 04:03.290
+hair and the way you cut in as you hold the control key and drag and that then creates kind of a cut
+
+04:03.290 --> 04:12.280
+in or pushed in stroke so let me come over here and be I'll make this a little bit bigger and I'll hold
+
+04:12.280 --> 04:15.220
+control and click and drag and let's see how that works.
+
+04:15.220 --> 04:17.440
+Now it's a little bit too big.
+
+04:17.440 --> 04:23.230
+Let me reduce that a smidge and let's try that again.
+
+04:23.380 --> 04:24.430
+See how that worked.
+
+04:24.430 --> 04:27.040
+That's not bad.
+
+04:27.040 --> 04:32.440
+I kind of feel like it needs to be a little bit deeper or more angled cut.
+
+04:32.440 --> 04:39.610
+So let's come over here to our fall off again and let me try this one right here where we have more
+
+04:39.610 --> 04:47.240
+of a steep angle on the stroke once again press control and kind of move that back.
+
+04:47.270 --> 04:49.570
+Yeah I think that's a little bit better.
+
+04:49.650 --> 04:54.300
+So let me try again.
+
+04:54.330 --> 05:04.290
+No I think I wanted to come back more horizontal so let me try this again.
+
+05:04.300 --> 05:05.560
+That's not bad.
+
+05:05.560 --> 05:07.410
+Yeah I think I like that.
+
+05:07.540 --> 05:08.260
+All right.
+
+05:08.260 --> 05:14.620
+There are these tiny artifacts back here but we'll go through this after we do our strokes and we'll
+
+05:14.920 --> 05:19.310
+bring in the smooth brush and see what we can do to clean that up.
+
+05:19.360 --> 05:23.470
+So I think I just want one two maybe three more strokes here.
+
+05:23.470 --> 05:28.710
+Let's try this press control and I might go this way.
+
+05:28.810 --> 05:30.570
+No not quite.
+
+05:31.000 --> 05:33.530
+It's kind of it's gonna take me a few times here.
+
+05:33.540 --> 05:41.960
+It always does and you know what I could do is I could bring in or I could turn on this smooth stroke
+
+05:42.050 --> 05:42.430
+again.
+
+05:42.440 --> 05:50.330
+Let's try this and if I press control and click and drag you can see there's this stroke.
+
+05:50.330 --> 05:51.710
+See how that worked.
+
+05:51.770 --> 05:53.480
+That's not bad.
+
+05:53.480 --> 05:57.680
+Well I kind of want this to come up a little more so let's do it one more time.
+
+05:59.330 --> 06:03.330
+Like this round like that.
+
+06:04.420 --> 06:08.130
+Yeah that's a little bit more I like these parallel here.
+
+06:08.250 --> 06:08.800
+OK.
+
+06:09.910 --> 06:12.250
+It looks like there's one way down here in the front.
+
+06:12.250 --> 06:14.620
+Let's try and get that one in there.
+
+06:18.620 --> 06:19.600
+That.
+
+06:19.710 --> 06:19.960
+Yeah.
+
+06:20.040 --> 06:20.430
+OK.
+
+06:20.430 --> 06:21.850
+That looks pretty good.
+
+06:21.900 --> 06:23.820
+And then there's one way up here on top.
+
+06:23.820 --> 06:26.220
+Let's try and get one up here.
+
+06:26.220 --> 06:30.990
+I'm just going to hold that control key click and drag and then drag out here.
+
+06:30.990 --> 06:33.820
+Now that's a little bit too close.
+
+06:33.830 --> 06:39.430
+Let me get it up a little higher on the head here like this.
+
+06:39.460 --> 06:42.690
+See how that works.
+
+06:42.740 --> 06:43.140
+All right.
+
+06:43.160 --> 06:50.930
+Let's see if we can now smooth these back a bit so they don't have the artifacts and rough edges here
+
+06:50.930 --> 06:52.010
+at the end.
+
+06:52.100 --> 06:54.810
+So let's go over to the smooth tool.
+
+06:54.830 --> 06:58.470
+I'm going to hit the f key and make this a little bit bigger.
+
+06:58.490 --> 07:05.270
+Let's take this strength down a bit so we don't smooth the way all of our strokes and I'll just come
+
+07:05.270 --> 07:11.420
+in here and kind of they can drag and smooth this up just a bit.
+
+07:11.420 --> 07:14.390
+Blend these in just a little bit more like this
+
+07:17.850 --> 07:24.550
+Yeah just bring them back a little bit so they aren't quite as harsh so they aren't quite as prominent.
+
+07:24.650 --> 07:25.070
+All right.
+
+07:25.080 --> 07:32.380
+Maybe even take this down a little bit more smooth this back some like that all right.
+
+07:32.600 --> 07:34.040
+Let's give this a try.
+
+07:34.040 --> 07:37.200
+I kind of you'll like this might work.
+
+07:38.600 --> 07:44.160
+Now that we've smoothed those back let's add that micro detail I was talking about.
+
+07:44.300 --> 07:50.570
+Let's come back to the draw brush here and let's add a new texture so if I come up here I can click
+
+07:50.570 --> 07:53.860
+on texture and add new right here.
+
+07:54.050 --> 08:01.040
+Now that we have that new texture we can come over to our texture tab down here and here it is.
+
+08:01.070 --> 08:10.100
+So if we change our type from image or movie to noise now we're gonna be painting or sculpting this
+
+08:10.400 --> 08:11.440
+noise pattern.
+
+08:11.450 --> 08:18.530
+So if I come over here and click and drag you can see we get this kind of kind of a micro detail there
+
+08:18.800 --> 08:19.760
+which is kind of nice.
+
+08:19.760 --> 08:25.430
+Now let me undo this and let's turn off that smooth stroke.
+
+08:25.430 --> 08:32.120
+Also let's reduce this drink of quite a bit and I will increase the size of the brush.
+
+08:32.120 --> 08:38.320
+You can kind of see the detail here as I change the size of the brush there.
+
+08:38.330 --> 08:38.690
+All right.
+
+08:38.710 --> 08:46.790
+So let's do this let's just very lightly lay down this detail on just barely click and drag and just
+
+08:46.790 --> 08:54.380
+lay down some of this detail I'm just going to kind of do it in line with the current strokes here like
+
+08:54.380 --> 08:55.690
+this.
+
+08:55.760 --> 08:59.060
+Let's just see if we can add some of this all around.
+
+08:59.060 --> 09:05.730
+So it gives it a little bit of a feeling like it's you know textured plastic or something like that.
+
+09:05.840 --> 09:09.040
+Let's do that.
+
+09:09.120 --> 09:17.000
+All right then I'll tumble around and get this area down underneath here as well along the rim of the
+
+09:17.000 --> 09:21.920
+hair right down in here of that.
+
+09:22.100 --> 09:25.790
+Let's see how it works all right.
+
+09:25.830 --> 09:33.750
+So what I'd like to do now is bake out this high resolution information to a normal map and then we
+
+09:33.750 --> 09:41.040
+can apply the normal map to the material of the character because if I were to break out all of this
+
+09:41.040 --> 09:48.030
+detail here let me hit the Zeek and go to wireframe you can see that we've got a huge amount of polygons
+
+09:48.030 --> 09:49.320
+being used for this.
+
+09:49.320 --> 09:52.770
+We can't keep all of these polygons for a game character.
+
+09:52.770 --> 09:57.670
+We're going to need to bake the scoped information out to a normal map.
+
+09:57.720 --> 10:01.790
+So in the next video let's go ahead and work on that.

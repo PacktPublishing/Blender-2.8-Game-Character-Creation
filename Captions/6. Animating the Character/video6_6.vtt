@@ -1,0 +1,424 @@
+WEBVTT
+
+00:00.620 --> 00:08.000
+Well since the last video I went ahead and downloaded the very latest version of Blender 2.8 beta and
+
+00:08.060 --> 00:10.310
+of course since is still a development version.
+
+00:10.310 --> 00:16.750
+Things can change and sure enough the look of the timeline has changed since the last version.
+
+00:16.760 --> 00:22.040
+So still all the same key frames and everything just a little bit different aesthetic to it.
+
+00:22.070 --> 00:23.450
+That's all I guess.
+
+00:23.660 --> 00:33.260
+So before we create our geo face run and jump let's go ahead and render this 2D animation out to an
+
+00:33.260 --> 00:36.360
+image sequence and then we're gonna bring it back.
+
+00:36.440 --> 00:39.220
+Apply it to our Geo face.
+
+00:39.260 --> 00:46.760
+Idle object and see if it's the right size and if it isn't then we'll scale the UVA island up or down
+
+00:46.940 --> 00:48.580
+to get it to be just the right size.
+
+00:48.590 --> 00:56.270
+And once we do that then we know we can duplicate these and use them for the other face animations as
+
+00:56.270 --> 00:56.780
+well.
+
+00:56.780 --> 00:58.760
+So let's give this a try.
+
+00:58.760 --> 01:03.470
+First of all we're not going to need to see the character in the render for this.
+
+01:03.560 --> 01:07.130
+So I can turn off the render view here.
+
+01:07.160 --> 01:13.490
+We're not going to need to see this geo face idle in the render we will need to see the grease pencil
+
+01:13.490 --> 01:21.530
+object so we'll leave that and we won't need to see the armature in the render either so I'll just click
+
+01:21.530 --> 01:21.840
+that.
+
+01:21.870 --> 01:26.960
+So we're just taking all these away hiding them away in the render.
+
+01:26.960 --> 01:29.820
+All right let's go over here to the output tab right here.
+
+01:29.960 --> 01:32.840
+And as we said before we're at 24 frames per second.
+
+01:32.840 --> 01:37.250
+We've already set up our resolution to be 256 pixels.
+
+01:37.790 --> 01:40.460
+Let's come down here and under the output.
+
+01:40.460 --> 01:48.530
+Let's point this to a particular folder so I'll click here and I'll browse to my folder and in here
+
+01:48.980 --> 01:51.130
+I'm going to create a new folder.
+
+01:51.140 --> 01:59.940
+I'll just click right here and we'll call this renders and in that folder what I'd also like to do is
+
+01:59.940 --> 02:03.380
+create a folder and I'll call this idol.
+
+02:03.510 --> 02:03.960
+There we go.
+
+02:03.960 --> 02:09.120
+So this is the folder that we want to actually send our rendered images to.
+
+02:09.120 --> 02:12.940
+So I'll click accept and you can see here's the path.
+
+02:13.260 --> 02:17.070
+Now currently we're going to be outputting PND which is fine.
+
+02:17.070 --> 02:23.880
+And we also want this RG be a we went the A four Alpha that alpha channel is going to allow everything
+
+02:23.880 --> 02:28.800
+that isn't the grease pencil strokes to be clear to be transparent.
+
+02:28.800 --> 02:37.380
+Now to ensure we get that transparency we should come over to the render panel here and under film we
+
+02:37.380 --> 02:40.470
+should choose instead of sky for the Alpha.
+
+02:40.470 --> 02:42.810
+We want it to be transparent right there.
+
+02:42.810 --> 02:43.200
+OK.
+
+02:43.230 --> 02:45.560
+So we still have the Eevee render engine.
+
+02:45.570 --> 02:52.440
+We've got the alpha transparent and we've created the folder in which all the renters are going to go.
+
+02:52.590 --> 02:52.860
+All right.
+
+02:52.890 --> 03:00.450
+So let's go back to that folder here so here's our folder with the renders and we've got the idle folder
+
+03:00.450 --> 03:01.440
+here.
+
+03:01.590 --> 03:03.360
+That's where it's gonna go.
+
+03:03.360 --> 03:05.400
+So here we go.
+
+03:05.400 --> 03:14.370
+We're gonna go to render render animation and there it goes.
+
+03:14.600 --> 03:15.050
+All right.
+
+03:15.050 --> 03:17.240
+It has rendered all of our frames.
+
+03:17.240 --> 03:21.310
+Let's go ahead and close this and I'll open up that folder again.
+
+03:21.320 --> 03:22.070
+And here it is.
+
+03:22.100 --> 03:28.100
+You can see them all from one all the way to one 43 All right.
+
+03:28.100 --> 03:31.600
+So if we open one up you can see that's all we have.
+
+03:31.610 --> 03:33.390
+Just a small face.
+
+03:33.590 --> 03:36.300
+Now here comes the fun part.
+
+03:36.380 --> 03:44.540
+What we need to do is map that back onto our geo face idle object as a texture so to do that.
+
+03:44.540 --> 03:51.050
+Let's go back to our shading tab and really all we need to do is just bring it into this image texture
+
+03:51.050 --> 03:51.660
+node.
+
+03:51.740 --> 03:56.810
+But before we do that let's hide the grease pencil object for just a moment.
+
+03:56.810 --> 03:59.440
+Let's come over here and hide that here.
+
+03:59.450 --> 04:00.600
+There it is.
+
+04:00.620 --> 04:05.610
+Now let's bring in our image sequence here so I'll click open.
+
+04:05.990 --> 04:09.350
+It says detect sequences here and that's checked.
+
+04:09.350 --> 04:10.740
+So that's good.
+
+04:10.850 --> 04:16.170
+We go into renders and Idol and we click on the first frame.
+
+04:16.250 --> 04:25.730
+Let's now come over here to open image and instead of single image we can change this to image sequence.
+
+04:25.730 --> 04:27.440
+Let's do that.
+
+04:27.440 --> 04:29.930
+Now currently the color is white.
+
+04:29.960 --> 04:35.870
+If we take the base color here and drag that all the way down we can turn it black and that's what we
+
+04:35.870 --> 04:36.950
+want.
+
+04:36.950 --> 04:39.420
+And once again this is just a temporary setup.
+
+04:39.440 --> 04:45.400
+We're just doing this to see how big that u v map or that u v island should be.
+
+04:45.440 --> 04:48.890
+And it looks to me like that they should be a little bit bigger.
+
+04:48.890 --> 04:52.640
+So let's go over to our UVA editing tab.
+
+04:52.700 --> 04:53.720
+Let's come over here.
+
+04:53.720 --> 04:59.240
+And with all of these selected all of these UVA is selected let's hit the esky and let's just scale
+
+04:59.240 --> 05:03.940
+it down a bit and you can see as we do we can make it bigger or smaller.
+
+05:03.950 --> 05:05.160
+However we want here.
+
+05:05.180 --> 05:12.290
+But if I move this up about like this and then also I think I'd like to move it up some.
+
+05:12.290 --> 05:20.650
+So let's take this and move it up a bit and I'm just going to move this around until I get it about
+
+05:20.680 --> 05:22.820
+where I want it.
+
+05:22.890 --> 05:23.130
+All right.
+
+05:23.130 --> 05:27.810
+So then I'll hit the ESC again and scale this up a bit.
+
+05:27.810 --> 05:29.220
+Is that about right.
+
+05:29.220 --> 05:32.340
+Oh I feel like it needs to be a little bit bigger here
+
+05:36.570 --> 05:36.850
+there.
+
+05:36.880 --> 05:37.540
+Let's try that.
+
+05:37.540 --> 05:46.750
+I'll tap back into object mode and there he is I mean move that cursor back to the world origin I think
+
+05:46.750 --> 05:49.420
+though maybe it needs to come up just a little bit.
+
+05:49.450 --> 05:51.320
+Let me do this again.
+
+05:51.400 --> 05:59.830
+I'm going to hit key and why and slide that up just a bit like that there we go.
+
+05:59.840 --> 06:02.390
+I think that's going to be how I want it.
+
+06:02.480 --> 06:02.770
+Yes.
+
+06:02.770 --> 06:07.000
+So now you can see that too the image on the actual object.
+
+06:07.010 --> 06:09.490
+We're going to use in unity now.
+
+06:09.650 --> 06:14.030
+If we then come down here and hit the spacebar what happens.
+
+06:14.100 --> 06:14.990
+I'll do that.
+
+06:14.990 --> 06:17.460
+And we're not seeing the blink.
+
+06:17.510 --> 06:19.040
+So why is that.
+
+06:19.040 --> 06:21.800
+Well I think I may know.
+
+06:21.800 --> 06:28.310
+Let's press shift arrow and go back to the beginning and if we go back to our use the editing screen
+
+06:28.310 --> 06:28.660
+layout.
+
+06:28.670 --> 06:33.840
+No I'm sorry our shading screen layout here.
+
+06:34.010 --> 06:34.700
+Look at this.
+
+06:34.700 --> 06:39.130
+This says image sequence but it says how many frames.
+
+06:39.290 --> 06:44.450
+And we need to put in one forty three right there.
+
+06:44.570 --> 06:50.540
+And while we're here let's go ahead and turn on auto refresh as well so it will refresh each frame as
+
+06:50.540 --> 06:51.900
+it goes along.
+
+06:51.950 --> 06:52.540
+OK.
+
+06:52.700 --> 06:54.020
+So I think we're ready.
+
+06:54.020 --> 07:02.360
+Let's go back to our 2D animation and hit that spacebar and let's see what happens there we go there.
+
+07:02.360 --> 07:03.540
+He's blinking now.
+
+07:03.680 --> 07:11.690
+The actual quality of the image is pretty poor because we're doing this in real time so the image quality
+
+07:11.690 --> 07:14.130
+is going to be quite a bit better in unity.
+
+07:14.210 --> 07:21.680
+But you can see the actual texture playing through the image sequence as well as the character animating
+
+07:21.920 --> 07:23.610
+with the animation cycle.
+
+07:23.660 --> 07:25.670
+So it works.
+
+07:25.730 --> 07:28.210
+That's I think what we needed to see.
+
+07:28.250 --> 07:37.070
+So since that's the case we can now come over and duplicate these duplicate this object because we now
+
+07:37.070 --> 07:40.190
+have the object parenting to the head bone.
+
+07:40.190 --> 07:43.280
+We have a transparent material on it.
+
+07:43.280 --> 07:54.030
+We have you v mapped the object so that the U V map is the proper size and we've tested the image sequence
+
+07:54.030 --> 07:54.990
+on it as well.
+
+07:54.990 --> 07:57.840
+So I think we're ready to go ahead and duplicate this.
+
+07:57.870 --> 07:58.760
+So let's do that.
+
+07:58.770 --> 08:07.560
+Let's select that let's press shift D and enter and instead of geo face idle let's go ahead and call
+
+08:07.560 --> 08:20.140
+this geo face run and we'll duplicate this and we'll call this geo face jump and there we go.
+
+08:20.150 --> 08:22.930
+Now let's come down here to the materials.
+
+08:23.210 --> 08:25.940
+I'm going to go back over to our shading here.
+
+08:25.970 --> 08:32.080
+Let's come over to our materials now and for the jump.
+
+08:32.190 --> 08:37.440
+Let's go ahead and duplicate the material the idol material let's duplicate it for the jump.
+
+08:37.440 --> 08:43.280
+Now I can just delete this or remove the material slot here and then create a new material.
+
+08:43.410 --> 08:50.580
+But I want to make a copy of it and to do that I need to click this button here so I click this and
+
+08:50.580 --> 09:00.010
+we'll call this jump and we go and I'll go ahead and remove that image sequence out of here because
+
+09:00.010 --> 09:09.960
+we don't need that and we go and then let's go ahead and or the face run once again let's duplicate
+
+09:09.960 --> 09:15.240
+this and call this base run.
+
+09:15.240 --> 09:16.430
+There we go.
+
+09:16.440 --> 09:20.240
+So now we have three different objects with three different materials.
+
+09:20.250 --> 09:23.840
+Oh I can go ahead and remove the image sequence out of here.
+
+09:24.030 --> 09:28.130
+All parents to the head bone and ready to go.
+
+09:28.140 --> 09:37.510
+So with all of that done now we can do in the next video is begin creating our run animation.
+
+09:37.590 --> 09:44.910
+We will hide the idol and the jump will bring back the grease pencil object and we'll begin creating
+
+09:45.120 --> 09:46.290
+the run animation.

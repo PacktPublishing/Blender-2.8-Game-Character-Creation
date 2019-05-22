@@ -1,0 +1,391 @@
+WEBVTT
+
+00:00.760 --> 00:04.090
+For the arms I think we can begin with a cylinder again.
+
+00:04.360 --> 00:10.190
+We can maybe press shift a and bring in a cylinder.
+
+00:10.360 --> 00:17.650
+I need to change this to 16 sides I think and let's go ahead and create a triangle band for the caps
+
+00:17.650 --> 00:26.080
+again and then I'd like to rotate this around the x axis so I'll press our x 9 0 and spin that and let's
+
+00:26.170 --> 00:30.830
+shrink it down and kind of put it in place and see how big we need this.
+
+00:30.940 --> 00:39.610
+I'll just bring it over here and if we take a look at the reference image here it looks like it's kind
+
+00:39.610 --> 00:45.930
+of hard to tell but it looks like we might be able to place it about like this alternate in the x axis.
+
+00:46.100 --> 00:54.620
+Gamma press are an X and then just rotate or move the mouse and maybe get it about like this.
+
+00:54.620 --> 01:03.080
+It's kind of hard to tell but I think that might be about the proper placement for this we can of course
+
+01:03.080 --> 01:05.230
+move it around as we need to.
+
+01:05.240 --> 01:13.430
+But now let's hit the period key to zoom in and once we've zoomed into this object we also tumble around
+
+01:13.430 --> 01:14.750
+it as well.
+
+01:14.750 --> 01:23.480
+I'll tab into edit mode hit three key for base mode and let's press the C key again and click and drag
+
+01:23.480 --> 01:25.160
+to select those.
+
+01:25.160 --> 01:30.620
+Think I'll just delete these because we're not going to need these right now I'll hit X and I'll choose
+
+01:30.620 --> 01:34.130
+to delete faces and we go.
+
+01:34.350 --> 01:39.860
+Now if I hit the two key to go to edge mode I'll press Alt and click an edge and that will select that
+
+01:39.860 --> 01:41.480
+whole edge loop.
+
+01:41.480 --> 01:48.380
+Now let's go to the side view with the three key and let's try and extrude this out and bring it up
+
+01:48.380 --> 01:51.320
+to where the shoulders should be.
+
+01:51.380 --> 01:57.110
+But before I do that I mean move this down a bit and turn it some because I feel like trying to get
+
+01:57.110 --> 02:01.690
+it up to the center of the torso from there may have been kind of a challenge.
+
+02:01.910 --> 02:02.170
+All right.
+
+02:02.200 --> 02:08.990
+So what let's do is here in the side view I'm in the right or the graphic view I'm just gonna hit E
+
+02:09.350 --> 02:16.790
+and then click and I'll hit g to grab that and move this back a bit and then I'm gonna hit R and rotate
+
+02:16.790 --> 02:20.500
+it and then G and kind of spin it around like this.
+
+02:20.530 --> 02:28.370
+So I'm just trying to turn it so that we can point the next extrusion up toward the shoulder here I'll
+
+02:28.370 --> 02:37.750
+hit E and then click and hit G and move this up like this and hit R and turn it like this all right.
+
+02:37.780 --> 02:44.570
+So now we've got that kind of 3 edge bend here so I want to show you what I mean.
+
+02:44.570 --> 02:53.260
+This edge here this edge right here and this edge right here those three edges for that bend all right.
+
+02:53.290 --> 02:59.680
+So now if I take this edge I'm going to extrude it up but I'm not going to go all the way I'm going
+
+02:59.680 --> 03:03.140
+to hit e and just bring it up right about to here.
+
+03:03.140 --> 03:10.240
+Let's say and now we need to get this curved part of the shoulder and I think the way to do that is
+
+03:10.240 --> 03:12.160
+going to be a sphere.
+
+03:12.160 --> 03:15.140
+So what I'd like to do is create a sphere.
+
+03:15.220 --> 03:19.790
+Cut it in half and then connect it up with the upper arm.
+
+03:19.810 --> 03:25.120
+Now when I'm in object mode I can right click and go to the snap menu here.
+
+03:25.120 --> 03:31.890
+But when I'm in edit mode the right click brings up the context menu or whatever.
+
+03:31.930 --> 03:33.340
+Select mode where m.
+
+03:33.340 --> 03:35.740
+So we're in Edge mode right now.
+
+03:35.740 --> 03:42.460
+So the edge context menu comes up so to move the cursor while we're on edge mode we can press shift
+
+03:42.550 --> 03:47.550
+s and now we can choose cursor to selected right there.
+
+03:47.620 --> 03:53.420
+And now I'll tab back into object mode and let's create a sphere up here.
+
+03:53.620 --> 03:59.860
+I'll press shift a and I'll go to mesh you v sphere.
+
+03:59.860 --> 04:10.600
+Now we need to change the number of segments from 32 to 16 right here and that will match the number
+
+04:10.600 --> 04:12.460
+of edges of our cylinder.
+
+04:12.640 --> 04:14.760
+So let's scale this down a bit.
+
+04:15.600 --> 04:21.780
+And then what I'll do is go ahead and maybe just go to the well I'll go to the side view here with three
+
+04:21.780 --> 04:30.780
+key and I'll hit the Z key to go to wireframe and let's tab in the edit mode I'll press the three key
+
+04:30.780 --> 04:39.110
+to go to face select and then what we can do is go ahead and select all the faces on the bottom here.
+
+04:39.120 --> 04:46.320
+So I'll click the select tool and then I'll click and drag and select all of these hit X and delete
+
+04:46.680 --> 04:47.870
+bases.
+
+04:47.910 --> 04:49.260
+There we go.
+
+04:49.260 --> 04:49.620
+All right.
+
+04:49.650 --> 04:52.780
+So now let's shrink this down a bit.
+
+04:54.230 --> 04:57.410
+And let's also move this up to where it should be.
+
+04:57.410 --> 05:01.030
+Maybe right up in here let's say.
+
+05:01.100 --> 05:05.540
+OK so now what we need to do is connect these up.
+
+05:05.540 --> 05:13.850
+Let's go ahead and join these together I'll select the arm and shift select the shoulder object here
+
+05:13.880 --> 05:16.410
+and then I'll press control J.
+
+05:16.460 --> 05:23.240
+And that will join those all into one object then I'll tab and edit mode and now we can connect these
+
+05:23.240 --> 05:30.920
+up what we could do is let me just select these bases here I'm going to also click on an edge between
+
+05:30.920 --> 05:39.860
+two of the faces and then I'll hit X and delete bases and then back to edge mode all click this edge
+
+05:40.420 --> 05:43.980
+all shift click this edge so we select them both.
+
+05:44.060 --> 05:51.390
+And now let's bridge this so we could come up here to the edge menu here and choose bridge edge loops.
+
+05:51.440 --> 05:58.870
+We can also press control e and we get the same menu we can select bridge edge loops here and then we
+
+05:58.870 --> 06:02.710
+go and that connects those two edges together.
+
+06:02.800 --> 06:07.180
+Now I feel like this cylinder kind of should be turned a bit.
+
+06:07.180 --> 06:14.710
+So let's under this control Zee and I'll select this top part with the L key I'm going to d select everything
+
+06:14.710 --> 06:20.620
+and hit the L key and that selects all linked components of that particular piece.
+
+06:20.650 --> 06:28.210
+So let's just take this and rotate it and kind of point it at the elbow there and let's also select
+
+06:28.360 --> 06:35.360
+this edge and maybe I'll shrink it down just a bit as well and move it kind of get it more in line and
+
+06:35.380 --> 06:40.250
+just feel like we were kind of off when we connected those together.
+
+06:40.330 --> 06:40.570
+All right.
+
+06:40.570 --> 06:46.090
+So now with this edge selected I'll press all shift and click that edge and let's try it again.
+
+06:46.090 --> 06:50.190
+I'll press control e and bridge edge loops all right.
+
+06:50.220 --> 06:52.370
+So I think that's a little bit better.
+
+06:52.470 --> 06:58.650
+I mean select this edge and or scale it out a bit maybe move it some I can come over here to the move
+
+06:58.650 --> 07:06.780
+tool and kind of click and drag and move that maybe I can select this edge now kind of turn it move
+
+07:06.780 --> 07:06.900
+it.
+
+07:06.930 --> 07:13.680
+So now we can come in and begin rearranging the edges to get it just the way we want it.
+
+07:13.770 --> 07:16.110
+Maybe I'll turn that a bit here.
+
+07:16.130 --> 07:17.700
+Something like that.
+
+07:17.700 --> 07:21.650
+So just trying to get that general shape.
+
+07:21.720 --> 07:21.960
+All right.
+
+07:21.960 --> 07:27.120
+We should take a look at it from the front and view as well and it looks to me like we've got a couple
+
+07:27.120 --> 07:31.290
+of these edges that are a little too wide or a little too narrow.
+
+07:31.290 --> 07:38.010
+So if I pressed S and X maybe I could bring this in a bit and maybe select this edge and press X and
+
+07:38.010 --> 07:40.430
+X and bring it out just a bit.
+
+07:40.630 --> 07:49.390
+So you may need to do just a little bit of tweaking here and also now I may actually take this part
+
+07:49.490 --> 07:55.270
+right here and it feels like I could shrink that down just a little bit like this.
+
+07:55.460 --> 07:58.420
+All right let's go with this for now and see how it works.
+
+07:59.260 --> 08:06.190
+Right now the pivot point of this object is right here in the the what was the center of the cylinder
+
+08:07.420 --> 08:13.770
+I could move this or change this if I needed to to move and rotate the arm.
+
+08:13.870 --> 08:20.920
+So if I tabbed into edit mode and all clicked say this edge let me press the two key to go to edge mode
+
+08:20.950 --> 08:23.380
+and then there we go.
+
+08:23.380 --> 08:30.760
+Now I could press shift s move the cursor to the selected and then I could set the origin of the object
+
+08:30.790 --> 08:32.050
+to that 3d cursor.
+
+08:32.050 --> 08:36.180
+Now we're already pretty close to being there but I'll go ahead and do that.
+
+08:36.520 --> 08:43.780
+I can right click and edit mode and go to set origin and set the origin of the object to the 3d cursor.
+
+08:43.990 --> 08:45.190
+And there we go.
+
+08:45.190 --> 08:45.480
+OK.
+
+08:45.490 --> 08:54.410
+So now what I can do is maybe move this in like this and then tilt it out.
+
+08:54.560 --> 08:59.420
+I'll just push the arc key and kind of tilt it out like this.
+
+08:59.450 --> 09:05.390
+Now let's go ahead and smooth this the way we have the other objects are selected and come up here to
+
+09:05.900 --> 09:14.330
+object and shade smooth or as we've done before we can come over here and right click it and choose
+
+09:14.750 --> 09:16.860
+shade smooth here as well.
+
+09:16.860 --> 09:17.910
+There we go.
+
+09:17.930 --> 09:18.200
+OK.
+
+09:18.230 --> 09:23.870
+So now let's take a look at that object data panel right down here.
+
+09:23.870 --> 09:27.890
+We'll go to the normals section right here.
+
+09:27.890 --> 09:34.650
+Turn on auto smooth and let's go and drag it all the way down and then drag it back up and see what
+
+09:34.650 --> 09:36.660
+we can get.
+
+09:36.830 --> 09:44.930
+At what point it kind of smooths out or is the way we want it to Yeah it looks like above 30 degrees
+
+09:45.440 --> 09:49.270
+you can see it kind of sharpen up at the elbow there.
+
+09:49.280 --> 09:55.640
+But then if I drag it up say above 35 degrees that kind of smooths out a bit.
+
+09:55.640 --> 10:03.020
+And once again we are creating this for a game character so we're trying to keep it fairly low poly
+
+10:03.050 --> 10:04.000
+here.
+
+10:04.100 --> 10:06.040
+I think I'll tilt it again in the y here.
+
+10:06.080 --> 10:12.830
+Let me push r and y and tilted in the Y and I'm gonna push it in again like this and see how that works
+
+10:13.630 --> 10:20.180
+I'm gonna get the cursor back to the center of the grid by pressing shift C and that frames everything
+
+10:20.180 --> 10:27.180
+up and puts the cursor back at the grid and I think we're doing pretty well here.
+
+10:27.320 --> 10:34.340
+I'm going to select the torso now and hit the period key and frame that up so it spins around the torso.
+
+10:34.340 --> 10:36.350
+Yeah I think that works pretty well.
+
+10:36.350 --> 10:40.990
+I may want to add an edge in here.
+
+10:41.000 --> 10:44.380
+In between each of these so it curves a little bit more.
+
+10:44.390 --> 10:47.420
+But for now I think I'm gonna leave it as is.
+
+10:47.660 --> 10:52.720
+And in the next video what let's do is work on creating the hand.
+
+10:52.880 --> 10:58.580
+And then after that what we'll do is we'll mirror these over and see how it looks.
+
+10:58.610 --> 10:59.940
+So that's coming up next.

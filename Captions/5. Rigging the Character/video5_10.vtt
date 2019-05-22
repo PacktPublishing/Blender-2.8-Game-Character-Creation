@@ -1,0 +1,379 @@
+WEBVTT
+
+00:00.480 --> 00:06.680
+As I mentioned the next trick will be to get this toe bone to stay parallel to the ground.
+
+00:06.780 --> 00:13.270
+When we turn the foot up so we're going to need to add a constraint to this as well.
+
+00:13.380 --> 00:17.300
+We press Alt are and let's select the toe bone here.
+
+00:17.310 --> 00:19.100
+Let's come up and choose.
+
+00:19.290 --> 00:26.850
+Add bone constraint and we'll add a copy rotation constraint once again we'll choose the armature as
+
+00:27.030 --> 00:31.710
+the target and for the bone here we're gonna want to choose the TOE ROLL.
+
+00:31.710 --> 00:37.200
+So I'm just going to type in toe and we'll choose TOE ROLL dot l.
+
+00:37.260 --> 00:38.750
+And it goes crazy.
+
+00:38.760 --> 00:40.140
+Take a look at that.
+
+00:40.640 --> 00:49.740
+What we need to do is change from world to local space for both of these and also we want to turn off
+
+00:49.830 --> 00:50.900
+the NY.
+
+00:51.870 --> 00:59.760
+And then instead of choosing invert we actually want to select offset so let's select this.
+
+00:59.760 --> 01:00.990
+Now let's give it a try.
+
+01:01.500 --> 01:06.300
+I'll select this foot roll BONE AND LET'S TURN IT FORWARD AND THERE WE GO.
+
+01:06.300 --> 01:12.370
+WE'VE GOT THE TOE staying on the ground when we roll it forward.
+
+01:12.370 --> 01:16.170
+So there we go that's that's really the kind of thing that we want.
+
+01:16.540 --> 01:26.530
+We want to be able to roll forward and plant that toe and we want to be able to roll back up onto the
+
+01:26.530 --> 01:27.010
+heel.
+
+01:27.010 --> 01:35.150
+And as you can see once again there is some weight painting we need to do as we turn this up.
+
+01:35.150 --> 01:42.740
+We need this part of the foot to stay flat on the ground and as we rotate back we need this heel edge
+
+01:42.740 --> 01:46.740
+right here to stay on the ground as well but we can do that.
+
+01:46.760 --> 01:49.080
+We will do that here in just a bit.
+
+01:49.080 --> 01:52.400
+Let me press Ault ah and let's do this for the other side.
+
+01:52.400 --> 01:53.790
+I'll select the toe.
+
+01:54.110 --> 01:57.710
+Let's add a copy rotation constraint.
+
+01:57.890 --> 02:03.770
+We'll choose armature and for this will choose TOE ROLL.
+
+02:03.920 --> 02:09.280
+AH and we'll change from world to local.
+
+02:09.310 --> 02:11.800
+Lastly will choose offset.
+
+02:11.800 --> 02:12.540
+And here we go.
+
+02:12.550 --> 02:14.080
+That should do it for us.
+
+02:14.140 --> 02:15.530
+Or this foot as well.
+
+02:16.180 --> 02:16.590
+Yeah.
+
+02:17.620 --> 02:19.470
+It's working pretty well.
+
+02:19.470 --> 02:20.290
+Okay.
+
+02:20.450 --> 02:21.030
+All right.
+
+02:21.050 --> 02:23.020
+Ah to clear the rotation for that.
+
+02:23.250 --> 02:25.660
+Now the knees.
+
+02:25.680 --> 02:33.450
+Well we need to do is create controls for these knees that will allow us to manually point them in the
+
+02:33.450 --> 02:39.720
+direction that we want to do that we're going to need to add a new bone here for each of the knees.
+
+02:39.870 --> 02:47.620
+So let's go back over into edit mode and I will select one of these knee joints here and let's move
+
+02:47.650 --> 02:52.840
+the cursor to here shift as cursor to selected.
+
+02:52.840 --> 03:00.540
+Let's create a bone shift a And let's bring this down and get it down to be about the right size that
+
+03:00.540 --> 03:00.960
+we want.
+
+03:00.960 --> 03:06.050
+So let's say we want it to be about this big here.
+
+03:06.160 --> 03:10.560
+Let's also select that bone and duplicate it and put it on the other side as well.
+
+03:10.570 --> 03:16.810
+So if I maybe move the cursor over here cursor to selected and I select this bone.
+
+03:16.930 --> 03:25.540
+Let's duplicate it with shift D and enter and then let's move it over to the cursor here so shift s
+
+03:26.050 --> 03:30.180
+selection to cursor and that'll move it over there.
+
+03:30.220 --> 03:32.980
+So let's give these names as well.
+
+03:32.980 --> 03:45.100
+This one we should probably call knee control top L and I'll just grab that copy it with control C..
+
+03:46.390 --> 03:50.270
+Select that one over there and let's control the.
+
+03:50.660 --> 03:52.650
+And change the L to an R.
+
+03:52.870 --> 03:53.290
+There we go.
+
+03:53.290 --> 03:56.170
+So now we have our two knee control Bones.
+
+03:56.170 --> 04:01.110
+I'll take them both now and let's just move them straight out like this.
+
+04:01.120 --> 04:07.630
+So we're a little bit out from the character maybe like this and I'm doing them together like this so
+
+04:07.630 --> 04:11.020
+they're in the exact same place on each side.
+
+04:11.020 --> 04:17.890
+Now what we need to do is have this knee point at these all the time no matter where we move these the
+
+04:17.890 --> 04:24.100
+knees should point at them and what we're really going to do is not so much point the knees but we're
+
+04:24.100 --> 04:26.850
+going to point the AK chain at these things.
+
+04:26.860 --> 04:30.040
+So to do that we need to get back to that inverse.
+
+04:30.080 --> 04:32.380
+Semantics constraint panel.
+
+04:32.530 --> 04:38.520
+So let's go over to pose mode here and let's select that foot bone.
+
+04:38.520 --> 04:41.170
+I mean go to the bone here.
+
+04:41.170 --> 04:42.210
+That's foot.
+
+04:42.250 --> 04:47.470
+I k there we need to go to that foot dot l bone.
+
+04:47.620 --> 04:54.610
+So if we go to our constraints panel here we can see here's that I K panel or that I K constraint.
+
+04:54.970 --> 05:00.850
+And in this IKEA constraint panel we have this poll target and that's what that is.
+
+05:00.850 --> 05:06.010
+We're gonna target that knee control in this poll target field.
+
+05:06.010 --> 05:14.590
+First of all though we need to choose the armature here then for the bone we need to type in knee and
+
+05:14.590 --> 05:17.370
+we'll choose that knee control dot l.
+
+05:17.540 --> 05:18.610
+There we go.
+
+05:18.610 --> 05:25.150
+Now once again it goes crazy but we can take this pole angle and click and drag on and you can see how
+
+05:25.150 --> 05:32.800
+we can begin to turn it like this I'm turning it back negative and we wanted to go to negative 90
+
+05:36.510 --> 05:38.470
+there we go like that.
+
+05:38.560 --> 05:43.660
+So now that knee points at that knee control all the time.
+
+05:43.750 --> 05:52.420
+So if we maybe grab this knee control and hit gee look at how that turns along with that object.
+
+05:52.440 --> 05:52.710
+All right.
+
+05:52.750 --> 05:59.020
+So if we select this foot controlled say and rotate it like this.
+
+05:59.020 --> 06:03.010
+Now we want that need to move out and be in line with that.
+
+06:03.010 --> 06:11.530
+I can hit G and turn that like this and we can kind of control where that knee is pointing with this
+
+06:11.530 --> 06:13.110
+new control here.
+
+06:13.120 --> 06:13.330
+All right.
+
+06:13.360 --> 06:20.980
+So I'm gonna press Alt are alt G actually a better select everything and I'll press Alt R G.
+
+06:20.980 --> 06:22.200
+There we go.
+
+06:22.240 --> 06:25.920
+So now let's do that same thing for the other side.
+
+06:26.050 --> 06:28.630
+We want to select that foot.
+
+06:28.630 --> 06:30.500
+Dot Ah there it is.
+
+06:30.500 --> 06:34.060
+I mea make sure in the bone panel here.
+
+06:34.090 --> 06:34.910
+There it is.
+
+06:34.960 --> 06:36.260
+Put dot R.
+
+06:36.400 --> 06:43.100
+Let's go to our constraint panel in the poll target field will choose armature.
+
+06:43.100 --> 06:48.350
+And in that Bowen field will choose that knee control right here.
+
+06:48.360 --> 06:53.850
+Now control are once again it spins around and is really ugly.
+
+06:53.850 --> 06:59.760
+Well let's just type in negative nine to zero and that spins it back around.
+
+06:59.760 --> 07:00.390
+And there we go.
+
+07:00.390 --> 07:05.710
+We should be able to grab that G and move it back and forth.
+
+07:05.790 --> 07:07.180
+Good.
+
+07:07.220 --> 07:12.730
+The last thing we should do here is make sure that these knee controls stay with the rig.
+
+07:12.770 --> 07:23.210
+So if we took this rig and maybe the put controls down here like this the route and those controls and
+
+07:23.210 --> 07:28.280
+hit G and moved it we'd leave our knee controls behind.
+
+07:28.360 --> 07:32.210
+I'm going press all g to clear the location.
+
+07:32.210 --> 07:36.800
+So let's take these and parent them to a bone in the foot.
+
+07:36.800 --> 07:40.920
+We might as well just parent them to the foot controls themselves.
+
+07:40.970 --> 07:50.560
+So let's go back into edit mode and we'll select the knee control and then shift click the foot control
+
+07:51.130 --> 07:56.340
+and then we'll choose control P and keep offset and we go.
+
+07:56.400 --> 07:57.530
+Same thing over here.
+
+07:58.840 --> 08:04.330
+Select that foot control control P and keep offset.
+
+08:04.360 --> 08:12.310
+So what that means actually now is that when we rotate the foot the knee control will come along and
+
+08:12.310 --> 08:16.960
+we can use that foot control to move it away from the direction of the foot.
+
+08:16.990 --> 08:22.660
+So let me show you what I mean here if we go to post mode again and I'll select that control when we
+
+08:22.660 --> 08:29.460
+turn this now because this is parenthood the knee and the foot will turn in the same direction.
+
+08:29.470 --> 08:31.950
+So that just saves an extra step.
+
+08:31.960 --> 08:39.460
+Now if we want it to be any different we can take that and move it around like that.
+
+08:39.490 --> 08:39.700
+All right.
+
+08:39.730 --> 08:47.520
+So I'm going to select everything with the achy old are to clear the rotation of g to clear the location.
+
+08:47.530 --> 08:49.240
+And here we go.
+
+08:49.240 --> 08:52.930
+So now we pretty much have the rig the way we want it.
+
+08:53.680 --> 09:00.590
+Now we need to do is adjust the weights of the feet so that toe and that heel stays on the ground.
+
+09:00.790 --> 09:07.240
+And then we need to create control objects that we can use when we animate because we don't want to
+
+09:07.240 --> 09:13.780
+actually select the bones here that deform or move the character when we're animating.
+
+09:13.780 --> 09:22.360
+We want to select proxy objects control objects and hide the rig away completely because if we accidentally
+
+09:22.360 --> 09:29.170
+select the wrong bone and move it or scale it or change it in any way we can destroy the rig.
+
+09:29.170 --> 09:35.350
+So we want to keep everything safe and hidden away and just use control objects to animate the character
+
+09:36.250 --> 09:37.480
+in the next video.
+
+09:37.480 --> 09:41.650
+Let's work on cleaning up the weights for the toe and the heel.

@@ -1,0 +1,379 @@
+WEBVTT
+
+00:00.690 --> 00:03.690
+I noticed one thing while playing this back.
+
+00:03.840 --> 00:12.250
+If we take a look at the foot here and we scroll forward we see its contact and with the heel it's flat
+
+00:13.030 --> 00:19.080
+it's flat then it turns up it's still on the toe and then it's up.
+
+00:19.410 --> 00:28.290
+Whereas if we take a look at this foot right here I noticed this foot has the contact it's flat and
+
+00:28.290 --> 00:36.220
+then it pulls up and and then it's up on the toe for these two frames as well but right here it still
+
+00:36.220 --> 00:40.780
+pulls up and I feel like I should probably fix that.
+
+00:40.930 --> 00:46.960
+So to do that what I'm going to do is just select this guy right here and let's press Alt ah and see
+
+00:46.960 --> 00:50.150
+how that works and we go yeah.
+
+00:50.320 --> 00:53.290
+And that adds a key frame there as well.
+
+00:53.290 --> 00:55.730
+So now let's go back.
+
+00:55.750 --> 00:56.410
+Here we go.
+
+00:56.410 --> 01:03.070
+Contact flat on the ground flat on the ground on the toe and up on the toe.
+
+01:03.070 --> 01:04.540
+Yep there we go.
+
+01:04.540 --> 01:07.000
+So that's all that needed to happen there.
+
+01:07.000 --> 01:14.230
+And now that I've done this let's go ahead and save the file and go to a file save copy and I'll put
+
+01:14.230 --> 01:15.530
+that in my exports.
+
+01:15.610 --> 01:21.790
+Here's that player run I'll go ahead and write over that there.
+
+01:21.880 --> 01:26.890
+OK so now we've got it ready to go for the jump.
+
+01:27.000 --> 01:31.020
+Once again I'm going to delete all of these down here.
+
+01:31.020 --> 01:37.080
+I'll hover over the timeline down in the dope sheet and press the A key and I'll just delete all of
+
+01:37.080 --> 01:37.660
+these.
+
+01:37.740 --> 01:40.290
+Hit delete and delete key frames.
+
+01:40.320 --> 01:41.790
+And there we go.
+
+01:41.790 --> 01:50.070
+Now on frame one I'll select everything in post mode and then press Alt are all g to bring him back
+
+01:50.070 --> 01:53.130
+to his default t pose there.
+
+01:53.280 --> 01:56.280
+Now for the jump one I want for this.
+
+01:56.550 --> 02:04.260
+I think what I want is kind of a Super Mario type thing with one leg forward and one arm forward.
+
+02:04.260 --> 02:07.030
+At least that's how I picture him in my head.
+
+02:07.050 --> 02:14.280
+That's actually what he's doing or not I don't know but that's what I want is kind of a as if he's leaping
+
+02:14.280 --> 02:17.430
+over a hurdle or or or something like that.
+
+02:17.490 --> 02:19.740
+Now we're probably gonna need more key frames here.
+
+02:19.740 --> 02:23.010
+I'm not exactly sure how many we're gonna need.
+
+02:23.010 --> 02:25.680
+Let's take it up to 48 frames.
+
+02:25.680 --> 02:30.170
+Just to give us two seconds let's do that.
+
+02:30.240 --> 02:35.850
+I'll once again work on the body first and then we'll take a look at the face.
+
+02:36.090 --> 02:43.590
+I think I do know that I want his arms down something to go ahead and select the shoulder controls here
+
+02:43.620 --> 02:51.260
+and get the arc key and turn these down like that and I'm not going to worry about him moving up in
+
+02:51.260 --> 02:52.120
+the z axis.
+
+02:52.130 --> 02:54.260
+I'm just going to move the arms and the legs.
+
+02:54.350 --> 02:58.880
+Once we get to unity we're gonna script a force upward to make him jump.
+
+02:58.880 --> 03:03.740
+So we don't need to apply that force here or move him at all.
+
+03:03.770 --> 03:06.790
+All we need to do is just animate the arms and legs.
+
+03:06.830 --> 03:10.120
+So from here let's just move up to.
+
+03:10.340 --> 03:13.160
+I don't know frame twenty four one second.
+
+03:13.160 --> 03:20.320
+Let's see how this works and what I'll do is I'll just come around to this side with the right arm selected
+
+03:20.330 --> 03:29.280
+and I'll just spin that up like that I'll go round to the other side and let's spin this one back like
+
+03:29.280 --> 03:33.620
+this let's grab a leg.
+
+03:33.620 --> 03:34.700
+Here we go.
+
+03:34.700 --> 03:39.950
+So if this arm is back then this leg should be forward like this.
+
+03:39.950 --> 03:52.650
+Right let's do that and this leg should go back and hit the Aki and rotate like this something like
+
+03:52.650 --> 03:53.490
+that.
+
+03:53.540 --> 04:01.380
+He's kind of jumping up like that now also I feel like I want to turn some of the torso controls so
+
+04:01.380 --> 04:14.100
+maybe maybe he If we tilt this way then I can begin kind of arching the back like this and then maybe
+
+04:14.100 --> 04:18.290
+grab that head bone here and turn it down a bit.
+
+04:18.300 --> 04:20.880
+So he's still looking forward.
+
+04:20.880 --> 04:23.230
+Let's see how that works.
+
+04:23.310 --> 04:23.700
+OK.
+
+04:23.700 --> 04:24.660
+That's not too bad.
+
+04:24.660 --> 04:27.490
+I think I want to maybe move that head back a little bit.
+
+04:27.490 --> 04:28.170
+They're like this.
+
+04:28.200 --> 04:32.050
+So he's kind of jumping up like that.
+
+04:32.090 --> 04:32.350
+All right.
+
+04:32.360 --> 04:33.650
+Let's see how that works.
+
+04:33.650 --> 04:40.970
+So now if we grab this cursor on the timeline with the right mouse button and scroll back it kind of
+
+04:40.970 --> 04:42.260
+goes like that.
+
+04:42.260 --> 04:44.630
+Now let me take all of these.
+
+04:44.630 --> 04:50.240
+I'm going to click the top key frame here to select that whole column and I'll press shift D and move
+
+04:50.270 --> 04:51.930
+these down like that.
+
+04:51.950 --> 04:57.350
+Now let's hit play and see about the timing really bad.
+
+04:57.500 --> 04:59.310
+OK.
+
+04:59.750 --> 05:06.150
+So you can kind of see where I'm going here but we need more snap more energy to it.
+
+05:06.230 --> 05:09.710
+It's kind of the laziest jump I've ever seen.
+
+05:09.710 --> 05:10.100
+OK.
+
+05:10.130 --> 05:14.270
+So clearly I don't think we're going to need two whole seconds for this.
+
+05:14.300 --> 05:21.470
+So let's take this column of key frames and hit the G key and move these back like this.
+
+05:21.470 --> 05:24.380
+And let's take this and move these in like this.
+
+05:24.380 --> 05:25.390
+So we've got it.
+
+05:25.520 --> 05:33.520
+Let's have it all happen in about one second so I'll change my in time to 24.
+
+05:33.530 --> 05:35.470
+Let's try this.
+
+05:35.480 --> 05:39.410
+All right I'll hit that spacebar OK.
+
+05:39.440 --> 05:41.940
+So a little better.
+
+05:41.950 --> 05:48.370
+Now let's take this row of key frames and move it back to say frame eight and then let's duplicate these
+
+05:48.370 --> 05:50.950
+with shift D and move these out too.
+
+05:50.950 --> 05:53.930
+I don't know 16 or or 18.
+
+05:54.280 --> 05:55.740
+Let's try 17.
+
+05:55.750 --> 05:56.320
+How about that.
+
+05:56.350 --> 05:58.060
+Let's hit the spacebar
+
+06:01.350 --> 06:01.820
+OK.
+
+06:01.830 --> 06:08.850
+So he's jumping and then he's holding it's not too bad.
+
+06:08.850 --> 06:11.930
+I feel like it needs to be a little bit longer.
+
+06:12.030 --> 06:15.290
+Let's grab these and move these to frame.
+
+06:15.320 --> 06:22.500
+Thirty two let's border select all of these with the B key and move these into the center.
+
+06:22.510 --> 06:30.230
+And what I'm gonna do now is I'm going to grab this column and this column and move them out a bit.
+
+06:30.310 --> 06:34.820
+Let's change our frame range here back to 32.
+
+06:35.210 --> 06:36.610
+At that base bar
+
+06:42.230 --> 06:43.960
+feels a little better.
+
+06:43.960 --> 06:44.530
+OK.
+
+06:44.540 --> 06:51.030
+But I think right in here where would that be say on 16.
+
+06:51.170 --> 06:57.290
+Feel like I need something to happen here like a little bit of an extreme or something.
+
+06:57.290 --> 07:06.120
+So if we hit play he kind of holds and I'd kind of like him to move a little bit there while he's holding.
+
+07:06.180 --> 07:11.910
+So somewhere around 16 I think what I'm gonna do is just push everything a little bit more just make
+
+07:11.910 --> 07:15.470
+everything a little bit more extreme so pull that back
+
+07:18.700 --> 07:32.120
+maybe pull this board just everything's gonna push just a bit out and up and back and rotate out.
+
+07:32.320 --> 07:33.370
+Maybe he can even
+
+07:36.890 --> 07:39.690
+arch that back a little bit more.
+
+07:39.860 --> 07:41.050
+Just see how that works.
+
+07:41.060 --> 07:43.100
+I'm not sure let's give it a try
+
+07:47.780 --> 07:48.800
+that might just work.
+
+07:48.800 --> 07:59.190
+So that's 32 frames and you gotta try and imagine him kind of shooting up into the air as he does this.
+
+07:59.260 --> 08:03.830
+In fact I may even need it to pop quicker.
+
+08:03.970 --> 08:10.860
+Here let me take this column of key frames and move them back maybe to frame for.
+
+08:10.870 --> 08:16.600
+Let's see how this works shift arrow to go back at that spacebar
+
+08:21.150 --> 08:24.150
+that feels a little bit snappier
+
+08:31.900 --> 08:32.390
+All right.
+
+08:32.390 --> 08:34.040
+That's not too bad.
+
+08:34.610 --> 08:43.330
+I feel like it may be going on a little bit too long still so maybe I'm going to take all of these and
+
+08:43.360 --> 08:52.540
+let's move them to G and let's move them back to here so this in frame is at frame 30 let's hit let's
+
+08:52.540 --> 09:01.950
+change the frame range back to 30 at that spacebar.
+
+09:02.170 --> 09:05.210
+I feel like that's getting there.
+
+09:05.350 --> 09:10.740
+You know you kind of springs and then it comes back down
+
+09:16.150 --> 09:21.310
+this is kind of a tough one because we may actually need to get it into unity before we see exactly
+
+09:21.310 --> 09:24.120
+how this is going to work and then come back here.
+
+09:24.130 --> 09:28.040
+But I don't know I feel like that might just work
+
+09:31.220 --> 09:36.390
+I guess what we should do is go ahead and work on the face animation in the next video.
+
+09:36.410 --> 09:38.080
+So we'll do that.
+
+09:38.090 --> 09:38.840
+Coming up next.

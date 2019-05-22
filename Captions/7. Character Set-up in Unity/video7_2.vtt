@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00.640 --> 00:07.780
+To create our sprite sheets we're gonna use the free trial version of a program called texture Packer.
+
+00:07.780 --> 00:11.340
+And you can get that here at Code in web dot com.
+
+00:11.530 --> 00:17.980
+And what this will do is it will take all those individual images and it will put them on one single
+
+00:17.980 --> 00:28.120
+image that we then bring into unity until unity how to split it up how to cut it up into the 144 individual
+
+00:28.240 --> 00:30.190
+images that we need.
+
+00:30.220 --> 00:36.790
+So all I've done is I've just downloaded the free version of texture Packer here and then if we open
+
+00:36.790 --> 00:43.090
+it up we get presented with this screen here and we can of course purchase the pro version we would
+
+00:43.090 --> 00:46.130
+have to purchase the key and then enter it here.
+
+00:46.240 --> 00:52.750
+But for this project all we really need is just the free version so I'll click here and here we are.
+
+00:52.750 --> 00:54.960
+So this is texture Packer.
+
+00:55.030 --> 00:59.600
+What we need to do is bring in our images over here into this column.
+
+00:59.620 --> 01:05.800
+So what let's do is come up here to add sprites and here's our jump.
+
+01:05.800 --> 01:07.650
+Let's begin with that idol.
+
+01:07.720 --> 01:12.910
+Let's go in here and here's all of our frames for our idol to select all of them.
+
+01:12.910 --> 01:20.160
+I'm just gonna press control a and then click open and here are all of our frames.
+
+01:20.380 --> 01:27.520
+Now it's packed it in just automatically in kind of a strange way I don't want all of these turned sideways.
+
+01:27.520 --> 01:32.890
+This isn't quite what we need and what texture Packer is gonna do here is it's gonna try and tell us
+
+01:32.920 --> 01:38.590
+that we need the pro features to do this but all we really need to do is just change the algorithm over
+
+01:38.590 --> 01:41.740
+here to the basic algorithm.
+
+01:41.740 --> 01:42.940
+There we go.
+
+01:42.940 --> 01:49.300
+And then what I'm going to do is change the max size and for this for our one hundred and forty four
+
+01:49.480 --> 01:59.860
+images at 256 pixels I choose forty ninety six and then take this trim and change it to none.
+
+01:59.880 --> 02:00.660
+Here we go.
+
+02:00.660 --> 02:08.670
+Now we've got a very nice sprite sheet with all of the blocks filled or all of the tiles filled.
+
+02:08.790 --> 02:14.610
+If I would have left the animation at one hundred and forty three frames this one frame would have been
+
+02:14.610 --> 02:20.670
+blank and therefore we would have gotten a little flash at the end of each of the cycles.
+
+02:20.760 --> 02:23.760
+And that would have been kind of distracting in unity.
+
+02:23.760 --> 02:28.090
+So this is why I needed one hundred and forty four so we would come out even.
+
+02:28.110 --> 02:31.330
+So we'd get a fully tiled sprite sheet.
+
+02:31.380 --> 02:37.260
+Now it's telling us down here that we don't have a particular tool enabled because we don't have the
+
+02:37.260 --> 02:38.380
+pro version.
+
+02:38.400 --> 02:43.140
+That's fine let's just disable the feature there and then we go.
+
+02:43.140 --> 02:44.910
+So this is what we want.
+
+02:45.180 --> 02:47.200
+Now we need to do is publish it.
+
+02:47.250 --> 02:51.200
+Let's come up here to publish sprite sheet like there.
+
+02:51.270 --> 03:00.110
+And here in our exports we can go ahead and call this maybe idle underscore sprite sheet.
+
+03:00.110 --> 03:04.100
+There we go and now we can click OK.
+
+03:04.110 --> 03:04.950
+All right.
+
+03:05.070 --> 03:06.080
+Well that wasn't too bad.
+
+03:06.090 --> 03:07.950
+Let's go ahead and try the other one.
+
+03:07.950 --> 03:11.270
+I'm going to come up here and go to file new project.
+
+03:11.490 --> 03:14.920
+Let's add some sprites right here.
+
+03:14.980 --> 03:18.460
+I mean this time let's go take a look at the jump.
+
+03:18.470 --> 03:19.370
+Here we are.
+
+03:19.370 --> 03:23.780
+So I'll press control a and click open.
+
+03:23.870 --> 03:29.960
+Now once again we need to do a bit of adjusting here so let's go over here to the algorithm and change
+
+03:29.960 --> 03:31.980
+that to the basic.
+
+03:32.570 --> 03:39.320
+For our max size I think we can keep it at 2048 because we don't have as many images for the trim.
+
+03:39.320 --> 03:41.660
+Let's go ahead and choose none.
+
+03:41.780 --> 03:42.820
+And there we go.
+
+03:42.830 --> 03:44.610
+So that looks pretty good.
+
+03:44.630 --> 03:48.330
+I'll go ahead and disable this here so we don't get that.
+
+03:48.350 --> 03:54.830
+Now you may be wondering I I did all that work previously with the idol to make sure that we had all
+
+03:54.830 --> 03:57.210
+the tiles build on our sprite sheet.
+
+03:57.380 --> 04:00.050
+And yet here we've got two that are empty.
+
+04:00.050 --> 04:05.990
+Well the reason why I don't care too much about this is this isn't going to be a cycling animation.
+
+04:06.080 --> 04:12.500
+So the Idol will be repeating again and again whereas with the jump it'll just be one time.
+
+04:12.500 --> 04:18.850
+So the animation will begin as he begins to jump and then it will end as he hits the ground.
+
+04:19.130 --> 04:22.810
+And then if he jumps again it'll begin from the beginning again.
+
+04:22.850 --> 04:28.880
+So we didn't need to fill this up completely because it won't be looping continuously.
+
+04:28.880 --> 04:29.360
+All right.
+
+04:29.390 --> 04:33.530
+So let's go up here to publish sprite sheet.
+
+04:33.700 --> 04:34.400
+There we go.
+
+04:34.400 --> 04:44.480
+And for this let's call it Jump underscore sprite sheet and OK for the run.
+
+04:44.640 --> 04:45.920
+It's just a single image.
+
+04:45.930 --> 04:48.200
+So we don't need to worry about that too much.
+
+04:48.210 --> 04:52.410
+We can just bring in that single image and use it as is.
+
+04:52.600 --> 04:57.090
+All right well let's go over to unity and bring these in and see if we can set these up.
+
+04:57.430 --> 05:04.040
+So back in unity here let's right click in the assets folder and we'll choose important new asset.
+
+05:04.060 --> 05:14.090
+And over in our exports we can choose the idol and jump sprite sheets and we go all right.
+
+05:14.120 --> 05:15.590
+Well now let's set these up.
+
+05:15.590 --> 05:22.400
+If I choose the idol sprite sheet over here in THE INSPECTOR We have some settings that we can use to
+
+05:22.520 --> 05:28.000
+enable unity to see this as a single image with multiple sprites.
+
+05:28.070 --> 05:36.730
+So as our texture type we want to change this from default to sprite and as I said we want our sprite
+
+05:36.730 --> 05:43.280
+mode to not be single we want to see this as a sprite sheet with multiple sprites on it.
+
+05:43.310 --> 05:45.590
+So let's choose multiple.
+
+05:45.700 --> 05:47.490
+We also made this sprite sheet.
+
+05:47.640 --> 05:48.980
+40 ninety six.
+
+05:48.990 --> 05:53.630
+So we need to change the max size to forty ninety six here.
+
+05:53.800 --> 05:57.000
+Natalie click apply.
+
+05:57.110 --> 05:58.440
+You can see it here.
+
+05:58.490 --> 06:06.650
+So we have the image setup but now we need to tell unity how to cut it up how to slice it into 144 individual
+
+06:06.650 --> 06:07.520
+images.
+
+06:07.550 --> 06:10.880
+So to do that we come over here to our sprite editor.
+
+06:10.970 --> 06:12.110
+We open this up.
+
+06:12.110 --> 06:14.090
+We can see our image here.
+
+06:14.240 --> 06:17.550
+And if we come up to slice we can tell unity how we want to cut it.
+
+06:17.690 --> 06:27.050
+So I click slice and instead of automatic we want to choose grid by cell size So currently the pixel
+
+06:27.050 --> 06:29.570
+size is at 64 by 64.
+
+06:29.570 --> 06:34.940
+We rendered these out at 256 by two fifty six.
+
+06:34.940 --> 06:42.910
+So now if we click slice it will cut it up into one hundred and forty four images that are exactly 256
+
+06:42.910 --> 06:49.770
+by 256 so if I select one here you can see this one is two fifty six by 256.
+
+06:50.020 --> 06:52.620
+And so are all the others right.
+
+06:52.660 --> 06:56.140
+So these are all now exactly the same size.
+
+06:56.320 --> 06:57.940
+And that's what we want.
+
+06:57.970 --> 07:01.210
+So now that we've done this let's come up and click apply
+
+07:04.290 --> 07:05.160
+and there we go.
+
+07:05.160 --> 07:06.890
+All right let's close this.
+
+07:07.530 --> 07:10.770
+And now we have our idle sprite sheet set up.
+
+07:10.770 --> 07:15.590
+You can see if we twirl it down now you've got all the individual images here.
+
+07:15.730 --> 07:16.320
+And that's good.
+
+07:16.320 --> 07:23.910
+So in one image in one sprite sheet we've brought in all of these single individual images and that
+
+07:23.910 --> 07:28.340
+will save a lot of processing time when the game is running.
+
+07:28.380 --> 07:35.420
+So if this character is in a game having these setup in one sprite sheet is a lot more efficient.
+
+07:35.430 --> 07:35.700
+All right.
+
+07:35.700 --> 07:40.020
+So let's choose jump and let's go through the same process here.
+
+07:40.080 --> 07:46.270
+So over here we want to choose sprite let's choose multiple images.
+
+07:46.420 --> 07:52.600
+And down here our max size is correct because we set this up at 2048 so we don't need to do anything
+
+07:52.600 --> 07:53.420
+there.
+
+07:53.470 --> 07:56.860
+Let's just click apply there's our sprite sheet.
+
+07:56.910 --> 07:59.700
+Now we just need to tell unity how to cut it up.
+
+07:59.700 --> 08:08.610
+Let's go to our sprite editor and we'll click on slice we've still got 256 by 256.
+
+08:08.610 --> 08:09.740
+That's good.
+
+08:09.750 --> 08:12.220
+Let's click slice here.
+
+08:12.270 --> 08:17.470
+Now if we click on any one of these you can see they are all the same size.
+
+08:17.550 --> 08:26.880
+OK now let's come over here and click apply and then close the window and there we go.
+
+08:26.880 --> 08:27.210
+All right.
+
+08:27.240 --> 08:30.720
+So that's how we set up our sprite sheets in the next video.
+
+08:30.720 --> 08:35.010
+Let's work on setting up our 3D character in unity as well.

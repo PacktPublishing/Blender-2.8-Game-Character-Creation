@@ -1,0 +1,400 @@
+WEBVTT
+
+00:00.700 --> 00:07.030
+Before we begin using the boolean tool I think what I'd like to do is do a little cleanup and name our
+
+00:07.030 --> 00:07.840
+objects.
+
+00:07.840 --> 00:12.000
+It'll help as we go through the process of using our boolean modifier.
+
+00:12.010 --> 00:16.510
+So I'm going to select the head here and over here.
+
+00:16.510 --> 00:17.470
+Here it's selected.
+
+00:17.470 --> 00:21.190
+I'll just double click here and let's call that head.
+
+00:21.190 --> 00:27.850
+This one here will be our tour so let's go ahead and call it that.
+
+00:27.870 --> 00:29.140
+No I misspelled it.
+
+00:29.140 --> 00:30.910
+Let's try that again.
+
+00:31.000 --> 00:32.530
+Here we go.
+
+00:32.530 --> 00:38.070
+This will call the hits and we go.
+
+00:38.510 --> 00:41.730
+And this one I guess we call the crotch.
+
+00:41.740 --> 00:44.090
+Let's do that.
+
+00:44.740 --> 00:45.320
+OK.
+
+00:45.350 --> 00:47.770
+So now that we know what those are.
+
+00:48.050 --> 00:55.660
+Let's duplicate this object right here by pressing shift D and then I'll press enter.
+
+00:55.830 --> 01:03.840
+And now let's just scale this out in the X. I'm just gonna hit X and X and drag the mouse out and let's
+
+01:03.840 --> 01:08.000
+extend it out B on this point here.
+
+01:08.010 --> 01:12.680
+Now this is just a temporary object we're going to delete it once we're done using this.
+
+01:13.140 --> 01:20.480
+But what I wanted was to be able to make this cut so it fits precisely with that center of cylinder.
+
+01:20.730 --> 01:22.640
+So let's select the hips now.
+
+01:22.650 --> 01:30.510
+Right here and let's go to our modifiers tab and we'll click on Add modifier and we want to select the
+
+01:30.630 --> 01:32.830
+boolean modifier.
+
+01:32.850 --> 01:37.530
+Now we need to make sure our operation is set to difference.
+
+01:37.530 --> 01:44.520
+And then over here under object we can select a little eyedropper right here and come over here and
+
+01:44.520 --> 01:48.250
+just click on that object that we want to do the cutting.
+
+01:48.270 --> 01:55.220
+Now we can come over here and just click apply and then I'll select that cutter object and just move
+
+01:55.220 --> 01:56.360
+it away.
+
+01:56.420 --> 02:00.940
+And now you can see we've got that same cut in the hips object.
+
+02:01.040 --> 02:01.920
+All right.
+
+02:01.940 --> 02:08.480
+And because I got that edge between the two edges of the cylinder if we selected and tab and edit mode
+
+02:09.020 --> 02:13.580
+you can see we don't have any real problems here we've got all quads.
+
+02:13.580 --> 02:20.320
+We've got four sided polygons all the way through here which is which is good.
+
+02:20.340 --> 02:21.280
+All right.
+
+02:21.330 --> 02:24.840
+So now we can just take this and delete it.
+
+02:24.840 --> 02:26.220
+I'll just hit delete.
+
+02:26.260 --> 02:27.510
+And there we go.
+
+02:27.510 --> 02:31.140
+Now let's take a look at the legs and to do the legs as well.
+
+02:31.140 --> 02:33.240
+I think we can just use this object.
+
+02:33.450 --> 02:38.880
+So what let's do is let's go back to that front view and what I'm going to do is just press shift D
+
+02:39.180 --> 02:47.750
+and X and then I'm a drag over and this will be our legs and then I want to scale this out so I'll press
+
+02:47.810 --> 02:57.900
+X and X and scale it out in the X just a bit and move it over just a little like this and then X and
+
+02:57.900 --> 03:02.290
+X again we get it about the right width like that.
+
+03:02.320 --> 03:12.170
+All right and we go So now what we need to do is extrude a few of the faces down here at the bottom
+
+03:12.170 --> 03:16.040
+of the cylinder down to create the leg.
+
+03:16.040 --> 03:21.470
+Let me go back to that other image that we had out here.
+
+03:21.470 --> 03:22.310
+This one here.
+
+03:22.340 --> 03:28.970
+Let's open this up and we can kind of see what's happening with the legs it's really kind of a cylinder
+
+03:28.970 --> 03:29.900
+here.
+
+03:29.900 --> 03:33.590
+It's being extended down from the bottom.
+
+03:33.590 --> 03:41.630
+So if we say select the cylinder tab into edit mode hit the three key to go to base mode.
+
+03:41.630 --> 03:50.580
+Now we can begin to select some of these bases to extrude down so maybe this one this one this one this
+
+03:50.580 --> 03:56.260
+one yeah maybe this one to something like this.
+
+03:56.470 --> 04:03.990
+We could try this however no let me bring I mean d select down let's try this here.
+
+04:04.130 --> 04:05.470
+Let's try this now.
+
+04:05.950 --> 04:11.330
+If we go to that front view we can see that it's got a bit of an overlap.
+
+04:11.560 --> 04:18.340
+It kind of extruded down and then extends out back toward the center of the character here.
+
+04:18.340 --> 04:22.080
+So we just need to keep that in mind as we're creating this.
+
+04:22.240 --> 04:26.250
+But the first thing we should do I think is just extrude straight down.
+
+04:26.290 --> 04:32.270
+So here in the side view I'm going to hit the E key and then I'm going to click and then I'm just going
+
+04:32.270 --> 04:38.680
+to grab in the z axis and drag straight down like this and then we go.
+
+04:38.790 --> 04:44.160
+Now we can also do is come back here and select this base right here.
+
+04:44.160 --> 04:51.120
+Let's go back to that side view with the three key and I just want to click and drag in the y until
+
+04:51.120 --> 04:52.730
+this is black.
+
+04:52.830 --> 04:57.410
+You see how this area right here just needs to be flat.
+
+04:57.540 --> 05:09.440
+Now I could take these bases here and flatten them in the y by pressing x and y and pushing in toward
+
+05:09.500 --> 05:12.200
+the center of the selection right there.
+
+05:12.200 --> 05:15.000
+Now let's go back and see how we did.
+
+05:15.020 --> 05:15.220
+Yeah.
+
+05:15.230 --> 05:17.120
+That's pretty flat there.
+
+05:17.270 --> 05:18.320
+Okay.
+
+05:18.320 --> 05:24.680
+That worked out pretty good so let's now go down here and select these and we can do the same thing.
+
+05:24.680 --> 05:32.390
+So let's go select these go back to that side view with three key and now instead of in the y axis let's
+
+05:32.390 --> 05:38.780
+do it in the z axis let's press s and z and just move the mouse straight down toward the center of that
+
+05:38.900 --> 05:43.170
+selection and that just kind of flattens them all up like that.
+
+05:43.300 --> 05:43.640
+All right.
+
+05:43.670 --> 05:47.960
+Now we'll just grab it in the z axis and drag it down to the grid right there.
+
+05:48.760 --> 05:52.030
+Now before we do anything else let's go over and take a look at this.
+
+05:52.030 --> 05:54.810
+Remember we have to deal with this too.
+
+05:54.850 --> 06:00.960
+So what we should probably do is select these faces here and extrude them out.
+
+06:00.970 --> 06:05.760
+But if we do we'll be right flush against that cylinder and I don't think we want that.
+
+06:05.760 --> 06:08.990
+We want just a little bit of room there.
+
+06:09.010 --> 06:13.540
+I mean go to the wireframe now you can see there's just a little bit of room there.
+
+06:13.540 --> 06:21.410
+So we really need to add an edge before we extrude toward the center of the character to do that.
+
+06:21.410 --> 06:28.490
+Let me go back to this view and on press Z and solid so you can see what we're doing here and what I'm
+
+06:28.490 --> 06:35.150
+going to do is press control are and that turns on the loop cut tool and here it is if I then click
+
+06:35.780 --> 06:43.670
+one time I can then drag this up and down here and if I move toward one edge you can see it kind of
+
+06:43.700 --> 06:49.400
+conforms to that edge and if I move it toward the other edge it kind of conforms to that edge but it
+
+06:49.400 --> 06:51.410
+isn't quite perfect.
+
+06:51.410 --> 06:59.180
+What we can do is now hit the E key and it will change between conforming to one edge you can see now
+
+06:59.360 --> 07:06.830
+no matter where I move it it stays conformed to this edge on the top or I can hit the f key now and
+
+07:06.830 --> 07:07.840
+flip it.
+
+07:07.880 --> 07:15.370
+Now you can see the edge is staying conformed to the bottom edge no matter where I put it.
+
+07:15.440 --> 07:21.320
+So I'm going to hit the f key and conform it to this edge up here and then I'm going to click right
+
+07:21.320 --> 07:30.810
+about here to drop the edge right there so once again that's just control are for the loop cut tool
+
+07:31.080 --> 07:37.920
+you click and then you can hit the E key and flip between the two edges with the FCC.
+
+07:37.950 --> 07:38.220
+All right.
+
+07:38.220 --> 07:45.240
+So now that I've got this I'm going to go to face mode with the three key select these bases right in
+
+07:45.240 --> 07:54.000
+here and then let's go back to that front view and let's hit e and pull out just a little bit like this
+
+07:55.020 --> 07:56.610
+and we go.
+
+07:56.610 --> 07:59.330
+All right let's take a look at what we've done here.
+
+08:00.080 --> 08:04.400
+Yeah I think that's actually pretty good yeah.
+
+08:04.400 --> 08:08.220
+That kind of conforms to that pretty well all right.
+
+08:08.250 --> 08:09.810
+So we've done that.
+
+08:09.810 --> 08:12.230
+The next thing we need to do is probably the feet.
+
+08:12.810 --> 08:16.820
+So let's select the leg and tab back into edit mode.
+
+08:16.830 --> 08:26.370
+Let's once again press control ah and go into the loop cut tool will click will press E then we'll press
+
+08:26.490 --> 08:31.230
+F and flip it so it conforms to that bottom edge.
+
+08:32.560 --> 08:35.140
+And we'll get it right about here.
+
+08:35.150 --> 08:44.060
+Let's say let's try that if the three key select these two bases out front and then let's extrude them
+
+08:44.060 --> 08:50.920
+out for the feet so I'll hit e and pull them straight out like that.
+
+08:51.020 --> 08:55.370
+That's pretty good in terms of the length of the foot there I think.
+
+08:55.400 --> 08:58.250
+But I didn't do very well with the height of the foot.
+
+08:58.250 --> 08:59.120
+Now did I.
+
+08:59.270 --> 09:03.340
+Looks like this is thicker than this.
+
+09:03.350 --> 09:05.720
+So what can we do for that.
+
+09:05.720 --> 09:12.710
+I think we could switch to edge mode with the two key alt click this edge right here so it goes all
+
+09:12.710 --> 09:21.460
+the way around like that then what we should do is select these edges out here so I'll press Alt shift
+
+09:21.700 --> 09:27.600
+click that edge and let's just go ahead and select these edges as well.
+
+09:27.630 --> 09:30.060
+Oh and this one right in here.
+
+09:30.060 --> 09:31.380
+Here we go.
+
+09:31.380 --> 09:36.870
+Now we should be able just to click and drag and make these a little bit taller.
+
+09:36.870 --> 09:43.810
+Let's see maybe something like this let's give this a try.
+
+09:44.090 --> 09:50.240
+I may need to bring that up even more now actually let's select it and instead of just selecting those
+
+09:50.240 --> 09:57.580
+edges again what I'm gonna do is go to the three key to the side view go to wireframe I'm to tab into
+
+09:57.590 --> 10:03.290
+edit mode and this time I'm going to press the one key to go to vertex mode.
+
+10:03.380 --> 10:09.290
+Now if I come up here to the select blocks I can click right here and click and drag.
+
+10:09.290 --> 10:18.290
+Now I've got all those points selected and I can now move them up and down just like I did before and
+
+10:18.320 --> 10:21.760
+this time I want to bring it up quite a bit like that.
+
+10:21.770 --> 10:23.120
+There we go.
+
+10:23.120 --> 10:24.330
+All right.
+
+10:24.410 --> 10:29.580
+So now we have a leg done and we've cut into the hip piece there.
+
+10:29.630 --> 10:32.900
+I think in the next video what we should do is begin working on the arms.

@@ -1,0 +1,520 @@
+WEBVTT
+
+00:00.570 --> 00:03.180
+Now let's animate the head turning back and forth.
+
+00:03.180 --> 00:10.020
+So if we select that head control up here we can see we've got a key frame on that right down here right
+
+00:10.020 --> 00:10.900
+there.
+
+00:10.920 --> 00:16.020
+So what let's do is maybe write about here.
+
+00:16.210 --> 00:20.650
+Let's have them begin turning and maybe looking to the left.
+
+00:20.710 --> 00:24.560
+So let's go ahead and add a key frame here.
+
+00:24.600 --> 00:28.860
+I'll press eye and choose location and rotation.
+
+00:28.930 --> 00:29.410
+There we go.
+
+00:29.410 --> 00:31.940
+So you can see it's been placed there.
+
+00:31.960 --> 00:34.560
+Now let's move forward and let's turn the head.
+
+00:34.570 --> 00:42.720
+So if we select that again I'm going to hit the R key two times and I'm going to just turn them like
+
+00:42.810 --> 00:46.800
+this maybe all r and turn it back like that.
+
+00:46.800 --> 00:48.790
+So he's just kind of taking a look around.
+
+00:48.810 --> 00:51.900
+It's kind of that maybe a little quick.
+
+00:51.900 --> 00:53.850
+Let me grab this one here.
+
+00:53.850 --> 00:57.720
+Just this key frame and kind of move it back some.
+
+00:57.780 --> 00:58.860
+Let's try this.
+
+00:58.860 --> 01:03.220
+I'm going to hit the spacebar and we go.
+
+01:03.240 --> 01:05.050
+Yeah I think that was a good turn.
+
+01:05.050 --> 01:07.260
+Notice that it snapped back.
+
+01:07.270 --> 01:10.750
+And that's because we have this key frame here still.
+
+01:10.750 --> 01:14.460
+So it just kind of snapped back between here and here.
+
+01:14.470 --> 01:16.520
+Let's go ahead and delete this one.
+
+01:16.660 --> 01:19.980
+I'll hit delete and delete key frames.
+
+01:19.990 --> 01:21.330
+Now let's take a look at this.
+
+01:21.340 --> 01:29.560
+If we hit the spacebar again I'll turn and I'll begin turning back because we have this key frame here
+
+01:29.680 --> 01:37.210
+as well so we could get rid of this key frame this key frame and this key frame we want to keep these
+
+01:37.210 --> 01:38.830
+at the beginning in the end.
+
+01:38.830 --> 01:39.160
+Right.
+
+01:39.160 --> 01:45.100
+So we have the exact same position at the beginning and the end of the cycle but we could delete these.
+
+01:45.130 --> 01:47.680
+So let's hit X and delete.
+
+01:47.710 --> 01:56.230
+Now it's come back here and hit the spacebar again he turns maybe a little too quick me grab that key
+
+01:56.230 --> 01:59.980
+frame hit the G key and move it out some like that.
+
+01:59.980 --> 02:01.940
+All right let's try it again.
+
+02:01.960 --> 02:04.440
+It play returns.
+
+02:04.600 --> 02:07.250
+OK maybe a little bit too slow.
+
+02:07.250 --> 02:10.800
+So now he's going to come back to the other side here.
+
+02:10.810 --> 02:18.520
+But we want him to hold just a moment as he looks this way so I want to take this key frame and duplicate
+
+02:18.520 --> 02:18.630
+it.
+
+02:18.640 --> 02:23.550
+So he holds it a bit shifty and move this out like that.
+
+02:23.590 --> 02:31.570
+Let's try this spacebar looks old now it's going to turn OK.
+
+02:31.700 --> 02:39.130
+So now we want him to kind of turn from here if he wants to turn over to the right side.
+
+02:39.140 --> 02:42.450
+So I'll grab that head bone at the Aki.
+
+02:42.640 --> 02:48.380
+I'll hit it two times and kind of rotate around like this at the Aki again and kind of move it back
+
+02:48.380 --> 02:50.620
+like that yeah.
+
+02:50.630 --> 02:53.600
+So he kind of turns that way now.
+
+02:53.600 --> 02:54.230
+All right.
+
+02:54.410 --> 03:06.100
+Shift left arrow hit that spacebar he turns he turns OK and now he's got to come back to his original
+
+03:06.100 --> 03:07.430
+position here.
+
+03:07.510 --> 03:15.040
+So we need to take this key frame right here just select this one duplicate it with shifty and let's
+
+03:15.040 --> 03:29.120
+move it over here now let's try it again shift left arrow spacebar turns it turned it turns back and
+
+03:29.390 --> 03:40.390
+we go all right now I'm going to go ahead and hit control s and save here now what let's do is let's
+
+03:40.390 --> 03:49.390
+work on the 2D base animation while he's doing is idle and looking around so really all I want is just
+
+03:49.390 --> 03:58.150
+him to kind of blink and maybe move an eyebrow up or down as he looks around so I want him to blink
+
+03:58.390 --> 04:06.400
+a couple of times in here let's say I want him to blink Oh right in here and again there.
+
+04:06.410 --> 04:08.740
+So maybe only two times.
+
+04:08.840 --> 04:15.260
+But to do that we're gonna need to draw a new stroke for the closed eyes.
+
+04:15.260 --> 04:19.220
+Which means we're going to need to access that grease pencil object again.
+
+04:19.220 --> 04:28.170
+So let's go back from Poe's mode to object mode select that grease pencil face object come back over
+
+04:28.170 --> 04:29.840
+to draw.
+
+04:29.940 --> 04:31.020
+And here we go.
+
+04:31.020 --> 04:37.860
+Now over here in our layers we're gonna need to add a blink layer as well.
+
+04:37.860 --> 04:44.830
+Let's come over here and hit the plus button and we go and we'll call this link.
+
+04:44.880 --> 04:46.060
+How's that.
+
+04:46.060 --> 04:48.540
+Well it looks like we lost the mouth.
+
+04:48.540 --> 04:50.200
+Yeah we've got some.
+
+04:50.200 --> 04:52.770
+There we go I just had to click to get it back.
+
+04:52.920 --> 04:58.560
+I'm a press control asked just to make sure we don't lose anything now for the eyes.
+
+04:58.560 --> 05:06.310
+What I'd like to do is just draw a little curve right here so that it looks like he's blinking to do
+
+05:06.310 --> 05:15.520
+that I think I'll maybe take the radius down to three and let's use this arc again here and what I'll
+
+05:15.520 --> 05:20.200
+do is I'm just going to click with this blink layer still selected.
+
+05:20.200 --> 05:28.010
+I'm just going to click and drag this way like this and let's kind of get it.
+
+05:28.110 --> 05:31.540
+Let me move this up a bit something like this.
+
+05:31.570 --> 05:33.240
+Let's see how this works.
+
+05:34.650 --> 05:36.170
+And I'll hit enter.
+
+05:36.170 --> 05:42.920
+I need to select that let me turn the eyes off over here so you can see it there and I'll tab into edit
+
+05:42.920 --> 05:46.220
+mode and hit the B key and border selected.
+
+05:46.240 --> 05:51.200
+I may just try and move it around maybe turn into a bit like this.
+
+05:51.200 --> 05:51.460
+All right.
+
+05:51.470 --> 05:54.200
+So let's bring those eyes back.
+
+05:54.350 --> 05:55.010
+How we doing.
+
+05:55.070 --> 05:55.340
+Yeah.
+
+05:55.370 --> 06:01.810
+So I kind of want them to be right there right kind of at the bottom of the eye.
+
+06:01.930 --> 06:06.520
+That may be too big Let me hit the esky and scale it down a bit.
+
+06:06.520 --> 06:14.300
+Kind of move it up into here something like that and then let's press shift D enter and I'm just gonna
+
+06:14.320 --> 06:19.740
+drag it straight over here like this that we go.
+
+06:19.740 --> 06:30.790
+So now if I turn the eyes on and off was it kind of look like he's blinking.
+
+06:31.530 --> 06:40.010
+Kind of does I think if you look at him over here in the 3D view it kind of kind of kind of does OK.
+
+06:40.100 --> 06:48.740
+So what we need to do is at particular points in the cycle we need to turn the blink on and turn the
+
+06:48.740 --> 06:49.660
+eyes off.
+
+06:50.030 --> 06:57.260
+So we're actually going to animate the visibility of the layers here and we're gonna see those key frames
+
+06:57.620 --> 06:59.050
+down in the dope sheet.
+
+06:59.060 --> 07:04.140
+We won't actually see them here in the grease pencil timeline so let's give it a try.
+
+07:04.150 --> 07:07.130
+I want to actually take this and kind of move it up a bit.
+
+07:07.460 --> 07:09.640
+So we have a bit more room down here.
+
+07:10.100 --> 07:12.050
+So where do we want these to be.
+
+07:12.050 --> 07:18.690
+Well I think we probably I kind of want the blink to happen just before the turn.
+
+07:18.690 --> 07:22.020
+We tend to blink our eyes as we're turning our head.
+
+07:22.200 --> 07:26.670
+I think maybe right in here I'd like it to begin right about there.
+
+07:26.670 --> 07:28.500
+So that's frame 35.
+
+07:28.530 --> 07:34.890
+OK let's add a key frame back here frame one to hold it.
+
+07:34.890 --> 07:42.570
+So for the eyes I'll select the eyes and I'll right click on the eyeball and choose Insert key frame
+
+07:42.570 --> 07:45.990
+right here and you can see that pop in down here.
+
+07:45.990 --> 07:50.160
+Let me scroll the armature key frames up so we can see these.
+
+07:50.160 --> 07:53.090
+So there's that eye's channel right there right.
+
+07:53.130 --> 07:57.720
+In addition we need to create a key frame for the blink with it off.
+
+07:57.720 --> 08:02.760
+So let's right click on the eye and choose Insert key frame and there we go there's our eyes and our
+
+08:02.760 --> 08:03.210
+blink.
+
+08:03.240 --> 08:07.240
+Now I said frame thirty five let's come up to here.
+
+08:07.350 --> 08:09.210
+Do I want the blink to begin here.
+
+08:09.210 --> 08:10.130
+I guess I do.
+
+08:10.150 --> 08:12.920
+So I'm going to go back to frame 34.
+
+08:13.110 --> 08:19.910
+And here is where I'm going to duplicate these key frames as well so I mean deselect everything.
+
+08:19.920 --> 08:25.710
+And I'm going to select these two key frames and I'm going to duplicate these with shift D and move
+
+08:25.710 --> 08:32.460
+them over drop them they're move forward one frame to frame 35.
+
+08:32.540 --> 08:42.860
+And now what I'm gonna do is turn the blink on and the eyes off and with auto key framing selected we
+
+08:42.860 --> 08:45.240
+get our key frames automatically there.
+
+08:45.250 --> 08:52.320
+I'm going to kind of zoom in scrolling the middle mouse button and I'll move that over here OK so there
+
+08:52.320 --> 08:54.690
+we have our blink.
+
+08:54.690 --> 09:00.900
+Now let me deselect everything with alt A and I want to select these two key frames right here and I'm
+
+09:00.900 --> 09:07.860
+going to duplicate them and move them down to key frames or two frames shifty.
+
+09:08.010 --> 09:10.990
+There's one frame two frames right there.
+
+09:11.010 --> 09:15.180
+So what I'm gonna do is have a one frame I close.
+
+09:15.180 --> 09:22.370
+They're going to be close for two frames and then a one frame I open so deselect everything.
+
+09:22.530 --> 09:29.310
+Select these two key frames again and I'm going to duplicate them and put them over here shift D move
+
+09:29.310 --> 09:30.530
+them over here.
+
+09:30.670 --> 09:32.220
+Now we go.
+
+09:32.400 --> 09:36.960
+So now as I said we've got a one frame I close.
+
+09:36.980 --> 09:38.220
+There it is.
+
+09:38.250 --> 09:40.950
+Two frames closed one frame.
+
+09:40.950 --> 09:42.210
+I open.
+
+09:42.270 --> 09:43.530
+Let's see how it looks.
+
+09:44.940 --> 09:45.750
+Yeah.
+
+09:46.020 --> 09:47.160
+Well did you see that.
+
+09:47.310 --> 09:48.950
+Or did you blink.
+
+09:48.990 --> 09:50.710
+Let's try it again.
+
+09:50.820 --> 09:57.440
+Shift left arrow spacebar Yeah well it looks OK.
+
+09:57.450 --> 09:58.270
+Let's try that again.
+
+09:58.980 --> 10:05.960
+Yeah so now that we've established these blinks what we can do is just duplicate them wherever else
+
+10:05.990 --> 10:06.630
+we want them.
+
+10:07.100 --> 10:12.590
+So if we hit play again I'll duplicate them again maybe as he's turning here.
+
+10:12.590 --> 10:14.610
+Let's try that.
+
+10:14.670 --> 10:21.970
+Deselect everything in the timeline hit the be key border select these and then let's just hit shifty.
+
+10:22.190 --> 10:24.010
+Move them down here.
+
+10:24.010 --> 10:24.750
+There we go.
+
+10:24.790 --> 10:31.270
+But let's try this a d deselect shift left arrow to go back to the beginning.
+
+10:31.460 --> 10:42.000
+Hit the spacebar he blinks there he blinks there you think we need one more over here let's try it grab
+
+10:42.030 --> 10:49.020
+those shifty and move him down yeah move him to here.
+
+10:49.300 --> 10:50.870
+Okay let's try this again.
+
+10:52.130 --> 10:54.760
+Go back to the beginning spacebar.
+
+10:54.760 --> 10:59.970
+He blinks he blinks again you blinks again OK.
+
+10:59.980 --> 11:02.990
+I think these are a little bit too late.
+
+11:03.140 --> 11:09.530
+Let's set the B key and I just want to hit G and move these back some maybe two about there.
+
+11:09.770 --> 11:10.520
+Let's try this
+
+11:17.140 --> 11:18.020
+link.
+
+11:18.370 --> 11:19.540
+Yeah.
+
+11:19.760 --> 11:23.460
+Why not.
+
+11:23.880 --> 11:26.600
+All right good.
+
+11:26.610 --> 11:35.100
+Now one last thing I want to do here is I'd like to move the endpoint of the cycle from 144 to 143 and
+
+11:35.100 --> 11:36.850
+why do I want to do that.
+
+11:36.870 --> 11:41.880
+Well currently the way it is we've got this frame happening two times.
+
+11:41.880 --> 11:49.850
+So this pose at the very end on 144 is exactly the same as this pose on frame one.
+
+11:49.890 --> 11:52.050
+And we don't need that happening twice.
+
+11:52.050 --> 11:58.260
+So what I'm to do is just shrink the timeline one frame to 143 and hit enter.
+
+11:58.260 --> 12:00.000
+Now let's see how it works.
+
+12:00.000 --> 12:03.630
+I'll hit the spacebar again and then we go
+
+12:08.340 --> 12:15.950
+yeah I think that's a pretty smooth transition between the end and the beginning all right.
+
+12:15.980 --> 12:17.690
+I think that's looking pretty good.
+
+12:17.720 --> 12:25.550
+So in the next video what let's do is let's go ahead and render out the 2D face animation to an image
+
+12:25.550 --> 12:31.780
+sequence and what we'll do then is we'll bring it back in and apply it to the Geo face.
+
+12:31.790 --> 12:40.730
+Idle object and if that works out all right then what we can do is begin creating new face objects will
+
+12:40.910 --> 12:50.960
+duplicate the geo face idle for a geo base run geo face jump and we'll do the animations for those as
+
+12:50.960 --> 12:51.290
+well.

@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.690 --> 00:06.540
+So to prepare for exporting I think the first thing we should do here for the jump animation is to render
+
+00:06.540 --> 00:11.140
+the 2D face animation out just like we did for the others.
+
+00:11.370 --> 00:17.370
+So to do that we need to make sure that our grease paint object is enabled and all the others we still
+
+00:17.370 --> 00:21.220
+have disabled in the render and that's good.
+
+00:21.300 --> 00:23.000
+We go over to our output.
+
+00:23.010 --> 00:27.360
+We still have two fifty six and 24 frames per second.
+
+00:27.390 --> 00:29.690
+We do need to change our output path here.
+
+00:29.700 --> 00:39.360
+So let's click on the folder icon here and let's go to our renders folder and let's create a jump folder
+
+00:39.420 --> 00:47.920
+or create a boulder here we'll call it Jump and if we select that now we can choose accept.
+
+00:48.130 --> 00:51.080
+And that's where the renders are going to go.
+
+00:51.250 --> 00:58.360
+In addition over in the renders panel we still have under film we have our alpha at transparent and
+
+00:58.360 --> 00:59.050
+that's good.
+
+00:59.710 --> 01:08.870
+So what let's do is let's just go ahead and come up here and choose render and render animation and
+
+01:08.870 --> 01:09.790
+there it goes.
+
+01:12.150 --> 01:12.510
+All right.
+
+01:12.540 --> 01:13.930
+Let's see how we did.
+
+01:13.950 --> 01:24.760
+Let's go over to that renders folder right here here's our jump and there's our jump image sequence.
+
+01:24.760 --> 01:26.110
+So that's good.
+
+01:26.110 --> 01:27.190
+That's what we want there.
+
+01:27.970 --> 01:35.170
+So now that we have that let's think about how we're going to get this guy out to unity.
+
+01:35.170 --> 01:39.330
+First of all let's go ahead and save this and let's make a copy of this.
+
+01:39.340 --> 01:51.040
+So let's go over to file save copy and we want to go to exports and we'll call this player underscored
+
+01:51.040 --> 01:51.580
+JUMP
+
+01:54.320 --> 01:59.780
+RIGHT HERE AND SAVE AS THERE WE GO.
+
+01:59.820 --> 02:08.490
+So we know that we can go back to those files and export the 3D body out from each of those files.
+
+02:08.490 --> 02:12.210
+And actually what we're going to be doing is really using the animations.
+
+02:12.330 --> 02:19.620
+We'll only be using the 3D character from say the idol blend file and we'll only be using the animations
+
+02:19.620 --> 02:21.610
+from the other two.
+
+02:21.690 --> 02:28.140
+So let's begin that let's let's begin exporting our 3D character and animations out what I would do
+
+02:28.140 --> 02:36.000
+is go over to file and open and we'll go to those exports and let's go ahead and open up the player
+
+02:36.030 --> 02:37.080
+idle.
+
+02:37.110 --> 02:43.050
+This will be our main file that will house all of our 3D objects.
+
+02:43.050 --> 02:53.250
+So we're gonna want to enable the geo face idle the geo base jump and the run.
+
+02:53.250 --> 02:59.820
+We don't need the grease pencil object there but we're going to need the character.
+
+02:59.820 --> 03:07.960
+The three base objects and the armature and what we're gonna do is use an FBI X format that's really
+
+03:07.960 --> 03:15.300
+kind of the industry standard now to transfer models with animations from one program to another.
+
+03:15.340 --> 03:24.400
+So what let's do is let's choose our character and then I will shift select the base Idol base jump
+
+03:24.700 --> 03:27.390
+base run and the armature.
+
+03:27.550 --> 03:28.480
+We need all of those.
+
+03:28.870 --> 03:36.090
+So let's now go over to file and export and let's choose FBI x.
+
+03:36.140 --> 03:39.210
+Now I'm going to make sure I'm in my exports.
+
+03:39.230 --> 03:42.080
+I've got player Idol FBI X that's good.
+
+03:42.380 --> 03:43.940
+Over here on the side.
+
+03:43.940 --> 03:51.330
+Now we want to choose selected objects only right here we go over to our armchairs.
+
+03:51.600 --> 03:59.870
+I'm going to choose only deform bones and uncheck the leaf bones and then if we go back to the main
+
+03:59.930 --> 04:09.050
+option here down here I only want armature and mesh so I'll shift click that and everything else I think
+
+04:09.050 --> 04:10.180
+is fine.
+
+04:10.190 --> 04:17.000
+So now here in my exports folder click export FBI X and then we go.
+
+04:17.180 --> 04:19.860
+Now let's go do that for the other two.
+
+04:19.910 --> 04:32.080
+I'll go over here to file open and let's work on the run or I'll open that and with this as well we
+
+04:32.080 --> 04:34.090
+need to enable these.
+
+04:34.390 --> 04:36.780
+So I can see them and select them.
+
+04:36.850 --> 04:43.790
+So we're gonna choose the character the base Idol jump run and the armature.
+
+04:43.810 --> 04:44.590
+All right.
+
+04:44.680 --> 04:50.120
+So now we come over here bile export FBI.
+
+04:50.440 --> 05:01.850
+We want the selected objects we want the deformed bones and we want the armature and the mesh.
+
+05:01.880 --> 05:04.310
+All right we've got player run FBI x.
+
+05:04.370 --> 05:08.140
+Let's export this out all right.
+
+05:08.160 --> 05:14.090
+Now let's go over to the jump file open work on the jump.
+
+05:14.100 --> 05:15.630
+Open that up.
+
+05:15.630 --> 05:17.170
+Same thing.
+
+05:17.310 --> 05:20.520
+It's select all of these.
+
+05:20.680 --> 05:25.450
+We can hide the grease pencil here it doesn't really matter but if it's in the way you can always hide
+
+05:25.450 --> 05:25.750
+that.
+
+05:26.440 --> 05:39.420
+So once again let's choose the character based Idol jump run armature file export FBI X once again down
+
+05:39.420 --> 05:50.510
+here we want to choose a selected object only the deformed bones the armature and the mesh all right.
+
+05:50.710 --> 05:52.090
+Here we go.
+
+05:52.090 --> 05:55.760
+Player jump FBI X export.
+
+05:55.950 --> 06:01.650
+All right well let's go open up unity and see if we can bring all this in all right.
+
+06:01.650 --> 06:09.830
+I've opened up unity and I'm going to call this Lego character and I'll call it unity so we know that
+
+06:09.830 --> 06:14.680
+this folder contains all of the unity assets here all in one folder.
+
+06:14.690 --> 06:22.970
+So I've got it set up at the correct path here I've chosen 3D for my template and I'll just choose create
+
+06:23.030 --> 06:25.960
+project.
+
+06:26.200 --> 06:32.170
+All right here in Unity now let's go ahead and bring in those exports down here in the assets window
+
+06:32.170 --> 06:42.150
+right here I'm going to right click and choose important new asset here in my main folder I'll come
+
+06:42.150 --> 06:51.600
+over here to exports and let's bring in the idle the jump and the run FP x files I'll just click import
+
+06:51.600 --> 06:53.370
+here and there we go
+
+06:56.060 --> 07:03.800
+also let's bring in all of our textures I'll right click import new assets and let's go get our textures
+
+07:03.800 --> 07:08.410
+here this and this import those
+
+07:13.120 --> 07:18.490
+and also we're going to need to bring in those rendered images right we're going to need to bring in
+
+07:19.000 --> 07:26.170
+I mean go to import new acid here we're going to need to bring in all of these how do we bring in all
+
+07:26.170 --> 07:31.900
+of these if I just drag all of these in it'll fill up the assets folder and we really won't be able
+
+07:31.900 --> 07:39.040
+to use them what we need to do is we need to convert all of these images to a sprite sheet and then
+
+07:39.040 --> 07:45.820
+we can bring in that single sprite sheet for the idle animation and let unity pull the images from that
+
+07:45.820 --> 07:50.260
+single sheet so we will work on that coming up next.

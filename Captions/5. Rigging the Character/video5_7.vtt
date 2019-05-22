@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.610 --> 00:06.790
+The most complicated part of the rig is going to be the foot roll here and what we want to do with that
+
+00:06.790 --> 00:14.650
+is be able to plant the foot on the heel roll it forward and have it roll forward up onto the toes up
+
+00:14.650 --> 00:18.030
+onto the ball of the toe and roll back to the heel again.
+
+00:18.850 --> 00:23.310
+So that particular functionality is going to take a bit to do.
+
+00:23.340 --> 00:26.630
+We're going to do this over the next few videos.
+
+00:26.950 --> 00:32.920
+And the reason why I'm going to be doing this in a course that is fairly introductory is that I really
+
+00:32.920 --> 00:39.220
+think it's important if you're going to animate a character the ability to plant and roll the foot when
+
+00:39.220 --> 00:42.600
+you're doing a walk cycle a run a jump.
+
+00:42.600 --> 00:47.940
+Anything is really important really adds believability to the animation.
+
+00:47.980 --> 00:54.850
+So even though we're going to keep the arms fairly simple with forward Kent Emacs and we'll talk more
+
+00:54.850 --> 00:58.360
+about forward cinematics and inverse kind Mannix here in a bit.
+
+00:58.720 --> 01:04.420
+Even though we're gonna keep the arms fairly simple we're gonna set up a fairly complex rig for the
+
+01:04.420 --> 01:05.590
+feet.
+
+01:05.590 --> 01:09.950
+Let's now come out of weight paint mode to object mode here.
+
+01:09.970 --> 01:14.990
+And also we don't need our wireframe on the character anymore.
+
+01:15.090 --> 01:19.200
+I'll come over here and let's turn off wireframe and all edges.
+
+01:19.210 --> 01:20.960
+So we don't see that.
+
+01:21.340 --> 01:27.490
+And then let's go back to the rig and let's go to edit mode for the rig here.
+
+01:27.730 --> 01:35.230
+What we need to do first is to create an i k chain here on the leg and we'll begin with the left leg
+
+01:35.230 --> 01:36.220
+first.
+
+01:36.610 --> 01:45.490
+And what I mean by I K or inverse cinematics is the ability to move the limb by just selecting say a
+
+01:45.490 --> 01:51.160
+foot bone and moving it around and the other joints on the limb adjust and adapt.
+
+01:51.640 --> 01:57.910
+So it's kind of like when someone shakes your hand they can take your hand and move it back and forth
+
+01:58.330 --> 02:06.220
+and your elbow and your shoulder adapt and move along with where the hand is as opposed to say forward
+
+02:06.310 --> 02:10.090
+cinematics which we will do for the arm.
+
+02:10.090 --> 02:16.300
+This is more like a wooden toy if you want the hand to be in a particular place for say a wooden toy
+
+02:16.300 --> 02:22.720
+you would have to bend the arm at the shoulder and then at the elbow and then at the wrist to get that
+
+02:22.720 --> 02:29.410
+hand in a certain place we'll be using both types of movement on this character so I think you'll get
+
+02:29.560 --> 02:32.530
+a better idea of it as we go along.
+
+02:32.800 --> 02:38.320
+So to begin our inverse can semantics change here on the left leg.
+
+02:38.350 --> 02:41.670
+What we want to do is choose first of all the foot.
+
+02:41.710 --> 02:48.470
+And let me go over here to this panel so we can see the names of the bones when we choose them.
+
+02:48.520 --> 02:52.050
+We can also see them here which is going to help as well.
+
+02:52.180 --> 02:55.720
+First of all here in edit mode let's just duplicate this bone.
+
+02:55.720 --> 03:04.510
+I'll press shift D and then enter and now we have this new bone here in the exact same place as the
+
+03:04.510 --> 03:05.530
+foot bone.
+
+03:05.530 --> 03:08.050
+So let's change the name of this.
+
+03:08.050 --> 03:10.330
+Let's call this foot.
+
+03:10.330 --> 03:12.950
+I K Dot l.
+
+03:12.980 --> 03:14.290
+There we go.
+
+03:14.290 --> 03:22.180
+And because we've duplicated this bone off of that main foot bone it still has the parent child relationships
+
+03:22.270 --> 03:24.400
+of that original bone.
+
+03:24.640 --> 03:30.040
+So it is a child of the lower leg and a parent of the toe.
+
+03:30.040 --> 03:32.010
+And we want to clear that away.
+
+03:32.230 --> 03:40.630
+So to clear a parent child relationship we can press all the P and then choose clear parent and we go.
+
+03:40.630 --> 03:45.790
+So now this bone here is a bone all on its own.
+
+03:45.880 --> 03:49.560
+Now for the rest of this setup we're gonna need to go to Poe's mode.
+
+03:49.570 --> 03:53.840
+So let's come back over here and go to pose mode.
+
+03:53.840 --> 03:54.710
+There we go.
+
+03:55.500 --> 04:01.170
+And now we can go back to that original football and I'm going to click right in here and that will
+
+04:01.170 --> 04:06.870
+switch me over to the foot dot L that original foot bone.
+
+04:06.870 --> 04:09.890
+Now I'm going to come over here to the bone constraints panel.
+
+04:09.900 --> 04:14.000
+And here is where we'll add that inverse cinematics constraint.
+
+04:14.250 --> 04:18.460
+So I'll click here and let's choose inverse kinetics.
+
+04:18.570 --> 04:27.160
+Now for the target we're gonna want it to be the armature and then for the bone we want to control this.
+
+04:27.180 --> 04:29.070
+We want to choose that foot.
+
+04:29.070 --> 04:36.930
+I K I have it here but we can also just type in f o t to filter the list and choose that foot.
+
+04:36.930 --> 04:46.230
+I K L there we have that now it looks kind of crazy like something has gone wrong here and it isn't
+
+04:46.230 --> 04:49.670
+that it's gone wrong it's just we haven't completed the setup yet.
+
+04:49.890 --> 04:57.450
+So what's happening here is it's using the entire rig as the IAEA chain and we only need it to extend
+
+04:57.930 --> 05:02.730
+to the lower leg and the upper leg to bones.
+
+05:02.820 --> 05:05.610
+So we need an IKEA chain length of 2.
+
+05:05.680 --> 05:13.440
+And here we go chain length right here so let's just increase this to 1 and then 2 and then instead
+
+05:13.440 --> 05:18.830
+of using the tail as the last element we'll use the tip of the bone.
+
+05:18.840 --> 05:21.300
+So let's uncheck use tail.
+
+05:21.300 --> 05:21.630
+All right.
+
+05:21.660 --> 05:22.900
+So there we go.
+
+05:22.920 --> 05:25.470
+Now we've got that I K chain set up.
+
+05:25.470 --> 05:27.060
+So what does that mean.
+
+05:27.060 --> 05:35.880
+Well we can come over here and click and let me just turn off that rotation gizmo there and if we click
+
+05:36.150 --> 05:41.740
+on the bone and choose that foot I K bone right here you can see it here.
+
+05:41.850 --> 05:44.780
+And if I come back over here you can see it here.
+
+05:44.780 --> 05:46.730
+So now we have that foot.
+
+05:46.740 --> 05:54.930
+I k bone selected and if we hit G can move it around you can see just like shaking your hand we can
+
+05:54.930 --> 06:05.790
+grab that one part of the chain and the hip and the knee bone then adjust to compensate to where you
+
+06:05.790 --> 06:07.940
+put that target bone you see.
+
+06:07.980 --> 06:10.710
+So that is our AK chain.
+
+06:10.730 --> 06:17.690
+But the problem is look at the foot bone as I move it the foot bone and the foot.
+
+06:17.700 --> 06:22.400
+I k bone become separated and we don't want that.
+
+06:22.410 --> 06:27.170
+So let me just hit the right mouse button to get out of that.
+
+06:27.210 --> 06:34.120
+Now we need to add a constraint to make sure the foot I K in the foot bone stay together.
+
+06:34.140 --> 06:43.530
+So what let's do is take that original foot bone again right here foot dot L and we'll add a copy rotation
+
+06:43.540 --> 06:48.100
+constraints so it matches the rotation of the I K bone.
+
+06:48.180 --> 06:56.550
+Let's come over here to the bone constraint panel and we'll click here to add a bone constraint copy
+
+06:56.670 --> 06:57.750
+rotation.
+
+06:57.750 --> 06:58.950
+There we go.
+
+06:58.950 --> 07:00.750
+Now for this one we want.
+
+07:00.750 --> 07:03.710
+Once again the target to be the armature.
+
+07:03.930 --> 07:07.170
+We want the bone to be the foot.
+
+07:07.180 --> 07:13.090
+I k again now if we come back and select that foot i k bone.
+
+07:13.170 --> 07:14.300
+There we go.
+
+07:14.310 --> 07:22.920
+Notice here we've got foot I k now if we hit G and move that around you can see that original foot bone
+
+07:23.340 --> 07:29.020
+matches the rotation of the eye K bone and they stay together.
+
+07:29.020 --> 07:37.130
+So let me come up here and choose the root bone and if we hit G we can see that foot stays planted there.
+
+07:37.300 --> 07:41.720
+When we move the hips around like that.
+
+07:41.770 --> 07:43.240
+All right.
+
+07:43.240 --> 07:47.320
+So that is how we set up our inverse Cana Maddox chain.
+
+07:47.320 --> 07:50.860
+Let's do that quickly again for the other side.
+
+07:50.980 --> 08:01.320
+Remember we need to begin in edit mode so let's select that foot dot ah it shift D and enter.
+
+08:01.480 --> 08:04.320
+Now let's change this to foot.
+
+08:04.360 --> 08:12.400
+I K Dot R and then we'll clear the parent out P clear parent.
+
+08:12.470 --> 08:22.830
+Now we go back to pose mode select that original foot bone right here and we'll add in an inverse can
+
+08:22.860 --> 08:32.350
+Maddox constraint right there our target will be the armature bone will be the K foot okay.
+
+08:32.360 --> 08:38.450
+Dot are chain link to uncheck use.
+
+08:38.470 --> 08:39.970
+Tail.
+
+08:40.060 --> 08:42.470
+Now we constrain the foot bone to the eye.
+
+08:42.470 --> 08:46.750
+K bone by selecting that foot.
+
+08:46.950 --> 08:57.390
+Ah we have it selected here still adding a copy rotation target armature and bone.
+
+08:57.410 --> 09:01.170
+IK There we go.
+
+09:01.200 --> 09:10.690
+So now if we choose that I K bone right there and hit G We get the same kind of functionality.
+
+09:10.810 --> 09:11.830
+There we go.
+
+09:11.830 --> 09:16.630
+So once again we can select that root bone and hit G.
+
+09:16.630 --> 09:20.650
+And we can have him do the squats.
+
+09:20.650 --> 09:21.060
+All right.
+
+09:22.380 --> 09:28.650
+So now that we've setup the inverse can a man in the next video we'll begin working on setting up the
+
+09:28.650 --> 09:29.520
+foot roll rig.

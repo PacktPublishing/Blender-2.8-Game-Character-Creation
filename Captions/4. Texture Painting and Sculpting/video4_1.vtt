@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00.700 --> 00:05.350
+Well now we're to the point in the process where we can begin adding some color to the character.
+
+00:05.380 --> 00:08.120
+Let's go back to the layout tab.
+
+00:08.170 --> 00:11.580
+And well he can't see him at all.
+
+00:11.620 --> 00:18.580
+So I think what the problem is here is if we hit the division key on the number pad we can bring him
+
+00:18.670 --> 00:19.150
+back.
+
+00:19.150 --> 00:27.160
+It looks like that in the beta version I'm using now a blender 2.8 the local mode seems to be getting
+
+00:27.160 --> 00:30.200
+kind of confused between the different tabs but that's OK.
+
+00:30.220 --> 00:31.780
+We can bring him back.
+
+00:31.840 --> 00:38.980
+Let's now go over to the shading tab and let's give this character a material at least a new material.
+
+00:38.980 --> 00:40.110
+We have one here.
+
+00:40.120 --> 00:44.480
+That's the UVA Test Pattern and although that looks pretty cool.
+
+00:44.500 --> 00:52.120
+Let's go ahead and remove it by coming over here to the materials panel and let's hit the minus button
+
+00:52.120 --> 00:54.680
+here to remove that.
+
+00:54.700 --> 01:03.040
+Let's go ahead and create a new material here and we'll just call this character let's do that.
+
+01:03.040 --> 01:10.400
+So now with this one material let's go ahead and create all the different colors using textures.
+
+01:10.480 --> 01:14.640
+So let's come over here to the texture paint tab right here.
+
+01:14.950 --> 01:22.420
+And currently you can see it's just pink because here in the texture paint tab or texture paint mode
+
+01:22.420 --> 01:28.320
+here it's going to be using a texture over here to give it color.
+
+01:28.330 --> 01:30.760
+And currently we don't have anything here.
+
+01:30.790 --> 01:39.160
+So what we need to do is add a new texture slot and that can be done right over here in this active
+
+01:39.160 --> 01:40.240
+tool tab.
+
+01:40.240 --> 01:45.310
+Now if you don't see anything over here when you click on this tab you can just come over here and maybe
+
+01:45.310 --> 01:47.970
+click on one of the texture paint buttons.
+
+01:47.980 --> 01:51.290
+And this information should pop up then.
+
+01:51.580 --> 01:58.930
+But let's go ahead and create a new texture slot or click the plus button here and we'll choose based
+
+01:58.930 --> 01:59.890
+color.
+
+01:59.890 --> 02:00.880
+There we go.
+
+02:00.880 --> 02:04.750
+Now character based color it's a pretty good name.
+
+02:04.750 --> 02:07.510
+I think I'm gonna make this texture pretty big.
+
+02:07.510 --> 02:09.650
+This currently is at 1 k.
+
+02:09.850 --> 02:17.300
+I think I'm gonna make it 4 K just because that gives me more pixels more resolution to paint on.
+
+02:17.470 --> 02:24.430
+But in the end if we ever need to take it down if we ever need to save it out as a lower resolution
+
+02:24.430 --> 02:30.700
+is to K or 1 k we can always take it into creator and save it as a new file.
+
+02:30.700 --> 02:40.090
+So here in these fields I'm just going to type in Asterix for and then hit enter and that will multiply
+
+02:40.180 --> 02:48.210
+that current number by for so we can add simple mathematic formulas in there.
+
+02:48.460 --> 02:54.200
+I'm not gonna click here and take the color all the way down to black and then I'll click.
+
+02:54.250 --> 02:56.620
+OK and there we go.
+
+02:56.630 --> 03:00.170
+So there is our texture on our character.
+
+03:00.170 --> 03:03.660
+We're then going to add the color on top of this.
+
+03:03.680 --> 03:09.920
+Let's go ahead and add that texture over here I'll pull down the menu and choose that character based
+
+03:09.920 --> 03:13.300
+color here and there it is.
+
+03:13.540 --> 03:17.740
+And then what I'm going to do is I'm going to come over here to image and you see how we have an asterix
+
+03:17.740 --> 03:18.490
+here.
+
+03:18.490 --> 03:21.730
+If I click image I'm going to click save as.
+
+03:21.730 --> 03:28.810
+And we can save this image right here to the harddrive because currently the way blender handles 2D
+
+03:28.840 --> 03:29.550
+images.
+
+03:29.590 --> 03:32.220
+This hasn't yet been saved to the hard drive.
+
+03:32.290 --> 03:34.090
+It's in memory.
+
+03:34.090 --> 03:40.690
+But even if we save blender and then close out of Blender this will still just go away.
+
+03:40.690 --> 03:48.100
+So we need to come over here to image save as and I'm going to take it into my textures folder that
+
+03:48.100 --> 03:54.730
+I've created and character based color once again is a pretty good name for it and I'll click save as
+
+03:54.740 --> 03:56.080
+image.
+
+03:56.080 --> 03:56.340
+All right.
+
+03:56.350 --> 04:01.870
+So now you can see there's no Asterix here by the image menu and that's good.
+
+04:01.870 --> 04:08.200
+That means we've saved it to the hard drive and from now on we can just click this button over here
+
+04:08.200 --> 04:09.640
+to save the image.
+
+04:09.640 --> 04:15.160
+But we needed to go through that process to save it to the drive initially.
+
+04:15.160 --> 04:15.800
+All right.
+
+04:15.880 --> 04:23.950
+So let's bring in a reference image right over here I'm a click and drag and bring in an image or create
+
+04:23.950 --> 04:25.300
+an image editor.
+
+04:25.630 --> 04:32.890
+We have the UVA map here so let's click view and uncheck display texture paint you these.
+
+04:33.110 --> 04:40.210
+And we go now go to image and open and let's go find in our reference images.
+
+04:40.210 --> 04:50.300
+This guy right here so I just want to sample the hair color and the head color for our texture map here.
+
+04:50.370 --> 04:56.100
+So I'm going to hit the one key to go to the front view just because I think it's easier to work like
+
+04:56.100 --> 04:56.800
+this.
+
+04:57.030 --> 04:59.150
+And I'm just going to fill these colors.
+
+04:59.160 --> 05:05.550
+So for the yellow and the brown I just want to fill the colors to get just the base colors applied.
+
+05:05.850 --> 05:12.510
+So let's begin with the hair here what I'm gonna do is I'm a select this guy right here this face selection
+
+05:12.690 --> 05:14.520
+masking I'm going to click that.
+
+05:14.520 --> 05:16.910
+And then what I want to do is d select everything.
+
+05:16.920 --> 05:20.160
+So many press Alt A and that D selects everything.
+
+05:20.160 --> 05:25.050
+So we had everything selected before when we turned this on.
+
+05:25.050 --> 05:33.000
+Now we can do is hover over a piece of the model and push the L key and that will select just that piece
+
+05:33.660 --> 05:34.230
+and we go.
+
+05:35.040 --> 05:38.700
+So now what I want to do is fill this to do that.
+
+05:38.720 --> 05:43.050
+I want to come over to the fill tool right here but there we go.
+
+05:43.050 --> 05:49.020
+I want to take the strength up to 100 percent so we can do that here or over here.
+
+05:49.050 --> 05:51.340
+I'll go in and click and drag there.
+
+05:51.390 --> 05:58.860
+We want to sample our color so going to scroll down here and I'll click on the color swatch here and
+
+05:58.860 --> 06:05.550
+then I'll click on the eyedropper right here and let's sample this color maybe right here you can see
+
+06:05.550 --> 06:06.490
+it there.
+
+06:06.630 --> 06:12.360
+Now in case I want to go back to this color so I don't lose it when I choose another color.
+
+06:12.360 --> 06:16.470
+I'm going to twirl the color palette thing down here.
+
+06:16.470 --> 06:19.920
+Click new and create a new color palette.
+
+06:19.920 --> 06:24.870
+Now I can hit the plus and it will be saved right there.
+
+06:24.870 --> 06:25.470
+So that's good.
+
+06:25.470 --> 06:26.780
+That's what we want.
+
+06:26.780 --> 06:34.080
+Now let's come over here with that Phil brush selected and just click on the hair and there we go.
+
+06:34.110 --> 06:40.980
+Now we've got our color applied just to the hair and you can see it come in to the 2D image over here
+
+06:40.980 --> 06:41.970
+as well.
+
+06:41.970 --> 06:42.230
+All right.
+
+06:42.240 --> 06:43.350
+So we have the hair done.
+
+06:43.350 --> 06:49.110
+Let's go ahead and scroll up and click save all images and that takes away the Asterix from the image
+
+06:49.410 --> 06:51.200
+menu there.
+
+06:51.260 --> 06:59.660
+I'm going to pass out a to D select and also let's just go over to object mode here and go over to our
+
+07:00.080 --> 07:06.850
+look div here and we can see the hair color the way we have it currently.
+
+07:06.910 --> 07:08.850
+Yeah that looks pretty good.
+
+07:08.890 --> 07:20.110
+So let's go back to texture paint mode here and with our face selection still on let's come over here
+
+07:20.110 --> 07:27.520
+and hover over the head at the El key and you can see here now even though I selected the head it didn't
+
+07:27.520 --> 07:28.680
+select all of it.
+
+07:28.810 --> 07:33.510
+And that's because we created seams when we did the movie map.
+
+07:33.610 --> 07:40.030
+So if I hit the tab key here in edit mode you can see all of the seams and now that we're all done with
+
+07:40.030 --> 07:44.360
+the movie map we can take away these seams without any problem.
+
+07:44.560 --> 07:50.600
+So let's press the A key and then press control e and let's choose clear seam.
+
+07:50.860 --> 07:52.390
+And there we go.
+
+07:52.390 --> 08:00.610
+So now if we go back to texture paint I'll just hit the tab key and now what let's do is hover over
+
+08:00.730 --> 08:01.420
+the head.
+
+08:01.420 --> 08:04.970
+Press the L key and you can see it selects the whole head.
+
+08:04.970 --> 08:09.350
+And let's go ahead and press all over the two hands as well there.
+
+08:09.730 --> 08:16.000
+And now with the Phil brush still selected Let's scroll down here.
+
+08:16.270 --> 08:17.770
+Oh I lost my image here.
+
+08:17.770 --> 08:22.500
+Let me pull the menu down and select that image again.
+
+08:22.510 --> 08:23.590
+There we go.
+
+08:23.590 --> 08:30.970
+Let me select the color swatch the eyedropper and select this yellow color right here.
+
+08:31.150 --> 08:34.030
+I'll add it to the palette right there.
+
+08:34.030 --> 08:39.950
+And then let's come over here and just click on the head and that adds that there.
+
+08:39.990 --> 08:40.710
+All right.
+
+08:40.780 --> 08:47.980
+So there we've got the beginnings of our color map in the next video we'll continue on with the rest
+
+08:47.980 --> 08:48.460
+of the body.

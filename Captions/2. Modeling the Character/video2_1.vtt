@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.840 --> 00:06.570
+Before I start modeling I'd like to bring in a few reference images just so I'd get a better understanding
+
+00:06.570 --> 00:08.280
+of what I'm working on.
+
+00:08.280 --> 00:14.890
+Actually before I even do that let me hit the a key and delete everything here.
+
+00:14.920 --> 00:15.640
+There we go.
+
+00:15.640 --> 00:25.000
+And then I'll press shift a And let's bring in an image empty blender 2.8 has some nice reference image
+
+00:25.030 --> 00:29.410
+features here so let's just go ahead and bring in a reference image here.
+
+00:29.530 --> 00:37.330
+And when we do let me show you what happens if I go to my reference images folder here and I'm gonna
+
+00:37.330 --> 00:41.440
+click this icon right here and this is a good one to bring in.
+
+00:41.440 --> 00:47.470
+I'm just gonna bring in this view right here by click load reference image you can see what happens
+
+00:47.470 --> 00:51.330
+it comes in at the angle of the viewport.
+
+00:51.430 --> 00:56.470
+So what we really need to do is choose what view we want to see this in and then bring it in.
+
+00:56.470 --> 01:03.360
+So press control Z let's hit the one key and now I'm here in the front or the graphic view.
+
+01:03.460 --> 01:08.740
+So now if I press shift a and bring in that reference image object.
+
+01:08.740 --> 01:10.240
+Here we go.
+
+01:10.270 --> 01:13.170
+Now he's in the proper viewport.
+
+01:13.270 --> 01:19.890
+I would like to bring it back in the y axis just a bit so I'll hit the end key to bring up the sidebar
+
+01:19.900 --> 01:28.180
+here and in the location and Y maybe I'll just type in five just to bring it back off of that axis off
+
+01:28.180 --> 01:36.040
+of the center of the grid just a bit and then if I hit the one key and come over here to the object
+
+01:36.100 --> 01:38.350
+data panel right here.
+
+01:38.800 --> 01:45.730
+Now I can move it in the x and y so I can get him more aligned in the center and actually standing on
+
+01:45.730 --> 01:46.300
+the grid.
+
+01:46.300 --> 01:53.170
+So if I bring him up in the y you can see I can just click and drag in that field there and drag him
+
+01:53.170 --> 01:58.140
+up so his feet are are standing on the x axis.
+
+01:58.150 --> 02:01.590
+Let me bring that up just a little bit more right about right about there.
+
+02:01.590 --> 02:02.570
+Let's say.
+
+02:02.800 --> 02:05.830
+But also you can see he's off center a bit.
+
+02:05.830 --> 02:12.440
+So if I click and drag on the x axis I can bring him back into the center so his.
+
+02:12.520 --> 02:16.470
+So the center of the jacket is aligned there.
+
+02:16.540 --> 02:19.330
+It's a photograph taken with perspective of course.
+
+02:19.330 --> 02:21.270
+So it's gonna be a little bit off.
+
+02:21.280 --> 02:28.330
+You can see how his leg is turned here a bit and this was higher than the other one and that's fine.
+
+02:28.330 --> 02:31.360
+We're just going to use this as a general reference.
+
+02:31.360 --> 02:36.260
+We're not going to get it exact to engineering specifications or anything.
+
+02:36.280 --> 02:43.240
+Also I want to click and drag this transparency and bring this down quite a bit about like this.
+
+02:43.240 --> 02:46.970
+I'll just actually click on it and type in point by.
+
+02:47.020 --> 02:48.490
+There we go.
+
+02:48.580 --> 02:56.320
+Now in addition we can also set it up so we can see it or not in the perspective view and I kind of
+
+02:56.320 --> 02:59.810
+like to not see it actually so I'm going to turn that off.
+
+02:59.830 --> 03:06.550
+So as we model the only time we're going to see it is when we're in that front or the graphic view.
+
+03:06.580 --> 03:06.940
+All right.
+
+03:06.940 --> 03:09.540
+So I think that works out pretty well.
+
+03:09.580 --> 03:12.880
+You can certainly set these however you want.
+
+03:12.880 --> 03:13.190
+All right.
+
+03:13.210 --> 03:15.720
+So let's go ahead and begin.
+
+03:15.940 --> 03:19.180
+Back in the front view let's go ahead and begin with the head.
+
+03:19.210 --> 03:22.500
+Let's go ahead and bring in a cylinder.
+
+03:22.630 --> 03:23.800
+I'll press shift a.
+
+03:23.830 --> 03:32.560
+And go to mesh and cylinder and I'll come over here and just open up this window right here and currently
+
+03:32.560 --> 03:38.910
+it's got 32 sides and I don't think we need that many since I'm planning on this to be a game character
+
+03:38.920 --> 03:41.050
+I'm going to try and keep it fairly low poly.
+
+03:41.200 --> 03:51.070
+So let's type in 16 here and also for the cat fill instead of just one big face on the top and the bottom.
+
+03:51.120 --> 03:57.140
+I want to change this to Triangle fan which will split it up into triangles kind of like a PI.
+
+03:57.280 --> 03:57.610
+All right.
+
+03:57.640 --> 04:04.330
+So now that we have that let's go ahead and hit Z and go to wireframe and then I'll come over here and
+
+04:04.330 --> 04:11.450
+click on the move tool here and we can then click and drag this up and then we're gonna need to scale
+
+04:11.450 --> 04:15.650
+that down so I'll hit the S Key and scale that down.
+
+04:15.760 --> 04:16.780
+All right let's zoom in.
+
+04:16.780 --> 04:23.590
+I can hit the period key to zoom in and then get the S Key again and yeah you can see how the head isn't
+
+04:23.590 --> 04:29.440
+quite aligned with the center of the grid here it's kind of turned and that's OK we're going to just
+
+04:29.440 --> 04:30.540
+do the best we can here.
+
+04:30.550 --> 04:36.780
+I'm going to have it kind of overlap here and kind of overlap here kind of in the same amount.
+
+04:36.790 --> 04:42.420
+I'm gonna hit the S and the Z key and scale and the Z right.
+
+04:42.420 --> 04:46.680
+Here we go about like that yeah.
+
+04:46.720 --> 04:53.640
+That's about the right size I think now what I need to do is select these edges and give them a bit
+
+04:53.640 --> 04:54.660
+of a bevel.
+
+04:54.660 --> 04:57.340
+This curve right here is a bevel.
+
+04:57.360 --> 05:04.230
+So if I hit the Z key again and go to solid view let's go ahead and tab into edit mode I'll just hit
+
+05:04.230 --> 05:11.280
+the tab key and we'll then go into edit mode and we can see all the edges and the polygons and the points
+
+05:11.280 --> 05:12.810
+of that object.
+
+05:12.810 --> 05:15.200
+I'll press Alt A to D select everything.
+
+05:15.210 --> 05:21.090
+And now I want to select the edges down here on the bottom first so you can see over here we've got
+
+05:21.210 --> 05:26.670
+vertex select edge select and face select here in vertex select.
+
+05:26.670 --> 05:31.210
+I can choose one of these and select that point in Edge mode.
+
+05:31.220 --> 05:36.730
+I can select edges and in face mode I can select different faces.
+
+05:36.960 --> 05:42.900
+And in addition you can just press the one two or three keys for these three selection mode.
+
+05:42.900 --> 05:47.330
+So 1 4 vertices 2 4 edges and 3 4 faces.
+
+05:47.400 --> 05:49.500
+So I'll press the two key.
+
+05:49.650 --> 05:56.280
+I'll press Alt A to D select and then to select this whole ring of edges all the way around.
+
+05:56.280 --> 06:01.020
+I'll press Alt and click here and that will select that entire edge.
+
+06:01.020 --> 06:03.420
+Now let's go back to that front view.
+
+06:03.480 --> 06:09.020
+I'll go to wireframe and let's Bevel this so we get that curve right there.
+
+06:09.090 --> 06:15.210
+We're going to Bevel the edge so to go up to the edges menu and right here is the bevel.
+
+06:15.210 --> 06:17.730
+Now we can also press control B so I'll just do that.
+
+06:17.730 --> 06:24.960
+I'll press control B and I'll drag the mouse until we get about maybe right here.
+
+06:25.290 --> 06:29.570
+So you can see how that curve goes basically from here to here.
+
+06:29.580 --> 06:36.630
+So now we can add new segments I'll just click here and we'll add let's add four segments right there.
+
+06:36.630 --> 06:39.590
+So that gives us that General curve.
+
+06:39.630 --> 06:40.620
+All right.
+
+06:40.620 --> 06:41.460
+Now let's do that.
+
+06:41.460 --> 06:47.910
+On the top and do these at the same time because I think I want the bevel to be slightly different.
+
+06:48.150 --> 06:55.800
+So I'll go back to that front view and here I'll just press control B and drag the mouse and it'll hold
+
+06:55.800 --> 06:59.320
+those general settings that we had before.
+
+06:59.370 --> 07:01.400
+I'll just bring it down to about right here I think.
+
+07:01.410 --> 07:04.890
+Let's see I'll hit the Z key and go to wireframe.
+
+07:04.890 --> 07:07.440
+Is that about right.
+
+07:07.450 --> 07:14.000
+Well maybe I'll take the width down just a little bit with maybe don't need it quite that deep.
+
+07:14.130 --> 07:15.220
+There we go.
+
+07:15.220 --> 07:18.280
+I just wanted to get that up into the hair.
+
+07:18.280 --> 07:18.490
+All right.
+
+07:18.490 --> 07:22.990
+Now we can tumble around go to Z and solid mode.
+
+07:22.990 --> 07:25.980
+And there we have the beginnings of our head.
+
+07:25.990 --> 07:30.160
+We also need to extrude pieces from the top and the bottom here.
+
+07:30.160 --> 07:38.890
+Let's go back to base mode with the three key and instead of just clicking and shift clicking all of
+
+07:38.890 --> 07:45.130
+these what we can do is hit the C key for the circle select tool and just click and drag and kind of
+
+07:45.130 --> 07:47.020
+paint that selection.
+
+07:47.020 --> 07:51.100
+Then we hit the right mouse button to get out of that tool.
+
+07:51.100 --> 07:56.430
+Now I can go back to that front view and it looks like that's pretty good.
+
+07:56.430 --> 08:02.590
+The with there looks pretty good I'll just hit the E key and drag the mouse down to about right here
+
+08:03.740 --> 08:05.260
+and then we go.
+
+08:05.480 --> 08:13.630
+Now this top part let's deselect everything with all a press that see key again and select all of those.
+
+08:13.640 --> 08:21.530
+Now we need to extrude and scale that in a bit because usually the top nub on a lego character's head
+
+08:21.530 --> 08:24.080
+is usually smaller than the one around the neck.
+
+08:24.080 --> 08:33.410
+So what let's do is listed E and then we'll hit the esky and we'll scale and just move the mouse a bit.
+
+08:33.410 --> 08:40.500
+We get about right there and then I'll just hit the E key and drag up just a little bit like that.
+
+08:40.510 --> 08:41.320
+There we go.
+
+08:41.320 --> 08:41.680
+All right.
+
+08:41.680 --> 08:44.380
+So now we have the head of the character.
+
+08:44.440 --> 08:52.030
+Well we can also do is smooth it a bit so we don't have this kind of blocking this faceted look to it
+
+08:52.060 --> 08:54.470
+where we can see the polygon so clearly.
+
+08:55.150 --> 09:00.280
+Well let's do is right click and let's go to shade smooth right here.
+
+09:00.280 --> 09:06.450
+Now that smooth it up quite a bit but we're getting some strange artifacts here up on the top.
+
+09:06.490 --> 09:14.470
+So let's come over here to the object data panel again and to the normals section and I'll scroll that
+
+09:14.470 --> 09:19.330
+down and I'll turn on auto smooth and when we do that you can see that kind of cleaned it up quite a
+
+09:19.330 --> 09:20.230
+bit.
+
+09:20.230 --> 09:26.200
+But what we can do is click and drag in this angle field and if I drag it all the way down that's the
+
+09:26.200 --> 09:28.720
+way it was at zero there.
+
+09:28.720 --> 09:32.800
+Now if I drag it up we can begin to clean some of this up.
+
+09:32.810 --> 09:39.540
+If I drag it too far you can see we get those kinds of artifacts again.
+
+09:39.540 --> 09:43.080
+Let's drag it down below 90 percent and see what we get here
+
+09:45.750 --> 09:46.590
+that's pretty good.
+
+09:46.590 --> 09:50.000
+I'm an eighty nine and we've cleaned up that edge.
+
+09:50.010 --> 09:52.940
+That's kind of a hard edge now which is what I wanted.
+
+09:52.950 --> 09:55.940
+But this one down here is still kind of soft.
+
+09:55.950 --> 10:01.080
+So let's click and drag this until we get that.
+
+10:01.170 --> 10:01.950
+There we go.
+
+10:01.980 --> 10:05.770
+So we just needed it below 80 I guess.
+
+10:05.770 --> 10:06.920
+Here we go.
+
+10:06.930 --> 10:10.010
+So that kind of smooths that up quite a bit.
+
+10:10.020 --> 10:10.680
+All right.
+
+10:10.680 --> 10:14.370
+So in the next video let's continue on with the torso.

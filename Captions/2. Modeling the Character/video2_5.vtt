@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.560 --> 00:06.140
+I think we're to the point again where we should probably do a little more cleanup if we select say
+
+00:06.140 --> 00:09.030
+this object here we can see this is it.
+
+00:09.080 --> 00:15.750
+And it's called sphere and that's not quite right let's call it arm and this down here.
+
+00:15.800 --> 00:19.360
+We could call it leg and we go.
+
+00:19.370 --> 00:26.520
+And also this empty object we can call that reference image.
+
+00:26.530 --> 00:27.160
+There we go.
+
+00:27.160 --> 00:34.600
+And this collection of items right here we could change the name of that as well and we could just call
+
+00:34.600 --> 00:42.180
+this character and sense the reference image is it's kind of is its own thing.
+
+00:42.190 --> 00:49.450
+Actually we could just select this scene collection up top right click and create a new collection and
+
+00:49.450 --> 00:57.790
+call this reference and we could just take that empty and drag it into that collection there and that
+
+00:57.790 --> 01:00.310
+cleans the outline or up just a bit.
+
+01:00.430 --> 01:07.470
+And also what we could do now is we could go ahead and hide the character right here just so we hide
+
+01:07.470 --> 01:08.910
+that whole thing.
+
+01:09.000 --> 01:15.770
+And then if I select the scene collection and create a new object with this selected it will create
+
+01:15.760 --> 01:21.570
+it outside of the character collection so we can still see it in the 3-D view.
+
+01:21.600 --> 01:29.190
+So for the hand let's go ahead and create a cylinder we can see here that's pretty much a cylinder so
+
+01:29.190 --> 01:34.980
+let's press shift a and create a cylinder here.
+
+01:35.430 --> 01:37.380
+We don't need 32.
+
+01:37.380 --> 01:42.410
+Let's take it down to 16 and for the cap fill we don't need anything.
+
+01:42.420 --> 01:51.480
+So let's just choose nothing and we go now well let's do is turn it in the x all press are x 9 0 and
+
+01:51.480 --> 01:55.340
+hit enter and now let's go to that front view again.
+
+01:55.560 --> 02:04.410
+And if I go to wireframe right here we can see that cylinder in the view I'll hit G and move it up to
+
+02:04.410 --> 02:10.870
+about here where the hand is going to be and then I'll hit s and scale it down quite a bit so we get
+
+02:10.870 --> 02:13.220
+it just generally the right size.
+
+02:13.330 --> 02:15.580
+It doesn't have to be perfect at this point in time.
+
+02:16.420 --> 02:18.760
+So maybe about like that.
+
+02:18.790 --> 02:19.660
+All right.
+
+02:19.660 --> 02:28.390
+So now if we tumble around and hit the Z key and go back to solid view it looks like the hand isn't
+
+02:28.390 --> 02:35.420
+quite this deep soulless press s and y and maybe scaled down just a bit like this.
+
+02:35.540 --> 02:44.030
+And with that opening here on the bottom maybe we should delete a few frames or a few faces down here
+
+02:45.330 --> 02:54.190
+with tab in the edit mode and hit the three key maybe we can choose these bases right down here and
+
+02:54.190 --> 03:02.470
+let's hit X and delete bases and there we go so now we've got that basic shape now there's a bit of
+
+03:02.470 --> 03:05.760
+a curve here on the back of the hand.
+
+03:05.800 --> 03:13.870
+So let's let's work on that if we get the one key and go to vertex mode and we select this vertex and
+
+03:13.870 --> 03:17.790
+this one we can move these forward like this.
+
+03:18.010 --> 03:25.230
+But the other ones need to come along and to do that what let's use is the proportional editing tool
+
+03:25.240 --> 03:31.470
+so up here you can see if you pull this menu down you have the proportional editing tool.
+
+03:31.480 --> 03:35.210
+We can enable it here by clicking this.
+
+03:35.290 --> 03:42.280
+And now if I hit G you can see let me scroll the mouse wheel and like this you can see we've got the
+
+03:42.280 --> 03:51.010
+area of influence right here so if I move around you can see the influence changes as I scroll this.
+
+03:51.010 --> 03:56.320
+Now I'm going to hit the escape key to get out of that and what I want to do is just pull it forward
+
+03:56.380 --> 04:03.290
+only so I'll press G and y and just pull forward like this.
+
+04:03.430 --> 04:10.180
+Now I will scroll the mouse wheel and see if I can get it a little bit more curved like this.
+
+04:10.180 --> 04:17.740
+We don't have a whole lot of polygons to work with here but we can still get kind of a hint of a curve
+
+04:17.770 --> 04:22.960
+here I think maybe something like this.
+
+04:22.960 --> 04:23.380
+There we go.
+
+04:23.380 --> 04:27.630
+So we have that kind of curve there at the at the back of the hand.
+
+04:27.640 --> 04:27.940
+All right.
+
+04:27.970 --> 04:33.190
+So now that we've done that we can go ahead and turn off the proportional editing tool and we can do
+
+04:33.190 --> 04:34.900
+that with the shortcut.
+
+04:34.910 --> 04:38.560
+Oh so I'll just hit 0 and that'll turn that off.
+
+04:38.560 --> 04:40.820
+Now let's give it some thickness.
+
+04:40.870 --> 04:47.410
+We can do that by tapping back into object mode and coming over here to the modifiers panel right here
+
+04:47.890 --> 04:54.730
+and click Add modifier and we can go to solidify if we click here you can see it just added a little
+
+04:54.730 --> 04:57.360
+bit of thickness there but not a whole lot.
+
+04:57.520 --> 05:03.760
+If we hit the end key and take a look at our scale and our rotation they aren't ones and zeros.
+
+05:03.760 --> 05:11.230
+They they have some non uniform values here and we really need uniform values in our scale and rotation
+
+05:11.260 --> 05:14.950
+when using a modifier like this solidify modifier.
+
+05:14.950 --> 05:22.840
+So let's once again press control a and let's choose rotation and scale in the apply menu.
+
+05:22.840 --> 05:28.190
+And when we do that you can see the thickness gets a little more pronounced.
+
+05:28.240 --> 05:29.980
+It's more even.
+
+05:29.980 --> 05:34.490
+We could also come over here and click on even thickness and that helps as well.
+
+05:34.510 --> 05:40.660
+But now what let's do is click on this thickness field and click and drag and bring that in some and
+
+05:40.660 --> 05:47.290
+I'll even hold the shift key down as I click and drag and that'll make things a little bit smoother
+
+05:47.920 --> 05:53.960
+as I drag that in maybe something like this and we go.
+
+05:54.230 --> 06:01.120
+Now if I tab into edit mode you can see this thickness is just kind of a preview.
+
+06:01.190 --> 06:07.610
+It isn't real per say we can come over here and turn it off and turn it on in the viewport to bake this
+
+06:07.610 --> 06:09.160
+geometry into the object.
+
+06:09.170 --> 06:13.830
+We need to tab back into object mode and come over here and click apply.
+
+06:14.120 --> 06:15.520
+So I'll do that.
+
+06:15.590 --> 06:20.140
+And now you can see all that geometry is there.
+
+06:20.180 --> 06:20.420
+All right.
+
+06:20.420 --> 06:28.840
+So let's now go back to that front view with the one key and if we grab these edges here I'm just going
+
+06:28.840 --> 06:34.040
+to grab this one edge and I just want to hit G and move it like this.
+
+06:34.070 --> 06:43.040
+So we have a bit of this point or flat part here and I'll grab this edge as well go back to that front
+
+06:43.040 --> 06:46.940
+view and hit G and just move that up as well like that.
+
+06:46.940 --> 06:47.320
+OK.
+
+06:47.360 --> 06:56.030
+So we're getting there we have that basic shape now I'd like to add a bevel or two both at the tip of
+
+06:56.030 --> 07:00.840
+the finger type areas here and along the edges.
+
+07:01.070 --> 07:07.600
+And I think what I need to do first is this fingertip area before I do that.
+
+07:07.610 --> 07:14.300
+Let me go to the vertex tool and just select these vertices right here and I want to pull them back
+
+07:14.330 --> 07:22.780
+so they line up again when I dragged that edge in it kind of through these out of alignment.
+
+07:22.880 --> 07:23.290
+Here we go.
+
+07:23.320 --> 07:27.080
+So I just want to bring those back just a little bit like that.
+
+07:27.100 --> 07:27.400
+All right.
+
+07:27.910 --> 07:37.520
+So now if I go to edge mode and I select this edge and this edge let's go ahead and Bevel these I'll
+
+07:37.670 --> 07:46.020
+press control B and drag the mouse out to about like this let's say and then I'll add a few segments
+
+07:46.020 --> 07:52.770
+here and just click and there we go then we can make that a little bit bigger if we want by clicking
+
+07:52.770 --> 07:55.370
+and dragging on the width.
+
+07:55.500 --> 08:00.220
+I don't think I want it quite that big maybe something like that.
+
+08:00.360 --> 08:02.460
+I think I better make it more like this.
+
+08:02.490 --> 08:03.240
+There you go.
+
+08:03.260 --> 08:09.370
+OK so now I'll go ahead and select these edges along here without click.
+
+08:09.380 --> 08:19.460
+Alt shift click here and in here and then I'll come around to the back and alt shift click these back
+
+08:19.460 --> 08:22.230
+here as well like that.
+
+08:22.460 --> 08:30.070
+So we select all of those all at once and now with all that selected I'll press control B again and
+
+08:30.070 --> 08:34.810
+let's add another little devil right in here.
+
+08:34.850 --> 08:42.540
+I don't think I need this many I can take this down to three maybe yeah let's try that and there we
+
+08:42.540 --> 08:42.810
+go.
+
+08:42.810 --> 08:48.150
+So now we've got those devils all the way around.
+
+08:48.360 --> 08:52.830
+And in addition let's go ahead and try and smooth these.
+
+08:52.830 --> 08:53.930
+All right.
+
+08:53.940 --> 08:56.730
+Click choose shade smooth.
+
+08:56.730 --> 08:59.220
+And that helps quite a bit actually.
+
+08:59.220 --> 09:02.020
+Let's go over to the object data.
+
+09:02.040 --> 09:04.440
+Turn on auto smooth.
+
+09:04.440 --> 09:06.860
+You can see an edge right there.
+
+09:06.900 --> 09:12.330
+That's not too bad but I think what I'll do is go ahead and slide that up a little bit more and try
+
+09:12.330 --> 09:14.160
+and get rid of those.
+
+09:14.430 --> 09:16.740
+So we don't see that.
+
+09:16.750 --> 09:18.220
+All right.
+
+09:18.250 --> 09:28.520
+Also I feel like this edge right here those could be pulled forward just a bit right in here.
+
+09:28.550 --> 09:34.420
+This and this but I'll need to drag these forward as well.
+
+09:34.430 --> 09:37.990
+So what let's do is just go to wireframe.
+
+09:38.080 --> 09:45.980
+The one key to go to vertex mode and then and then I'll come over here choose the select tool click
+
+09:45.980 --> 09:53.330
+and drag these go back to the move tool and maybe pull these in just a little bit like this.
+
+09:53.390 --> 09:55.300
+Let's see how that works.
+
+09:58.950 --> 09:59.140
+Yeah.
+
+09:59.160 --> 10:00.840
+That may have helped a bit.
+
+10:00.850 --> 10:01.700
+Okay.
+
+10:02.020 --> 10:10.420
+So now that we have the basic shape of the hand in the next video what let's do is create the wrist
+
+10:10.540 --> 10:13.930
+coming out of the hand that will then insert into the sleeve.

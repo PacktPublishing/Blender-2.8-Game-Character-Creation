@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.810 --> 00:07.560
+Before we mirror this over we should probably take a look at the rotation and the role of these bones
+
+00:07.680 --> 00:09.450
+and make sure it's what we want.
+
+00:09.450 --> 00:16.830
+So if we tap into edit mode let's select this upper arm bone here and let's come up here to global and
+
+00:16.830 --> 00:20.400
+go to normal transform orientation.
+
+00:20.400 --> 00:23.430
+And then I'm going to choose the rotate tool.
+
+00:23.430 --> 00:31.340
+Okay so now if we hit the end key and come over here to our sidebar we have this role field here.
+
+00:31.620 --> 00:36.140
+What we can do is change the role of the bone to place it or arrange it.
+
+00:36.150 --> 00:38.100
+So it's the way we want.
+
+00:38.100 --> 00:47.430
+So what I usually try and do with this is have the x axis here be the main angle of rotation so what
+
+00:47.430 --> 00:50.280
+way is this bone going to mainly turn.
+
+00:50.280 --> 00:56.820
+I would say it's going to mainly turn forward and back maybe as he's running or walking.
+
+00:56.880 --> 01:00.090
+I don't think the main angle will be up and down.
+
+01:00.090 --> 01:07.440
+So I think forward and back is fine for this you can see the x axis is in a position where this would
+
+01:07.440 --> 01:16.960
+go forward and back along the x axis let's look at this one here now I think the main angle of rotation
+
+01:16.960 --> 01:20.110
+would be for it to bend up at the elbow right.
+
+01:20.350 --> 01:25.880
+But currently the z axis is aligned to that particular axis of rotation.
+
+01:25.930 --> 01:32.950
+So what I think I'd like to do is maybe go to the front view here and I want to turn this so the x axis
+
+01:33.040 --> 01:35.830
+is pointing toward me instead of the Z axis.
+
+01:35.980 --> 01:44.580
+So I can come over here to the role field and I can turn this so that x axis is pointing toward me.
+
+01:44.610 --> 01:52.600
+All right let's come over here and look at this one here now for this the x axis is going up and down
+
+01:52.600 --> 02:00.130
+for the rest and I think that's probably what we want that main axis would be the wrist bending up and
+
+02:00.130 --> 02:01.150
+down.
+
+02:01.150 --> 02:08.290
+It would also go side to side but I don't think that would be the main axis so let's now take a look
+
+02:08.290 --> 02:10.720
+at this bone.
+
+02:10.720 --> 02:18.400
+I think we need to turn this if we kind of angle our view so we're looking at this from the top like
+
+02:18.400 --> 02:19.420
+this.
+
+02:19.420 --> 02:22.170
+I think what I'd like to do is turn that x axis.
+
+02:22.180 --> 02:33.690
+So it points up like that let's also take this one and move it like this and this one and let's move
+
+02:33.690 --> 02:36.120
+it like this.
+
+02:36.140 --> 02:36.530
+There we go.
+
+02:36.530 --> 02:38.060
+Let's give this a try.
+
+02:38.060 --> 02:40.520
+I'll also do this on the bottom
+
+02:43.570 --> 02:44.990
+and we go like this
+
+02:49.160 --> 02:53.350
+and here and here.
+
+02:53.420 --> 02:56.360
+Now what we can do is actually test this.
+
+02:56.360 --> 03:00.800
+We can go into pose mode and see which way these are turning.
+
+03:00.800 --> 03:06.100
+So if I come over here to edit dropdown and choose poser mode.
+
+03:06.200 --> 03:10.000
+Now this is the mode that the character will actually be animating in.
+
+03:10.610 --> 03:20.190
+So if I take say this bone go to the rotate tool and let's just see if we click on the x axis.
+
+03:20.420 --> 03:23.060
+It is rotating mainly in the x axis.
+
+03:23.060 --> 03:33.550
+There let me look at this one and this one over what I'm seeing is they're all moving in the negative
+
+03:33.610 --> 03:34.220
+x.
+
+03:34.240 --> 03:35.620
+Let me try this one here.
+
+03:35.620 --> 03:41.470
+This one's moving in the positive x and this one's positive.
+
+03:41.480 --> 03:44.640
+So I think this is OK yeah.
+
+03:44.680 --> 03:45.760
+Let's go with this.
+
+03:45.760 --> 03:54.460
+I mean you look at this one it's turning up and down so up is in the positive down as in the negative.
+
+03:54.460 --> 03:56.410
+That should be okay.
+
+03:56.470 --> 04:00.990
+This one is going to turn this way that's good.
+
+04:01.190 --> 04:05.460
+And this one is going to turn this way.
+
+04:05.600 --> 04:06.290
+Good.
+
+04:06.290 --> 04:06.680
+Okay.
+
+04:06.710 --> 04:08.980
+I think that's gonna work.
+
+04:09.000 --> 04:15.650
+Let's go back to edit mode now and let's select this bone down here and let's take a look at this.
+
+04:15.660 --> 04:24.840
+Now the x axis is pointing to the side here but these look like they're okay so let's change this one
+
+04:24.840 --> 04:31.410
+I'm going to go to the front view here and let's click and drag on the roll and let's change this one
+
+04:31.410 --> 04:33.880
+here like this.
+
+04:33.880 --> 04:35.230
+There we go.
+
+04:35.230 --> 04:39.810
+Now if we go back to post mode we can turn these.
+
+04:39.810 --> 04:42.190
+Let's take this yeah.
+
+04:42.220 --> 04:44.800
+That's going positive and negative.
+
+04:44.800 --> 04:45.520
+That's good.
+
+04:48.650 --> 04:49.190
+Negative.
+
+04:49.190 --> 04:49.850
+Positive.
+
+04:49.850 --> 04:50.150
+Yeah.
+
+04:50.150 --> 04:52.430
+I think these are gonna work.
+
+04:52.430 --> 05:00.670
+Everything's moving in the x axis just fine and once again I'm in the normal transformation orientation
+
+05:00.670 --> 05:02.410
+here as I do this.
+
+05:02.650 --> 05:02.970
+All right.
+
+05:03.000 --> 05:08.820
+So let's go back to edit mode now and the next thing we should do is mirror these over.
+
+05:08.820 --> 05:14.520
+Now before I do that I'd like to see all the names here in the viewport of the bones.
+
+05:14.530 --> 05:22.660
+And to do that we can come over here to the Object data panel and we can click on names and there we
+
+05:22.660 --> 05:26.570
+go we can see the names in our viewport.
+
+05:26.560 --> 05:28.270
+Now let me hit the Z key.
+
+05:28.270 --> 05:30.390
+Here you can see him better here.
+
+05:30.430 --> 05:37.380
+So we have all the names in place for the left side of the rig and the center torso.
+
+05:37.420 --> 05:39.490
+We need to mirror these over now.
+
+05:39.490 --> 05:42.700
+So let's begin with the legs down here.
+
+05:42.730 --> 05:49.330
+Let's move the cursor into the center of the grid with shift s cursor to world origin.
+
+05:49.330 --> 05:53.540
+And then I'm gonna go through and select all of these bones.
+
+05:53.550 --> 06:03.180
+Here and I want to make sure that I'm using the 3d cursor as my pivot point here you can see that there
+
+06:03.720 --> 06:07.400
+may change back to Global transforms.
+
+06:07.440 --> 06:12.290
+Now what this do is duplicate this chain and then mirror it in the x axis.
+
+06:12.300 --> 06:18.880
+And when we do it should mirror around this point here around our our pivot point our 3d cursor.
+
+06:18.990 --> 06:28.290
+So I'll press shift D and enter and then I'll press control M control M and then I'll hit the X key
+
+06:28.290 --> 06:34.920
+to mirror in the x axis and then I'll hit enter and there we go.
+
+06:34.920 --> 06:39.530
+So now we have our chain over here but we need to deal with our names.
+
+06:39.780 --> 06:47.910
+Well we can do is right click on the chain there and then go to names and we can choose flip names and
+
+06:47.910 --> 06:54.960
+when we do that you can see we've got up leg dot our low leg dot are et cetera.
+
+06:54.990 --> 06:58.110
+However this 0 0 1 is still there.
+
+06:58.110 --> 07:05.820
+And that really shouldn't be I think this is a beta version issue that they haven't fixed yet in version
+
+07:05.820 --> 07:11.940
+two point seven nine and earlier when you flipped the names it would change the L to R and then it would
+
+07:11.940 --> 07:13.980
+also remove the 0 0 1.
+
+07:13.980 --> 07:19.860
+So I think they still need to work on that but we can always come over here and do it the old fashioned
+
+07:19.860 --> 07:27.070
+way manually select each one of these and remove that dot 0 0 1 out of the name.
+
+07:27.150 --> 07:31.040
+That's not a problem we can do that there.
+
+07:31.050 --> 07:39.700
+And this one here so I would imagine in a future version that will be cleaned up.
+
+07:39.700 --> 07:43.690
+All right let's try that again with the arm and the hand.
+
+07:43.960 --> 07:52.230
+So I'll just select all of these bones here like that and then let's do the same thing.
+
+07:52.240 --> 07:59.230
+Let's press shift D and enter and then analysts press control M and the X key and that will mirror those
+
+07:59.230 --> 08:07.740
+over to the other side and then I'll hit enter and then right click names flip names and then we got
+
+08:07.740 --> 08:16.700
+to go through and take away the 0 0 1 for each one of these so I will do that before the next video.
+
+08:16.960 --> 08:24.760
+And at that time will parent the arms and the legs to the main torso here and then we'll try and bind
+
+08:24.790 --> 08:26.830
+the character mesh to the armature.

@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.580 --> 00:04.090
+For the torso I think all we'll need is a cube.
+
+00:04.090 --> 00:12.210
+So let's press Shift A and go to mesh cube and I'll hit the Z key and go to wireframe.
+
+00:12.230 --> 00:14.110
+Now let's try and put this in place.
+
+00:14.110 --> 00:22.260
+I think I'll just drag it straight up and let's scale it down until we get it about the right width
+
+00:22.860 --> 00:25.590
+for the base of the object right down here.
+
+00:25.590 --> 00:32.190
+I just want to get it about the right width here and that that doesn't look too bad.
+
+00:32.200 --> 00:34.690
+Let's get it right about there okay.
+
+00:34.900 --> 00:40.650
+Now we just need to bring this down and scale it in so I'll tab into edit mode.
+
+00:40.690 --> 00:46.670
+I'll hit the three key to go to base mode and I'll just select that face right up here.
+
+00:46.690 --> 00:47.910
+There it is.
+
+00:48.020 --> 00:54.850
+Go back to the front view and I'll just with the move tool enabled over here I'll just click and drag
+
+00:54.880 --> 01:04.070
+and drag it down to here and then we can scale it in the X by pressing X and X and then pulling in like
+
+01:04.070 --> 01:08.510
+this and we go okay.
+
+01:08.540 --> 01:10.520
+So now we have it like this.
+
+01:10.520 --> 01:12.010
+It's a little too wide.
+
+01:12.020 --> 01:21.140
+So let's tab back into edit mode it the Z key go to solid view and now it's scale and the Y I'll hit
+
+01:21.140 --> 01:27.050
+the three key to go to the side view and we can come over here and just click the scale tool and then
+
+01:27.050 --> 01:35.570
+click and drag on the y axis right here and I think it's usually about this wide it's kind of hard to
+
+01:35.570 --> 01:42.830
+tell exactly how wide this should be from our front view image you can kind of bring that in like this.
+
+01:42.830 --> 01:44.830
+I think that'll work pretty well.
+
+01:44.840 --> 01:51.770
+Let's go back to the front view and now we need I think another cube for the hips here for the belt
+
+01:52.040 --> 01:56.720
+so let's press shift a mesh cube at the Z key.
+
+01:56.730 --> 02:03.710
+Go to wireframe and I'll click on the move tool over here and let's just click and drag and I'm going
+
+02:03.710 --> 02:10.220
+to put the center of this cube right in the center of the belt buckle right there and hit s and scale
+
+02:10.220 --> 02:14.360
+down until we're about the right width apart like that.
+
+02:14.360 --> 02:22.730
+Now the scale in the Zi I'll hit s and z and move the mouse down until we get it about the right height
+
+02:22.880 --> 02:24.420
+about like that.
+
+02:24.660 --> 02:25.600
+There we go.
+
+02:25.670 --> 02:29.030
+Now once again we need to change the width in the Y.
+
+02:29.060 --> 02:36.440
+So let's come over here to the side view again and let's press x and y and then we can move that in
+
+02:36.440 --> 02:37.600
+like this.
+
+02:37.610 --> 02:38.150
+There we go
+
+02:41.260 --> 02:48.490
+and now that we have these fairly nice rounded curves up here on the head these very sharp angles on
+
+02:48.490 --> 02:52.210
+the torso just seem to be a little bit too much actually.
+
+02:52.450 --> 02:57.090
+In fact we don't want to do is let's let's bring in another reference image.
+
+02:57.100 --> 03:01.870
+I'm going to click and drag this and then hover right over here on the corner of that window and tell
+
+03:02.020 --> 03:07.550
+the cursor turns to a cross then I'm going to click and drag down to create a new window.
+
+03:07.840 --> 03:12.340
+And in here I'm going to change to an image editor.
+
+03:12.340 --> 03:17.500
+So now we have an image editor in this window and we can bring in a new image.
+
+03:17.500 --> 03:26.630
+I'll go to image open and let's go to that folder and in here under reference images.
+
+03:26.840 --> 03:29.270
+Let's click here so we can see it.
+
+03:29.270 --> 03:31.330
+I've got this one right here.
+
+03:31.370 --> 03:35.960
+This is kind of a three quarter view so we can kind of get a sense of how it looks at a slightly different
+
+03:36.050 --> 03:37.050
+angle.
+
+03:37.070 --> 03:39.740
+I'll bring that in by clicking open image.
+
+03:39.740 --> 03:40.400
+And there we go.
+
+03:40.400 --> 03:48.890
+We can scroll the mouse wheel to zoom in or out and you can see here right in here the edges of the
+
+03:48.890 --> 03:53.000
+torso have kind of a a rounded feel to them.
+
+03:53.000 --> 03:58.670
+So I think we could maybe add that here as well with the beveled tool again.
+
+03:58.670 --> 04:02.360
+So let's select that torso and tab and edit mode.
+
+04:02.540 --> 04:08.110
+I'll hit the two key to go to edge mode and I'm just going to hit the A key to select all of the edges.
+
+04:08.150 --> 04:09.410
+Now that we've done that.
+
+04:09.440 --> 04:11.650
+Let's go ahead and Bevel this.
+
+04:11.660 --> 04:18.150
+I'll press control B and I'll drag the mouse out just a little bit.
+
+04:18.200 --> 04:24.350
+Now I'm seeing a couple of issues here one we've got two mini segments I think we don't need that many
+
+04:24.680 --> 04:33.230
+segments and two I feel like the curve we're getting here isn't exactly proportional or centered on
+
+04:33.230 --> 04:34.230
+that edge.
+
+04:34.430 --> 04:40.670
+And I think the reason why if we get the in key here and tab back into object mode you can see that
+
+04:40.670 --> 04:49.640
+the scale is off and tools like the bevel tool are affected by our scale here for the object.
+
+04:49.640 --> 04:50.260
+Well let's do it.
+
+04:50.390 --> 04:56.590
+Let me just press control Z and let's undo a bit and then I'm going to tab back into object mode and
+
+04:56.600 --> 05:04.130
+let's try applying the scale and doing this again I'll press control a to bring up the apply menu and
+
+05:04.130 --> 05:10.150
+then I'm just going to apply the scale and what that does is it changes all of these two ones.
+
+05:10.160 --> 05:16.880
+And it says to blender that this new size and shape of the object is the default scale of the object
+
+05:16.880 --> 05:18.050
+now.
+
+05:18.080 --> 05:25.700
+So now if we tab back into edit mode with all the edges still selected we'll press control B and drag
+
+05:25.730 --> 05:32.270
+out a bit and it's a little bit tough to tell but you see how this curve now is a little more centered
+
+05:32.450 --> 05:35.060
+and proportional on the edge.
+
+05:35.090 --> 05:37.040
+So that's all I wanted there.
+
+05:37.040 --> 05:38.810
+Now do we need four segments.
+
+05:38.810 --> 05:42.020
+We can take it down to three and see how it how it looks.
+
+05:42.020 --> 05:43.310
+Let's try that.
+
+05:43.340 --> 05:45.990
+I'll go back to object mode with tab key.
+
+05:46.220 --> 05:48.150
+And how does it look at it.
+
+05:48.200 --> 05:49.300
+I think it looks pretty good.
+
+05:49.310 --> 05:52.750
+But we we probably need to do a little more smoothing again.
+
+05:52.780 --> 06:00.350
+I mean at the end to close that panel and then I'll right click and choose shade smooth and let's see
+
+06:00.360 --> 06:05.430
+that looks pretty good just straight out of the box as it were.
+
+06:05.830 --> 06:10.710
+I'm going to come down here to the normals section and turn on auto smooth.
+
+06:10.710 --> 06:17.120
+You can drag all the way down and then drag back up and see what we can get here yeah.
+
+06:17.130 --> 06:22.670
+It looks like that's about what we want right there.
+
+06:22.870 --> 06:28.970
+OK so now maybe we can go back to the front view and create this cylinder here.
+
+06:29.170 --> 06:34.780
+Now it's kind of cutting up into the hips right in here I don't know if you can see that.
+
+06:34.780 --> 06:37.540
+I might need to find another image here.
+
+06:37.540 --> 06:44.290
+Let's go back see if I can find another image that'll show how it's being cut in.
+
+06:44.290 --> 06:47.360
+Let me open this one here yes.
+
+06:47.370 --> 06:55.110
+So you can see here just a little bit how the leg kind of cuts into that hips area right there so we're
+
+06:55.110 --> 07:02.520
+gonna need to do a boolean for that but before we do let's go ahead and create this center cylinder
+
+07:02.580 --> 07:13.730
+and we'll then use this to create that boolean cut the press shift a and bring in a cylinder we've got
+
+07:13.750 --> 07:18.950
+it at sixteen sides with a triangle fan that's probably just fine.
+
+07:18.950 --> 07:27.620
+I'm going to go back to wireframe with the Z key and I want to turn this now 90 degrees in the y axis.
+
+07:27.680 --> 07:33.320
+If I hit the end key to open up the sidebar you can see if I click and drag in the y axis.
+
+07:33.320 --> 07:36.170
+This is the way I want to turn it like this.
+
+07:36.170 --> 07:44.060
+So if I just press controls ze I can go back to where it was but what I want to do is press are 9 0
+
+07:44.090 --> 07:49.960
+and that will rotate the object 90 degrees based on my viewport here.
+
+07:49.970 --> 07:56.180
+Now if I hit the escape key and go back to here what I can do is tumble around here and if I do this
+
+07:56.180 --> 08:02.060
+again here in the 3D view watch what happens are 9 0 and hit enter.
+
+08:02.060 --> 08:05.200
+It turns once again based on the viewport.
+
+08:05.210 --> 08:07.580
+So let's control Z that.
+
+08:07.610 --> 08:16.400
+So if I were in this viewport here and I wanted to turn it I could press r y 9 0 and now it'll turn
+
+08:16.400 --> 08:24.070
+in the y axis as if we're in this view let's it s and I'll scale that down quite a bit and then I'll
+
+08:24.070 --> 08:28.780
+hit S and X and scale it in.
+
+08:28.870 --> 08:36.900
+Let's bring that up and see if we can get it to be about the right size maybe about like this.
+
+08:36.930 --> 08:41.250
+So it cuts up into that hips area just a bit.
+
+08:41.280 --> 08:43.050
+I mean make it a little bit bigger.
+
+08:43.050 --> 08:44.650
+Bring this up some.
+
+08:44.760 --> 08:47.700
+So that is I think about what we want.
+
+08:47.700 --> 08:54.090
+Let me hit the Z key and go to solid view.
+
+08:54.150 --> 08:59.730
+I'm just taking a look and seeing if that's big enough small enough.
+
+08:59.760 --> 09:01.070
+Actually you know what I think.
+
+09:01.080 --> 09:06.010
+I'd like to do is make this just a little bit bigger.
+
+09:06.040 --> 09:10.510
+Let's go back to that front view and push it up just a little bit farther.
+
+09:10.840 --> 09:17.600
+And then I'll scale it in the X with S and X until it's just about like this and here we go.
+
+09:17.600 --> 09:27.260
+I just wanted to be able to cut up into this piece and also to not have a cut at an edge so I don't
+
+09:27.260 --> 09:32.000
+want to make that cut right at this edge or right at this edge.
+
+09:32.000 --> 09:35.890
+I want to have the cut happen between them.
+
+09:35.890 --> 09:40.700
+You see how I've got this edge right here above here.
+
+09:40.750 --> 09:42.870
+That's what I want.
+
+09:42.880 --> 09:43.240
+All right.
+
+09:43.270 --> 09:48.910
+So in the next video what let's do is we'll use this object.
+
+09:48.910 --> 09:54.670
+We will duplicate it and use it to make that curved cut into the belt here.

@@ -1,0 +1,385 @@
+WEBVTT
+
+00:00.590 --> 00:07.760
+Now one of the thing that distinguishes a very fast walk from a run is that at some point in time in
+
+00:07.820 --> 00:14.510
+a run cycle Both feet are up off the ground and the way I have it here the problem is I mean go back
+
+00:14.510 --> 00:16.490
+to the side view here.
+
+00:16.490 --> 00:23.210
+Problem is here even at frame six there's a toe still on the ground right.
+
+00:23.240 --> 00:27.370
+And then we go to the contact here for the right foot.
+
+00:27.410 --> 00:35.000
+So my problem is is that he's never really completely off the ground so I need to get that right here.
+
+00:35.000 --> 00:43.340
+Let's take that foot control that foot roll and let's press old ah and clear the rotation on that and
+
+00:43.340 --> 00:49.640
+then let's grab the actual foot control and let's move this up and rotate it.
+
+00:49.850 --> 00:51.500
+So we're kind of like this.
+
+00:51.500 --> 00:54.320
+We're kind of up in the air like this.
+
+00:54.320 --> 00:55.510
+Like that.
+
+00:55.520 --> 00:58.520
+And that's probably all we need for that.
+
+00:58.550 --> 01:03.910
+Let's go over to frame 12 here and yeah let's do the same thing here.
+
+01:03.920 --> 01:06.130
+Let's take that foot roll.
+
+01:06.140 --> 01:14.570
+Press all are and then let's grab the foot control and bring it up and rotate it back like that.
+
+01:14.570 --> 01:14.980
+All right.
+
+01:15.080 --> 01:18.840
+Frame six frame twelve.
+
+01:19.610 --> 01:25.770
+Yeah let's kind of like this a little bit better.
+
+01:25.780 --> 01:28.780
+Let's go like this okay.
+
+01:28.790 --> 01:33.560
+Frame six frame twelve six.
+
+01:33.890 --> 01:44.010
+Well there's a bit of movement with the hips here that I'm not Yeah.
+
+01:44.040 --> 01:45.560
+Let's select those hips.
+
+01:45.560 --> 01:54.340
+Let me deselect everything down here select the hips and let's get well let's see.
+
+01:54.370 --> 02:01.100
+So this frame five and 11 are pretty good all right.
+
+02:01.100 --> 02:11.460
+In terms of the hips and the position frame six comes down just a bit and frame 12 comes down even more
+
+02:11.490 --> 02:13.230
+so that's not quite right.
+
+02:13.230 --> 02:13.650
+Huh.
+
+02:18.300 --> 02:22.260
+Well what let's do is take this and let's go out and create a key frame.
+
+02:22.260 --> 02:26.670
+I'm going to press I and choose location and rotation.
+
+02:26.670 --> 02:31.910
+And now with this created I'm just going to duplicate it shift D and move it over to here.
+
+02:32.310 --> 02:33.440
+Let's see how that works.
+
+02:34.850 --> 02:35.160
+Yeah.
+
+02:35.170 --> 02:39.380
+That's better now we just need to get the feet into the correct position
+
+02:41.820 --> 02:43.290
+six and 12
+
+02:47.260 --> 02:48.770
+and we go that's not too bad.
+
+02:52.500 --> 02:53.440
+Yeah.
+
+02:53.700 --> 02:54.170
+All right.
+
+02:54.660 --> 02:58.560
+So now let's give it a try.
+
+02:58.670 --> 03:01.180
+I'll deselect everything.
+
+03:01.290 --> 03:10.110
+We can also come over here and hide the armature hide it right here and then we can get the spacebar.
+
+03:10.140 --> 03:21.220
+Let's see how he's doing we can tumble around and see him go Yeah I think uh think that works pretty
+
+03:21.220 --> 03:25.260
+well.
+
+03:25.430 --> 03:26.740
+Okay good.
+
+03:26.740 --> 03:27.900
+I'll hit the spacebar.
+
+03:27.910 --> 03:29.620
+I'll go and bring the armature back.
+
+03:29.620 --> 03:31.060
+Here we go.
+
+03:31.060 --> 03:40.450
+Now let's think about the 2D face the entire animation here the entire cycle is only half a second long.
+
+03:40.840 --> 03:48.120
+So if we had him blink anywhere in here or really do anything in here he would do it twice a second.
+
+03:48.260 --> 03:49.610
+And that's a lot.
+
+03:50.080 --> 03:57.490
+So I don't think we can really have an animation happening during the run cycle but what we can do is
+
+03:57.490 --> 04:03.520
+change his expression and just have that one expression hold while he runs.
+
+04:03.520 --> 04:09.970
+So I think what we really need to do is just change his eyebrows and change the mouth.
+
+04:09.970 --> 04:17.380
+Let's go ahead and come out of pose mode to object mode and then we can select that grease pencil object
+
+04:18.250 --> 04:22.130
+and then let's come over here from object and go to draw.
+
+04:22.150 --> 04:22.510
+All right.
+
+04:22.540 --> 04:27.730
+So now we can see our layers over here for the brows.
+
+04:27.730 --> 04:35.230
+Well let's go to brow El here and and we can access all of these at the same time in edit mode because
+
+04:35.500 --> 04:36.890
+it's all one object.
+
+04:36.940 --> 04:43.890
+It's like having a 3-D model with a bunch of different pieces but all one object kind of like the character
+
+04:43.900 --> 04:49.670
+we've got the head and the arms and the hair and the legs but we've combined them all into one object.
+
+04:49.750 --> 04:53.470
+Same kind of thing with the grease pencil over here as well.
+
+04:53.470 --> 05:00.340
+So I'm in a tab in the edit mode and what I'll do is I'll just select one of these and I'll hit ah and
+
+05:00.340 --> 05:07.200
+let's turn them down and make them angry determined
+
+05:11.850 --> 05:13.400
+you go goes something like this.
+
+05:13.430 --> 05:14.410
+Let's see.
+
+05:14.420 --> 05:18.240
+Oh that's that's very angry.
+
+05:18.490 --> 05:22.270
+Maybe not that much about something like it was
+
+05:25.310 --> 05:28.130
+maybe he's more devious than angry.
+
+05:28.130 --> 05:30.730
+Let's let's let's go with that huh.
+
+05:30.740 --> 05:31.030
+All right.
+
+05:31.060 --> 05:39.010
+So we've got I accidentally tumbled around and went into user perspective over here in the 2D view.
+
+05:39.010 --> 05:42.670
+So what I need to do is go back to look through the camera.
+
+05:42.670 --> 05:46.230
+To do that I can just hit the zero key on the numb pad.
+
+05:46.240 --> 05:46.830
+There we go.
+
+05:47.610 --> 05:49.200
+OK you know what I'm gonna do.
+
+05:49.210 --> 05:56.670
+I'm going to take the mouth layer here and I'm gonna turn it off to create a new layer and I'm going
+
+05:56.670 --> 05:59.770
+to call it mouth sneer.
+
+05:59.770 --> 06:01.270
+Here we go.
+
+06:01.270 --> 06:10.790
+And in this layer I will take this line tool and I'll just.
+
+06:11.150 --> 06:12.050
+I don't want to do this.
+
+06:12.050 --> 06:14.460
+I want to make it straight.
+
+06:14.610 --> 06:16.290
+Let me undo that.
+
+06:16.290 --> 06:18.120
+That isn't quite thick enough.
+
+06:18.120 --> 06:20.960
+I'll take it back up to five pixels.
+
+06:20.970 --> 06:24.910
+Let's say and I'll draw like this.
+
+06:25.000 --> 06:26.350
+Hit enter.
+
+06:26.350 --> 06:32.140
+Now let's tab into edit mode and select that and let's uh rotate it.
+
+06:32.160 --> 06:42.110
+I'm not sure how he should maybe you should kinda be like this.
+
+06:42.400 --> 06:44.220
+He's very determined there.
+
+06:44.220 --> 06:44.940
+Let me.
+
+06:46.830 --> 06:48.340
+Move it over just a bit.
+
+06:49.980 --> 06:50.510
+And tilt it.
+
+06:50.520 --> 06:52.050
+Not quite so much.
+
+06:52.080 --> 06:53.630
+Let's try that.
+
+06:53.670 --> 06:54.210
+Yes.
+
+06:54.210 --> 06:55.170
+And maybe there you go.
+
+06:55.170 --> 06:57.150
+He's very determined.
+
+06:57.180 --> 06:58.050
+Yeah let's.
+
+06:58.260 --> 06:59.710
+Let's go with that.
+
+06:59.720 --> 07:01.740
+OK so there we go.
+
+07:01.740 --> 07:07.290
+Now we've got our 2D face as well for the run cycle.
+
+07:07.410 --> 07:15.330
+What we can do here is we can render this out just this single frame to be used when he runs.
+
+07:15.330 --> 07:17.610
+Let's make sure everything is still correct.
+
+07:17.610 --> 07:23.100
+We'll go to our output and we've got this going to the idol folder.
+
+07:23.100 --> 07:24.300
+I don't think we want that.
+
+07:24.300 --> 07:33.890
+Let's create a new folder here and call it run and we'll select that and hit except we've still got
+
+07:33.890 --> 07:35.840
+it at 24 frames per second.
+
+07:35.840 --> 07:39.420
+Two hundred and fifty six pixels that's good.
+
+07:39.590 --> 07:44.910
+If we go to the render panel we've still got film Alpha transparent.
+
+07:44.930 --> 07:46.200
+That's good.
+
+07:46.220 --> 07:53.850
+So what let's do this time with our character and other objects hidden in the render view.
+
+07:53.870 --> 07:58.980
+Let's come over here to render and render image.
+
+07:59.360 --> 07:59.740
+All right.
+
+07:59.750 --> 08:07.460
+So now that we've rendered that one frame out we just need to go to image save as and let's put it in
+
+08:07.460 --> 08:18.950
+that run folder renders run and we'll call this run base image.
+
+08:19.020 --> 08:20.160
+There we go.
+
+08:20.160 --> 08:21.970
+Save as.
+
+08:22.060 --> 08:22.320
+All right.
+
+08:22.330 --> 08:24.640
+Let's go check it out.
+
+08:24.660 --> 08:27.810
+So here's the idol folder with all the renders in it.
+
+08:27.810 --> 08:35.950
+Let's go back to the renders folder the run folder and there is our run face image.
+
+08:35.950 --> 08:39.150
+There we go OK.
+
+08:39.190 --> 08:43.750
+So we now have the run animation complete.
+
+08:43.780 --> 08:52.300
+I'm going to press control est and save the scene but I'm also going to go to File Save a copy here
+
+08:53.080 --> 09:05.320
+and let's go into our exports and we'll call this player run right here and save.
+
+09:05.320 --> 09:05.920
+There we go.
+
+09:06.310 --> 09:12.200
+So now we've got our idol and our run the next step is our jump.
+
+09:12.310 --> 09:15.190
+So we'll start working on that coming up next.

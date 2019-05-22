@@ -1,0 +1,454 @@
+WEBVTT
+
+00:00.510 --> 00:05.170
+Now we can start posing our character and see if there some issues that we need to take care of.
+
+00:05.340 --> 00:09.280
+As we saw there's already one we know about here for the hips.
+
+00:09.360 --> 00:15.540
+What I'm going to do first is go into weight paint mode and to do that I need to select the character
+
+00:15.570 --> 00:23.220
+but I can't now because I'm in pose mode and the character doesn't have a pose mode so I can't click
+
+00:23.220 --> 00:23.770
+it.
+
+00:24.030 --> 00:31.710
+But what I can do is come over here to edit and uncheck this lock object modes and once I do that I'll
+
+00:31.710 --> 00:36.930
+be able to select another mode object mode other than the one I'm in.
+
+00:36.930 --> 00:43.260
+So I'm currently in post mode but now if I click on the character you can see I go to object mode.
+
+00:43.260 --> 00:45.990
+Now I need to click on the character one more time.
+
+00:45.990 --> 00:46.620
+And there we are.
+
+00:46.620 --> 00:54.420
+So with the character selected I can come over here and now I have the modes for the character.
+
+00:54.420 --> 01:01.470
+And right here is weight paint mode and a weight is just an influence how much influence a particular
+
+01:01.560 --> 01:05.350
+bone has over a particular vertex.
+
+01:05.370 --> 01:14.460
+So if we click this we can see now some various colors displayed now that we have this upper leg bone
+
+01:14.460 --> 01:18.900
+selected here remember in texture painting mode.
+
+01:18.900 --> 01:25.530
+We had this face selection masking turned on I'm going to turn that off for just a minute here so we
+
+01:25.530 --> 01:33.940
+can see it just a little bit better and you can see that when I select or when I have this bone selected
+
+01:33.940 --> 01:42.160
+this upper leg dot l selected this is the color or this is the influence the weights that are assigned
+
+01:42.160 --> 01:47.500
+to this bone the color red signifies the strongest influence.
+
+01:47.500 --> 01:53.560
+And blue signifies no influence at all but to demonstrate this actually I should probably go up to one
+
+01:53.560 --> 01:55.540
+of these torso bones.
+
+01:55.540 --> 01:59.520
+I think it's a little bit easier to see to select one of these bones.
+
+01:59.530 --> 02:06.560
+What I need to do is press shift and right click and then I get a menu of the bones on the chain.
+
+02:06.580 --> 02:10.420
+So this is spine one I need to click this one here.
+
+02:10.420 --> 02:18.640
+So now you can see all the influence that is happening for this spine one if I shift right click for
+
+02:18.640 --> 02:25.840
+this one I can choose a spine too and that's the influence that we see by come over here to the arm
+
+02:26.290 --> 02:32.380
+shift right click and choose up arm L and that's the influence.
+
+02:32.380 --> 02:38.550
+And you can see a pretty good gradation of influence here from the bright red which is a lot of influence
+
+02:38.560 --> 02:46.630
+down to the orange yellow green light blue and then dark blue and that's just kind of a fairly gradual
+
+02:46.780 --> 02:52.270
+gradient from high influence to none down here.
+
+02:52.270 --> 03:00.370
+So what we can do is use the weight painting tools to change the amount of influence visually here as
+
+03:00.370 --> 03:01.470
+we adjust our character.
+
+03:01.470 --> 03:09.580
+So once again if we go to spine one what I'd like to do is get the influence here at spine one kind
+
+03:09.580 --> 03:17.410
+of similar to the upper arm at the bone itself have a fairly strong red influence and then as we go
+
+03:17.410 --> 03:24.610
+up towards spine to begin to gradually fall off and decrease the amount of influence.
+
+03:24.640 --> 03:32.440
+So let's shift right click spine one right here and I'll go to the front view and what I'd like to do
+
+03:32.440 --> 03:35.440
+is just paint a stronger influence here.
+
+03:35.650 --> 03:42.640
+You can see up here I've got my strength at 1.0 and the amount of weight that I'm painting at 1.0 or
+
+03:42.640 --> 03:44.740
+100 percent here.
+
+03:44.740 --> 03:51.580
+And then if I go over to my active tool tab right here you can see I've got the brush tools for the
+
+03:51.580 --> 03:54.170
+weight painting over here as well.
+
+03:54.340 --> 04:01.360
+So I think I'll click this icon here and switch from DRAWER TO ADD and I've gotten my weight at 100
+
+04:01.400 --> 04:10.010
+percent my strength is currently over here at Point two if I drag that up to 1.0 and now I can come
+
+04:10.010 --> 04:16.220
+over here and just click and drag and I'm using the mouse currently and not the wake on tablet I'm not
+
+04:16.670 --> 04:24.950
+using that for this but if I just click and drag here you can see I can increase the amount of of weight
+
+04:25.640 --> 04:27.260
+at this bone.
+
+04:27.260 --> 04:32.180
+Now I'm only painting at the vertices and it's kind of difficult to see where those are.
+
+04:32.180 --> 04:33.880
+With the current view.
+
+04:34.130 --> 04:41.450
+So if we come over here to the object panel here and come down here to wireframe once again and we can
+
+04:41.450 --> 04:45.670
+even choose all edges we can see our wireframe here.
+
+04:45.730 --> 04:50.290
+Now you can see as I paint how the influence is only painted on the vertices.
+
+04:50.570 --> 04:57.800
+So I'll press the three key now and you can and I can click and drag down here and up to here and up
+
+04:57.800 --> 05:02.890
+to here and you can see this is as far as I want it to go here.
+
+05:02.990 --> 05:11.420
+Now go to the back view and press control one to do that and click and drag on these vertices here and
+
+05:11.420 --> 05:21.460
+here and get that painted and then I'll press control three to come around to this side and paint these.
+
+05:21.470 --> 05:21.860
+All right.
+
+05:21.890 --> 05:26.430
+Back to the front view now I'm painting down here on the hips too.
+
+05:26.450 --> 05:31.300
+I don't want to do that and I'll show you how we're going to fix that here in a minute.
+
+05:31.610 --> 05:36.560
+But now I want to come up here and subtract the weight that's up here.
+
+05:36.560 --> 05:43.740
+I don't need the weight of this spine one reaching all the way up to the top of the torso.
+
+05:43.790 --> 05:50.420
+I want spine to to be controlling this area up here once again over to the active tool panel I'm going
+
+05:50.420 --> 05:53.960
+to switch from add to subtract.
+
+05:54.200 --> 05:57.710
+And once again I'm gonna take this strength up all the way.
+
+05:57.710 --> 06:03.460
+And now if I click up here you can see I'm removing influence up here.
+
+06:03.530 --> 06:13.960
+So back to that side view then to the back view with control 1 paint back here control 3 and paint back
+
+06:13.960 --> 06:14.280
+here.
+
+06:14.310 --> 06:14.640
+OK.
+
+06:14.650 --> 06:19.290
+So now I've got this influence taken away up here.
+
+06:19.330 --> 06:26.490
+Let's now go to spine to and do the same thing I'll press shift right click and choose spine 2.
+
+06:26.800 --> 06:29.080
+And now we need to do a similar thing.
+
+06:29.080 --> 06:36.980
+So while I'm here in subtract mode I'll go ahead and paint down here and let's keep going on around
+
+06:36.980 --> 06:39.860
+here like this.
+
+06:39.880 --> 06:41.360
+There we go.
+
+06:41.380 --> 06:48.940
+And then let's get some more influence up here as well so I'll change from subtract back to add and
+
+06:48.940 --> 06:53.810
+then we'll click and drag up here to really add some influence up here
+
+06:57.360 --> 07:03.330
+we go oh I've added it onto the fingers over here you need to be careful and not do that.
+
+07:03.330 --> 07:07.740
+So let me control Z that undo that.
+
+07:07.740 --> 07:11.190
+We don't want that to happen and we go.
+
+07:11.190 --> 07:13.710
+And I've also painted it onto the arm.
+
+07:13.710 --> 07:20.570
+We're gonna need to get rid of this as well and I'll go over how to do that fairly easily here all right.
+
+07:20.600 --> 07:30.860
+So now we've got this painted for the top looks like I've gone a little overboard here.
+
+07:30.890 --> 07:33.680
+So what we can do for something like this.
+
+07:33.680 --> 07:36.410
+You see how this is kind of slanted like this.
+
+07:36.410 --> 07:38.000
+I kind of went a little overboard there.
+
+07:38.480 --> 07:47.400
+So let's go back to subtract and instead of the weight being 1.0 let's take it down to point five and
+
+07:47.430 --> 07:54.210
+I'll hit the f key again to change the size of the brush and let's just click on these vertices right
+
+07:54.210 --> 08:01.680
+around here and you can see how I'm removing weight I'm removing point five of the weight out of the
+
+08:01.680 --> 08:03.570
+vertices where I click.
+
+08:03.690 --> 08:10.370
+So maybe over here I can click Yeah like that although that may be a little bit too much.
+
+08:10.650 --> 08:12.750
+I just it controls you to undo that.
+
+08:12.750 --> 08:16.790
+Let's take this down to point to five here.
+
+08:16.850 --> 08:18.530
+There we go.
+
+08:18.530 --> 08:24.590
+And let's go to the back view I'm just going to click on these here.
+
+08:24.630 --> 08:30.690
+Now it looks like I have a good green here I don't want to take the green away too much here and I'd
+
+08:30.690 --> 08:33.270
+like to add some of that green back.
+
+08:33.300 --> 08:40.880
+So maybe I'll come back to the ADD tool and with point to five still selected or click in here.
+
+08:40.910 --> 08:41.110
+Yeah.
+
+08:41.130 --> 08:46.110
+So I can just add that back into that edge all right.
+
+08:46.140 --> 08:54.260
+So now I've got the influence or the weight for spine one and spine to here.
+
+08:54.300 --> 09:01.770
+Now I need to remove some of this from all this extraneous areas the hips the arms the legs and that's
+
+09:01.770 --> 09:09.420
+where this face selection masking can come in handy here as well if I turn this on now I can come over
+
+09:09.420 --> 09:13.820
+and hover over this arm let's say and select that.
+
+09:13.920 --> 09:18.210
+Now when I do that selection carries over into edit mode.
+
+09:18.240 --> 09:24.900
+So if I tap into edit mode you can see that arm is selected as well which is helpful because if we come
+
+09:24.900 --> 09:33.240
+over here to this panel right here the Object data panel we have here a list of all the vertex groups
+
+09:33.270 --> 09:40.040
+that were created when the character was bound to the bones bound to the armature.
+
+09:40.080 --> 09:49.560
+So for each bone in here a vertex group was created and all the vertices that are influenced by this
+
+09:49.560 --> 09:52.860
+particular bone are in that Vertex group.
+
+09:52.860 --> 09:57.390
+So let me just d select everything here for just a moment.
+
+09:57.570 --> 10:05.610
+And with spine to selected to come down here and choose select and you can see now that this is all
+
+10:05.610 --> 10:09.580
+of the vertices in that spine to group.
+
+10:09.690 --> 10:16.910
+And when I did the painting I accidentally overdid the painting and added these extra points in there
+
+10:16.910 --> 10:18.240
+their right.
+
+10:18.240 --> 10:21.360
+That shouldn't have happened I didn't want to do that.
+
+10:21.380 --> 10:25.710
+So what I can do is I can remove vertices from this group.
+
+10:25.760 --> 10:33.020
+Now let me d select everything and I'm going to go back to weight paint mode by pressing tab.
+
+10:33.110 --> 10:39.200
+Now you can see here that the current vertex group is the upper leg group and we don't want that.
+
+10:39.200 --> 10:45.790
+We want the spine some of the press shift right click and choose spine to you can see that over here.
+
+10:45.800 --> 10:55.250
+Now if I select this arm with the L key tab in the edit mode this is selected spine to is selected and
+
+10:55.250 --> 11:04.590
+we can click remove now any of the vertices in this selection that was in that spine to vertex group
+
+11:04.920 --> 11:07.600
+have been removed from that group.
+
+11:07.620 --> 11:16.230
+So if we tab back into white paint mode you can see here if we choose that spine to bone again right
+
+11:16.230 --> 11:22.440
+there there are no vertices being influenced by that one bone.
+
+11:22.440 --> 11:25.900
+So we can do the same thing for the right arm as well.
+
+11:25.920 --> 11:31.170
+Now we don't have to choose the vertices here in weight paint mode.
+
+11:31.200 --> 11:38.160
+We could tab in to edit mode and do the same thing here so if we hover over the arm and hit the L key
+
+11:38.610 --> 11:46.530
+we can choose that we hover over the head choose the L key there that will select those areas and then
+
+11:46.530 --> 11:51.570
+we can come over here with the spine to vertex group still selected.
+
+11:51.630 --> 11:54.660
+We can click remove and there we go.
+
+11:54.660 --> 12:02.880
+Now let's tab back into weight paint mode and if we shift right click this and choose spine to let me
+
+12:02.880 --> 12:04.560
+try that again spine too.
+
+12:04.560 --> 12:05.910
+There you go.
+
+12:05.910 --> 12:14.550
+Now you can see that all of that extraneous painting has been removed from being influence by spine
+
+12:14.550 --> 12:15.810
+too.
+
+12:15.870 --> 12:20.340
+All right let's take a look at spine one shift right click.
+
+12:20.340 --> 12:21.740
+Spine one.
+
+12:21.870 --> 12:26.580
+Now here I want to get rid of all the influence on the hips.
+
+12:26.610 --> 12:34.260
+So once again with the spine one vertex group selected the tab into edit mode hover over one of these
+
+12:34.260 --> 12:41.830
+and hit the L key to select that whole piece there and click remove.
+
+12:41.860 --> 12:48.200
+Now let's tab back into white paint mode shift right click spine one.
+
+12:48.610 --> 12:54.720
+Now we've removed all the influence from the hips but you can see here look at this.
+
+12:54.730 --> 12:59.320
+We've got influence from that bone on the legs as well.
+
+12:59.320 --> 13:08.500
+So we might as well tab into edit mode and hover over one of these vertices and just select all of this
+
+13:08.500 --> 13:12.950
+down here and then hit remove.
+
+13:12.970 --> 13:19.030
+Now if we tab back in shift right click spine one and then we go.
+
+13:19.030 --> 13:20.410
+So now that's pretty clean.
+
+13:20.410 --> 13:28.390
+We've cleaned the influence up for spine 1 and spine 2 so that it's only influencing the things that
+
+13:28.390 --> 13:30.680
+we want blind to.
+
+13:30.680 --> 13:35.160
+Is there spine one is there.
+
+13:35.210 --> 13:36.320
+Good.
+
+13:36.380 --> 13:41.840
+We'll keep going with this in the next video we'll take a look at the hips and the legs.

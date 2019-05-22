@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.630 --> 00:00.900
+All right.
+
+00:00.910 --> 00:03.940
+Let's now work on cleaning up that toe and heel.
+
+00:04.030 --> 00:10.270
+Now that we have the foot roll rig in place first of all I think all the names here are going to get
+
+00:10.330 --> 00:16.750
+in the way for me so when I come back over to the Object data panel and let's turn off the names here
+
+00:17.300 --> 00:19.530
+and that helps clean it up a bit.
+
+00:19.810 --> 00:23.040
+Now what we need to do is fix this toe.
+
+00:23.050 --> 00:29.350
+So if I roll the toe forward you can see it kind of tilts down here like that.
+
+00:29.350 --> 00:35.820
+And if I roll this back onto the heel you can see how that heel picks up off the ground there.
+
+00:35.830 --> 00:39.850
+So we need to clean these up so the toe and the heel stay planted.
+
+00:39.850 --> 00:43.300
+When we roll the foot back and forth.
+
+00:43.300 --> 00:49.090
+So first of all let's roll it forward like this and let's take a look at what we can do here.
+
+00:49.090 --> 00:55.840
+I think what we need to do is maybe take this whole front part of the toe and just assign it completely
+
+00:55.930 --> 00:57.520
+to the toe bone.
+
+00:57.560 --> 01:02.590
+So let's go over to weight paint mode on a select the character here.
+
+01:02.590 --> 01:05.560
+Go over to weight paint.
+
+01:05.560 --> 01:12.040
+Let's shift right click and select that toe and yeah you can see it's kind of green here.
+
+01:12.060 --> 01:15.610
+It really needs to be more bright red.
+
+01:15.610 --> 01:19.450
+So if we tap into edit mode we'll look at what happens.
+
+01:19.480 --> 01:23.490
+We go back to the default pose.
+
+01:23.590 --> 01:29.220
+So we need to be able to see our character deformed when we're in edit mode.
+
+01:29.650 --> 01:37.260
+So that's controlled in that armature modifier panel just like a subdivision surface modifier is.
+
+01:37.270 --> 01:43.750
+So we need to go back to object mode and select our character and let's go over here to the modifiers
+
+01:43.750 --> 01:52.690
+panel and these two here we will turn on display modifier in edit mode and we'll also show the edit
+
+01:52.690 --> 01:53.110
+cage.
+
+01:53.530 --> 01:55.550
+So that should help that.
+
+01:55.600 --> 01:59.020
+Let's now go back to white paint mode.
+
+01:59.020 --> 02:02.910
+Let's select our toe bone and if we tap into edit mode.
+
+02:02.920 --> 02:03.490
+There we go.
+
+02:03.490 --> 02:08.530
+Now we can see the mesh and edit mode is staying deformed as well.
+
+02:08.530 --> 02:08.790
+All right.
+
+02:08.820 --> 02:13.940
+So I think all I really want to do is just select these faces here.
+
+02:14.110 --> 02:19.750
+Go over to our vertex groups and with the toe dot l vertex group selected.
+
+02:19.780 --> 02:25.240
+I'm just going to click a sign at 100 percent and that pulled it back a bit.
+
+02:25.420 --> 02:26.980
+That's not bad.
+
+02:26.980 --> 02:27.300
+Yes.
+
+02:27.330 --> 02:29.620
+So that helps some there.
+
+02:29.770 --> 02:30.220
+All right.
+
+02:30.220 --> 02:32.080
+So what about this one here.
+
+02:32.080 --> 02:34.350
+Let's choose the foot.
+
+02:34.430 --> 02:40.080
+El here and that's got quite a bit of influence up here on the toe.
+
+02:40.080 --> 02:42.810
+I think that may be causing our problem.
+
+02:42.810 --> 02:47.040
+Let's go back to edit mode and with this still selected.
+
+02:47.040 --> 02:52.530
+Let's remove all of this from the foot dot l vertex group click remove.
+
+02:52.770 --> 02:54.690
+Oh yeah that helped quite a bit.
+
+02:54.690 --> 02:56.290
+Well that's good.
+
+02:56.420 --> 02:57.390
+All right.
+
+02:57.470 --> 03:02.520
+So now the heel I think for the heel.
+
+03:02.600 --> 03:06.350
+What we need to do is maybe come back up here let's uh.
+
+03:06.500 --> 03:12.680
+Well first let's take a look at the total press shift right click and choose toe and is there any influence
+
+03:12.680 --> 03:15.290
+happening down here from the toe.
+
+03:15.290 --> 03:18.160
+Well it's possible it's kind of hard to tell.
+
+03:18.170 --> 03:24.830
+I'll go ahead and tab into edit mode and I'll select this edge and I'll remove that from the toe bone
+
+03:25.960 --> 03:26.220
+Yeah.
+
+03:26.230 --> 03:29.290
+That moved it a bit back.
+
+03:29.290 --> 03:33.370
+Maybe we could go ahead and move remove a couple of these.
+
+03:33.370 --> 03:42.920
+Yeah they are moving a bit as we click remove although I think we need those with the toe.
+
+03:42.930 --> 03:47.780
+So maybe I shouldn't be so hasty I'll just remove the heel.
+
+03:47.820 --> 03:56.880
+Let's do that then let's go back to weight paint mode and let's shift right click the lower leg here
+
+03:57.560 --> 04:02.970
+and yeah we've got quite a bit of influence happening here so let's tap into Adam mode and let's go
+
+04:02.970 --> 04:10.260
+ahead and do that same thing with this edge here and we'll remove it from the lower leg vertex group.
+
+04:10.440 --> 04:10.840
+Oh yeah.
+
+04:10.860 --> 04:11.400
+Look at that.
+
+04:11.400 --> 04:12.830
+That's quite a bit of influence.
+
+04:12.860 --> 04:15.040
+So let's remove all of these.
+
+04:15.180 --> 04:24.640
+I think all of these down here at the bottom of the foot should be removed from that lower leg bones.
+
+04:24.650 --> 04:30.370
+So let's get all of these there and even maybe this one.
+
+04:30.370 --> 04:32.240
+Does this have any.
+
+04:32.440 --> 04:34.960
+Let's see remove.
+
+04:34.960 --> 04:35.260
+Oh yeah.
+
+04:35.260 --> 04:38.090
+There was just a little bit there you could see it move.
+
+04:38.130 --> 04:38.480
+OK.
+
+04:38.500 --> 04:40.890
+So we've removed all of that.
+
+04:40.900 --> 04:42.230
+That's good.
+
+04:42.250 --> 04:45.730
+Let's go back to pose mode and see what we can see.
+
+04:45.730 --> 04:49.330
+So I'll go back to object mode here for the character.
+
+04:49.480 --> 04:52.270
+Select a bone.
+
+04:52.270 --> 04:59.960
+Let's go to the rotate tool and now let's try and rotate this up and back and that heel.
+
+04:59.980 --> 05:00.520
+Yeah.
+
+05:00.700 --> 05:06.130
+So you see what I mean there that heel stays planted and that toe stays planted.
+
+05:06.160 --> 05:07.050
+That's what we want.
+
+05:07.070 --> 05:15.370
+Now there's this kind of very kind of a sharp angle here but you know what.
+
+05:15.370 --> 05:16.710
+He's a blocky character.
+
+05:16.720 --> 05:17.830
+I'm not sure I care.
+
+05:17.840 --> 05:21.910
+I I I think that's OK you know.
+
+05:21.910 --> 05:23.890
+Yeah I think I'm OK with that.
+
+05:23.890 --> 05:24.160
+All right.
+
+05:24.190 --> 05:24.970
+So there we go.
+
+05:24.970 --> 05:26.380
+That's what we needed to do.
+
+05:26.380 --> 05:34.580
+We needed to remove some from the heel and the toe and even add a little bit on the toe as well.
+
+05:34.610 --> 05:36.470
+OK so I'm gonna pass out.
+
+05:36.500 --> 05:39.160
+Ah let's go do that on the other one.
+
+05:39.220 --> 05:40.760
+I'll select this.
+
+05:40.810 --> 05:42.580
+Roll it forward.
+
+05:42.580 --> 05:43.970
+There we go.
+
+05:44.100 --> 05:46.630
+And let's uh basically do the same thing.
+
+05:46.630 --> 05:54.580
+So if I select the character now and we go back to weight paint mode I will shift right click and choose
+
+05:54.580 --> 05:56.260
+that toe bone.
+
+05:56.380 --> 05:56.680
+All right.
+
+05:56.710 --> 06:00.810
+So what we did is we selected this face here.
+
+06:00.890 --> 06:01.820
+Right.
+
+06:01.990 --> 06:11.360
+And we added or we assigned at 100 percent these points for the toe vertex group a sign there.
+
+06:11.370 --> 06:12.710
+Okay.
+
+06:12.850 --> 06:15.120
+And then what did we do.
+
+06:15.190 --> 06:20.240
+We removed these from the foot vertex group.
+
+06:20.250 --> 06:20.910
+Now didn't we.
+
+06:20.910 --> 06:22.470
+So let's click remove.
+
+06:23.070 --> 06:23.380
+Oh yeah.
+
+06:23.390 --> 06:23.860
+There it is.
+
+06:23.890 --> 06:24.230
+Okay.
+
+06:24.240 --> 06:33.080
+That's good now I think we also removed the influence for the toe back here.
+
+06:33.090 --> 06:36.370
+So let's select that toe and hit remove.
+
+06:36.390 --> 06:39.700
+Yeah we did that.
+
+06:39.700 --> 06:41.680
+Oh the lower leg.
+
+06:41.680 --> 06:47.530
+So let's tab it back into white paint mode shift right click.
+
+06:47.530 --> 06:49.450
+Lower leg.
+
+06:49.450 --> 06:54.310
+And now let's remove the influence from all of this on the bottom.
+
+06:54.310 --> 06:55.450
+So let's.
+
+06:55.840 --> 07:03.470
+I'm going to hit the three key to go to base mode and I'll just hit the C key and then I can just click
+
+07:03.470 --> 07:07.130
+and drag and paint the selection here.
+
+07:07.130 --> 07:16.720
+So for all of this we need to remove this from the lower leg vertex group remove okay.
+
+07:16.790 --> 07:18.750
+I think that's what we did.
+
+07:18.750 --> 07:19.080
+All right.
+
+07:19.100 --> 07:20.880
+Let's take a look.
+
+07:20.900 --> 07:28.490
+So if we go back to object mode select this the rotate tool now let's see what happens here.
+
+07:28.490 --> 07:32.890
+Let's rotate it back and forward.
+
+07:32.930 --> 07:39.170
+Yeah I think that toe and that heals it stays pretty well planted.
+
+07:39.170 --> 07:39.500
+Now
+
+07:42.280 --> 07:43.820
+yeah okay.
+
+07:44.230 --> 07:47.070
+So I think that's what we needed to do.
+
+07:47.080 --> 07:48.080
+Let's.
+
+07:48.490 --> 07:56.200
+I'm just gonna select everything and press Alt are G just to make sure we get back to the default pose
+
+07:57.610 --> 07:58.690
+and there we go.
+
+07:58.690 --> 08:03.850
+So let's go ahead and press control s and save we can hit the Look Dev.
+
+08:03.850 --> 08:05.870
+And here we are.
+
+08:05.920 --> 08:12.430
+So now in the next video let's begin working on creating those control objects the objects that will
+
+08:12.430 --> 08:16.720
+actually be using to select and animate the character.
+
+08:16.720 --> 08:18.010
+So that's coming up next.

@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.700 --> 00:05.290
+To create the hair I think I'll bring in a new reference image over here.
+
+00:05.290 --> 00:08.560
+Let's take a look at this one again.
+
+00:08.560 --> 00:13.870
+And I think the hair we can see a little bit of the hair on the side of the head.
+
+00:13.990 --> 00:16.660
+And this isn't going to be exactly like this.
+
+00:16.660 --> 00:20.870
+I don't want to do it exactly but that'll just give me a general idea.
+
+00:20.920 --> 00:27.040
+Now even though it is kind of a rounded object I'm going to begin the hair with a cube.
+
+00:27.040 --> 00:35.170
+So let's just press shift a And let's bring in a cube right here and then I'll go to that front view
+
+00:35.200 --> 00:41.380
+and wire frame and let's bring it up and kind of put it in place right up here I'm going to scale it
+
+00:41.380 --> 00:43.700
+down with the esky and get it.
+
+00:43.780 --> 00:49.370
+I don't know generally the right size about like this maybe.
+
+00:49.510 --> 00:55.870
+And then what let's do is add a subdivision surface modifier to begin to kind of curve it.
+
+00:55.900 --> 01:02.650
+So let's come over here to the modifiers panel right here and let's add a subdivision surface modifier
+
+01:03.040 --> 01:08.530
+and this will add resolution to the cube which will begin to curve the corners.
+
+01:08.650 --> 01:12.480
+So we'll click here and you can see what's beginning to happen there.
+
+01:12.490 --> 01:18.970
+Let's go ahead and scale this back out now so we can make it about the size of the character's hair
+
+01:18.970 --> 01:20.170
+there.
+
+01:20.180 --> 01:24.470
+Now let's go to the salad view and this is what we have so far.
+
+01:24.610 --> 01:29.580
+So let's maybe increase the viewer just a bit right here and there we go.
+
+01:29.580 --> 01:36.750
+So now we're beginning to get the amount of geometry we need to delete and mold this for the hair.
+
+01:36.760 --> 01:43.510
+Let me go back to the front view again and how we doing on the size here.
+
+01:43.510 --> 01:44.620
+Not too bad.
+
+01:44.620 --> 01:52.690
+We could maybe put it right about here let's say now if we take a look at this in edit mode we can see
+
+01:52.690 --> 02:00.340
+that we still have just the original cube everything that's been subdivided in here is just a preview.
+
+02:00.340 --> 02:04.220
+We need to apply this to be able to work with this geometry.
+
+02:04.270 --> 02:09.930
+So I'll go ahead and tab into object mode again and then come over and hit apply.
+
+02:10.000 --> 02:15.790
+Now if we tap back into edit mode you can see the geometry has been baked into the cube.
+
+02:15.820 --> 02:16.060
+All right.
+
+02:16.060 --> 02:19.150
+So now we need to begin removing some of these bases.
+
+02:19.150 --> 02:25.660
+Let's go to the side view and let's go to wireframe and then let's hit the three key to go to face mode.
+
+02:25.660 --> 02:28.690
+So what should we get rid of here.
+
+02:28.720 --> 02:31.130
+Let me press Alt A D select.
+
+02:31.360 --> 02:40.600
+I've changed my selection tool from the select box to select lasso so that we can just kind of click
+
+02:40.600 --> 02:45.610
+and drag a lasso around faces like this to delete them.
+
+02:45.610 --> 02:47.860
+So I think we should probably delete these.
+
+02:47.860 --> 02:49.700
+Let's go ahead and delete those.
+
+02:49.750 --> 02:53.800
+We probably should delete these in here.
+
+02:53.860 --> 03:07.340
+Let me do that again right in here like that and we could probably delete these right here as well x
+
+03:08.270 --> 03:09.830
+and faces.
+
+03:09.890 --> 03:10.120
+All right.
+
+03:10.130 --> 03:11.650
+Let's see how that works.
+
+03:11.660 --> 03:16.790
+Let's go back to the front view and let's go to solid.
+
+03:16.820 --> 03:19.290
+So this is what we have so far.
+
+03:19.460 --> 03:27.320
+We could begin to maybe go to vertex mode and maybe grab some of these points and begin kind of pulling
+
+03:27.320 --> 03:28.010
+them up.
+
+03:28.160 --> 03:32.060
+You can see how we've got kind of a kind of a side burn here.
+
+03:32.090 --> 03:33.310
+You could maybe move that up.
+
+03:33.320 --> 03:41.630
+We could maybe move this in so we could begin to just kind of generally re shape this until we get it
+
+03:41.870 --> 03:43.510
+kind of the way we want it.
+
+03:43.520 --> 03:52.980
+I mean turn on the move tool here and kind of pull this out like this I can press control three to go
+
+03:52.980 --> 04:00.120
+to the left or the graphic view and do the same over here I could hit G and move these around a bit
+
+04:02.890 --> 04:06.770
+like this maybe bring this one down.
+
+04:06.770 --> 04:10.030
+So I'm like that and this one backs.
+
+04:10.540 --> 04:14.710
+So just generally getting the proper shape.
+
+04:14.710 --> 04:17.440
+Let's take a look at this here.
+
+04:17.470 --> 04:20.650
+So we really need to bring these up now.
+
+04:20.710 --> 04:30.520
+I think I may go back to solid and select this one right here and we can also see through the mesh without
+
+04:30.520 --> 04:37.420
+hitting the Z key and going to wireframe we can just press all Z and then we get kind of a transparency
+
+04:37.420 --> 04:38.080
+here.
+
+04:38.080 --> 04:41.200
+So that can help us switch back and forth.
+
+04:41.230 --> 04:54.460
+Let's say I grab these and make it all easy and select this again like this and this could kind of move
+
+04:54.490 --> 05:03.310
+these up a bit and maybe move these in they're just trying to mold it just a little bit better because
+
+05:03.310 --> 05:11.590
+what we're gonna do next is use that subdivision surfaces modifier again to get it a little bit more
+
+05:11.740 --> 05:17.380
+smooth more rounded with a little bit more resolution.
+
+05:17.410 --> 05:19.190
+Let me bring these in.
+
+05:20.390 --> 05:23.460
+I mean like this.
+
+05:23.630 --> 05:24.970
+Let's bring that up some
+
+05:28.240 --> 05:28.780
+okay.
+
+05:28.790 --> 05:39.220
+So I'm just still kind of shaping it maybe I should grab these and bring these up like this all right.
+
+05:39.220 --> 05:41.190
+So we've got a basic shape.
+
+05:41.200 --> 05:43.510
+Now it's not looking too bad.
+
+05:43.510 --> 05:48.090
+There's still some points in here that we could pull around a bit.
+
+05:48.160 --> 05:53.950
+I'm just going to kind of tumble around and see where I need to pull things in or out.
+
+05:54.970 --> 06:01.890
+Yeah I think I had I think I could maybe pull this in some like this when we go.
+
+06:02.060 --> 06:02.360
+All right.
+
+06:02.380 --> 06:06.820
+So I think we're doing pretty well here is just the basic shape of it.
+
+06:06.920 --> 06:12.370
+Now let's go back to that front view and make sure it's about the right size.
+
+06:12.380 --> 06:14.920
+Yeah I think that's pretty good.
+
+06:14.960 --> 06:15.380
+All right.
+
+06:15.380 --> 06:23.300
+So now what let's do before we add that next subdivision modifier let's add some thickness to this and
+
+06:23.300 --> 06:25.300
+see how it's going to look.
+
+06:25.400 --> 06:27.500
+Let me tab back into object mode.
+
+06:27.500 --> 06:36.680
+Let's hit the in key to go to our sidebar and let's go ahead and apply the scale press control a and
+
+06:36.680 --> 06:38.540
+apply this scale.
+
+06:38.540 --> 06:45.860
+Now let's come over here to the modifiers panel add modifier and this time we'll choose solidify.
+
+06:45.980 --> 06:53.520
+Now if we click and drag we can see we're gonna get a bit of thickness there like that.
+
+06:53.570 --> 06:54.230
+All right.
+
+06:54.230 --> 06:59.990
+We could even choose even thickness again that might help a little bit.
+
+06:59.990 --> 07:00.230
+All right.
+
+07:00.230 --> 07:01.420
+So now we've got it.
+
+07:01.430 --> 07:06.840
+So we have a bit of thickness there while we have this modifier here.
+
+07:06.860 --> 07:14.300
+Let's go ahead and add another one we can stack them in this modifier stack and we oftentimes get different
+
+07:14.300 --> 07:17.450
+results depending on where they are in the stack.
+
+07:17.480 --> 07:23.910
+So let me show you if I turn this down a bit and then I'll go ahead and add another modifier.
+
+07:23.960 --> 07:27.510
+Let's add a subdivision surface modifier now.
+
+07:27.690 --> 07:34.310
+Now you can see it's beginning to curve and be a little bit more rounded the way we have in the picture
+
+07:34.310 --> 07:35.290
+here.
+
+07:35.360 --> 07:41.690
+So let's see if we get any difference if we change the order we can choose this arrow here to bring
+
+07:41.690 --> 07:44.530
+this subdivisions surface up to the top of the stack.
+
+07:44.630 --> 07:47.410
+If we click that you can see what happens.
+
+07:47.510 --> 07:57.080
+We're subdividing it first on the top and then we're adding a solidify modifier to it without a subdivision
+
+07:57.140 --> 07:57.620
+surface.
+
+07:57.620 --> 08:00.610
+So we're just getting a flat edge here.
+
+08:00.770 --> 08:07.850
+But if we bring this solidify on the top I'm going to twirl these in here if we bring this solidify
+
+08:07.850 --> 08:09.560
+up to the top.
+
+08:09.770 --> 08:16.730
+We're using this solidify first and then we're subdividing all of it including the solidify part here
+
+08:16.730 --> 08:17.890
+on the edges.
+
+08:17.900 --> 08:21.050
+So that looks pretty good right there.
+
+08:21.080 --> 08:27.880
+We could also come over here to object and shade smooth and that's looking pretty good there.
+
+08:27.950 --> 08:28.250
+Yes.
+
+08:28.280 --> 08:31.420
+So I think that's going to be pretty good.
+
+08:32.000 --> 08:39.350
+I think what we need to do now is just apply the modifiers so in what order should we apply them.
+
+08:39.350 --> 08:41.030
+Well let's take a look.
+
+08:41.060 --> 08:48.380
+I'm going to come up to the top of the stack here and click apply for the solidify and then I'm going
+
+08:48.380 --> 08:52.180
+to click the subdivisions apply.
+
+08:52.210 --> 08:56.570
+Now if we tap into edit mode there is the geometry of our hair.
+
+08:56.620 --> 08:57.940
+So notice what I did.
+
+08:57.970 --> 09:04.970
+I applied the modifiers from the top of the stack down and that does make a difference as well.
+
+09:04.990 --> 09:05.260
+All right.
+
+09:05.260 --> 09:09.340
+So now we have the basic form of the hair in the next video.
+
+09:09.340 --> 09:12.090
+Let's work on shaping it a little more.
+
+09:12.190 --> 09:17.050
+And also we'll delete some of the faces on the inside that we're not going to be seeing.

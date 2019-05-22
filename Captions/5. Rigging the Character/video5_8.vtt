@@ -1,0 +1,310 @@
+WEBVTT
+
+00:00.600 --> 00:02.970
+Let's begin once again with the left foot.
+
+00:02.970 --> 00:06.280
+Here to set up our foot roll rig.
+
+00:06.570 --> 00:13.920
+As I mentioned what this is for is to allow us to roll the foot back pivoting at the heel and then roll
+
+00:13.920 --> 00:17.660
+it forward so it bends at the ball of the foot.
+
+00:17.670 --> 00:24.480
+Now we're gonna have to add several new bones to this and these won't be directly deforming the character
+
+00:24.750 --> 00:32.880
+but they will be moving these bones here in such a way that will give us that foot roll functionality.
+
+00:32.880 --> 00:41.880
+So to begin with let's go back over into edit mode here and let's choose this joint right there actually
+
+00:41.880 --> 00:46.360
+I want to tumble around and choose it right here just to make sure we have it.
+
+00:46.410 --> 00:53.430
+I'll also turn on my move gizmo just so I can make sure and see where that selection is.
+
+00:53.460 --> 00:56.310
+It just helps me see what I'm doing here.
+
+00:56.490 --> 01:04.050
+Now I want to create a bone right here so let's snap that cursor with shift s to the selected right
+
+01:04.050 --> 01:09.510
+here and then let's once again press shift a and then we have our new bone.
+
+01:09.510 --> 01:11.790
+I'm going to zoom out a bit.
+
+01:11.880 --> 01:18.960
+Grab this and drag it down so it's quite a bit smaller here and then what I want to do is I want to
+
+01:18.960 --> 01:23.730
+move this down so it's horizontal here pointing out this way.
+
+01:23.850 --> 01:30.390
+So to do that I'm going to hit the G key and then I'm going to hold the control key down and move it.
+
+01:30.390 --> 01:39.240
+And as I do you can see it kind of snaps here and it's snapping a little bit above horizontal and below
+
+01:39.240 --> 01:40.070
+horizontal.
+
+01:40.070 --> 01:46.080
+So what I'll also do is hold that shift key down and it'll snap in smaller increments.
+
+01:46.110 --> 01:50.040
+So I think I kind of like it right about right about here.
+
+01:50.040 --> 01:57.320
+Let's go with that because I'm going to want another bone about this size back here as well.
+
+01:57.510 --> 02:03.700
+And to do that I just need to move the cursor again shift s cursor to selected.
+
+02:03.990 --> 02:11.730
+Let's create another bone shift a and then we'll bring this down as well I mean grab that tip and just
+
+02:11.730 --> 02:21.500
+bring it down like this and then I want to do a similar thing I'm going to hit G and control and bring
+
+02:21.500 --> 02:23.980
+this down to about right here.
+
+02:24.050 --> 02:30.830
+But then once again I'll hold that shift key as well and snap it in smaller increments so maybe right
+
+02:30.830 --> 02:32.120
+about there.
+
+02:32.120 --> 02:36.140
+So this is kind of where we're going to roll that heel back right here.
+
+02:36.140 --> 02:42.590
+At that point now that I've got this I want to select this bone and I want to spin it around because
+
+02:42.620 --> 02:49.820
+I need this tip and this tip to be connected to each other or at least in the exact same spot.
+
+02:50.030 --> 02:57.080
+So to do that I'm going to hit the R key and then once again press the control key and as I spin this
+
+02:57.410 --> 03:02.190
+around you can see up in the top left hand corner.
+
+03:02.360 --> 03:06.640
+I've got 180 degrees right here and then I'll click there.
+
+03:06.650 --> 03:13.940
+So just holding that control key once again allowed me to rotate that in five degree increments.
+
+03:13.940 --> 03:20.540
+Now there are two more bones we need to create right here at this ankle bone I'm going to tumble around
+
+03:20.540 --> 03:25.390
+and make sure I have the left ones selected not the right one over here.
+
+03:25.390 --> 03:34.550
+OK now let's move the cursor to this shift s cursor to selected and then we'll create a bone here shift
+
+03:34.640 --> 03:44.630
+a and I'm going to bring this down like this and for this one we wanted to come out horizontally out
+
+03:44.630 --> 03:47.930
+the back of the heel or the back of the leg.
+
+03:47.930 --> 03:57.140
+So once again G hold the control key and bring it down over here and then shift in control and just
+
+03:57.230 --> 03:58.340
+bring it right up here.
+
+03:58.340 --> 04:02.750
+So it's just about horizontal maybe kind of like that.
+
+04:02.750 --> 04:03.910
+All right.
+
+04:03.920 --> 04:08.290
+Now we only need one more coming from the same location here.
+
+04:08.390 --> 04:18.440
+So let's press shift a and bring this one down straight down in the z to here and then what I want to
+
+04:18.440 --> 04:24.740
+do is once again hold that control key I'll press G hold control and bring that all the way down like
+
+04:24.740 --> 04:27.820
+this and it looks like that's pretty good.
+
+04:27.820 --> 04:30.100
+That's pretty much straight up and down.
+
+04:30.110 --> 04:31.100
+That's good.
+
+04:31.100 --> 04:33.800
+So I click there and there we go.
+
+04:33.800 --> 04:42.050
+So those are the four bones we need to control the role of the foot but they're just named bone bones
+
+04:42.140 --> 04:45.110
+0 0 1 0 0 2 et cetera.
+
+04:45.110 --> 04:46.810
+So we need to change that.
+
+04:47.000 --> 04:48.200
+That isn't going to help us any.
+
+04:48.200 --> 04:51.380
+Let's go to the bone panel here.
+
+04:51.380 --> 04:55.270
+Select this bone and let's begin changing the name.
+
+04:55.270 --> 05:03.870
+So for this one this one is gonna help with the role of the toe so let's call this toe roll.
+
+05:03.870 --> 05:08.490
+Dot L and this one is gonna help us with the heel.
+
+05:08.810 --> 05:14.530
+So let's call this one heel roll dot l.
+
+05:14.930 --> 05:20.680
+This one is gonna help us with controlling the role of the foot forward and back.
+
+05:20.690 --> 05:30.730
+So let's call this foot roll dot pal and this one here the last one we created is gonna be the control
+
+05:30.730 --> 05:31.960
+for the entire foot.
+
+05:31.990 --> 05:37.740
+So we'll be able to grab this one and move the whole foot around and rotated as well.
+
+05:37.780 --> 05:47.310
+So for this one Let's call this one foot control dot l we go.
+
+05:47.310 --> 05:48.900
+So we've got TOE ROLL.
+
+05:49.050 --> 05:57.960
+Heel roll foot roll and foot control now one thing I need to check is the heel roll bone here.
+
+05:57.960 --> 06:05.700
+I need to check the role of this bone to make sure that when we're rotating this up we're doing so in
+
+06:05.700 --> 06:14.100
+the positive x So recall that here in the sidebar we have this role field here and we can spin that
+
+06:14.100 --> 06:19.140
+around if we need to but we need to first test it in post mode.
+
+06:19.140 --> 06:28.380
+So let's come over here to pose Mon and let's switch to the rotation gizmo let's change from local to
+
+06:28.590 --> 06:29.950
+normal.
+
+06:30.270 --> 06:37.960
+And now let's take this and roll it up and if we look over here in the X we see that it's a negative
+
+06:38.020 --> 06:43.370
+value so that's rolling or that's turning in the wrong direction.
+
+06:43.420 --> 06:45.110
+We need to fix that.
+
+06:45.110 --> 06:52.990
+I want to press old R to clear the rotation and let's come over here to edit mode again and let's use
+
+06:53.260 --> 06:55.570
+the roll field once again.
+
+06:55.570 --> 07:04.040
+We can just click and drag in that and spin that around and I want it to come over to 180 degrees.
+
+07:04.040 --> 07:05.540
+There we go.
+
+07:05.540 --> 07:09.210
+So now let's go back to pose mode and test it again.
+
+07:09.230 --> 07:12.600
+So let's go to post mode here.
+
+07:12.710 --> 07:14.350
+Now let's click and drag it again.
+
+07:14.360 --> 07:19.990
+If we rotate it up we see that we're turning in the positive x.
+
+07:20.000 --> 07:20.690
+That's good.
+
+07:20.690 --> 07:25.770
+That's what we want and we'll go down that into the negative.
+
+07:25.770 --> 07:26.440
+All right.
+
+07:26.490 --> 07:33.930
+That's the way we need it for this particular setup so I'll press old are to clear that and let's go
+
+07:33.930 --> 07:41.280
+back to edit mode now let's now quickly take these and mirror them over to the other side.
+
+07:41.370 --> 07:48.900
+So if we take the TOE ROLL he'll roll foot roll and put control.
+
+07:48.900 --> 07:51.810
+Right here we go.
+
+07:51.810 --> 08:00.570
+And then if we move the cursor back to the center of the grid shift s cursor to world origin also we
+
+08:00.570 --> 08:04.950
+need to change our transform orientations to global.
+
+08:04.950 --> 08:09.020
+And we need to change our pivot point to 3d cursor.
+
+08:09.120 --> 08:14.450
+Now in the same way that we mirrored the leg and the arm over we can do that here.
+
+08:14.450 --> 08:24.980
+So if we press shift D and enter and then control M and X and then enter we can move those over to the
+
+08:24.980 --> 08:26.270
+other side.
+
+08:26.270 --> 08:36.710
+Now once again we can right click names flip names and we still got to go in and take away the 0 0 1
+
+08:37.310 --> 08:38.720
+manually.
+
+08:38.720 --> 08:39.320
+All right.
+
+08:39.320 --> 08:40.570
+We can do that.
+
+08:41.120 --> 08:43.430
+So I'll go ahead and finish that up.
+
+08:43.490 --> 08:51.050
+But in the next video what let's do is begin parenting these new bones in such a way that they control
+
+08:51.170 --> 08:53.230
+the rotation of the foot.
+
+08:53.270 --> 08:54.250
+That's coming up next.

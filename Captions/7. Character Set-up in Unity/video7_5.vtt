@@ -1,0 +1,544 @@
+WEBVTT
+
+00:00.780 --> 00:06.600
+To test our animations on the character I'm going to try and keep things fairly simple mainly because
+
+00:06.600 --> 00:08.840
+I'm not an expert programmer.
+
+00:08.850 --> 00:11.730
+I don't code or script very well.
+
+00:11.730 --> 00:18.420
+I can do it just enough to get things to work to test a character here in Unity but I'm certainly not
+
+00:18.420 --> 00:19.020
+an expert.
+
+00:19.580 --> 00:24.900
+And if you take a look at this third person controller over here that comes from unity and you take
+
+00:24.900 --> 00:29.450
+a look at the third person character script I'm going to click here and choose.
+
+00:29.520 --> 00:36.310
+EDIT Script and take a look at the script here.
+
+00:36.440 --> 00:38.420
+I'm just going to scroll down here.
+
+00:38.420 --> 00:40.870
+There is a lot going on here.
+
+00:41.030 --> 00:50.390
+The movement and the leaning when he turns and the crouching and just there's so much here and I'm certainly
+
+00:50.390 --> 00:55.010
+not going to go through trying to create a script like this for this course.
+
+00:55.010 --> 00:57.610
+And frankly I don't know that I could.
+
+00:57.710 --> 01:00.070
+This is some pretty complex stuff.
+
+01:00.170 --> 01:10.880
+Also then in addition we have the user controls here for the camera and the controls for a mobile device
+
+01:10.910 --> 01:13.120
+and there's just a lot going on.
+
+01:13.120 --> 01:20.060
+So I think it's beyond my personal capabilities to go into great detail here I'm not the one to learn
+
+01:20.210 --> 01:28.220
+scripting from but what I can do is create a very simple script that will allow us to at least test
+
+01:28.220 --> 01:34.000
+our animations on our character run them around and make sure it's all working okay.
+
+01:34.160 --> 01:41.030
+And then if I was part of a team that was creating a game I would hand it off then to the actual programmers.
+
+01:41.720 --> 01:48.980
+So my interest is really in trying to come up with a very simple script that will at least test the
+
+01:48.980 --> 01:56.090
+animations on the character and just like we set up our animations over here in the player idle we're
+
+01:56.090 --> 01:59.230
+gonna need to do that for the jump and the run.
+
+01:59.270 --> 02:01.910
+We've already tried the humanoid RIG.
+
+02:01.910 --> 02:04.130
+I'M GOING TO GO BACK OVER HERE TO RIG.
+
+02:04.130 --> 02:05.780
+We've already tried this.
+
+02:05.780 --> 02:14.270
+Let's now use the generic because generic is for things that aren't quite humanoid specific.
+
+02:14.270 --> 02:17.180
+So maybe it's a dragon with a tail.
+
+02:17.180 --> 02:23.390
+Maybe it's a dragon with two heads or something like that or maybe it's a Lego character with weird
+
+02:23.390 --> 02:24.320
+claw hands.
+
+02:24.320 --> 02:34.190
+So let's go ahead and set our character up generic right here so once I do that I click apply and we
+
+02:34.190 --> 02:41.420
+go now let's go over to animation and we've still got our idol here and we don't have all the green
+
+02:41.420 --> 02:47.300
+lights down here because the humanoid system isn't trying to figure out whether it's a cycling animation
+
+02:47.300 --> 02:52.370
+or not but we do want to make sure loop time is clicked here.
+
+02:52.370 --> 02:57.100
+If I hit the play button you can see it go through its animation here.
+
+02:58.980 --> 03:02.910
+And it looks pretty good from beginning to end and that's fine.
+
+03:02.910 --> 03:04.970
+So let's go and pause that now.
+
+03:04.980 --> 03:07.500
+The player jump.
+
+03:07.500 --> 03:10.830
+I've already gone through and deleted all of the actions here.
+
+03:10.830 --> 03:14.490
+Just like in the idol and I've renamed it jump.
+
+03:14.490 --> 03:16.920
+We don't want a loop time here.
+
+03:16.920 --> 03:24.870
+So I've uncheck this and for the run I've also gone through and deleted all of those actions renamed
+
+03:24.870 --> 03:33.810
+it to run and I've chosen loop time here since that animation that running animation will cycle again
+
+03:33.810 --> 03:34.460
+and again.
+
+03:34.500 --> 03:40.070
+So if we hit the play button here you can see there he goes All right.
+
+03:40.340 --> 03:49.670
+So now that we have our animation setup our rigs as generic what we need to do is setup that animator
+
+03:49.880 --> 03:51.460
+for our character.
+
+03:51.460 --> 03:57.350
+I'm going to go ahead and delete this third person controller here just go to right click and delete
+
+03:57.800 --> 04:00.610
+and that'll just take us back to the beginning.
+
+04:00.620 --> 04:07.970
+Now we can take this idol with our new rig settings and drag them up into the hierarchy and drop him
+
+04:07.970 --> 04:08.960
+there.
+
+04:08.960 --> 04:13.880
+We do need to take our character material and drop it on our guy there.
+
+04:14.570 --> 04:18.740
+And in addition let me bring up the face objects.
+
+04:18.740 --> 04:25.510
+I'll just type in face there and for these we can go ahead and hide them in the scene.
+
+04:25.550 --> 04:33.200
+In fact actually while we're here I'll go ahead and drag the materials on and then disable it in the
+
+04:33.200 --> 04:34.010
+scene view.
+
+04:34.010 --> 04:35.100
+Here's the jump.
+
+04:35.120 --> 04:38.080
+Let's drag that on and disable it.
+
+04:38.080 --> 04:39.500
+And here's the run.
+
+04:40.070 --> 04:42.910
+Let's drag that over here and disable it.
+
+04:42.920 --> 04:48.340
+Okay so now we have our character pretty much all set up the way we had it before.
+
+04:48.350 --> 04:52.520
+I'm gonna go ahead and press control s and save our scene.
+
+04:52.550 --> 04:59.680
+Now we need to set up the animator here when we re targeted the animation we just removed it.
+
+04:59.690 --> 05:05.150
+We just deleted it and use the one in the third person controller but now we have to deal with this
+
+05:05.240 --> 05:12.510
+and set it up for ourselves and what we need is an animator controller to go right here in this slot.
+
+05:12.560 --> 05:18.530
+So since we don't have one we just need to create one let's go down here and right click choose create
+
+05:19.040 --> 05:27.680
+and let's create an animator controller and we go and let's call this player controller All right.
+
+05:27.680 --> 05:31.800
+So now we select our player idle up here in the hierarchy.
+
+05:31.970 --> 05:37.310
+We can grab that player controller and drag it over and drop it in our animator.
+
+05:37.310 --> 05:41.580
+So now we have our own controller and our own avatar.
+
+05:41.620 --> 05:44.700
+Now there's more to configuring the animator that we need to do.
+
+05:44.710 --> 05:47.020
+We've got an animator tab here.
+
+05:47.020 --> 05:53.470
+If you don't see that you can always go to window and animation and animator and that will bring this
+
+05:53.470 --> 05:54.770
+up here.
+
+05:54.790 --> 06:02.050
+Let's go ahead and go over here and what we need to do is set up the animator in here and we need to
+
+06:02.110 --> 06:09.040
+create or drag in an animation that's gonna be our entry animation and then we need to drag in the others
+
+06:09.460 --> 06:11.240
+the run and the jump.
+
+06:11.230 --> 06:14.000
+So let's go down here to our player idol.
+
+06:14.140 --> 06:19.680
+Let's twirl this down and scroll down and we can see that Idol animation here.
+
+06:19.720 --> 06:26.710
+That's the one that we've set up in the inspector so going to click and drag and drop and there we go.
+
+06:26.710 --> 06:31.130
+Now we've got this initial transition when we hit play.
+
+06:31.150 --> 06:33.780
+This is what's going to play first.
+
+06:33.790 --> 06:39.360
+You can see over here when we select that transition it says default entry transition.
+
+06:39.610 --> 06:42.580
+If we were to hit play now let's see what happens.
+
+06:42.610 --> 06:44.960
+I'll play.
+
+06:45.020 --> 06:45.860
+So there you go.
+
+06:45.860 --> 06:51.980
+You can see him going through his idle animation lets it play to stop that go over to the scene view
+
+06:51.980 --> 06:59.380
+and let's move that camera I will select the move tool here and let's just move that camera forward
+
+07:00.130 --> 07:05.500
+and then I'll select the rotate tool and I'm just gonna spin it around like this.
+
+07:05.590 --> 07:06.910
+You know we go.
+
+07:06.910 --> 07:11.770
+In fact I can just come over here and type a negative 180.
+
+07:11.770 --> 07:12.950
+There we go.
+
+07:13.210 --> 07:18.980
+And maybe I'll go to the move tool again and move it in just a little bit closer like this and there
+
+07:18.990 --> 07:19.470
+we go.
+
+07:19.470 --> 07:22.170
+So now we can see him now hit play
+
+07:25.050 --> 07:26.030
+and there he is.
+
+07:26.080 --> 07:33.260
+Now you can see him going through his idle animation and that's all we needed to do to kick that off
+
+07:34.330 --> 07:38.710
+if we stop that and go back to our animator.
+
+07:38.710 --> 07:45.190
+Now we need to figure out how to use our jump and run animations in here.
+
+07:45.190 --> 07:48.090
+Well first of all we need to just drag them in.
+
+07:48.100 --> 07:54.120
+So let's scroll down the player jump find that jump animation and let's just drag that in.
+
+07:54.250 --> 07:55.600
+There we go.
+
+07:55.600 --> 08:03.340
+And then for the run let's scroll this down grab the run and drag that in there too.
+
+08:03.480 --> 08:12.550
+And we go so we've got the run the jump and the idle and just like we have this transition going in
+
+08:12.550 --> 08:15.760
+from the entry point into the idol.
+
+08:15.760 --> 08:20.140
+We need transitions going from idle to run and then back again.
+
+08:20.350 --> 08:27.010
+And from idle to jump and then back and also from the run to the jump and from the jump to the run.
+
+08:27.040 --> 08:30.310
+So we need to create several transitions here.
+
+08:30.700 --> 08:38.890
+And when we do we also need to create a parameter that will allow us in our script to tell unity which
+
+08:38.890 --> 08:42.850
+animation to play when a particular key is pressed on the keyboard.
+
+08:42.880 --> 08:49.360
+So let's say I push the up arrow on the keyboard we want the run animation to begin.
+
+08:49.630 --> 08:55.000
+And if I hit the spacebar on the keyboard I want the jump animation to begin.
+
+08:55.000 --> 08:59.670
+So we need a parameter that allows us to tell unity what to do.
+
+08:59.680 --> 09:03.930
+What animation to play when we hit a particular keyboard button.
+
+09:04.120 --> 09:06.430
+So let's go ahead and create a new parameter.
+
+09:06.430 --> 09:11.050
+I'm going to click plus here and I'll create an integer.
+
+09:11.080 --> 09:15.690
+Now you can use a boolean I've seen people use boolean and it works just fine.
+
+09:15.700 --> 09:23.470
+But in my head I can understand the way an integer works for this a little bit better let's give it
+
+09:23.740 --> 09:24.250
+a name.
+
+09:24.250 --> 09:28.420
+I'm going to call this annum pa or animation parameter.
+
+09:28.420 --> 09:34.270
+And now let's create our transition so let's create our first transition from the idol to the run.
+
+09:34.780 --> 09:37.720
+I will right click on the Idol choose.
+
+09:37.730 --> 09:43.300
+Make transition pull the mouse down and then left click the mouse.
+
+09:43.300 --> 09:45.460
+And that creates that transition.
+
+09:45.580 --> 09:47.370
+So let's select it now.
+
+09:47.440 --> 09:51.130
+And here we have it going from the idol to the run.
+
+09:51.220 --> 09:59.650
+If we hit the play button here we can see him idling and idling and idling and then run.
+
+09:59.660 --> 10:01.980
+So that's all we have there.
+
+10:02.020 --> 10:10.660
+We want to create a condition here that says if this condition if this integer is one let's say then
+
+10:10.900 --> 10:15.080
+he should begin the run he should transition from the idol to the run.
+
+10:15.130 --> 10:20.380
+So let's go ahead and hit the plus here we get the animation parameter here since it's the only one
+
+10:20.380 --> 10:21.120
+we've created.
+
+10:21.720 --> 10:31.000
+And we want to say if the Animation Parameter equals 1 then what it should do is transition to the run
+
+10:32.260 --> 10:36.590
+and when this happens we want it to happen immediately as soon as we hit the button.
+
+10:36.700 --> 10:39.340
+We want them to begin the run animation.
+
+10:39.340 --> 10:41.320
+So we want to turn off exit time.
+
+10:41.320 --> 10:47.630
+He doesn't need any exit time from from the idol to the run so I'll uncheck that.
+
+10:47.730 --> 10:50.170
+All right so that's good.
+
+10:50.430 --> 10:54.360
+But what if he stops running and goes back to THE IDOL HOW DO WE DO THAT.
+
+10:54.720 --> 11:01.300
+WELL LET'S right click choose make transition and create a transition back to the idol.
+
+11:01.530 --> 11:03.350
+Let's select this one.
+
+11:03.450 --> 11:12.300
+Now let's create a condition let's say that if the Animation Parameter is equal to zero then we transition
+
+11:12.300 --> 11:14.970
+back to the idol and we do it immediately.
+
+11:14.970 --> 11:17.460
+We don't need any exit time here.
+
+11:17.520 --> 11:21.050
+So if we have the play you can see he runs.
+
+11:21.090 --> 11:26.580
+And then he goes immediately back to the idol animation.
+
+11:26.600 --> 11:26.980
+All right.
+
+11:26.990 --> 11:30.880
+So we use the integer 1 for the run.
+
+11:30.890 --> 11:34.260
+How about we use integer 2 for the jump.
+
+11:34.280 --> 11:41.340
+So let's right click on the Idol choose make transition and let's drag this over here and click.
+
+11:41.480 --> 11:50.720
+Now for this transition we want the Animation Parameter to equal to how we go.
+
+11:50.720 --> 11:54.500
+And we wanted to happen immediately so we'll turn off exit time.
+
+11:54.500 --> 12:02.330
+So now if we play he'll Idol and Idol and Idol and then we'll jump.
+
+12:02.510 --> 12:03.430
+There we go.
+
+12:03.430 --> 12:04.390
+So that's what we want.
+
+12:05.050 --> 12:12.010
+Now if he jumps and immediately goes back to the idol animation we need to set up that transition.
+
+12:12.010 --> 12:15.860
+So I'll choose make transition drag over here and click.
+
+12:15.880 --> 12:22.690
+Now let's select that one and we need to say that if there is a condition where the Animation Parameter
+
+12:22.840 --> 12:27.460
+equals zero we go to the idol.
+
+12:27.460 --> 12:27.950
+Right.
+
+12:28.000 --> 12:30.070
+Just like this one over here.
+
+12:30.070 --> 12:37.450
+So anytime the Animation Parameter equals zero it's always going to go back to the idol animation.
+
+12:37.450 --> 12:37.650
+All right.
+
+12:37.660 --> 12:42.820
+So this one with zero I need to turn off exit time here as well.
+
+12:42.840 --> 12:46.730
+Now what happens if we go from the run to the jump or the jump to the run.
+
+12:46.920 --> 12:55.020
+Let's make a transition from the run to the jump and Let's select that and let's say that if the Animation
+
+12:55.020 --> 13:02.670
+Parameter equals what the jump is to write the idol is zero run is one jump is two.
+
+13:02.670 --> 13:08.550
+So if it equals two we want to transition from the run to the jump.
+
+13:08.550 --> 13:11.310
+And we want to do it immediately.
+
+13:11.310 --> 13:15.210
+And now how about from the jump to the run.
+
+13:15.230 --> 13:20.800
+So for this one we want it to be one.
+
+13:20.800 --> 13:21.100
+Right.
+
+13:21.100 --> 13:27.680
+We want the Animation Parameter to equal one which would take it to the run 0.
+
+13:27.710 --> 13:31.840
+And we want to have it happen immediately so we'll turn off exit time.
+
+13:31.930 --> 13:35.640
+So basically the idol is zero.
+
+13:35.790 --> 13:40.460
+Anytime the Animation Parameter equals zero we're going to transition to the idol.
+
+13:40.850 --> 13:46.170
+Any time that parameter is one we're going to transition to the run.
+
+13:46.340 --> 13:51.500
+And anytime the parameter is 2 we will transition to the jump.
+
+13:51.510 --> 13:51.880
+All right.
+
+13:51.900 --> 13:59.520
+So that sets up our animator here what we'll do in the next video is actually begin creating the script
+
+13:59.790 --> 14:06.000
+that will allow us to change that Animation Parameter from 0 to 1 to 2 and back again.

@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.610 --> 00:02.480
+To bake this to a normal map.
+
+00:02.500 --> 00:07.690
+We're going to have to first create a new material so let's come over here to that UVA editing tab.
+
+00:07.840 --> 00:14.670
+And currently this object still has that character material on it.
+
+00:14.710 --> 00:17.440
+Let's create a new material for the bake.
+
+00:17.470 --> 00:20.430
+Let's come over here to the materials panel.
+
+00:20.500 --> 00:27.850
+I'll hit the minus button to remove that material from this object and let's hit new and I'll just call
+
+00:27.850 --> 00:29.270
+this hair.
+
+00:29.320 --> 00:29.770
+All right.
+
+00:29.770 --> 00:35.860
+So now we need to create a texture that we're going to bake the normal map onto.
+
+00:35.860 --> 00:42.430
+So let's come over here and click new and we'll call this hair normal.
+
+00:42.760 --> 00:47.620
+And I want to make this map the same size as we did previously.
+
+00:47.620 --> 00:53.670
+So I'm just going to type in Asterix for and hit enter.
+
+00:53.670 --> 01:00.700
+So we get that fourteen ninety six so I'll just type in 40 96 here as well and then I'll click.
+
+01:00.700 --> 01:02.350
+OK all right.
+
+01:02.370 --> 01:10.390
+So here is the texture map that we're going to bake the normals to once again we've got an asterix here
+
+01:10.390 --> 01:11.830
+at the image menu.
+
+01:11.830 --> 01:19.030
+I'm going to click that and choose save as and here in the texture folder I'll save the hair normal
+
+01:19.060 --> 01:20.140
+image.
+
+01:20.140 --> 01:24.490
+And now we need to bring that image up in the here into the note editor.
+
+01:24.490 --> 01:30.420
+So let's press Shift A and we'll bring in an image texture here.
+
+01:30.580 --> 01:37.120
+Drop it there and now let's just pull this menu down and choose hair normal there OK.
+
+01:37.210 --> 01:42.040
+We don't have to connect it up or anything we can just leave it here in the note editor.
+
+01:42.040 --> 01:45.900
+Now let's come over to our render panel right here.
+
+01:46.150 --> 01:52.780
+And currently we have the IVA render engine selected and to bake a texture map currently we need to
+
+01:52.780 --> 01:55.590
+switch over to the cycles renderer.
+
+01:55.630 --> 01:57.190
+So we'll do that.
+
+01:57.190 --> 02:04.660
+Come over here and twirl down the bake arrow and let's change our bake type from combined to normal
+
+02:05.200 --> 02:06.340
+right here.
+
+02:06.340 --> 02:06.990
+All right.
+
+02:07.030 --> 02:13.330
+So now that we have this object selected we have a image texture created.
+
+02:13.330 --> 02:21.040
+And here in the note Ed I want to have this clear image checkbox checked right down here so that it
+
+02:21.040 --> 02:24.740
+clears away the black when it creates the normal map.
+
+02:24.880 --> 02:28.360
+And I think we're ready to go so let's just click bake
+
+02:31.820 --> 02:32.480
+and there it is.
+
+02:32.480 --> 02:40.590
+So if we zoom in down here you can see we've got our strokes and our micro details in there.
+
+02:40.710 --> 02:42.700
+So that looks pretty good.
+
+02:42.720 --> 02:44.750
+Now let's apply it.
+
+02:44.820 --> 02:48.280
+So what let's do is hide this.
+
+02:48.720 --> 02:50.210
+Come over here and hide it here.
+
+02:50.220 --> 02:58.620
+Let's bring back our character right here and let's apply this sculpt detail to our character material.
+
+02:58.620 --> 03:06.030
+If I click on the character here it'll switch over to the material that's on it the character and then
+
+03:06.060 --> 03:13.410
+we can come over here and add it to the note Ed. So let's press shift a bring in a new image texture
+
+03:13.410 --> 03:16.760
+node drop it here.
+
+03:16.910 --> 03:19.580
+We need to first of all save this to the hard drive.
+
+03:19.580 --> 03:26.180
+So let's go ahead and click image and save and now let's go pick it up off the hard drive.
+
+03:26.180 --> 03:27.830
+I'll click open.
+
+03:27.830 --> 03:30.920
+Go to my textures and let's click on here.
+
+03:30.920 --> 03:32.070
+Normal.
+
+03:32.080 --> 03:37.910
+There it is now let's change this from color to non color data.
+
+03:38.320 --> 03:44.770
+And then we can't just hook up this yellow color socket to this blue normal socket.
+
+03:44.770 --> 03:48.130
+We need a node in between here to transfer.
+
+03:48.160 --> 03:56.240
+So what let's do is let's press shift a again go to vector and let's choose normal map.
+
+03:56.240 --> 03:57.440
+And here we are.
+
+03:57.460 --> 04:03.900
+So now we can take this yellow color to here and the blue normal to there.
+
+04:03.910 --> 04:10.750
+Now let's come over to this window and let's switch over to the Look Dev and there we go.
+
+04:10.750 --> 04:15.910
+We can see our sculpt detail on the character.
+
+04:15.990 --> 04:16.270
+Yeah.
+
+04:16.300 --> 04:23.080
+Let's go over to the layout tab now and switch over to the Look Dev and there we go.
+
+04:23.940 --> 04:26.250
+Yeah he's looking pretty good.
+
+04:26.310 --> 04:29.190
+We've got that detail in there.
+
+04:29.750 --> 04:32.940
+And we've got the sculpt strokes in there.
+
+04:33.820 --> 04:36.280
+I think that will work just fine.
+
+04:36.280 --> 04:41.310
+In fact you know what we could go ahead and test this in unity.
+
+04:41.350 --> 04:47.690
+Why don't we open up unity and give it a try what we can do is select our character here and we can
+
+04:47.690 --> 04:57.080
+go to file and export and export FBI eggs and down here we can choose selected objects only right here
+
+04:57.890 --> 05:07.030
+and I'll create a new folder and I'll just call it exports we go and I'll put that right in here.
+
+05:07.030 --> 05:14.620
+Just as a test I'm going to hit export FCX right there and then let's go over to unity and and put this
+
+05:14.620 --> 05:16.950
+in the game engine and see how it looks.
+
+05:17.410 --> 05:23.450
+Here in unity I can come down into the assets folder here and just right click and choose important
+
+05:23.540 --> 05:35.250
+new asset I'll go into my exports and I'll choose the FBI X character their and then I will also import
+
+05:35.280 --> 05:39.750
+new assets and go into my textures folder.
+
+05:39.900 --> 05:45.070
+Select these two and import those.
+
+05:45.120 --> 05:46.030
+All right.
+
+05:46.080 --> 05:50.010
+And before I bring this in I better create a new material as well.
+
+05:50.010 --> 05:55.290
+I'm going to right click and choose create and material right here.
+
+05:55.290 --> 06:00.210
+And let's just call this Lego character.
+
+06:00.230 --> 06:06.080
+Now I can take that FBI x file and drag it over here into the hierarchy.
+
+06:06.080 --> 06:16.500
+Mary is now I can take the new material and drag it onto the character and we go and then what I can
+
+06:16.500 --> 06:25.770
+do is come over here open up the material in the inspector and let's drag in the color into the albedo
+
+06:27.140 --> 06:34.670
+and let's drag in the normal map into the normal map slot we'll click fix now to market as a normal
+
+06:34.670 --> 06:38.080
+map and we go.
+
+06:38.230 --> 06:46.600
+And let me grab the directional light here and move it up and I'll also turn it all rotated around so
+
+06:46.600 --> 06:48.960
+we can see a little bit better.
+
+06:49.270 --> 06:51.800
+And hey there we go there's our character.
+
+06:51.850 --> 06:59.890
+Now we can select this and increase the metallic a bit if we want or increase the smoothness if we want
+
+06:59.890 --> 07:03.010
+to make him a little more shiny.
+
+07:03.010 --> 07:08.770
+But yeah I think he's looking pretty good all right.
+
+07:08.770 --> 07:15.670
+So we have our character modeled and textured and we can bring him into unity and set up the material
+
+07:15.670 --> 07:16.780
+and texture.
+
+07:16.780 --> 07:22.540
+So in the next section of the course what we need to do is rig the character so we can begin to animate
+
+07:22.540 --> 07:22.690
+him.

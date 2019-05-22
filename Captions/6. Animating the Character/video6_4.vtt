@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.560 --> 00:07.310
+For the idol of the character I think I'm going to make it about six seconds long and if we look on
+
+00:07.310 --> 00:14.450
+our output panel over here we can see that our frame rate is currently 24 frames per second and that's
+
+00:14.660 --> 00:15.080
+fine.
+
+00:15.110 --> 00:16.800
+I'm going to leave it at that.
+
+00:16.850 --> 00:22.590
+So for six seconds of animation at 24 frames per second that would be 144.
+
+00:22.610 --> 00:23.570
+Right.
+
+00:23.600 --> 00:28.850
+So let's come over here and type in 144 down here.
+
+00:28.850 --> 00:33.670
+Now we have a timeline of 144 frames.
+
+00:33.830 --> 00:37.520
+Let's go ahead and begin getting him in his first pose.
+
+00:37.520 --> 00:43.130
+So maybe if I go to the front view here I'm just going to select one of the arms and I'll hit AR and
+
+00:43.310 --> 00:44.720
+turn it down like this.
+
+00:44.720 --> 00:50.670
+And keep in mind I'm here on frame one and what I should do actually let me undo that.
+
+00:50.670 --> 00:57.830
+I'm like press Alt are what I should do first of all is turn on the automatic key frame insertion.
+
+00:57.950 --> 00:59.540
+So let's click this.
+
+00:59.540 --> 01:06.110
+And now if we do anything to the rig if I hit R and pull this down to say right here you can see we
+
+01:06.110 --> 01:09.170
+get our key frames automatically inserted.
+
+01:09.170 --> 01:15.530
+We could do it manually by pushing the eye key and choosing location and rotation.
+
+01:15.530 --> 01:19.670
+And that would be fine if you want to do it manually each time.
+
+01:19.670 --> 01:24.560
+But I think it goes a little quicker if you have blender do it automatically.
+
+01:24.560 --> 01:34.100
+So I'm just going to hit R and rotate this down and that'll be our beginning pose for the arms for this
+
+01:34.100 --> 01:42.950
+for The Root bone or the hips maybe I'd like to move this down just a bit here kind of bend the legs
+
+01:42.950 --> 01:51.640
+just a bit like this and I may I may turn these a bit too I'll hit the three key If I select this control
+
+01:51.640 --> 01:59.410
+the spine to and hit ah I can turn it just a bit and maybe I'll turn this one just a bit that spine
+
+01:59.410 --> 02:05.400
+one I'm in hit ah and turn them over just a little bit just to give him some room to kind of breathe
+
+02:05.400 --> 02:05.690
+in.
+
+02:05.690 --> 02:12.230
+So what I'm going to do is kind of have him breathe in and the arms come out of it and then then relax
+
+02:12.830 --> 02:17.110
+and do that a few times over the period of six seconds okay.
+
+02:17.140 --> 02:18.840
+So we've got this.
+
+02:18.880 --> 02:26.230
+What we're gonna need is all of this to be duplicated back over here at the end of our cycle because
+
+02:26.230 --> 02:32.110
+we need the first frame of the cycle and the last frame of the cycle to be exactly the same.
+
+02:32.710 --> 02:39.450
+So to do that I'm just going to WITH ALL THESE still selected I'm going to press shift D and just move
+
+02:39.450 --> 02:42.900
+them all the way down here like that.
+
+02:42.940 --> 02:48.650
+Okay now I'm not really sure how many times he's gonna take a breath here.
+
+02:48.760 --> 02:54.910
+Let's see if I right click on the timeline and click and drag with the right mouse button.
+
+02:54.940 --> 03:01.110
+I can move this timeline cursor to where I wanted to be so I was on frame 1.
+
+03:01.120 --> 03:02.720
+Let's move it up to.
+
+03:03.730 --> 03:04.240
+I don't know.
+
+03:04.240 --> 03:05.980
+I don't know how long a breath should take.
+
+03:05.980 --> 03:08.170
+Let's try 20 frames.
+
+03:08.170 --> 03:15.760
+So what I'll do here is select that hips control and let's move it back to where it was I'll press all
+
+03:15.820 --> 03:22.180
+G and that will move it back up to where it was and when we do that that will also create key frames.
+
+03:22.180 --> 03:27.800
+So if I right click and drag you can see he's going from down here up to here.
+
+03:27.910 --> 03:36.010
+See him kind of moving up and down at frame 20 as well I think maybe I will go ahead and take these
+
+03:36.100 --> 03:40.950
+and I'll press Alt R to bring them back up to where they were.
+
+03:40.970 --> 03:41.340
+All right.
+
+03:41.440 --> 03:44.820
+So he's gonna kind of maybe take a breath.
+
+03:44.860 --> 03:48.370
+You see how he's kind of taking a breath.
+
+03:48.370 --> 03:54.550
+You have to make the sound effects you know so we can just taken a breath there.
+
+03:54.590 --> 03:56.620
+OK.
+
+03:56.810 --> 04:03.980
+In addition I think I want that head bone too or that head control the head to kind of move forward
+
+04:03.980 --> 04:05.190
+a bit.
+
+04:05.240 --> 04:12.910
+So if we come over here and let's choose this head bone I'm going to insert a key frame here at the
+
+04:12.910 --> 04:19.990
+Iki location and rotation I'm doing that because I need to add a key frame but I'm not changing anything
+
+04:20.470 --> 04:20.790
+right.
+
+04:21.100 --> 04:27.400
+So now if I move this up to here now I think what I'd like to do is roll this forward just a bit so
+
+04:27.400 --> 04:33.080
+I'll hit the R key and rotate it forward just a tiny little bit like that.
+
+04:33.100 --> 04:33.400
+All right.
+
+04:33.400 --> 04:34.750
+So let's see how that works.
+
+04:35.320 --> 04:37.130
+Let's see what that looks like.
+
+04:37.250 --> 04:44.320
+That we begin down here he kind of goes up and down so that may be a bit too much.
+
+04:44.490 --> 04:45.560
+Let's give it a try.
+
+04:45.560 --> 04:49.320
+That may be OK let's try it.
+
+04:49.440 --> 04:59.390
+So what I want to do is take these key frames here oh let me do the arms and let me do the arms so I
+
+04:59.390 --> 05:06.170
+think what I'll do is for the arms I want to move these out just a bit so I'll hit the Aki and move
+
+05:06.170 --> 05:11.450
+them out just a smidge and then the Aki and move this out just a smidge.
+
+05:11.450 --> 05:12.110
+There we go.
+
+05:12.800 --> 05:14.900
+Now let's see how that works.
+
+05:14.940 --> 05:15.310
+Yeah.
+
+05:15.320 --> 05:18.250
+Kind of goes like that.
+
+05:18.470 --> 05:18.800
+OK.
+
+05:18.830 --> 05:23.750
+So we don't really know how the timing is on this we're going to have to get some other key frames in
+
+05:23.750 --> 05:25.790
+here to know what the timing is.
+
+05:26.420 --> 05:33.680
+So what let's do is I'm going to press all a down here to deselect everything and then I'll press the
+
+05:33.680 --> 05:38.870
+B key and border select all of these and then I'll duplicate these.
+
+05:38.880 --> 05:46.070
+So shift D and then I'll just drag this way and I don't know how long at this point in time maybe 15
+
+05:46.070 --> 05:50.680
+frames to frame thirty five let's say and then let's do the same thing over here.
+
+05:50.690 --> 05:57.250
+I'm going to border select all of these and press shift D and move these over to here.
+
+05:57.260 --> 06:00.840
+So now let's see how this works.
+
+06:01.070 --> 06:06.160
+I'm going to go back to the beginning of the timeline with shift left arrow.
+
+06:06.160 --> 06:06.830
+Here we go.
+
+06:06.890 --> 06:12.260
+And then I'm going to hit the spacebar.
+
+06:12.340 --> 06:13.450
+OK.
+
+06:13.810 --> 06:15.880
+So the timing on that isn't quite right.
+
+06:15.880 --> 06:18.220
+A little bit too slow on everything.
+
+06:18.530 --> 06:22.510
+OK so let's deselect with all a.
+
+06:22.510 --> 06:26.300
+Oh I need to do all day over here in the timeline.
+
+06:26.410 --> 06:30.240
+I'll hit the B key and let's border select these G.
+
+06:30.280 --> 06:32.000
+Move them in some.
+
+06:32.290 --> 06:35.130
+And then let's do this.
+
+06:35.560 --> 06:39.670
+I may not need extra frames here but let's try it.
+
+06:39.760 --> 06:45.460
+I'm going to take these and border select borders like these and hit the G key and move these back to
+
+06:45.460 --> 06:46.600
+here.
+
+06:46.600 --> 06:54.860
+So let's try this go back to the beginning with shift and left arrow and play Yeah see I don't think
+
+06:54.860 --> 07:01.340
+I need this here to hold that so I'm going to hit B and border select and just delete these hit the
+
+07:01.340 --> 07:04.810
+delete key and choose Delete key frames.
+
+07:04.820 --> 07:14.980
+So now what let's do is let's put these on frame 15 and then let's put these on frame 30.
+
+07:14.990 --> 07:18.050
+I'll hit the G key and move these to frame 30.
+
+07:18.050 --> 07:27.510
+Now let's try this shift left arrow and let's hit the spacebar seems to be a little bit too fast.
+
+07:27.560 --> 07:28.230
+All right.
+
+07:28.370 --> 07:29.660
+We're getting there though.
+
+07:29.810 --> 07:32.140
+I will move these out to frame 20.
+
+07:32.140 --> 07:40.730
+Then let's try that old aide de select B two border select g to move and let's move these two frame
+
+07:41.060 --> 07:48.360
+forty shift and left arrow and hit the spacebar yeah let's try that.
+
+07:48.390 --> 07:48.710
+OK.
+
+07:48.720 --> 07:53.940
+So now what let's do is go ahead and do this throughout the whole thing.
+
+07:54.030 --> 07:58.530
+So let's take these two rows of key frames.
+
+07:58.560 --> 08:06.810
+I'll press the B key and let's grab these and so let's press shift D duplicate these and move these
+
+08:06.900 --> 08:10.030
+out to frame 60.
+
+08:10.080 --> 08:11.390
+Let's do that.
+
+08:11.420 --> 08:12.360
+All right click.
+
+08:12.360 --> 08:16.740
+Move it down to one frame one hit the spacebar
+
+08:19.750 --> 08:20.870
+a little bit too much.
+
+08:20.870 --> 08:22.640
+He's moving a little bit too much.
+
+08:23.030 --> 08:28.910
+But let's go ahead and get this all timed out.
+
+08:28.910 --> 08:37.970
+So once again let's take these to be key border select these two rows shift deep and move these down
+
+08:38.140 --> 08:40.660
+to well one hundred.
+
+08:40.670 --> 08:46.040
+Let's try that shift and left arrow key and then let's hit the spacebar
+
+08:51.570 --> 08:52.140
+All right.
+
+08:52.140 --> 08:59.100
+I think what we could do is slow it down some and move this row here
+
+09:01.890 --> 09:03.380
+to the very end.
+
+09:03.390 --> 09:11.610
+Let's try this one I'm going to do is border select these and delete them and we go now I'm going to
+
+09:11.610 --> 09:18.420
+select everything here hit the a key and let's move this cursor all the way back to frame one and then
+
+09:18.420 --> 09:25.400
+if we hit the esky and scale these it will scale from the point of the timeline cursor here.
+
+09:26.130 --> 09:33.360
+So will this do is just hit the esky and scale these out until that last column of key frames is right
+
+09:33.360 --> 09:36.180
+at the end at one forty 44.
+
+09:36.180 --> 09:37.410
+All right let's try this
+
+09:43.790 --> 09:47.210
+all right.
+
+09:47.240 --> 09:47.670
+OK.
+
+09:47.690 --> 09:49.740
+I will go with that for now.
+
+09:49.800 --> 09:52.400
+That's OK.
+
+09:52.400 --> 09:57.600
+It's not great but I think that'll work for now.
+
+09:57.620 --> 09:58.100
+All right.
+
+09:58.730 --> 10:06.620
+So now that we've got him kind of breathing in an idle cycle there in the next video let's work on moving
+
+10:06.620 --> 10:08.300
+the head back and forth.
+
+10:08.300 --> 10:14.920
+Let's turn the head one way so he can look to the side and then look back and then back to the center
+
+10:14.930 --> 10:16.890
+before the end of the cycle.
+
+10:17.060 --> 10:18.300
+That's coming up next.

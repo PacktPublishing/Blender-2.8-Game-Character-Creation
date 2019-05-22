@@ -1,0 +1,373 @@
+WEBVTT
+
+00:00.670 --> 00:02.330
+Let's now work on the head.
+
+00:02.410 --> 00:08.470
+Let's select the hair and I'll hit that division key again to isolate it.
+
+00:08.830 --> 00:13.360
+And for this sense we don't have it connecting up in the inside.
+
+00:13.360 --> 00:16.360
+We've deleted these inside bases.
+
+00:16.360 --> 00:23.290
+I think it's gonna be a lot easier to just select everything and hit you and unwrap bullets first.
+
+00:23.290 --> 00:30.820
+Come over here to the side bar and make sure we've got our scale uniform and we do it's all ones that's
+
+00:30.820 --> 00:31.570
+good.
+
+00:31.660 --> 00:40.090
+So let's tap back into edit mode at the achy key and then let's select you and unwrap and then we go.
+
+00:40.090 --> 00:41.180
+Well that's not too bad.
+
+00:41.180 --> 00:43.160
+It laid it out pretty flat.
+
+00:43.180 --> 00:48.250
+We can change from Angle base to informal and see if there's a difference.
+
+00:48.250 --> 00:50.320
+And there is for this.
+
+00:50.560 --> 00:55.130
+So which one should we choose which one would be better.
+
+00:55.150 --> 01:01.780
+Well to decide we're really going to have to apply a test pattern to it and see which one is stretched
+
+01:01.840 --> 01:03.550
+the least to do that.
+
+01:03.550 --> 01:08.580
+Let's come up here and hover right over here and create a new window.
+
+01:08.710 --> 01:12.660
+And what I'd like to do is just create a node Ed..
+
+01:12.850 --> 01:19.270
+So let's come over here and pull this down and let's switch to a shader Ed here.
+
+01:19.270 --> 01:22.080
+I'll hit the in key to close this panel.
+
+01:22.330 --> 01:27.870
+And what we need to do is create a material so we can see the nodes of that material.
+
+01:27.880 --> 01:30.430
+Now we can create a material here.
+
+01:30.430 --> 01:35.090
+In addition there's a material panel over here and we can create the material here.
+
+01:35.170 --> 01:37.150
+So either one is fine.
+
+01:37.360 --> 01:39.070
+I'll go ahead and click new.
+
+01:39.070 --> 01:45.790
+Right over here and you can see the material here visible over here as well.
+
+01:45.790 --> 01:54.040
+So to create a test texture let's come down into the image editor here and click new create a new image
+
+01:54.400 --> 02:01.990
+and we get this window here where we can give it a new name let's call it UVA test pattern and the width
+
+02:01.990 --> 02:05.410
+and height are fine at 10 24.
+
+02:05.410 --> 02:10.860
+But the generated type we want to switch from blank to being a UVA grid.
+
+02:10.900 --> 02:12.650
+So let's select that.
+
+02:12.940 --> 02:21.270
+And then when we click OK we get this we get a a texture pattern here that we can apply to our object.
+
+02:21.400 --> 02:28.210
+Now to apply it to our object we're gonna have to create an image node here and connect it up to the
+
+02:28.210 --> 02:29.260
+base color.
+
+02:29.260 --> 02:30.190
+So let's do that.
+
+02:30.190 --> 02:38.080
+Let's press shift a and then create a texture image texture and I'll drag right over here and put it
+
+02:38.080 --> 02:39.490
+right there.
+
+02:39.700 --> 02:46.150
+We can then pull this menu down and see all of our images that we've used so far in the project.
+
+02:46.210 --> 02:48.930
+And here is our UVA test pattern.
+
+02:48.940 --> 02:49.880
+There we go.
+
+02:49.900 --> 02:53.770
+Now I just need to connect it up from here to here.
+
+02:53.830 --> 03:00.760
+Now that we've applied it to our material we need to just change our view here so we can see it.
+
+03:00.790 --> 03:08.770
+I'm going to middle mouse button click and hold and drag TO MOVE THIS BAR OVER AND I CAN CHOOSE THIS
+
+03:08.770 --> 03:09.350
+RIGHT HERE.
+
+03:09.370 --> 03:12.130
+THIS IS THE LOOK div display.
+
+03:12.310 --> 03:18.310
+So I click that and now we can see that test pattern here on our object.
+
+03:18.310 --> 03:18.600
+All right.
+
+03:18.610 --> 03:26.530
+So we need to now UVA map this again to be able to get that little panel down here that we can switch
+
+03:26.530 --> 03:30.030
+from Angle based to conform all to see how we're doing.
+
+03:30.040 --> 03:33.460
+I'll also hit the A key over here just so we can see it here.
+
+03:33.490 --> 03:33.980
+All right.
+
+03:34.090 --> 03:42.960
+So I'm going to hit you and unwrap and now we can switch between angle based and can formal.
+
+03:43.100 --> 03:48.740
+Well it looks like conform maybe a little bit better.
+
+03:48.800 --> 03:51.300
+I think I'll go with conformance here.
+
+03:51.590 --> 03:52.600
+All right.
+
+03:52.730 --> 04:00.320
+So that's how we can test are you v map to make sure that we have as little stretching in our 2D textures
+
+04:00.440 --> 04:01.420
+as possible.
+
+04:01.580 --> 04:08.030
+Because if there's stretching on our texture here on our test pattern that we're applying to the material
+
+04:08.480 --> 04:13.280
+there will also be stretching on our final textures that we're applying as well.
+
+04:13.280 --> 04:17.730
+So we want to take care of any of the stretching here first.
+
+04:17.750 --> 04:25.160
+All right well I'll tap back into object mode and then I'll hit that division key and we can select
+
+04:25.250 --> 04:26.850
+another object here.
+
+04:26.960 --> 04:33.980
+I'll go ahead and select the head and hit the division key and let's see if we can you v map this as
+
+04:33.980 --> 04:34.730
+well.
+
+04:34.880 --> 04:43.790
+I'll remove the U V test pattern out of this view for now by hitting the X. And we go and I'll tap into
+
+04:43.790 --> 04:51.620
+edit mode and for this I kind of feel like at the back of the head would be the best place to put a
+
+04:51.620 --> 04:52.190
+seam.
+
+04:52.190 --> 04:58.130
+So I'm going to come back here to the back of the head and press Alt and click and put a seam at the
+
+04:58.130 --> 05:01.340
+back and then up here.
+
+05:01.340 --> 05:04.250
+I don't think we need the seam to go all the way up.
+
+05:04.250 --> 05:12.050
+I think we just need it to go along here so I'm going to press Ault and click and I'll shift and click
+
+05:12.050 --> 05:14.360
+to get these edges.
+
+05:14.360 --> 05:21.590
+Now I guess I do need an edge right here so or a seam right there so many press control e and Marcus
+
+05:21.590 --> 05:28.970
+seem so now you can see I've got a seam going all the way along the back and then I've split that top
+
+05:28.970 --> 05:32.600
+cylinder up with these two seams as well.
+
+05:32.600 --> 05:39.470
+Let's do that now on the bottom so I'll select this edge right here and let's remove this seam I didn't
+
+05:39.470 --> 05:40.240
+mean to do that.
+
+05:40.240 --> 05:43.840
+So it's press control e and clear seam.
+
+05:43.910 --> 05:45.770
+We can do that there.
+
+05:46.010 --> 05:54.050
+Then let's press Alt and click here and I'll shift click here and let's add seams down here Mark seen.
+
+05:54.120 --> 05:58.220
+OK so now we've got a seam going along the back.
+
+05:58.220 --> 06:02.240
+I do that so I can hide the seams as much as possible.
+
+06:02.450 --> 06:09.770
+The main things you want to do with you v mapping is avoid stretching or minimize any stretching of
+
+06:09.770 --> 06:14.720
+the texture and hide your seems so they aren't as clearly visible.
+
+06:14.970 --> 06:15.240
+All right.
+
+06:15.270 --> 06:21.900
+So now that we've got this done let's hit a test like everything you can see the U V map lay out here
+
+06:21.900 --> 06:24.920
+for that original cylinder we created.
+
+06:25.140 --> 06:33.270
+But now let's hit you and unwrap and oh look it says object has non uniform scale and look at what it
+
+06:33.270 --> 06:37.650
+did it kind of created it in a strange manner here.
+
+06:37.650 --> 06:43.500
+And if we hit angle based and then conform all you can see there's quite a bit of a difference between
+
+06:43.500 --> 06:48.420
+the two and that's another sign that we may not have applied our scale.
+
+06:48.420 --> 06:49.760
+So let's do that.
+
+06:49.950 --> 06:53.180
+Let's tap back into object mode press control a.
+
+06:53.340 --> 06:59.880
+Apply the scale tab back into edit mode and let's hit you and unwrap.
+
+06:59.970 --> 07:05.910
+Now we can see that the angle based and conform all just flip.
+
+07:05.920 --> 07:06.370
+Really.
+
+07:06.370 --> 07:08.320
+But that's not too bad.
+
+07:08.320 --> 07:11.970
+I think I like can formal a little bit better yeah.
+
+07:11.980 --> 07:13.640
+Let's go with that.
+
+07:13.690 --> 07:14.080
+All right.
+
+07:14.110 --> 07:15.760
+So I'll tap back into object mode.
+
+07:15.760 --> 07:25.090
+Hit the division key and let's go back to the solid display and I guess let's go ahead and do the torso
+
+07:25.090 --> 07:25.360
+now.
+
+07:25.360 --> 07:31.900
+I'll hit the division key and let's press control a to make sure we've got this scale applied.
+
+07:31.900 --> 07:33.060
+There we go.
+
+07:33.190 --> 07:36.410
+And now tab into edit mode and let's see if we can do here.
+
+07:36.460 --> 07:48.110
+I think for this maybe we can select these edges on the top along here like this control e marks seem
+
+07:49.850 --> 07:54.480
+and maybe we can select these edges down here.
+
+07:54.770 --> 08:02.190
+I'm just holding the shift key to select these control e marks seem.
+
+08:02.500 --> 08:04.030
+There we go.
+
+08:04.020 --> 08:05.680
+And let's.
+
+08:05.720 --> 08:15.380
+Now select this edge right here and then what I'm going to do is come all the way down to here and control
+
+08:15.380 --> 08:22.230
+click this edge and if I control click you can see it connects everything up between those two edges.
+
+08:22.340 --> 08:30.560
+So I'll then press control e and Mark seam and the same thing over here I'll select this edge go all
+
+08:30.560 --> 08:31.500
+the way down.
+
+08:31.580 --> 08:40.770
+Press Control click and it connects all of those up and select all of that control e Mark seem OK.
+
+08:40.910 --> 08:44.100
+So let's see how we've done.
+
+08:44.210 --> 08:49.370
+I'll hit the a key and press you and unwrap and there we go.
+
+08:49.370 --> 08:59.160
+So now we have this whole front part here all one piece this piece right here and then all the other
+
+08:59.160 --> 09:04.760
+pieces split out as well the back in the top and the bottom.
+
+09:04.800 --> 09:05.490
+All right.
+
+09:05.490 --> 09:13.270
+So that looks pretty good I'll hit the division key and in the next video what let's do is work on the
+
+09:13.270 --> 09:16.720
+pieces of the character that have been mirrored.
+
+09:16.720 --> 09:24.400
+Remember that this arm if we go to the modifiers panel still has a mirror modifier on it as well as
+
+09:24.400 --> 09:28.930
+the legs and we'll talk about what we're gonna do with these in the next video.

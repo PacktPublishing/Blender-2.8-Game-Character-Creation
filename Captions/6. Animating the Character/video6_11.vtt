@@ -1,0 +1,544 @@
+WEBVTT
+
+00:00.750 --> 00:03.570
+Well I'd like this guy to have a little more fun as he jumps.
+
+00:03.570 --> 00:04.910
+He looks awful grumpy here.
+
+00:04.920 --> 00:12.240
+So let's go back to object mode and Let's select that grease pencil object and then we can go over to
+
+00:12.270 --> 00:14.070
+draw mode here.
+
+00:14.220 --> 00:22.080
+Now for this I think I don't need the sad mouth here or the grumpy mouth the sneer.
+
+00:22.080 --> 00:23.060
+Let me hide that.
+
+00:23.100 --> 00:25.500
+I think I'll draw a new one.
+
+00:25.500 --> 00:28.230
+We could adjust the eyebrows a little bit better to me.
+
+00:28.230 --> 00:37.790
+Tab into edit mode and I'll hit that B key and border select and let's put the eyebrows in a more pleasing
+
+00:38.180 --> 00:40.250
+position here.
+
+00:40.250 --> 00:41.510
+Something like this.
+
+00:41.510 --> 00:43.560
+I'm just trying to find.
+
+00:43.660 --> 00:49.980
+A default pose here that's kind of in-between the smile and the frown.
+
+00:50.180 --> 00:53.610
+So something like this maybe that's the.
+
+00:53.720 --> 01:04.070
+And then for the mouth what I want is a fairly big smile like like like he's having fun.
+
+01:04.220 --> 01:11.210
+And where should that go I think that should probably go out here around frame 15.
+
+01:11.420 --> 01:13.900
+Me draw it here and then I can move it.
+
+01:13.910 --> 01:15.750
+So let's think about this.
+
+01:15.770 --> 01:23.000
+Let created a new grease pencil layer over here and I'll call this mouth.
+
+01:23.000 --> 01:30.110
+I'm going to call it mouth open because I think his mouth is gonna be open here and let's go to draw.
+
+01:30.110 --> 01:37.790
+And with that layer selected what I'm gonna do is take the arc and I want to fill it.
+
+01:37.790 --> 01:47.600
+So I'll come back to our materials here and I'll choose that black fill and I'll click and drag like
+
+01:47.600 --> 01:54.240
+this me try this or grab that handle here and pull down all right.
+
+01:54.270 --> 01:56.860
+So it's gonna be something kind of like this.
+
+01:56.850 --> 01:57.960
+I mean hit that.
+
+01:57.960 --> 02:01.740
+Let me go to edit mode and select that.
+
+02:01.740 --> 02:06.800
+And then I kind of want to turn it make it kind of like this.
+
+02:06.840 --> 02:09.480
+So you can kind of see what I'm doing here maybe.
+
+02:09.600 --> 02:11.000
+I don't know.
+
+02:12.680 --> 02:16.800
+I just want them to have kind of a a goofy grin.
+
+02:17.910 --> 02:24.330
+As he as he jumps something hit the s in the z key and I'm going to kind of make this a little bit bigger
+
+02:25.700 --> 02:28.950
+and uh something like this.
+
+02:28.950 --> 02:30.690
+Let me see let me see how this works.
+
+02:30.790 --> 02:34.170
+OK so Okay that may be a little bit too big.
+
+02:34.170 --> 02:40.410
+Hang on let me scale it down just a bit okay yeah.
+
+02:40.430 --> 02:41.630
+Something like this.
+
+02:41.630 --> 02:48.120
+I know that looks kind of cheesy but I think it's what I'm after I think it's what I'm going for here.
+
+02:48.230 --> 02:56.670
+Let me go back to draw and go to the line tool and I'm just going to click and drag across here to clean
+
+02:56.670 --> 02:58.950
+this up like that.
+
+02:58.970 --> 03:00.170
+All right let's hit enter there.
+
+03:00.200 --> 03:00.590
+OK.
+
+03:00.620 --> 03:03.390
+So that's kind of what I want.
+
+03:05.420 --> 03:05.850
+Yes.
+
+03:05.880 --> 03:15.090
+So he's kind of happy and having fun go back to edit mode and I may shrink that down just a bit
+
+03:18.240 --> 03:21.550
+let's try this yeah.
+
+03:21.620 --> 03:22.010
+OK.
+
+03:22.010 --> 03:27.650
+So now he's got kind of a goofy grin because he's flyin up in the air and having fun.
+
+03:27.650 --> 03:30.310
+And he didn't know he'd have this much fun.
+
+03:31.120 --> 03:33.770
+All of a sudden I'm creating quite a story here aren't I.
+
+03:34.200 --> 03:34.520
+OK.
+
+03:34.550 --> 03:40.350
+So what let's do is let's create a new material slot here.
+
+03:40.370 --> 03:46.330
+Let's grab that black fill and then let's duplicate it right here.
+
+03:46.340 --> 03:46.760
+There we go.
+
+03:46.760 --> 03:55.870
+So now we'll call this red bill and for the stroke it'll be a drag.
+
+03:55.870 --> 04:00.580
+Up here it'll be quite bright red right here.
+
+04:00.620 --> 04:03.040
+Something like that OK.
+
+04:03.040 --> 04:09.430
+And then for the fill I want the same color so I'm just going to grab the eyedropper and I drop that
+
+04:09.430 --> 04:14.170
+swatch there and make it the same color now that we have that.
+
+04:14.210 --> 04:17.890
+Let's go back to our draw option here.
+
+04:17.930 --> 04:22.160
+Let's go to our arc tool and let's see if we can do this.
+
+04:22.160 --> 04:23.840
+So I kind of want it to be
+
+04:27.250 --> 04:28.870
+something like this.
+
+04:28.870 --> 04:30.560
+Let's see.
+
+04:30.900 --> 04:31.950
+Let me undo that.
+
+04:31.950 --> 04:34.260
+Let me try this again.
+
+04:34.380 --> 04:40.100
+Maybe I'll reduce the pixel size to three and click and drag this way
+
+04:43.420 --> 04:52.420
+and then bring that up a bit here and then I think what I want to do is make another one going this
+
+04:52.420 --> 04:52.720
+way.
+
+04:52.750 --> 05:01.000
+So like the like that and then I'll grab this and bring it down like that.
+
+05:01.890 --> 05:07.290
+Let's see if this works I'll hit enter and we've got a little bit of a problem there.
+
+05:07.320 --> 05:11.030
+But you can see what I'm kind of going for to see that tongue in there.
+
+05:11.040 --> 05:13.890
+I'll just grab that line stroke and just draw.
+
+05:13.890 --> 05:15.330
+There we go.
+
+05:15.330 --> 05:15.920
+Enter.
+
+05:15.930 --> 05:16.870
+Okay.
+
+05:17.100 --> 05:22.680
+All right I kind of need to move all of that so I'm going to go back into edit mode and I'll just select
+
+05:23.130 --> 05:31.260
+a point here on the tongue and hit L and a point here or let me hit L then I'll shift click excuse me
+
+05:31.260 --> 05:37.560
+and hit l here and shift click here and hit l.
+
+05:37.560 --> 05:39.410
+So that should be all of that.
+
+05:39.690 --> 05:47.520
+And then I can kind of move it around a bit to maybe I want to bring it up a little bit like this let's
+
+05:47.520 --> 05:50.030
+try that tab back into object mode.
+
+05:50.040 --> 05:53.490
+So yeah you can see the tongue there.
+
+05:53.490 --> 05:59.010
+Maybe we need to see a little bit of the teeth and maybe that tongue's a little bit too big.
+
+05:59.010 --> 06:03.610
+I mean scale it down some and move it into place like this.
+
+06:03.640 --> 06:05.910
+Let's try this.
+
+06:06.050 --> 06:08.220
+Okay so there's his tongue.
+
+06:08.320 --> 06:12.150
+Let's work on the teeth now so let's do the same thing.
+
+06:12.310 --> 06:14.890
+Let's create a new material slot.
+
+06:14.920 --> 06:17.740
+Let's choose that red fill.
+
+06:17.740 --> 06:28.760
+We will duplicate it and then we'll call this white fill there and we'll change our color to plain white
+
+06:29.730 --> 06:35.450
+I mean just bring all of these down here like this and then drag this all the way up.
+
+06:35.710 --> 06:36.400
+There we go.
+
+06:36.890 --> 06:40.700
+And then we will select this Swatch.
+
+06:40.790 --> 06:42.610
+Use the eyedropper and select that.
+
+06:42.740 --> 06:43.120
+Okay.
+
+06:43.130 --> 06:47.960
+So now we have white and for this I think just a similar thing.
+
+06:47.960 --> 06:50.480
+Let me go back to the draw tool.
+
+06:50.480 --> 07:00.080
+Let's create an arc and maybe we just draw like this and then grab this and move it down a bit like
+
+07:00.080 --> 07:09.900
+that and go and then maybe just a a line across up here.
+
+07:09.940 --> 07:21.630
+So it's straight like this grab that bad up here I mean hit the tab key select this press the L key
+
+07:22.380 --> 07:30.750
+shift select that line up at the top here I mean see if I can get it and then hit the L key here as
+
+07:30.750 --> 07:31.890
+well.
+
+07:31.890 --> 07:40.710
+Now we can move this around a bit maybe shrink it down some kind of put it where we want it to be here
+
+07:41.550 --> 07:44.620
+let's try this yeah.
+
+07:44.630 --> 07:53.730
+So he's got kind of a goofy grin and then we go let's try that yeah.
+
+07:53.760 --> 07:57.010
+So something like that.
+
+07:57.540 --> 07:59.870
+I don't really like what's going on over here.
+
+07:59.880 --> 08:13.040
+I may take this right here and kind of move it out like that and we go see how that works yeah okay.
+
+08:13.100 --> 08:21.280
+I think that'll work so with this now this this right here needs to happen in the middle so it needs
+
+08:21.280 --> 08:24.340
+to happen really from here to here.
+
+08:24.400 --> 08:33.590
+So let's take that mouth open here and let's duplicate it and let's move it to here and duplicate it
+
+08:33.590 --> 08:35.220
+again and move it to here.
+
+08:35.510 --> 08:42.190
+And then what we can do is create a new mouth here so right here.
+
+08:42.200 --> 08:50.870
+Let's let's go back and back into edit mode and I'll hit the B key and since I have these key frames
+
+08:50.870 --> 08:58.670
+here right here and right here if I go into edit mode and border select this and delete it delete and
+
+08:58.670 --> 09:00.190
+delete strokes.
+
+09:00.530 --> 09:02.080
+You can see that over here.
+
+09:02.300 --> 09:03.050
+It's still here.
+
+09:03.050 --> 09:03.320
+Right.
+
+09:03.350 --> 09:10.250
+I've still got my key frames here so I've preserved it here but now it's gone here and we can create
+
+09:10.400 --> 09:12.950
+something new on this layer.
+
+09:12.950 --> 09:19.880
+So for something new let's go back to the draw tool and I'm going to use that arc again and I'm going
+
+09:19.880 --> 09:27.700
+to use a black stroke over here in the materials and I'll just kind of draw Oh that's too small.
+
+09:27.800 --> 09:41.030
+Let me change the radius back to five pixels and I will just draw a very kind of a generic mouth shape
+
+09:41.030 --> 09:41.840
+here.
+
+09:41.930 --> 09:45.770
+So it's kind of between the sneer and the smile.
+
+09:45.800 --> 09:49.520
+You know that we created earlier.
+
+09:49.520 --> 09:49.810
+All right.
+
+09:49.820 --> 09:51.050
+So something like this.
+
+09:51.080 --> 09:52.450
+So now let's see how this works.
+
+09:52.460 --> 09:56.070
+So all of a sudden he goes with a
+
+10:00.460 --> 10:01.390
+that's not too bad.
+
+10:01.390 --> 10:06.490
+The only thing we could maybe we could play with is the actual size.
+
+10:06.520 --> 10:12.970
+So let's let's duplicate this and put it right a right around frame 14.
+
+10:12.990 --> 10:19.540
+And then let's come back to this frame on frame four and what this do is let's just simply grab this
+
+10:20.110 --> 10:23.280
+and shrink it down just a bit like this.
+
+10:23.290 --> 10:24.740
+Let's see what happens.
+
+10:24.760 --> 10:25.970
+I'm curious.
+
+10:26.230 --> 10:26.940
+Let's go back.
+
+10:26.950 --> 10:30.820
+And here we go.
+
+10:31.360 --> 10:36.180
+So what we need is another key frame probably back here.
+
+10:36.190 --> 10:37.400
+Let's try this.
+
+10:37.450 --> 10:40.600
+So it opens a little a little quicker
+
+10:44.340 --> 10:44.590
+right.
+
+10:44.620 --> 10:51.920
+So you can see it kind of open a little quicker now we could actually take this.
+
+10:51.920 --> 10:59.760
+Let's try this just for fun and let's select this and let's just make it a little bigger.
+
+11:00.050 --> 11:05.480
+So let's go back to this key frame here and let's just scale that up.
+
+11:05.660 --> 11:07.670
+That was just ridiculously big.
+
+11:07.670 --> 11:09.660
+He's having a great time here.
+
+11:09.710 --> 11:15.350
+All right and then let's also take this duplicate it.
+
+11:15.350 --> 11:16.970
+Bring it out here.
+
+11:17.120 --> 11:25.590
+Then let's take this one and bring it to here and then maybe we could yeah I think that'll do it.
+
+11:25.770 --> 11:26.180
+When we go.
+
+11:26.210 --> 11:27.550
+Let's see how this works.
+
+11:33.030 --> 11:38.240
+Yeah.
+
+11:38.800 --> 11:41.600
+It's a little silly but I think it'll work.
+
+11:41.620 --> 11:45.110
+I just wanted to look like he's having a good time as he jumps also.
+
+11:45.280 --> 11:48.810
+We could go ahead and change the eyebrows as well.
+
+11:48.910 --> 11:54.240
+So for the brows here we've got it at this point here.
+
+11:54.370 --> 12:03.760
+So maybe at this point we could begin changing the eyebrows so they begin kind of going up and turning
+
+12:03.880 --> 12:04.570
+like this
+
+12:07.950 --> 12:19.520
+let's try that and then they go back down here so we'd need to get rid of this key frame here and this
+
+12:19.520 --> 12:21.110
+one as well on the brow.
+
+12:21.120 --> 12:24.610
+Eleanor so let's get rid of this right.
+
+12:24.620 --> 12:26.470
+So that holds those.
+
+12:26.870 --> 12:28.760
+And then we could have them.
+
+12:29.060 --> 12:30.380
+Let's duplicate this.
+
+12:30.380 --> 12:40.470
+Move it over to your and then we could go back and maybe grab this one duplicate this over here like
+
+12:40.470 --> 12:44.710
+that let's try this.
+
+12:44.790 --> 12:46.830
+We only got one down.
+
+12:46.830 --> 12:56.180
+Let's grab that other one here this.
+
+12:56.200 --> 12:56.590
+There we go.
+
+12:56.620 --> 12:57.830
+So let's try this.
+
+12:57.880 --> 13:03.010
+So they go up and they go down at the play
+
+13:08.280 --> 13:11.920
+maybe move this one this way
+
+13:23.000 --> 13:24.150
+there we go.
+
+13:24.170 --> 13:25.590
+All right.
+
+13:25.640 --> 13:32.680
+I think we have our jump an animation there's certainly more that we could do to play around with this
+
+13:32.720 --> 13:35.610
+but I think for now that's going to be good.
+
+13:35.690 --> 13:46.130
+So I think what we need to do now is work on exporting all of our animations our character to unity
+
+13:47.200 --> 13:53.980
+so in the next video what let's do is work on creating all the exports and taking meant unity.

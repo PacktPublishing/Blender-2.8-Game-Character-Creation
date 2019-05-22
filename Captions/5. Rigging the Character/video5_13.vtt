@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.530 --> 00:02.260
+Let's continue now with the arms.
+
+00:02.270 --> 00:07.970
+And for these we're going to create the bones sticking straight up so we won't have to turn them for
+
+00:07.970 --> 00:10.900
+these Let's select one of these.
+
+00:10.910 --> 00:19.430
+Move the cursor to it cursor to selected shift a and then if we select the bone now with our active
+
+00:19.430 --> 00:28.980
+element selected we can hit s and scale this down quite a bit let's do the same thing here cursor to
+
+00:28.980 --> 00:43.190
+selected I'll press shift a select bone it s and bring it down like so we'll get the risk bone here
+
+00:43.220 --> 00:52.290
+as well and I'm creating all of these in the front view just so they're consistent shift a select s
+
+00:52.560 --> 01:02.730
+scaled down like this now we need to do a similar thing for each of the finger bones this can get a
+
+01:02.730 --> 01:11.970
+little tedious but it is well worth it I think so let's select this tip right here move the cursor to
+
+01:11.970 --> 01:19.790
+it I'm going to go to the front view again shift a and let's scale this one down
+
+01:25.600 --> 01:31.290
+it's like this cursor to selected shift a
+
+01:34.110 --> 01:34.770
+look down
+
+01:37.880 --> 01:39.500
+and then this one as well
+
+01:44.740 --> 01:45.760
+and scale it down.
+
+01:45.760 --> 01:51.160
+Now the good thing is is once we get them all done on one side we're gonna just mirror them over so
+
+01:51.160 --> 01:59.170
+we don't have to worry too much about it I'm gonna get this right here let's move the cursor to it and
+
+01:59.170 --> 02:08.900
+we go shift a s and scale this down now what I am gonna do for these is take this right here and just
+
+02:08.900 --> 02:09.950
+move it straight down.
+
+02:09.950 --> 02:17.500
+So I'm gonna hit G and Z and just drag straight down like that and we go just so we can see it a little
+
+02:17.500 --> 02:28.600
+better let's move the cursor to this one shift a scale down and as I said I'll just drag this g into
+
+02:28.600 --> 02:31.020
+the drag it down like that.
+
+02:34.050 --> 02:43.230
+Move the cursor once again create the bone scale it down grab that tip Gee and easy and drag it straight
+
+02:43.230 --> 02:44.190
+down.
+
+02:44.220 --> 02:46.670
+Okay so there we have the hands.
+
+02:46.800 --> 02:55.410
+We need to take these and move these up above the hands just a bit because our control objects are going
+
+02:55.410 --> 02:59.120
+to hover over and under the hand just a bit.
+
+02:59.130 --> 03:08.920
+So I will just take these and move these up like this and I will take these and move these down like
+
+03:08.920 --> 03:12.820
+this just a little bit outside of the hand there.
+
+03:13.610 --> 03:15.390
+All right let's keep going.
+
+03:15.390 --> 03:22.780
+I will create a control object for the foot control right here.
+
+03:22.830 --> 03:26.220
+Let's go ahead and select this tip right there.
+
+03:26.310 --> 03:31.910
+Let's take the cursor to it and then what let's do is create the bone.
+
+03:31.910 --> 03:34.890
+However I don't think that'll work.
+
+03:34.970 --> 03:42.890
+We want the center of that control object to be right at the base of the foot when we take that control
+
+03:42.890 --> 03:45.650
+object and zero out the transforms.
+
+03:45.650 --> 03:49.270
+We want to know that it's flat on the ground.
+
+03:49.350 --> 03:55.830
+So what we should probably do instead is actually select the bottom of the foot and move the cursor
+
+03:55.830 --> 03:57.100
+to it.
+
+03:57.120 --> 03:58.130
+Let's take a look at that.
+
+03:59.060 --> 04:02.190
+I'll tap back into object mode and select the character.
+
+04:02.190 --> 04:10.650
+And now it's tab and edit mode and I'm thinking that what we should do is select these points right
+
+04:10.710 --> 04:11.810
+along here.
+
+04:11.910 --> 04:22.510
+These two edges and if we change our pivot point to median point and go back to the move tool you can
+
+04:22.510 --> 04:26.770
+see where the center of that selection is.
+
+04:26.860 --> 04:29.850
+Now I think maybe we want it more like here.
+
+04:29.860 --> 04:35.050
+If we select just that edge maybe that's where we want it.
+
+04:35.200 --> 04:39.450
+We could select this edge again and yeah that moves it over a little too much.
+
+04:39.450 --> 04:42.100
+I kind of like it right there.
+
+04:42.280 --> 04:49.090
+So let's just move that cursor to this point now shift s cursor to selected.
+
+04:49.360 --> 04:49.780
+Yeah.
+
+04:49.780 --> 04:52.630
+Now that's the way we want it.
+
+04:52.660 --> 04:56.110
+We don't want this particular control to be up at the ankle.
+
+04:56.230 --> 04:59.190
+We want it to be right flat on the ground.
+
+04:59.290 --> 04:59.570
+All right.
+
+04:59.650 --> 05:01.480
+So now let's create this bone.
+
+05:01.480 --> 05:08.620
+Let's go back to the rig and then we go to edit mode here with the cursor there.
+
+05:08.650 --> 05:11.740
+Let's press shift a and there's our bone.
+
+05:12.100 --> 05:21.820
+Let's select it change back to active element and now we can scale this down but in addition we need
+
+05:21.820 --> 05:25.340
+to rotate it back so it's flat on the ground.
+
+05:25.450 --> 05:26.260
+So let's do that.
+
+05:26.290 --> 05:31.960
+Let's go to our rotate tool click and control and let's turn that down.
+
+05:31.960 --> 05:38.380
+Ninety degrees there and maybe I'll take this and move it back.
+
+05:38.410 --> 05:45.780
+Let's take this and move it straight back I mean go back to our median point and I just want to move
+
+05:45.780 --> 05:50.440
+this straight back like this something like that.
+
+05:50.470 --> 05:51.130
+There we go.
+
+05:51.220 --> 06:01.240
+OK so this is now going to be called we'll call this foot control underscore CEO control object.
+
+06:01.330 --> 06:05.200
+Now did I name these up here.
+
+06:05.200 --> 06:06.340
+No I did not.
+
+06:06.340 --> 06:11.030
+So we're going to need to go through and name all of these as well.
+
+06:11.140 --> 06:26.240
+Let's call this up arm underscore CEO dot l will call this low arm underscore SEO dot l.
+
+06:26.600 --> 06:35.240
+This one we will call hand underscore SEO dot L and then we're gonna do all of these.
+
+06:35.250 --> 06:47.830
+So let's do a finger 1 underscore SEO for control object dot l This will be finger 2 underscore SEO
+
+06:48.130 --> 06:51.970
+dot l finger 3
+
+06:55.870 --> 06:56.560
+dot l.
+
+06:56.560 --> 06:59.470
+There we go and now these down here.
+
+06:59.470 --> 07:09.280
+You know let me just type in thumb 1 underscore SEO dot L and then I'll just select this I should make
+
+07:09.280 --> 07:17.980
+that a 1 then I will select this press control see the copy and now select this click their press control
+
+07:17.980 --> 07:27.110
+V and now it can change that one to a 2 and we'll do that here as well control the and change that one
+
+07:27.110 --> 07:30.020
+to a 3 and we go.
+
+07:30.020 --> 07:37.930
+All right now let's work on these bones so we have this bone here that we're gonna use to control the
+
+07:38.180 --> 07:44.990
+but we've got this bone here that we're going to use to control the foot as well or least the toe and
+
+07:44.990 --> 07:50.280
+then we have this bone for the knee so we need control objects for all of those as well.
+
+07:50.510 --> 07:52.840
+So first of all this one.
+
+07:52.910 --> 08:01.370
+Let's just choose this tip right here and move the cursor to it and then I'll switch back to active
+
+08:01.370 --> 08:13.000
+element go to the front view press shift a select that bone and let's scale this down like this go to
+
+08:13.000 --> 08:21.430
+the side view and I think this will be just fine like this let's give it a name let's call this foot
+
+08:22.150 --> 08:33.760
+roll underscore SEO dot L and let's work on the toe so for this if we select this and move the cursor
+
+08:33.760 --> 08:47.920
+to it and we go now let's press shift data create the bone let's scale it down and for this one I think
+
+08:47.920 --> 08:55.060
+we need it out just a little bit like this let's move it out like this and let's also move it right
+
+08:55.060 --> 09:03.160
+about here just one it kind of in front of the toe we're gonna have this one behind the heel and this
+
+09:03.160 --> 09:12.940
+one can be up in front of the toe like that so let's call this one toe underscore SEO dot L and we go
+
+09:14.210 --> 09:22.850
+and for this one we need a control object out here as well so let's select this bone and move the cursor
+
+09:22.850 --> 09:24.800
+to it right here.
+
+09:24.830 --> 09:30.810
+Well I'd like it right here at the base of the bone so let's change to individual or excuse me median
+
+09:30.860 --> 09:33.750
+points and just select that.
+
+09:33.890 --> 09:42.320
+Now let's move the cursor to it and we go and then if we change it back to active element we can press
+
+09:42.380 --> 09:51.540
+shift a create the bone select it scale it and this time once again I'm going to grab the tip of this
+
+09:51.540 --> 09:59.340
+bone and pull it straight down so cheesy and drop it down below like that OK.
+
+09:59.360 --> 10:06.140
+So this one is going to be knee underscore SEO dot l.
+
+10:06.470 --> 10:07.130
+All right.
+
+10:07.400 --> 10:08.970
+So do we have everything.
+
+10:09.230 --> 10:20.510
+We've got the knee the toe the foot control the foot roll we've got the hips the two bones of the torso
+
+10:21.140 --> 10:23.750
+the arms and the hands.
+
+10:23.810 --> 10:25.710
+I think that's it.
+
+10:25.730 --> 10:32.930
+So what let's do in the next video is select all the bones on the left side of the character and mirror
+
+10:32.930 --> 10:37.210
+them over to the right and then we'll begin parenting the bones.
+
+10:37.280 --> 10:42.920
+So the control objects will eventually move with the character and the characters limbs.

@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.690 --> 00:03.970
+For the arms and legs we're gonna do something a little bit different.
+
+00:04.110 --> 00:10.530
+As I mentioned these still have the mirror modifier on them both the legs and the arms and the way we're
+
+00:10.530 --> 00:15.900
+gonna do this is since they're going to be symmetrical they're going to look exactly the same on the
+
+00:15.900 --> 00:16.970
+left and the right.
+
+00:17.130 --> 00:22.720
+We're just going to use v map one side and then we'll go through the entire process of packing all the
+
+00:22.720 --> 00:29.610
+U V islands into one u v map and when we're all done with that we're gonna come back and re add the
+
+00:29.610 --> 00:31.860
+mirror modifier and apply it.
+
+00:31.980 --> 00:38.700
+And what that will do is that will put the U V island of say the arms the left and the right on top
+
+00:38.700 --> 00:45.840
+of each other basically reducing by half the amount of space on the texture map that the arms will take
+
+00:46.440 --> 00:52.830
+and we'll do the same thing with the legs so we'll stack the U V islands of the legs one on top of the
+
+00:52.830 --> 00:59.220
+other as well and that just helps reduce the amount of space we need for the U V islands and therefore
+
+00:59.220 --> 01:06.510
+increasing the resolution for everything that's on there and this happens quite a bit for 3D objects
+
+01:06.540 --> 01:14.040
+3D characters that are symmetrical to begin let's just remove the mirror modifiers for the legs and
+
+01:14.040 --> 01:22.200
+the arms and let's maybe begin with the leg here I'll just press the division key again to isolate it
+
+01:22.700 --> 01:30.360
+with press control a and apply the scale it's tab and edit mode and let's see what we can do here I
+
+01:30.360 --> 01:32.490
+think we could probably.
+
+01:32.490 --> 01:41.900
+Well first of all I'll just select these edges down here and let's go ahead and add a seam to the bottom.
+
+01:41.900 --> 01:53.170
+Here control e Mark seem we go next I think let's just add a seam all the way around on this side as
+
+01:53.170 --> 01:53.660
+well.
+
+01:53.680 --> 02:03.820
+So once again all shift click all the way around to here and let's press control e and Marcus seam here
+
+02:04.880 --> 02:11.810
+and then let's go do that on the other side as well so let's press Alt and click there.
+
+02:12.960 --> 02:25.700
+And I'll go ahead and select these and here and here and then we need to select this area right in here.
+
+02:26.110 --> 02:34.820
+And these individual ones right here and here and here and here.
+
+02:34.820 --> 02:36.670
+And let's see how this works.
+
+02:36.800 --> 02:43.360
+I'll press control e and Mark seam and let's go ahead and give it a try.
+
+02:43.360 --> 02:49.050
+I'll press a to select everything you and unwrap.
+
+02:49.190 --> 02:52.680
+Yeah that doesn't look too bad actually.
+
+02:52.880 --> 03:01.160
+This seems ok I've extended this out right here this right here you can see it right there.
+
+03:01.300 --> 03:04.210
+So that's this piece right there.
+
+03:04.390 --> 03:05.580
+I think that's so.
+
+03:06.550 --> 03:13.780
+The only thing that seems a little odd to me is this whole piece right here if we think all a you can
+
+03:13.780 --> 03:21.310
+see that it extends all the way over the top and I don't know that we need to do that because this area
+
+03:21.340 --> 03:23.200
+up here isn't really going to be seen.
+
+03:23.200 --> 03:31.330
+So we could go ahead and add a seam to this one edge control e Mark seam and then that will split it
+
+03:31.330 --> 03:33.100
+up into two pieces.
+
+03:33.100 --> 03:34.030
+So let's try this.
+
+03:34.060 --> 03:38.100
+Let's select everything you and unwrap.
+
+03:38.130 --> 03:38.480
+Yeah.
+
+03:38.510 --> 03:41.290
+So that splits it up into two pieces here.
+
+03:41.360 --> 03:43.750
+Okay let's now work on the arm.
+
+03:43.750 --> 03:45.850
+I'll tap back into object mode.
+
+03:45.850 --> 03:48.800
+Hit the division key and let's select the arm.
+
+03:48.820 --> 03:51.750
+Now this is really made up of two pieces.
+
+03:51.760 --> 03:54.640
+One is the hand and the other is the arm.
+
+03:54.640 --> 04:00.390
+So perhaps what we should do is tab in edit mode and maybe select this piece.
+
+04:00.400 --> 04:06.020
+Just the hand I'll hover over this and press the L key to select that whole piece.
+
+04:06.280 --> 04:13.780
+And then what we could do is press shift H and that will hide everything that isn't selected so not
+
+04:13.780 --> 04:20.740
+only did we isolate it with the division key but now we've pressed shift H to hide everything that isn't
+
+04:20.740 --> 04:21.360
+selected.
+
+04:22.240 --> 04:22.710
+Okay.
+
+04:22.740 --> 04:33.470
+So for this we could probably split this along this edge here I'll press Alt and click and I'll shift
+
+04:33.470 --> 04:44.660
+and click all along here so we have this piece of press control e and Mark seem let's grab this piece
+
+04:44.660 --> 04:45.590
+down here
+
+04:48.810 --> 04:52.150
+this edge right along here and this right here.
+
+04:52.830 --> 05:05.400
+So let's mark that seem and then we should probably split this maybe right here so we're splitting the
+
+05:05.400 --> 05:15.130
+inside from the outside of the hand here with this seam alt click control e Mark seem so we're going
+
+05:15.130 --> 05:24.890
+to have this piece right in here as its own piece and then I think we could just split this right here
+
+05:24.920 --> 05:31.640
+just give it a seam around the wrist Mark seam there and then we should open this up.
+
+05:31.640 --> 05:34.130
+So it isn't just a a circle.
+
+05:34.130 --> 05:37.940
+Let's go ahead and give this a seam right here as well.
+
+05:37.940 --> 05:39.380
+Yeah let's do that.
+
+05:39.380 --> 05:44.080
+So it opens up that cylinder flat All right let's give it a try.
+
+05:44.080 --> 05:50.230
+I'm going to tap back into object mode first and press control a and apply the scale and I'll tab back
+
+05:50.230 --> 05:52.150
+into edit mode.
+
+05:52.150 --> 05:56.430
+That's the A key press you and unwrap and yeah.
+
+05:56.440 --> 05:58.000
+That looks actually pretty good.
+
+05:58.000 --> 06:07.050
+We've got the outside or the edges of the hand here the inside and then the outside and then the wrist
+
+06:07.050 --> 06:09.680
+is laid out flat here.
+
+06:09.690 --> 06:09.970
+All right.
+
+06:09.990 --> 06:11.400
+I think that'll work.
+
+06:11.400 --> 06:16.770
+Let's take a look at the arm now so to bring the arm back while we're still here in edit mode.
+
+06:16.770 --> 06:18.560
+I'll press Alt H.
+
+06:18.770 --> 06:20.790
+And that brings that back.
+
+06:20.790 --> 06:25.140
+Now I can deselect everything and then hover over the arm and press the L key.
+
+06:25.230 --> 06:30.420
+And now once again we can press shift H to hide the UN selected part.
+
+06:30.480 --> 06:32.370
+Now okay.
+
+06:32.390 --> 06:39.320
+So for this we should probably try and hide a seam in here by the torso.
+
+06:39.390 --> 06:40.130
+Right.
+
+06:40.290 --> 06:47.610
+So let's press Alt and click this edge and that will select that edge in here by the body.
+
+06:47.610 --> 06:55.140
+We probably don't need these so I'm going D select these with shift click and then I'm going to press
+
+06:55.230 --> 07:01.110
+Alt shift and click here to select that edge right around there.
+
+07:01.170 --> 07:01.410
+Yeah.
+
+07:01.440 --> 07:09.390
+Let's give this a try and press control e Mark seem we've already applied the scale for the whole object
+
+07:09.390 --> 07:11.020
+of the arm and the hand.
+
+07:11.160 --> 07:15.060
+So I think we could just select everything and let's try it again.
+
+07:15.060 --> 07:18.700
+Let's hit you and unwrap.
+
+07:18.830 --> 07:26.460
+Now we're getting some pulling here and if we switch from conform all to angle based that helps a little.
+
+07:26.690 --> 07:31.790
+But let's apply that UVA test pattern to this and see how it looks.
+
+07:31.910 --> 07:37.920
+To do that with this here I could come over to this pole down and we can select that material.
+
+07:38.120 --> 07:43.170
+We had a call that material something I'll call it UVA test here.
+
+07:43.190 --> 07:47.840
+So we've just applied that material to this object now.
+
+07:48.050 --> 07:52.210
+And now let's come over to our look devil.
+
+07:52.340 --> 07:58.340
+Once again middle mouse button click and drag to move that header over and let's select.
+
+07:58.340 --> 08:07.100
+Look Dev right here and there we can see our test pattern you can see it's kind of wobbly and stretched
+
+08:07.100 --> 08:10.390
+here up around this cylinder.
+
+08:10.550 --> 08:14.360
+Let's switch it to conform and see what we see here.
+
+08:14.360 --> 08:15.380
+Not a lot.
+
+08:15.380 --> 08:23.380
+It looks like it threw away our material let's go ahead and select that material again there we go so
+
+08:23.530 --> 08:31.090
+once again we've got some pulling here around this cylinder as well so it would probably behoove us
+
+08:31.690 --> 08:37.600
+to go ahead and split this cylinder out just from the rest of the arm.
+
+08:37.750 --> 08:46.460
+So I'm going to all click this edge right here and press shift e and let's Marcus seam here and let's
+
+08:46.460 --> 08:53.960
+see how this works so I'm going to once again press the A key to select everything.
+
+08:53.960 --> 09:01.930
+Press you and unwrap and let's see how that works out that works out a little bit better I think.
+
+09:01.930 --> 09:09.790
+Let me press you and unwrap it again and let's switch from informal to angle based and actually angle
+
+09:09.790 --> 09:12.750
+based seems a little bit better to me.
+
+09:12.760 --> 09:16.000
+Well let's give this a try all right.
+
+09:17.530 --> 09:20.690
+And there we have the whole arm now.
+
+09:20.720 --> 09:28.660
+I'll go ahead and switch back to the solid display and let's hit the division key and there we have
+
+09:28.660 --> 09:28.740
+it.
+
+09:28.750 --> 09:31.540
+We've got our entire character now.
+
+09:31.660 --> 09:33.010
+You v mapped.
+
+09:33.010 --> 09:40.170
+Each piece has its own u v map with its own individual u v islands.
+
+09:40.270 --> 09:46.950
+So what we need to do now is combine all of these together into one u v map.
+
+09:47.020 --> 09:52.640
+I see that the arm is still split out or the hand is still hidden away.
+
+09:52.690 --> 09:55.690
+Let's press old H to bring that back.
+
+09:55.720 --> 10:04.640
+There we go so in the next video what let's do is take all of these objects combine them together and
+
+10:04.640 --> 10:12.640
+then will arrange and pack all of those u v islands that we've created into one single u v map.

@@ -1,0 +1,430 @@
+WEBVTT
+
+00:00.530 --> 00:05.870
+Now in the same way that we mirrored the arm and the leg bones let's mirror these controlled object
+
+00:05.870 --> 00:07.010
+bones.
+
+00:07.010 --> 00:12.000
+So I just need to go through and select them all of these.
+
+00:12.120 --> 00:21.090
+Now let me turn off the gizmo there so I can click all of these and we go and then we want to select
+
+00:21.120 --> 00:22.080
+all of these.
+
+00:22.080 --> 00:25.770
+So it was this one this one.
+
+00:25.980 --> 00:32.970
+Oh I see that I didn't put a dot L at the end of this one here I'll have to be sure and do that this
+
+00:32.970 --> 00:35.720
+one and this one.
+
+00:35.940 --> 00:36.390
+All right.
+
+00:36.420 --> 00:44.360
+So those are all of our control object bones that are on the left side of the character.
+
+00:44.490 --> 00:46.730
+Those are the only ones that need to be mirrored over.
+
+00:46.750 --> 00:56.610
+So let's now move the cursor shift s cursor to world origin and then let's say move the pivot point
+
+00:57.090 --> 00:59.250
+to the 3d cursor.
+
+00:59.370 --> 01:08.070
+Now what we can do is press control D and enter and then control them and hit the X key and that will
+
+01:08.070 --> 01:12.150
+pop them over to the other side and hit enter.
+
+01:12.150 --> 01:21.660
+Now with all of these selected let's go ahead and choose flip names right click names flip names and
+
+01:21.730 --> 01:22.500
+we go.
+
+01:22.780 --> 01:23.670
+Okay.
+
+01:23.800 --> 01:28.450
+Now of course we need to go through and remove the 0 0 1 from all of these.
+
+01:28.450 --> 01:31.880
+And let me see what happened with that foot control.
+
+01:31.870 --> 01:35.640
+There's the foot control underscore c0.
+
+01:35.890 --> 01:39.280
+And here's the CEO dial 0 0 1.
+
+01:39.280 --> 01:41.950
+So that's all that data just added a 0 0 1 to it.
+
+01:41.950 --> 01:52.450
+So I'll take this and I'll do dot R and I'll select this one and I'll put a dot l there.
+
+01:52.450 --> 01:52.830
+Okay.
+
+01:52.860 --> 01:57.250
+So now I've got to go through and remove all the 0 0 ones
+
+02:03.790 --> 02:06.790
+and the last one the knee.
+
+02:07.060 --> 02:07.760
+All right.
+
+02:08.410 --> 02:10.370
+Well that was tedious.
+
+02:10.570 --> 02:16.880
+I hope the version you're using takes away those 0 0 ones for you.
+
+02:16.960 --> 02:18.190
+All right.
+
+02:18.190 --> 02:25.590
+Now we need to parent these bones appropriately so they stay with the character and stay with the bone
+
+02:25.600 --> 02:26.890
+they're affecting.
+
+02:27.010 --> 02:35.560
+So this bone up here on the top we probably just need to parent this to the head bone because ultimately
+
+02:35.560 --> 02:41.260
+what we're gonna do is have this control object before the neck bone.
+
+02:41.260 --> 02:47.920
+If you recall we're just going to control the neck bone but when we control the neck bone the head bone
+
+02:47.920 --> 02:53.410
+is going to come along since its parent it as well so let's parent it to the head bone or select this
+
+02:53.860 --> 03:01.210
+shift select the head bone press control P and choose keep offset Moss are going to change this back
+
+03:01.210 --> 03:03.770
+to median point here.
+
+03:03.820 --> 03:04.670
+All right.
+
+03:04.810 --> 03:07.830
+So now let's take a look at this one.
+
+03:08.170 --> 03:11.690
+This bone here I don't think I want it to stay.
+
+03:11.710 --> 03:14.270
+Parents to the upper arm bone.
+
+03:14.290 --> 03:17.600
+I want it to stay parents to the spine too.
+
+03:17.730 --> 03:23.010
+So I mean it's like this shift select spine to control P and keep offset.
+
+03:23.050 --> 03:30.690
+And then I'm going to go through and parent these control P keep offset parent.
+
+03:31.040 --> 03:41.860
+These and then I'm going to go through and parent each one of these here control P keep offset these
+
+03:41.860 --> 03:48.780
+two these two and on down here as well
+
+03:52.570 --> 03:53.110
+okay.
+
+03:53.120 --> 03:54.500
+We've got those.
+
+03:54.590 --> 03:57.470
+I think I better go do these while I'm here.
+
+03:57.470 --> 04:03.800
+Control P keep offset and then each one of these like this just like the other side
+
+04:07.080 --> 04:08.430
+this one and this one
+
+04:16.820 --> 04:27.560
+and this and this up I better turn off the gizmos so I can click through their this and this this and
+
+04:27.560 --> 04:27.850
+this.
+
+04:30.920 --> 04:40.300
+Okay we've got those now let's now parent this to spine one control P keep offset this just spine one
+
+04:40.330 --> 04:48.370
+oh excuse me that was spine to appear now this one two spine one control P keep offset and this will
+
+04:48.370 --> 04:49.570
+parent to the root.
+
+04:49.570 --> 05:00.910
+Here down here we should probably parent all of these bones all of these that we created to that main
+
+05:00.910 --> 05:02.260
+foot control.
+
+05:02.260 --> 05:04.300
+So let's take this one.
+
+05:04.300 --> 05:15.160
+Select that one the put control control P keep offset this one and here control P keep offset and our
+
+05:15.160 --> 05:20.090
+toe bone here select this control P and keep offset.
+
+05:20.360 --> 05:27.980
+Okay so all of those are parents to this main foot control bone this one can be parents just to the
+
+05:27.980 --> 05:35.320
+knee bone here troll P and keep offset and then we're gonna go to the other side and do the same thing.
+
+05:35.320 --> 05:45.670
+So this one and foot control this one here the foot controls CEO and the main foot control control P
+
+05:45.730 --> 06:00.630
+keep offset the toe bone and foot control and then the knee to the knee control P keep offset Okay so
+
+06:00.630 --> 06:07.830
+there we go I think we have them all parenting the way we want them now we can begin actually setting
+
+06:07.830 --> 06:12.760
+up the custom shapes so let's go into pose mode for that.
+
+06:12.780 --> 06:22.090
+Let's come over here switch to pose mode now for this we can begin setting up all the shapes the first
+
+06:22.090 --> 06:29.140
+one let's do is the neck bone Let's select that let's come over here to our bone panel and let's choose
+
+06:29.200 --> 06:33.850
+viewport display and here we can select a custom object.
+
+06:33.850 --> 06:37.090
+So for this I want it to be a circle.
+
+06:37.180 --> 06:45.430
+So we'll click this and see how now the bone has been replaced by a circle I mean you click out of that
+
+06:45.430 --> 06:52.360
+here you can see it's just now that circle that we created here on the grid that we hid away under our
+
+06:52.360 --> 06:57.800
+control objects it's using that shape to replace the bone.
+
+06:57.980 --> 07:04.620
+So what we want to do is place it up here on top of the head and that's why we created that bone there.
+
+07:04.670 --> 07:07.850
+So over here custom shape transform.
+
+07:07.850 --> 07:09.100
+We click this.
+
+07:09.230 --> 07:15.620
+Now we find that head underscore SEO so here it is.
+
+07:15.620 --> 07:16.580
+Head underscore.
+
+07:16.590 --> 07:19.400
+Control object right there.
+
+07:19.520 --> 07:24.760
+We'll click this and there it is pops up to the top of the head.
+
+07:24.770 --> 07:30.170
+Now we can click and drag on this scale and make it as big or as small as we want.
+
+07:30.170 --> 07:31.830
+So I think I'll just type in two.
+
+07:32.030 --> 07:34.580
+I think that'll be just fine.
+
+07:34.580 --> 07:40.560
+Now watch what happens when we select it and then I'll hit our two times.
+
+07:40.850 --> 07:42.020
+And there we go.
+
+07:42.020 --> 07:50.360
+So we're actually controlling the head from this control object but it's rotating at the neck bone right
+
+07:50.360 --> 07:52.490
+here we go.
+
+07:52.500 --> 07:59.930
+I'm going to press Alt are and so what we can do now is take this bone and this bone since we don't
+
+07:59.930 --> 08:03.920
+need it and move it to a new bone layer.
+
+08:03.920 --> 08:05.900
+Let's come over here to this panel.
+
+08:05.900 --> 08:10.650
+The object data panel and you can see we have layers here.
+
+08:10.720 --> 08:19.160
+So what let's do is come over to pose changed bone layers and let's move it to the second layer.
+
+08:19.160 --> 08:20.560
+And there we go.
+
+08:20.630 --> 08:27.930
+Now you can see them over here and here is everything else so that's the way we're going to do it.
+
+08:27.940 --> 08:35.590
+We're going to create these custom objects clean the bones out from the rig put them over here in this
+
+08:35.590 --> 08:36.790
+other layer.
+
+08:36.790 --> 08:42.140
+So we'll have a nice clean setup with just the control objects and the character.
+
+08:42.220 --> 08:43.350
+Let's do one more here.
+
+08:43.360 --> 08:46.200
+Let's work on this one here.
+
+08:46.330 --> 08:50.700
+So let's come over to the bone panel select our custom object.
+
+08:50.710 --> 08:54.340
+I'm going to use a circle again.
+
+08:54.350 --> 08:55.070
+There it is.
+
+08:55.070 --> 08:56.720
+But it's going the wrong way.
+
+08:56.810 --> 08:59.900
+And that's why we created this bone here.
+
+08:59.900 --> 09:07.250
+So let's select that that was what spine one means scroll all the way down here that was spine.
+
+09:07.430 --> 09:11.840
+No scuse me that spine to underscore SEO.
+
+09:12.010 --> 09:12.650
+And there we go.
+
+09:13.610 --> 09:17.370
+So now we can increase the size of that.
+
+09:17.480 --> 09:19.520
+Maybe I'll increase it about like this.
+
+09:19.520 --> 09:20.580
+Well let's call that.
+
+09:20.840 --> 09:22.020
+Let's try one point for
+
+09:24.890 --> 09:25.420
+that.
+
+09:25.430 --> 09:31.650
+There you go in your values may be a little bit different depending on how big you created the bone.
+
+09:31.690 --> 09:33.260
+It still seems a little too big.
+
+09:33.260 --> 09:36.280
+Let's try one point three something like that.
+
+09:36.310 --> 09:38.070
+Yeah OK.
+
+09:38.100 --> 09:46.340
+So now if we select this bone here and hit are two times we can rotate that around and there you go.
+
+09:46.390 --> 09:47.150
+Ah.
+
+09:47.370 --> 09:50.970
+Now let's take this bone come over here.
+
+09:51.060 --> 09:53.790
+We want to move it to this panel right.
+
+09:53.820 --> 10:01.060
+So let's go to oppose change bone layers move it over there and there they are.
+
+10:01.510 --> 10:06.600
+Okay let's go back to this bone panel here and let's do one more.
+
+10:06.600 --> 10:08.540
+I'm just gonna roll this up here.
+
+10:08.580 --> 10:09.410
+Let's do one more.
+
+10:09.420 --> 10:13.720
+Let's do this choose our custom object.
+
+10:13.720 --> 10:16.030
+It'll be a circle.
+
+10:16.030 --> 10:17.770
+Choose the bone.
+
+10:17.770 --> 10:20.270
+It'll be spine one this time right.
+
+10:20.290 --> 10:22.750
+Spine one underscore SEO.
+
+10:22.780 --> 10:23.940
+There it is.
+
+10:24.220 --> 10:29.670
+And let's scale it out and let's go with one point four.
+
+10:29.770 --> 10:33.970
+Now we better make it one point five and we go.
+
+10:34.020 --> 10:37.290
+So this is how we're going to set up the entire character.
+
+10:37.290 --> 10:40.980
+So we only see these control objects when they grab this bone.
+
+10:40.980 --> 10:45.630
+Now we don't need this one and go to oppose change bone layers.
+
+10:45.660 --> 10:47.330
+Put it on layer two.
+
+10:47.610 --> 10:49.050
+And then it goes away.
+
+10:49.820 --> 10:56.210
+So if I select this I can control the character like that.
+
+10:56.410 --> 10:56.850
+All right.
+
+10:56.860 --> 11:00.790
+So in the next video will continue on creating our custom shapes.

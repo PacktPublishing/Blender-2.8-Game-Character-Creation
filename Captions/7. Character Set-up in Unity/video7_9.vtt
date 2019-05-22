@@ -1,0 +1,451 @@
+WEBVTT
+
+00:00.550 --> 00:03.750
+ALL RIGHT NOW LET'S SEE IF WE CAN GET THIS GUY moving around.
+
+00:03.850 --> 00:11.290
+If we go back into our players script what we can do is create another couple of variables one for our
+
+00:11.290 --> 00:14.020
+speed and one for our turn speed.
+
+00:14.020 --> 00:22.800
+So up here let's create another public variable here and let's make it a float and let's call it speed
+
+00:24.090 --> 00:27.250
+and let's make this equal to I really don't know.
+
+00:27.340 --> 00:34.520
+We're just gonna have to try it and see what's going to work what speed is going to work and when we
+
+00:34.520 --> 00:36.740
+create these public variables.
+
+00:36.860 --> 00:40.160
+What happens is they become available to us in the inspector.
+
+00:40.170 --> 00:42.360
+So let me save this.
+
+00:42.530 --> 00:50.480
+And if we go to our player idol you can see that over here those public variables show up as adjustable
+
+00:50.480 --> 00:53.000
+settings over here in the inspector.
+
+00:53.000 --> 01:01.490
+So we'll be able to change our speed or gravity jump force whatever we need here as we test our character.
+
+01:01.490 --> 01:03.750
+All right let's go back to that player script again.
+
+01:04.040 --> 01:13.920
+And we also need turn speed so let's create a public float we'll call it turn speed and we'll set this
+
+01:13.920 --> 01:22.640
+to I don't know 50 as well we'll just go with that press control act to save it.
+
+01:22.990 --> 01:29.670
+And now down here in the update function we need to apply those speed variables when we run.
+
+01:30.490 --> 01:38.930
+So what let's do is write in here we can say that that move direction that we created earlier should
+
+01:38.930 --> 01:40.130
+transform
+
+01:42.900 --> 01:52.670
+forward when we get input from the vertical input.
+
+01:52.670 --> 01:54.990
+So let me show you what I mean by this.
+
+01:55.130 --> 01:57.640
+What unity will do.
+
+01:57.860 --> 02:00.410
+Well before I do that let me just add.
+
+02:00.590 --> 02:02.280
+Times speed.
+
+02:02.290 --> 02:14.990
+Here we go so if we come over here into unity and we go to edit project settings and we look at our
+
+02:14.990 --> 02:22.940
+inputs here let me open this window up just a little bit scroll down the axes we can see that that vertical
+
+02:22.940 --> 02:28.130
+here actually coincides to the up and down arrows on the keyboard.
+
+02:28.130 --> 02:38.180
+So when we put in vertical and we go back to that script here when we put in vertical what we're saying
+
+02:38.180 --> 02:43.160
+is look for input from the up or the down arrows.
+
+02:43.280 --> 02:50.090
+And when you get that input move it forward at the speed of this speed variable.
+
+02:50.090 --> 02:51.360
+That's all we're doing here.
+
+02:51.380 --> 02:59.630
+We're just using Unity's preset names for the inputs and likewise for horizontal.
+
+02:59.630 --> 03:05.110
+You can see here that we've got the left and the right keys as well.
+
+03:05.120 --> 03:05.360
+All right.
+
+03:05.360 --> 03:12.860
+So let me close that go back to our script and so to use that horizontal what we can do is we can say
+
+03:13.910 --> 03:29.300
+that we can turn if we get input get access from anything that is by default part of that horizontal
+
+03:29.300 --> 03:38.880
+input we go so we can just say the turn is going to be acquired from those horizontal inputs and lastly
+
+03:38.880 --> 03:42.560
+we can say that we want to turn in what axis.
+
+03:42.570 --> 03:49.440
+So if we get input from those horizontal keys the left or the right around which axis are we going to
+
+03:49.440 --> 03:59.800
+turn so we can say transform rotate and here we need to plug in the three different axes so the axes
+
+03:59.800 --> 04:04.300
+are X Y and Z.
+
+04:04.550 --> 04:15.260
+So we want to turn around the y axis so we can have the x and z be zero but the y we want to turn and
+
+04:15.260 --> 04:17.900
+multiply it by that turn speed
+
+04:21.490 --> 04:28.690
+and multiply it by that time dot delta time so it turns at a constant rate and doesn't fluctuate with
+
+04:28.810 --> 04:35.330
+the variable frame rate time dot delta time.
+
+04:35.540 --> 04:37.160
+And there we go.
+
+04:37.190 --> 04:46.270
+So this right here should allow us to move forward at the variable speed and also turn in the y axis.
+
+04:46.340 --> 04:47.630
+So let's copy this.
+
+04:47.630 --> 04:57.270
+Control C analysts move this down into the else right down here and since the else is the idol when
+
+04:57.270 --> 04:59.090
+we aren't moving at all.
+
+04:59.190 --> 05:09.380
+Let's change the speed to zero so we want to be able to do all of this but just not move forward.
+
+05:09.400 --> 05:10.690
+All right let's give this a try.
+
+05:10.690 --> 05:11.820
+I'm in a press control.
+
+05:11.820 --> 05:20.240
+Best to save the script and now let's go back to unity and I want to do a couple things before I begin
+
+05:20.360 --> 05:22.300
+testing the movement.
+
+05:22.520 --> 05:27.380
+First of all this big white plane isn't real good for seeing movement.
+
+05:27.380 --> 05:33.410
+We need something on the plane some sort of texture so we can see that we're moving across it easily.
+
+05:33.410 --> 05:38.050
+And what I've done is I've dragged into my textures folder.
+
+05:38.180 --> 05:45.320
+This checkerboard pattern and I'm just going to drag it and drop it onto that ground plane and we go
+
+05:45.330 --> 05:50.870
+so now we have something that we can see the movement a little easier.
+
+05:50.870 --> 05:56.990
+I'm going to select it and then come over here to the shader and I want to change the tiling here from
+
+05:57.290 --> 06:00.570
+from one to five by five.
+
+06:00.570 --> 06:00.820
+Yeah.
+
+06:00.830 --> 06:03.200
+That makes it a little bit smaller.
+
+06:03.230 --> 06:08.390
+So now we'll be able to see the movement across the plane a little bit easier.
+
+06:08.390 --> 06:14.530
+Secondly I really don't need this camera parentage to my character anymore.
+
+06:14.540 --> 06:22.110
+So I'm going it's going to take this and drag this out of that hierarchy and here it is now here.
+
+06:22.110 --> 06:29.400
+But I really want the camera to follow the character as he moves around and the great thing about the
+
+06:29.490 --> 06:37.200
+standard assets that we downloaded from the asset store a couple of videos ago is that it has this camera's
+
+06:37.200 --> 06:38.370
+folder in it.
+
+06:38.580 --> 06:43.740
+And then if we go to prefabs it's got this multi-purpose camera rig.
+
+06:43.950 --> 06:45.420
+And this is pretty cool.
+
+06:45.480 --> 06:50.160
+So I'm just gonna click and drag this into the hierarchy and you can see there's the camera there.
+
+06:50.160 --> 06:55.860
+Now we can't have two cameras in the scene at the same time so I'm going to take this main camera and
+
+06:55.860 --> 06:58.650
+hide it just uncheck it here.
+
+06:58.770 --> 07:02.550
+So we only have this one as part of the camera rig.
+
+07:02.670 --> 07:10.830
+Now the cool thing about this is if you look over here it has a feature to auto target anything that
+
+07:10.830 --> 07:15.230
+is tagged as player can see the tags up here.
+
+07:15.300 --> 07:22.950
+So if we select our player Idol and come up here to tags it's currently UN tagged but if we tag it as
+
+07:22.950 --> 07:24.570
+a player.
+
+07:24.640 --> 07:32.220
+Now this multi-purpose camera rig will automatically point the camera at it and follow it.
+
+07:32.450 --> 07:32.740
+All right.
+
+07:32.750 --> 07:36.350
+So let's give it a try to come up here and hit the play button
+
+07:40.100 --> 07:41.970
+and now when we hit the up arrow.
+
+07:42.230 --> 07:42.910
+Wow.
+
+07:42.950 --> 07:44.240
+And there he goes.
+
+07:44.240 --> 07:46.710
+He's really fast.
+
+07:47.090 --> 07:49.010
+Let's slow him down some.
+
+07:49.130 --> 07:55.100
+I'll hit the play button again and if we choose the player Idol we can come over here into the script
+
+07:55.160 --> 07:58.870
+and this speed is way too fast.
+
+07:58.870 --> 08:08.750
+So let's maybe take this down to 10 and see how that works we'll hit the play button again and now let's
+
+08:08.750 --> 08:09.920
+hit the up arrow.
+
+08:10.070 --> 08:15.810
+There he goes a little bit better but he's still pretty fast.
+
+08:15.810 --> 08:22.130
+I mean hit the play button again and let's change it to let's try.
+
+08:22.130 --> 08:28.430
+Let's try it six and for the turn speed I'm going to take this up to maybe 60.
+
+08:28.460 --> 08:33.900
+Let's try this so I'll hit the play button again.
+
+08:33.910 --> 08:34.390
+Here we go.
+
+08:34.390 --> 08:40.120
+So I mean hit the up arrow and the left arrow.
+
+08:40.150 --> 08:41.590
+This isn't bad.
+
+08:41.590 --> 08:42.360
+And whoa.
+
+08:42.370 --> 08:43.190
+There he goes.
+
+08:43.600 --> 08:45.370
+I'd better turn it off.
+
+08:45.370 --> 08:47.400
+Let's try this again.
+
+08:47.410 --> 08:52.510
+Actually what I'm going to do is I'm going to hit the play button again and let's try and adjust these
+
+08:52.960 --> 08:54.380
+while the game is on.
+
+08:54.490 --> 08:55.330
+See if that works.
+
+08:55.330 --> 09:02.080
+So let's take the turn speed up to 100 and I'll click back into the game view and then I'll hit the
+
+09:02.080 --> 09:03.230
+up arrow.
+
+09:03.460 --> 09:08.920
+And now that kind of turns a little bit quicker that's a little better.
+
+09:08.920 --> 09:09.460
+All right.
+
+09:09.460 --> 09:10.990
+And he can jump.
+
+09:10.990 --> 09:11.270
+Yeah.
+
+09:11.290 --> 09:12.120
+That's pretty good.
+
+09:14.620 --> 09:15.180
+Yeah.
+
+09:15.190 --> 09:23.400
+This feels a little bit better this bit of the turn is pretty good.
+
+09:23.690 --> 09:26.310
+The jump isn't high enough is it.
+
+09:26.330 --> 09:28.160
+So let's take the jump force.
+
+09:28.160 --> 09:29.350
+Back up too.
+
+09:29.990 --> 09:31.370
+Well let's take it back up to 10.
+
+09:31.370 --> 09:38.310
+Let's try this click back here up arrow it turns pretty well.
+
+09:38.680 --> 09:44.640
+You can see that face animation kick off when he jumps.
+
+09:44.640 --> 09:45.620
+Good.
+
+09:45.690 --> 09:52.590
+Yeah I like the jump like that it's pretty it's pretty high but I like it yeah.
+
+09:52.740 --> 09:56.520
+I think we're doing pretty well.
+
+09:56.580 --> 10:05.240
+So what have we got here we've got a jump force at 10 speed at 6 turn speed at 125 so let me turn off
+
+10:05.240 --> 10:05.930
+the game.
+
+10:06.800 --> 10:13.890
+So here we had 10 and 6 and 125.
+
+10:14.090 --> 10:18.500
+Well there's a last few things that we could do to finish up here.
+
+10:18.530 --> 10:23.340
+I think one thing we should do is create a prefab of our player.
+
+10:23.390 --> 10:30.350
+Remember when we brought in our multipurpose camera rig and the character from the standard assets they
+
+10:30.350 --> 10:37.940
+were all in prefabs folders like the character third person prefab.
+
+10:37.940 --> 10:38.830
+Right.
+
+10:38.870 --> 10:46.940
+And what these are are just game objects that store all of your predefined settings components scripts
+
+10:47.060 --> 10:48.710
+all into one game objects.
+
+10:48.710 --> 10:53.900
+So we don't have to do it again every time we drag the player into a scene.
+
+10:53.900 --> 11:02.000
+So what we could do is go back to our assets here and we could select our player idle and we could just
+
+11:02.000 --> 11:06.800
+drag this from here down into the assets folder to create a prefab.
+
+11:06.800 --> 11:10.390
+We'll just take this drag it down and there we go.
+
+11:10.400 --> 11:14.660
+And it asks us would we like to create an original or a variant.
+
+11:14.660 --> 11:17.000
+And I'm going to create an original.
+
+11:17.000 --> 11:18.780
+So let's just do that there.
+
+11:18.980 --> 11:24.380
+And in addition what we can do is we could grab this ground plane as well.
+
+11:24.380 --> 11:31.650
+It's got a material and a texture and a size maybe we want it this same way in a new level.
+
+11:31.760 --> 11:38.990
+So we could take our ground plane and drag it down here and it automatically becomes a prefab.
+
+11:38.990 --> 11:45.260
+Now we could take these two in the hierarchy and delete them like this.
+
+11:45.480 --> 11:52.950
+And now we can just take these and drag them in here's our ground plane and here's our character and
+
+11:53.070 --> 11:58.540
+all the settings have been saved in those so if we hit play.
+
+11:58.710 --> 11:59.820
+There we go.
+
+11:59.910 --> 12:04.730
+It all it all works just the same as it did before.
+
+12:04.740 --> 12:12.660
+So creating prefabs is a great way to save all your settings save all your work so you can take this
+
+12:12.660 --> 12:16.530
+character or any game asset into other scenes or levels.

@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00.590 --> 00:07.760
+When I was changing the name of these bones I realized I could tell that the mirror didn't exactly work
+
+00:07.760 --> 00:09.910
+real well with the roll on these.
+
+00:09.920 --> 00:18.020
+So I may go back to median point for our pivot point and let's go to normal transform orientation and
+
+00:18.020 --> 00:21.330
+you can see that the role is a bit off for these.
+
+00:21.350 --> 00:24.890
+So we should probably fix that.
+
+00:24.890 --> 00:29.080
+It looks like the hand bone is OK.
+
+00:29.150 --> 00:34.250
+The lower arm and the upper arm all seem to be fine.
+
+00:34.350 --> 00:38.490
+So let's just deal with the fingers before we do anything else.
+
+00:38.730 --> 00:45.870
+I'll tumble around here and let's just use this roll field again and turn the x axis so it's aligned
+
+00:45.870 --> 00:55.920
+with the main axis of rotation for our fingers and let's get this one here and we go and then I'll tumble
+
+00:55.920 --> 01:04.930
+down around here and let's do this one as well you're roll this around
+
+01:07.610 --> 01:08.330
+and this
+
+01:12.070 --> 01:14.550
+and this one actually looks pretty good.
+
+01:16.100 --> 01:17.870
+Let's go with that.
+
+01:17.870 --> 01:18.840
+And we go.
+
+01:19.070 --> 01:19.780
+Okay.
+
+01:19.820 --> 01:21.780
+So I think that helps.
+
+01:21.800 --> 01:27.130
+Now we should do is parent the arm chains and the leg change to the torso here.
+
+01:27.170 --> 01:35.930
+So what I'll do is I'll select the upper arm bone here shift select this spine to and let's press control
+
+01:35.930 --> 01:43.970
+P and make the spine bone a parent of the arm bone and keep offset keep the position between the two
+
+01:43.970 --> 01:44.760
+there.
+
+01:44.760 --> 01:50.540
+Let me get rid of this rotate gizmo here and I'll also go back to Global.
+
+01:50.540 --> 01:50.760
+Yeah.
+
+01:50.770 --> 01:53.600
+We're at medium point here and that's fine.
+
+01:53.600 --> 02:00.830
+You can also see this relationship line that's been created between the arm bone and the spine and that's
+
+02:01.160 --> 02:05.500
+just to let us know that there's a parent child relationship there.
+
+02:05.510 --> 02:15.140
+Let's select this bone now and then this one and then let's press control P and keep offset and down
+
+02:15.140 --> 02:17.410
+here let's do the same thing.
+
+02:17.450 --> 02:27.860
+I'll select this shift select this bone the root bone press control P and keep offset in here and the
+
+02:27.860 --> 02:31.970
+root and control P and there we go.
+
+02:31.980 --> 02:38.340
+So now we've got all of those parents to each other which means if we tap back into object mode and
+
+02:38.340 --> 02:49.230
+then go to post mode let's say we select this spine bone and we rotate this around you can see the arms
+
+02:49.230 --> 02:57.410
+now come along with that spine bone and that's that's what we want to remove the rotation from this
+
+02:57.410 --> 03:05.090
+bone here I can press old R and that will clear the rotation same thing down here if I select this and
+
+03:05.090 --> 03:11.650
+move this around you can see everything now is a child of this root bone all right.
+
+03:11.680 --> 03:12.690
+Once again Walt.
+
+03:12.710 --> 03:14.560
+Ah there we go.
+
+03:15.290 --> 03:19.570
+OK so now we've got the rig generally set up now.
+
+03:19.570 --> 03:21.730
+These are all the deformed bones.
+
+03:21.880 --> 03:29.260
+There's gonna be more bones that will create to control things like the foot roll controls and the control
+
+03:29.260 --> 03:30.800
+objects and things like that.
+
+03:30.880 --> 03:37.300
+But for now this is what will actually be deforming the character when it's being animated.
+
+03:37.300 --> 03:44.980
+So what let's do is let's go ahead and bind the mesh to the armature so that when we move the bones
+
+03:44.980 --> 03:49.300
+here impose mode it will actually move the character as well.
+
+03:49.300 --> 03:56.590
+I'll go back to solid mode here and we don't really need to see the wire frame anymore I'm going to
+
+03:56.590 --> 04:04.230
+go back to object mode select the character and turn off wireframe here and I'll turn off all edges
+
+04:04.230 --> 04:05.820
+as well.
+
+04:05.850 --> 04:12.570
+So what we're going to do is parent the character to the rig to the armature in much the same way that
+
+04:12.570 --> 04:15.210
+we just parenthood one bone to another.
+
+04:15.210 --> 04:19.070
+But when we do this it's going to create a modifier over here.
+
+04:19.080 --> 04:25.010
+So I'm going to open the modifiers panel so you can see what happens when we do this parenting.
+
+04:25.020 --> 04:32.580
+So the first thing I will do is select the character and then I will shift select the rig.
+
+04:32.580 --> 04:40.200
+Now what let's do is press control P and we get a new menu now because it's seeing that one of the things
+
+04:40.200 --> 04:46.890
+we have selected is an armature and we've got these choices here we can choose to parent with armature
+
+04:47.090 --> 04:54.030
+to form with empty groups with envelope weights and with automatic weights and what we're gonna do is
+
+04:54.030 --> 05:02.340
+use blenders automatic weights and with this blender we'll take a look at the vertices around each of
+
+05:02.340 --> 05:09.480
+the bones and try and set the influence for each of the vertices based on its position to the bone how
+
+05:09.480 --> 05:13.170
+near or how far it is from any specific bone.
+
+05:13.260 --> 05:14.490
+So let's go ahead and try this.
+
+05:14.490 --> 05:18.270
+I'm gonna choose automatic weights right there.
+
+05:18.270 --> 05:24.960
+And now if we go back to just selecting the character look at what happened over here in the modifiers
+
+05:24.960 --> 05:34.430
+panel we have a new armature modifier and this is what is binding the character to a specific object
+
+05:34.550 --> 05:36.000
+to the armature itself.
+
+05:36.440 --> 05:44.730
+So the modifier is added to the character mesh and the object that it is bound to is the armature.
+
+05:44.740 --> 05:45.780
+All right.
+
+05:45.910 --> 05:49.030
+So now that we've done this let's give it a test.
+
+05:49.330 --> 05:57.930
+Let's choose the armature and then go back over to pose mode choose a bone and let's give this a try.
+
+05:57.960 --> 06:04.230
+So with this selected I'm going to change from global to local transformation.
+
+06:04.230 --> 06:10.500
+And with this bone selected let's just move this up and down and sure enough our character has been
+
+06:10.770 --> 06:19.950
+bound to the armature to the skeleton that we've created so we could maybe take the neck bone here.
+
+06:19.950 --> 06:26.880
+Let's choose the neck bone and spend that around like this yeah.
+
+06:26.990 --> 06:34.310
+And we could maybe take a leg bone and rotate it up like that.
+
+06:34.360 --> 06:36.700
+Now you can see there are some problems.
+
+06:36.700 --> 06:42.490
+I don't think we want the hips to turn with the leg right.
+
+06:42.640 --> 06:46.000
+So there is some work we're still going to need to do.
+
+06:46.120 --> 06:50.200
+It did the best it could and actually it did pretty well.
+
+06:50.200 --> 06:52.580
+It's just that it isn't perfect.
+
+06:52.620 --> 06:54.760
+I mean select everything with the achy.
+
+06:54.760 --> 07:01.000
+And now I'm in a press Ault are to clear the rotation of everything I did.
+
+07:01.030 --> 07:09.460
+So what we need to do now is use blenders weight painting tools to go through and fix all the problems
+
+07:09.730 --> 07:15.850
+with the bind so that the character will animate and deform in the way that we want him to.
+
+07:15.880 --> 07:17.620
+So we'll work on that next.

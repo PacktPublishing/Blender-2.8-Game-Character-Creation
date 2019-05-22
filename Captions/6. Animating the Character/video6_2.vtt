@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.620 --> 00:05.230
+Continuing with the setup of the interface let's take a look at the timelines.
+
+00:05.240 --> 00:09.640
+Now we're going to need a grease pencil timeline that we have here.
+
+00:09.650 --> 00:13.420
+We're also going to need a dope sheet timeline right here.
+
+00:13.430 --> 00:15.380
+So let's choose that.
+
+00:15.380 --> 00:20.120
+In addition we're gonna need to see several unrelated channels.
+
+00:20.330 --> 00:26.210
+We're going to need to see the grease pencil and we're going to need to be able to see the character
+
+00:26.210 --> 00:31.250
+in Poe's mode and see those key frames so this button right here.
+
+00:31.310 --> 00:35.000
+This only includes channels relating to selected objects.
+
+00:35.000 --> 00:40.470
+We're gonna need to uncheck this because we're gonna want to see everything here on our timeline.
+
+00:40.490 --> 00:47.090
+Also when I scroll the mouse wheel here you can see that one timeline can move independently of the
+
+00:47.090 --> 00:53.180
+other timeline and even though this is the same time the same thing happening to have them two different
+
+00:53.180 --> 00:56.390
+sizes like this can be really confusing.
+
+00:56.390 --> 01:03.710
+So what this do is come over here to view analysts choose lock time to other windows and also down here
+
+01:03.710 --> 01:08.240
+on this timeline view lock time to other windows.
+
+01:08.450 --> 01:08.990
+And there we go.
+
+01:08.990 --> 01:16.400
+So now if we scroll and move these around you can see they stay locked together and that's really helpful
+
+01:16.400 --> 01:18.660
+as we go forward with this.
+
+01:18.680 --> 01:23.320
+Now I think what we ought to do is work on the material of the base object.
+
+01:23.360 --> 01:28.460
+Currently it's got the same material that the character does and I don't think that's going to work.
+
+01:28.460 --> 01:35.570
+So let's come over here to our shading tab right here and I'll hit the period key to zoom in and let's
+
+01:36.080 --> 01:43.400
+just select that one face object and as you can see it's got the character material on it here.
+
+01:43.460 --> 01:47.690
+What I'd like to do is create a transparent material here.
+
+01:47.690 --> 01:54.050
+It's just a temporary material that we're gonna be using here in blender just so we can see the 2D face
+
+01:54.080 --> 01:59.950
+as we're animating and also so we can test it once we render the animation out.
+
+02:00.110 --> 02:04.570
+We're going to create a whole new transparent material once we get to unity.
+
+02:04.760 --> 02:07.560
+But for here I think it's good to have it while we're testing.
+
+02:08.240 --> 02:10.490
+So what let's do is here.
+
+02:10.580 --> 02:18.170
+Let's go ahead and remove the character slot for the GEO base idle object I'll just hit the minus button
+
+02:18.170 --> 02:22.700
+here and then let's click new and let's give this a new name.
+
+02:22.700 --> 02:29.480
+I'm going to call this b m80 for Blender material just so we can keep it straight and then I'll call
+
+02:29.480 --> 02:33.210
+this base idle that.
+
+02:33.260 --> 02:34.020
+Okay.
+
+02:34.340 --> 02:38.180
+So now that we've done that let's try and make it transparent.
+
+02:38.360 --> 02:44.810
+To do that I think first we're going to need a transparent shader so let's press shift a and choose
+
+02:45.050 --> 02:47.040
+shader transparent.
+
+02:47.120 --> 02:55.660
+Right there we go and then we're going to want to mix these two together so let's press shift a and
+
+02:55.660 --> 03:02.620
+create a mix shader right here and I'll drop it right here and it'll connect up but I kind of want this
+
+03:02.620 --> 03:09.130
+one on the top socket so I'll put that there and the other one will automatically move down and then
+
+03:09.160 --> 03:15.730
+I need to connect something up to the factor socket here in the mix shader So what let's do is let's
+
+03:15.730 --> 03:22.660
+just create a blank image texture node and just plug that in some of the press Shift A and we'll go
+
+03:22.660 --> 03:29.440
+to texture image texture and I don't even need to bring a texture into this I'm just gonna take the
+
+03:29.440 --> 03:32.100
+alpha and drag it right over here.
+
+03:32.100 --> 03:33.340
+There we go.
+
+03:33.340 --> 03:39.340
+Now if we were in eevee that should have worked but if you recall a long time ago we switched over to
+
+03:39.340 --> 03:43.690
+cycles render engine to do that bake.
+
+03:43.690 --> 03:49.960
+So let's switch back to evey here and then in our materials panel right here.
+
+03:50.440 --> 03:57.250
+If we scroll down or twirl down the principal be SDF shader I'll just twirl this down.
+
+03:57.250 --> 04:03.070
+Now if we scroll all the way down here under settings we've got a blend mode and we can change this
+
+04:03.070 --> 04:11.720
+from opaque to Alpha blend and now we've got a clear material here and that's what we want.
+
+04:11.770 --> 04:17.440
+As I said this is a temp material for working on our animation here in blender but I think it'll be
+
+04:17.440 --> 04:18.490
+helpful.
+
+04:18.520 --> 04:18.780
+All right.
+
+04:18.790 --> 04:25.990
+Now that we have that what we should probably do is also UVA map this object because we're going to
+
+04:25.990 --> 04:32.800
+be applying 2D textures to it both here in Blender and in unity so we can go over to our U V editing
+
+04:32.800 --> 04:37.470
+tab over here and I'll hit the period key and there we go.
+
+04:37.480 --> 04:44.080
+So we can get rid of this normal map here we can click the X here and get rid of that.
+
+04:44.170 --> 04:47.650
+Now what let's do is just select all of this.
+
+04:47.650 --> 04:54.520
+I'll just hover over here and hit the L key and you can see our U V map here from when this was a part
+
+04:54.520 --> 04:55.490
+of the character.
+
+04:55.660 --> 05:02.230
+Before we do anything let's go ahead and tab into object mode and press control a and let's apply the
+
+05:02.230 --> 05:04.450
+rotation and scale here.
+
+05:04.480 --> 05:06.840
+Now let's tap back into edit mode.
+
+05:06.970 --> 05:10.080
+Press you and unwrap and there we go.
+
+05:10.090 --> 05:11.870
+Now it's turned.
+
+05:11.890 --> 05:12.840
+I want to turn it.
+
+05:13.090 --> 05:17.680
+So this part right here near the chin is at the bottom.
+
+05:17.710 --> 05:22.530
+Well let's test can formal here see if that helps that actually helped a bit.
+
+05:22.540 --> 05:23.860
+Now didn't it.
+
+05:23.860 --> 05:25.270
+So let's do that.
+
+05:25.270 --> 05:31.240
+Let's go ahead and turn it over here in the movie Ed all press are 9 0 in that alternate.
+
+05:31.480 --> 05:36.160
+Now I'd like to make sure that all of these edges are perfectly straight and of course I want to pack
+
+05:36.160 --> 05:38.230
+it into the zero to one space here.
+
+05:38.230 --> 05:45.100
+Let's come up to UVA and let's choose pack islands and that puts it in there but I'm going to turn it
+
+05:45.400 --> 05:53.670
+uncheck the rotate box here and that puts it within the 0 to 1 space so let's make sure all the edges
+
+05:53.670 --> 05:54.510
+are straight here.
+
+05:54.510 --> 06:01.890
+I'll press Alt A to D select and then since I'm in vertex mode here I can press the B key and border
+
+06:01.890 --> 06:03.130
+select these.
+
+06:03.150 --> 06:06.800
+Now I want to ensure that those are perfectly straight up and down.
+
+06:06.810 --> 06:16.640
+So what I'll do is right click and then I will choose a line X and that will make those perfectly straight.
+
+06:16.680 --> 06:18.110
+Let's do that again here.
+
+06:18.120 --> 06:25.770
+Let me zoom out a bit now on select those and then I'll press B and then to this right click the line
+
+06:25.780 --> 06:34.120
+X and we go and I'm just gonna go through and do this for all of these you're right.
+
+06:34.130 --> 06:39.780
+Click a line X and over here as well OK.
+
+06:39.960 --> 06:41.460
+So now we've got those.
+
+06:41.460 --> 06:48.230
+Let's do the horizontal ones our border select this and choose a line why now.
+
+06:48.250 --> 06:56.670
+And that just ensures that those are all perfectly straight right click align y and be for border select
+
+06:57.810 --> 06:59.580
+right click align y.
+
+06:59.600 --> 06:59.980
+Okay.
+
+07:00.000 --> 07:03.780
+So that ensures that all of that is perfectly straight.
+
+07:03.780 --> 07:07.690
+Okay so we have our face you ve mapped.
+
+07:07.690 --> 07:14.170
+Now let's now go back to our 2D animation screen layout and let's work on this here.
+
+07:14.280 --> 07:17.070
+We can hide some of these objects just in this view.
+
+07:17.070 --> 07:20.640
+So all we see is our 2D screen here.
+
+07:20.640 --> 07:28.170
+So let's come over to this pull down this object types visibility and let's turn off the mesh visibility
+
+07:28.170 --> 07:33.870
+for this view and let's also turn off the armature visibility.
+
+07:33.870 --> 07:34.990
+There we go.
+
+07:35.100 --> 07:42.420
+And then over here in overlays we could turn off the grid right here we go.
+
+07:42.420 --> 07:42.830
+All right.
+
+07:42.840 --> 07:43.980
+I think that looks pretty good.
+
+07:43.980 --> 07:45.660
+I just wanted that clean.
+
+07:45.660 --> 07:48.420
+So all we see is our 2D strokes.
+
+07:48.420 --> 07:53.910
+And then let's go ahead and create our grease pencil object that we'll be using to actually draw the
+
+07:53.910 --> 07:54.830
+face.
+
+07:54.840 --> 08:02.760
+So with the cursor still here in the center of the face what I'll do is go ahead and press shift a and
+
+08:02.760 --> 08:05.760
+I'll choose grease pencil and blank.
+
+08:06.140 --> 08:10.190
+And that pops it right into where the 3D cursor is.
+
+08:10.200 --> 08:14.280
+Now we've got this object over here it's called g pencil.
+
+08:14.340 --> 08:20.310
+Let's change the name to GP face.
+
+08:20.490 --> 08:21.390
+There we go.
+
+08:21.390 --> 08:22.160
+OK.
+
+08:22.320 --> 08:28.150
+And now we need to parent it to that head bone just like we did the face object.
+
+08:28.170 --> 08:33.060
+So with this selected let's go ahead and shift click the bone.
+
+08:33.090 --> 08:35.460
+Oh we better go into Po's mode here.
+
+08:35.490 --> 08:42.220
+So I'm going to select that GP base shift click the bone and then shift click it again.
+
+08:42.270 --> 08:46.670
+Now it's press control P and parent it to the bone.
+
+08:46.740 --> 08:54.330
+So if we choose the head bone now up here and here are two times we can roll that around and we can
+
+08:54.330 --> 08:58.580
+see that the grease pencil object comes along for the ride.
+
+08:58.620 --> 08:59.130
+That's good.
+
+08:59.160 --> 09:00.220
+OK.
+
+09:00.270 --> 09:05.060
+Now the last thing I want to get rid of this relationship line and that origin.
+
+09:05.100 --> 09:11.400
+So once again we can come over to overlays and turn off the relationship line and the origin there.
+
+09:11.400 --> 09:16.490
+So we've got a nice clean interface ready to go for us.
+
+09:16.500 --> 09:17.940
+Oh and one last thing.
+
+09:17.940 --> 09:20.620
+Let's go ahead and hide the bones.
+
+09:20.630 --> 09:23.770
+So let's shift click this layer too.
+
+09:24.030 --> 09:24.750
+And there we go.
+
+09:25.470 --> 09:25.770
+All right.
+
+09:25.770 --> 09:27.770
+So I think everything is in place.
+
+09:27.780 --> 09:31.960
+Now we've got the grease pencil object the face.
+
+09:31.980 --> 09:33.130
+Idle object.
+
+09:33.330 --> 09:40.990
+All parents to the head bone our timelines sync up and our 2D view all cleaned up as well.
+
+09:41.100 --> 09:46.290
+So in the next video what let's do is begin drawing out the face of the character.

@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.560 --> 00:06.650
+Let's take a look at the root bone here I'll press shift right click and choose root and let's see what's
+
+00:06.650 --> 00:13.550
+going on here so it looks like there is some influence bleeding out onto the legs if we choose the upper
+
+00:13.550 --> 00:21.000
+leg l we can see some problems here we don't want the leg to be moving the hips.
+
+00:21.350 --> 00:27.200
+Looks like the same thing is going on over here so we've got some work to do first of all let's begin
+
+00:27.200 --> 00:34.220
+with the root bone for this when I selected here it selects that Vertex group over in the list over
+
+00:34.220 --> 00:34.930
+here.
+
+00:35.120 --> 00:41.600
+So let's then tab into edit mode and hover over the legs and choose these.
+
+00:41.870 --> 00:45.230
+And then let's click remove.
+
+00:45.280 --> 00:48.110
+Let's see how that worked shift.
+
+00:48.120 --> 00:53.350
+Right click route Yeah I think that'll be good.
+
+00:53.350 --> 01:00.630
+Now let's select the upper leg bone and for this one we want to get rid of the hips.
+
+01:00.730 --> 01:03.430
+We want to remove all the vertices for the hips.
+
+01:03.460 --> 01:13.100
+So let's tab into edit mode I will press L to select that and then let's click remove and we go let's
+
+01:13.110 --> 01:16.780
+try that yep that worked there.
+
+01:17.030 --> 01:22.500
+Let's select this one now and same thing needs to happen here.
+
+01:22.610 --> 01:30.420
+Need to tab and edit mode hover over that and press the L key and click remove.
+
+01:30.440 --> 01:32.170
+Now let's see how we're doing here.
+
+01:33.980 --> 01:35.720
+OK that looks good.
+
+01:37.480 --> 01:38.400
+That looks good.
+
+01:38.410 --> 01:41.350
+And shift right click.
+
+01:41.530 --> 01:42.810
+That looks OK there.
+
+01:43.680 --> 01:50.280
+Now I see a problem here in that we're not going to have anything influencing these hips I've taken
+
+01:50.280 --> 01:53.750
+away the hips For the torso and the legs.
+
+01:53.760 --> 01:58.000
+I think the root bone needs to be what controls the hips.
+
+01:58.020 --> 02:06.330
+So what we can do is tab and edit mode select all of the points for the hips and then we can come over
+
+02:06.330 --> 02:15.450
+here and click a sign we can actually assign the weights at 100 percent and assign these vertices to
+
+02:15.540 --> 02:21.860
+the root bone vertex group so I'll click assign There we go.
+
+02:21.860 --> 02:27.040
+Now we tab back in select the route bone.
+
+02:27.070 --> 02:27.790
+There we go.
+
+02:28.510 --> 02:34.540
+Now we've got the hips and that crotch area being influenced by the root bone.
+
+02:34.540 --> 02:36.310
+I think that's what we want.
+
+02:37.010 --> 02:39.110
+I think that'll work pretty well.
+
+02:39.200 --> 02:42.310
+Well OK let's come up here and take a look at the arms.
+
+02:42.380 --> 02:49.730
+If we shift right click this we can choose up arm L and frankly I think that looks pretty good.
+
+02:49.730 --> 02:55.430
+We've got full influence up here and it falling off to here.
+
+02:55.430 --> 02:57.260
+That looks pretty good.
+
+02:57.260 --> 03:03.560
+However I don't know that we need influence all the way down to here from that bone.
+
+03:03.560 --> 03:13.250
+So what we could do for that is go to our active tool tab here go to subtract subtract one hundred percent
+
+03:14.000 --> 03:20.510
+and then maybe I'll hit the f key and expand the brush a bit and then I'll also come up here and turn
+
+03:20.510 --> 03:25.550
+off that face election mode and actually with that turned off.
+
+03:25.580 --> 03:25.860
+Yeah.
+
+03:25.880 --> 03:26.720
+Here we go.
+
+03:26.720 --> 03:30.260
+It doesn't look as bad with that turned off.
+
+03:31.420 --> 03:35.460
+And we go just remove that a bit.
+
+03:35.460 --> 03:43.170
+Let's press shift right click and choose the lower arm and that doesn't look too bad except it's bleeding
+
+03:43.170 --> 03:45.480
+over here into the wrist.
+
+03:45.480 --> 03:50.750
+Let's also select the hand bone here and take a look at that.
+
+03:50.820 --> 03:58.410
+So I think what we need to do here is one increase the influence of the hand on the wrist polygons here
+
+03:58.950 --> 04:07.530
+but also I think we need to remove the influence here on the wrist from the lower arm bone.
+
+04:07.530 --> 04:15.350
+I want to be able to rotate the hand in the wrist without any influence from the lower arm.
+
+04:15.360 --> 04:17.340
+Well let's do is tab into edit mode.
+
+04:17.370 --> 04:24.030
+Let's go to face mode and I want to press Alt and click on an edge between two of the faces and select
+
+04:24.030 --> 04:31.050
+that whole face loop there and then I'll come over here to the Object data panel and with the lower
+
+04:31.050 --> 04:34.110
+arm selected I'll just click remove.
+
+04:34.110 --> 04:35.670
+Here we go.
+
+04:35.670 --> 04:38.520
+So free tab back into weight paint mode.
+
+04:38.520 --> 04:45.520
+Select this now the influence on the wrist is completely gone from the lower arm.
+
+04:45.570 --> 04:56.820
+Now let's select this the hand and let's tab back into edit mode and let's assign 100 percent to those
+
+04:56.820 --> 04:57.330
+vertices.
+
+04:57.330 --> 04:59.280
+There we go.
+
+05:00.930 --> 05:04.210
+Select that again and there we are.
+
+05:04.520 --> 05:06.410
+Okay that's good.
+
+05:06.410 --> 05:12.330
+Now for these bones I think I think these are probably gonna be just fine.
+
+05:12.330 --> 05:18.850
+I'm not gonna really be using these a whole lot if ever I think these are probably just fine.
+
+05:20.210 --> 05:21.500
+And we go.
+
+05:21.500 --> 05:22.380
+All right.
+
+05:22.640 --> 05:25.790
+So I need to go through and do this same thing.
+
+05:25.790 --> 05:27.300
+On the right arm.
+
+05:27.410 --> 05:32.660
+So let's do that quickly let's select the lower arm.
+
+05:32.660 --> 05:33.260
+There it is.
+
+05:33.260 --> 05:45.260
+Let's tap into edit mode select these bases here and remove and then will select that hand tab into
+
+05:45.280 --> 05:47.970
+edit mode and assign.
+
+05:48.020 --> 05:50.500
+There we go.
+
+05:50.530 --> 05:54.330
+OK so now we have that taken care of.
+
+05:54.370 --> 05:56.080
+What about the head.
+
+05:56.080 --> 06:01.180
+Well if we choose the neck that's what we have right there.
+
+06:01.180 --> 06:05.340
+And if we choose the head that's what we have right there.
+
+06:05.350 --> 06:13.770
+However I think all we're really going to need is to use the neck to move the head because the head's
+
+06:13.780 --> 06:20.710
+never gonna really bend at the neck or the chin or anywhere else other than right down here at the connection
+
+06:20.710 --> 06:21.790
+of the torso.
+
+06:21.850 --> 06:28.870
+But I went ahead and created a neck and a head bone because in unity it's going to be looking for that
+
+06:29.500 --> 06:35.650
+but just because it's going to be looking for that doesn't mean we have to use it necessarily.
+
+06:35.650 --> 06:42.280
+So what I want to do is just control the head from the neck bone just the whole thing from the neck
+
+06:42.280 --> 06:46.940
+bone and then the head bone will just be there and we'll never really use it.
+
+06:46.960 --> 06:54.850
+So to do that I'm just going to tap back into edit mode at the El key for the head and the hair and
+
+06:54.850 --> 07:01.790
+with the neck vertex group selected I'll click a sign and we go.
+
+07:01.800 --> 07:09.090
+So now if we choose the neck there we have it the head still has influence but it doesn't really matter
+
+07:09.120 --> 07:12.130
+because we're never going to use it anyway.
+
+07:12.150 --> 07:13.470
+All right.
+
+07:13.470 --> 07:20.280
+So now what let's do is go back to object mode and then let's select the rig and let's give it a try.
+
+07:20.280 --> 07:22.710
+Here I'm going to select the neck.
+
+07:22.710 --> 07:28.380
+Go to the rotate tool and I'm just going to click and drag in here in this sphere and you can see that's
+
+07:28.380 --> 07:30.780
+the way it's going to move there.
+
+07:31.020 --> 07:36.780
+And I think that's OK I'll press ult are to remove the rotation there.
+
+07:37.020 --> 07:42.060
+Let's select this bone and move this around and I think that'll work.
+
+07:42.060 --> 07:42.740
+OK.
+
+07:42.750 --> 07:46.980
+I'm never gonna be moving it more than about like this or like this.
+
+07:46.980 --> 07:54.710
+Just to give a little bit of squash and stretch when he hits the ground maybe ult ah let's select this
+
+07:54.710 --> 07:56.860
+one do the same thing with this.
+
+07:56.880 --> 07:57.080
+Yeah.
+
+07:57.110 --> 08:03.200
+This is going to once again rotate right there between the hip and the torso and that's fine.
+
+08:04.090 --> 08:06.490
+Hold are.
+
+08:06.730 --> 08:14.590
+Let's take a look at the legs here or click and drag this one in the x axis and you can see it's just
+
+08:14.680 --> 08:17.170
+moving the leg and that's good.
+
+08:18.100 --> 08:23.620
+And then if we take this one here this will just be a little bit of a bend here.
+
+08:23.630 --> 08:25.770
+Now look at what's happening here.
+
+08:26.960 --> 08:31.140
+If I click and drag this can you see how it's moving here.
+
+08:31.340 --> 08:36.310
+You don't really want this bone to be moving this part of the leg.
+
+08:36.560 --> 08:39.320
+So let's quickly try and fix that.
+
+08:39.350 --> 08:46.050
+I'll go back to object mode select the character weight paint mode.
+
+08:46.150 --> 08:54.000
+Let's shift right click and select the lower leg and you can see where the influence is up here.
+
+08:54.130 --> 08:54.780
+You see that.
+
+08:54.780 --> 09:00.510
+So what we can do is go to our active tool go to subtract.
+
+09:00.880 --> 09:09.290
+And I will just try and paint some of this out like this and we go we don't need all of that up in here
+
+09:15.050 --> 09:20.950
+we go we should do the same thing over here.
+
+09:21.090 --> 09:28.240
+We don't need all of this either.
+
+09:28.250 --> 09:28.700
+All right.
+
+09:29.060 --> 09:30.590
+So that's our process.
+
+09:30.590 --> 09:35.570
+We need to go through and figure out where we need to adjust the weights.
+
+09:35.570 --> 09:43.010
+There may be more we need to do in the foot area but I'm going to wait until we set up our reverse foot
+
+09:43.010 --> 09:49.940
+roll rig to then test the foot a little bit more precisely to see what we need in terms of the weight
+
+09:49.940 --> 09:51.090
+painting.
+
+09:51.110 --> 09:53.030
+So we'll begin that coming up next.
